@@ -17,8 +17,9 @@ echo "Stopping the Blue Pill..."
 reset halt
 
 echo "Flashing the Blue Pill..."
-flash write_image erase projects/blink/built/dockercodal/build/STM32_BLUE_PILL.bin 0x08000000
+flash write_image erase flash.bin 0x08000000
 
+#flash write_image erase projects/blink/built/dockercodal/build/STM32_BLUE_PILL.bin 0x08000000
 #flash write_image erase projects/blink/built/dockercodal/build/STM32_BLUE_PILL.elf
 #flash write_image erase projects/blink/built/dockercodal/build/firmware.bin 0x08000000
 #flash write_image erase projects/blink/built/dockercodal/build/firmware.elf
