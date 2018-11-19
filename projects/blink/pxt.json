@@ -1,0 +1,12 @@
+{
+    "name": "blink",
+    "dependencies": {
+        "stm32bluepill": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "blink",
+    "meta": {},
+    "editor": "blocksprj",
+    "pubId": "",
+    "pubCurrent": false,
+    "target": "maker",
+    "targetVersion": "0.5.34",
+    "id": "c6137fa3-31e6-4840-e075-a44a89582edb",
+    "recentUse": 1542599623,
+    "modificationTime": 1542597899,
+    "path": "blink",
+    "blobCurrent": false,
+    "saveId": null,
+    "board": "stm32bluepill",
+    "githubCurrent": false
+}
