@@ -37,9 +37,9 @@ cd pxt-common-packages
 npm install
 cd ..
 ```
-6. Clone the ``Microsoft/pxt-maker`` repository
+6. Clone the ``lupyuen/pxt-maker`` repository
 ```
-git clone https://github.com/microsoft/pxt-maker
+git clone https://github.com/lupyuen/pxt-maker
 cd pxt-maker
 ```
 7. Install the PXT command line (add `sudo` for Mac/Linux shells).
