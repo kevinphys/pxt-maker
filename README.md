@@ -1,4 +1,4 @@
-# MakeCode Maker 
+# MakeCode Maker for STM32 Blue Pill
 
 [![Build Status](https://travis-ci.org/Microsoft/pxt-maker.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-maker)
 [![Community Discord](https://img.shields.io/discord/448979533891371018.svg)](https://aka.ms/makecodecommunity)
@@ -68,7 +68,7 @@ Note the above command assumes the folder structure of
 
 Run this command from inside pxt-maker to open a local web server
 ```
-pxt serve
+pxt serve --localbuild 
 ```
 If the local server opens in the wrong browser, make sure to copy the URL containing the local token. 
 Otherwise, the editor will not be able to load the projects.
