@@ -2,18 +2,12 @@
 #include "platform.h"
 #include "pxt.h"
 
-extern void wait_us(uint32_t);
-
-int target_seed_random(uint32_t seed) {
-    //  TODO
-    return 2205;
-}
+// extern void wait_us(uint32_t);
+// int target_seed_random(uint32_t seed) { return 2205; } //  TODO
 
 namespace pxt {
 
-extern "C" void target_wait_us(unsigned long us) {
-    wait_us(us);
-}
+// extern "C" void target_wait_us(unsigned long us) { wait_us(us); }
 
 static void initRandomSeed() {
     //  TODO

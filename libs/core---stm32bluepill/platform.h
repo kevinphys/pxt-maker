@@ -13,8 +13,8 @@
 extern "C" {
 #endif
 
-void target_wait_us(unsigned long us);
-int target_seed_random(uint32_t rand);
+// void target_wait_us(unsigned long us);
+// int target_seed_random(uint32_t rand);
 
 #ifdef __cplusplus
 }
