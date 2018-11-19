@@ -7,6 +7,6 @@ namespace config {
     export const PIN_SCK = DAL.PA_7;  //  TODO
     export const PIN_MISO = DAL.PA_9;  //  TODO
     export const PIN_MOSI = DAL.PA_6;  //  TODO
-    export const PIN_RX = DAL.PA_7;
-    export const PIN_TX = DAL.PA_6;
+    export const PIN_RX = DAL.PA_7;  //  TODO
+    export const PIN_TX = DAL.PA_6;  //  TODO
 }
