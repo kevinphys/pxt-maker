@@ -36,7 +36,8 @@ cat libs/core---stm32bluepill/platform.h \
     > libs/core---stm32bluepill/built/dockercodal/pxtapp/platform.h
 
 # Build locally and serve.
-pxt serve --localbuild --noBrowser
+pxt serve --localbuild 
+# --noBrowser
 
 # --sourceMaps
 # mkdir -p libs/core---stm32bluepill/built/dockercodal/libraries/codal-core/inc
