@@ -5,7 +5,7 @@
 #include "CmI2C.h"
 #include "CmSPI.h"
 #include "CmTimer.h"
-#include "pinmap.h"
+#include "CmPinName.h"
 #include "STM32BluePillPin.h"
 #include "MultiButton.h"
 
