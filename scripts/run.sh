@@ -14,9 +14,9 @@ CODALCM=$PWD/../../codal-libopencm3
 mkdir -p libs/stm32bluepill/built/dockercodal/libraries
 mkdir -p libs/blocksprj/built/dockercodal/libraries
 mkdir -p projects/blink/built/dockercodal/libraries
-ln -s $CODALCM $PWD/libs/stm32bluepill/built/dockercodal/libraries/
-ln -s $CODALCM $PWD/libs/blocksprj/built/dockercodal/libraries/
-ln -s $CODALCM $PWD/projects/blink/built/dockercodal/libraries/
+# ln -s $CODALCM $PWD/libs/stm32bluepill/built/dockercodal/libraries/
+# ln -s $CODALCM $PWD/libs/blocksprj/built/dockercodal/libraries/
+# ln -s $CODALCM $PWD/projects/blink/built/dockercodal/libraries/
 ls -l libs/stm32bluepill/built/dockercodal/libraries/codal-libopencm3/output.map
 ls -l libs/blocksprj/built/dockercodal/libraries/codal-libopencm3/output.map
 ls -l projects/blink/built/dockercodal/libraries/codal-libopencm3/output.map
