@@ -2,12 +2,12 @@
 # rm -rf libs/stm32bluepill/built
 
 # Rebuild core.
-rm -rf libs/core---stm32bluepill/built
+#rm -rf libs/core---stm32bluepill/built
 
 # Rebuild codal-libopencm3.
-rm -rf libs/stm32bluepill/built/dockercodal/libraries/codal-libopencm3
-rm -rf libs/blocksprj/built/dockercodal/libraries/codal-libopencm3
-rm -rf projects/blink/built/dockercodal/libraries/codal-libopencm3
+#rm -rf libs/stm32bluepill/built/dockercodal/libraries/codal-libopencm3
+#rm -rf libs/blocksprj/built/dockercodal/libraries/codal-libopencm3
+#rm -rf projects/blink/built/dockercodal/libraries/codal-libopencm3
 
 mkdir -p libs/stm32bluepill/built/dockercodal/libraries
 mkdir -p libs/blocksprj/built/dockercodal/libraries
@@ -20,9 +20,9 @@ CODALCM=$PWD/../../codal-libopencm3
 # ln -s $CODALCM $PWD/projects/blink/built/dockercodal/libraries/
 
 # Copy local version of codal-libopencm3.
-cp -r $CODALCM libs/stm32bluepill/built/dockercodal/libraries/
-cp -r $CODALCM libs/blocksprj/built/dockercodal/libraries/
-cp -r $CODALCM projects/blink/built/dockercodal/libraries/
+#cp -r $CODALCM libs/stm32bluepill/built/dockercodal/libraries/
+#cp -r $CODALCM libs/blocksprj/built/dockercodal/libraries/
+#cp -r $CODALCM projects/blink/built/dockercodal/libraries/
 
 ls -l libs/stm32bluepill/built/dockercodal/libraries/codal-libopencm3/output.map
 ls -l libs/blocksprj/built/dockercodal/libraries/codal-libopencm3/output.map
