@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "/Users/Luppy/NEWmaker.makecode.com"
+		},
+		{
+			"path": "libs/core---stm32bluepill"
+		},
+		{
+			"path": "libs/stm32bluepill"
 		}
 	],
 	"settings": {}
