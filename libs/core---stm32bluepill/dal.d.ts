@@ -807,7 +807,7 @@ declare const enum DAL {
     BUTTON_ACTIVE_LOW_PULL_UP = 32,
     BUTTON_ACTIVE_LOW_PULL_NONE = 48,
     // /pxtapp/platform.h
-    NOTUSED_PAGE_SIZE = 1024,
+    PAGE_SIZE = 1024,
     DEV_NUM_PINS = 48,
     IMAGE_BITS = 4,
     NOTUSED_PA_0 = 0,
