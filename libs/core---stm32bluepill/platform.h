@@ -39,10 +39,6 @@ extern "C" {
 
 // The parameters below needs tuning!
 
-#ifdef JUST_FOR_DAL_D_TS_CPP_WILL_IGNORE
-#define NOTUSED_PA_0 0x00
-#endif
-
 //  TODO: Sync with pxt-common-packages/libs/core/pins.h and codal-libopencm3
 #define CFG_PIN_PA0 100
 #define CFG_PIN_PA1 101
@@ -57,5 +53,9 @@ extern "C" {
 #define CFG_PIN_MOSI1 110
 #define CFG_PIN_TX2 111
 #define CFG_PIN_RX2 112
+
+#ifdef JUST_FOR_DAL_D_TS_CPP_WILL_IGNORE
+#define NOTUSED_PA_0 0x00
+#endif
 
 #endif
