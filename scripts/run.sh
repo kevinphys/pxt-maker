@@ -4,8 +4,10 @@
 # Rebuild core.
 rm -rf libs/core---stm32bluepill/built
 
-# Copy local version of codal-libopencm3
-rm -rf libs/stm32bluepill/built/dockercodal/libraries/codal-libopencm3
+# Rebuild codal-libopencm3.
+# rm -rf libs/stm32bluepill/built/dockercodal/libraries/codal-libopencm3
+
+# Copy local version of codal-libopencm3.
 mkdir -p libs/stm32bluepill/built/dockercodal/libraries
 # ln -s \
 #    $PWD/../../codal-libopencm3 \
