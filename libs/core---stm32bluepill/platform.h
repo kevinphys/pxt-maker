@@ -20,7 +20,7 @@ extern "C" {
 }
 #endif
 
-#define NOTUSED_PAGE_SIZE 1024
+#define PAGE_SIZE 1024
 
 #define DEV_NUM_PINS 48
 
