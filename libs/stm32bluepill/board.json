@@ -1,20 +1,20 @@
 {
-    "driveDisplayName": "TRINKETBOOT",
+    "driveDisplayName": "STM32BLUEPILL",
     "visual": {
         "image": "pkg://board.svg",
         "outlineImage": "pkg://boardwireframe.svg",
         "width": 175,
         "height": 170,
-        "pinDist": 16,
+        "pinDist": 4,
         "pinBlocks": [{
                 "x": 42,
                 "y": 33,
-                "labels": ["RST", "D3", "D4", "GND", "BAT"]
+                "labels": ["PA0", "PA1", "PA2", "GND", "BAT"]
             },
             {
                 "x": 42,
                 "y": 118,
-                "labels": ["3V", "D2", "D1", "D0", "USB"]
+                "labels": ["3V", "PA3", "PA4", "USB"]
             }
         ],
         "leds": [{
@@ -24,33 +24,26 @@
             "h": 5,
             "color": "#ff4545",
             "label": "LED"
-        }, {
-            "x": 73,
-            "y": 68,
-            "w": 5,
-            "color": "neopixel",
-            "label": "NEOPIXEL"
         }]
     },
     "gpioPinMap": {
-        "D0": "D0",
-        "D1": "D1",
-        "D2": "D2",
-        "D3": "D3",
-        "D4": "D4",
-        "P0": "D0",
-        "P1": "D1",
-        "P2": "D2",
-        "P3": "D3",
-        "P4": "D4",
-        "A0": "D0",
-        "A1": "D1",
-        "A2": "D2",
-        "A3": "D3",
-        "A4": "D4"
+        "PA0": "PA0",
+        "PA1": "PA1",
+        "PA2": "PA2",
+        "PA3": "PA3",
+        "PA4": "PA4"
     },
     "groundPins": ["GND"],
     "threeVoltPins": ["3V"],
+    "spiPins": {
+        "MOSI": "MOSI1",
+        "MISO": "MISO1",
+        "SCK": "SCK1"
+      },
+      "i2cPins": {
+        "SDA": "SDA1",
+        "SCL": "SCL1"
+      },
     "onboardComponents": [],
     "marginWhenBreadboarding": [
         0,

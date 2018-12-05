@@ -17,10 +17,20 @@
     },
     "public": true,
     "features": [
+        "pinpa0",
+        "pinpa1",
+        "pinpa2",
+        "pinpa3",
+        "pinpa4",
+        "pinpc13",
         "pinled",
-        "pind0",
-        "pind1",
-        "pina0",
-        "pina1"
+        "pinscl1",
+        "pinsda1",
+        "pinsnss1",
+        "pinssck1",
+        "pinsmiso1",
+        "pinsmosi1",
+        "pinstx2",
+        "pinsrx2"
     ]
 }
