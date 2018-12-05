@@ -84,13 +84,11 @@ Make sure to pull changes from all repos regularly. More instructions are at htt
 
 ## Repos 
 
-The pxt-microbit target depends on several other repos. The main ones are:
+This pxt-microbit target for STM32 Blue Pill depends on several other repos. The main ones are:
+- https://github.com/lupyuen/codal-libopencm3, CODAL framework ported to libopencm3 for STM32 Blue Pill
 - https://github.com/Microsoft/pxt, the PXT framework
 - https://github.com/Microsoft/pxt-commmon-packages, common APIs accross various MakeCode editors
 - https://github.com/lancaster-university/code-core, CODAL core project
-- https://github.com/lancaster-university/codal-mbed, mbed layer
-- https://github.com/lancaster-university/codal-samd21, CODAL SAMD21 layer
-- https://github.com/lancaster-university/codal-circuit-playground, Adafruit CPX layer
 
 ## Code of Conduct
 
