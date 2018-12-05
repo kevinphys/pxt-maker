@@ -3,25 +3,23 @@
     "visual": {
         "image": "pkg://board.svg",
         "outlineImage": "pkg://boardwireframe.svg",
-        "width": 175,
-        "height": 170,
+        "width": 65,
+        "height": 152,
         "pinDist": 4,
-        "pinBlocks": [{
-                "x": 42,
-                "y": 33,
-                "labels": ["PA0", "PA1", "PA2", "GND", "BAT"]
-            },
-            {
-                "x": 42,
-                "y": 118,
-                "labels": ["3V", "PA3", "PA4", "USB"]
-            }
+        "pinBlocks": [
+        {
+            "x": 220.39702047857523,
+            "y": 150.33803727705563,
+            "labels": [
+              "PA0"
+            ]
+          }
         ],
         "leds": [{
-            "x": 139.5,
-            "y": 107.7,
-            "w": 9.5,
-            "h": 5,
+            "x": 25,
+            "y": 170,
+            "w": 20,
+            "h": 10,
             "color": "#45ff45",
             "label": "LED"
         }]
