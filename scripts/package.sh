@@ -4,6 +4,7 @@
 # cd ../pxt-maker; pxt staticpkg
 # pxt serve -pkg
 
+# Deploy to https://lupyuen.github.io/pxt-maker
 cd ../pxt-maker; pxt staticpkg --githubpages
 
 dump_flash() {

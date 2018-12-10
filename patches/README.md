@@ -4,6 +4,8 @@ This folder contains files that were patched in `pxt` and `pxt-common-packages` 
 
 `pxt/cli/nodeutil.ts`
 
+`pxt/pxtlib/emitter/cloud.ts`
+
 `pxt-common-packages/libs/base/advmath.cpp`
 
 `pxt-common-packages/libs/base/pxt.cpp`
