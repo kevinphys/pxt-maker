@@ -1,0 +1,72 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-maker/semantic.js
+/pxt-maker/main.js
+/pxt-maker/pxtapp.js
+/pxt-maker/typescript.js
+/pxt-maker/marked/marked.min.js
+/pxt-maker/highlight.js/highlight.pack.js
+/pxt-maker/jquery.js
+/pxt-maker/pxtlib.js
+/pxt-maker/pxtcompiler.js
+/pxt-maker/pxtblockly.js
+/pxt-maker/pxtwinrt.js
+/pxt-maker/pxteditor.js
+/pxt-maker/pxtsim.js
+/pxt-maker/pxtembed.js
+/pxt-maker/pxtworker.js
+/pxt-maker/pxtweb.js
+/pxt-maker/blockly.css
+/pxt-maker/semantic.css
+/pxt-maker/rtlsemantic.css
+
+
+/pxt-maker/editor.js
+
+
+# blockly
+/pxt-maker/blockly/media/sprites.png
+/pxt-maker/blockly/media/click.mp3
+/pxt-maker/blockly/media/disconnect.wav
+/pxt-maker/blockly/media/delete.mp3
+
+# monaco; keep in sync with webapp/public/index.html
+/pxt-maker/vs/loader.js
+/pxt-maker/vs/base/worker/workerMain.js
+/pxt-maker/vs/basic-languages/src/bat.js
+/pxt-maker/vs/basic-languages/src/cpp.js
+/pxt-maker/vs/editor/editor.main.css
+/pxt-maker/vs/editor/editor.main.js
+/pxt-maker/vs/editor/editor.main.nls.js
+/pxt-maker/vs/language/json/jsonMode.js
+/pxt-maker/vs/language/json/jsonWorker.js
+/pxt-maker/vs/language/typescript/lib/typescriptServices.js
+/pxt-maker/vs/language/typescript/src/mode.js
+/pxt-maker/vs/language/typescript/src/worker.js
+
+# charts
+/pxt-maker/smoothie/smoothie_compressed.js
+/pxt-maker/images/Bars_black.gif
+
+# ai
+/pxt-maker/ai.0.js
+
+/pxt-maker/worker.js
+/pxt-maker/monacoworker.js
+
+# ver Mon Dec 10 2018 10:22:57 GMT+0800 (+08)
+
+# target
+/pxt-maker/docs/static/logo.svg
+/pxt-maker/docs/static/logo.svg
+/pxt-maker/docs/static/logo.svg
+/pxt-maker/docs/static/logo.svg
+/pxt-maker/docs/static/Microsoft-logo_rgb_c-gray-square.png
+/pxt-maker/docs/static/Microsoft-logo_rgb_c-gray.png
+/pxt-maker/docs/static/hero.jpg
+
+/pxt-maker/target.js
+  
+NETWORK:
+*
