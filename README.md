@@ -5,6 +5,7 @@
 
 This is an experimental code editor for STM32 Blue Pill - try it at https://lupyuen.github.io/pxt-maker
 
+* See https://medium.com/@ly.lee/work-in-progress-stm32-blue-pill-visual-programming-with-makecode-codal-and-libopencm3-422d308f252e
 * [Read the docs](https://maker.makecode.com/about)
 
 ## Who is this for?
@@ -84,7 +85,7 @@ Make sure to pull changes from all repos regularly. More instructions are at htt
 
 ## Repos 
 
-This pxt-microbit target for STM32 Blue Pill depends on several other repos. The main ones are:
+This pxt target for STM32 Blue Pill depends on several other repos. The main ones are:
 - https://github.com/lupyuen/codal-libopencm3, CODAL framework ported to libopencm3 for STM32 Blue Pill
 - https://github.com/Microsoft/pxt, the PXT framework
 - https://github.com/Microsoft/pxt-common-packages, common APIs accross various MakeCode editors
