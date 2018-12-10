@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/Microsoft/pxt-maker.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-maker)
 [![Community Discord](https://img.shields.io/discord/448979533891371018.svg)](https://aka.ms/makecodecommunity)
 
-This is an experimental code editor for maker boards - try it at https://maker.makecode.com.
+This is an experimental code editor for STM32 Blue Pill - try it at https://lupyuen.github.io/pxt-maker
 
 * [Read the docs](https://maker.makecode.com/about)
 
