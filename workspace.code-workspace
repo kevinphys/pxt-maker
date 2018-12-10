@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "libs/stm32bluepill"
+		},
+		{
+			"path": "/Users/Luppy/NEWmaker.makecode.com/visualbluepill.github.io"
 		}
 	],
 	"settings": {}
