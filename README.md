@@ -22,6 +22,8 @@ The local server lets you to run the editor and serve the documentation from you
 2. Install [Docker](https://www.docker.com/) if you are going to edit any `.cpp` files.
 3. Clone the pxt repository.
 ```
+mkdir maker.makecode.com
+cd maker.makecode.com
 git clone https://github.com/microsoft/pxt
 cd pxt
 ```
