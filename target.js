@@ -262,14 +262,18 @@ var pxtTargetBundle = {
     },
     "stm32bluepill": {
       "serial": {
-        "useHF2": false
+        "useHF2": true
       },
       "compile": {
+        "webUSB": true,
+        "useUF2": true,
+        "hasHex": true,
+        "deployDrives": ".*",
+        "deployFileMarker": "INFO_UF2.TXT",
+        "driveName": "BLUEPILL",
         "openocdScript": "source [find interface/stlink-v2.cfg]; source [find target/stm32f1x.cfg]",
         "flashChecksumAddr": 0,
-        "deployFileMarker": "INFO_UF2.TXT",
-        "vtableShift": 4,
-        "webUSB": false
+        "vtableShift": 4
       },
       "compileService": {
         "codalTarget": {
