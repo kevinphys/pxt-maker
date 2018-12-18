@@ -1,0 +1,30 @@
+{
+    "packages": {
+        "approvedOrgs": [
+            "Microsoft",
+            "Adafruit"
+        ],
+        "approvedRepos": [
+            "ElectronicCats/pxt-bme280"
+        ],
+        "preferredRepos": [
+            "Adafruit/pxt-crickit",
+            "Adafruit/pxt-seesaw",
+            "ElectronicCats/pxt-bme280"
+        ]
+    },
+    "galleries": {
+        "Digital IO": "/projects/digital-io",
+        "Analog IO": "/projects/analog-io",
+        "Actuators": "/projects/actuators",
+        "HID": "/projects/hid",
+        "Storage": "/projects/storage"
+    },
+    "firmwareUrls": {
+        "adafruit-circuit-playground-express": "https://learn.adafruit.com/adafruit-circuit-playground-express/adafruit2-uf2-bootloader-details#updating-the-bootloader",
+        "adafruit-feather-m0-express": "https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details#updating-the-bootloader",
+        "adafruit-gemma-m0": "https://learn.adafruit.com/adafruit-gemma-m0/uf2-bootloader-details#updating-the-bootloader",
+        "adafruit-metro-m0-express": "https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details#updating-the-bootloader",
+        "adafruit-trinket-m0": "https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details#updating-the-bootloader"
+    }
+}
