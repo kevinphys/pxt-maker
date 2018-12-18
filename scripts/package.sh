@@ -1,11 +1,18 @@
 # See https://makecode.com/cli/staticpkg
 
-# cd ../pxt; npm run build
-# cd ../pxt-maker; pxt staticpkg
-# pxt serve -pkg
+package() {
+    # Package and test locally
+    # cd ../pxt; npm run build
+    cd ../pxt-maker; pxt staticpkg
+    pxt serve -pkg
+}
+# package
 
-# Deploy to https://lupyuen.github.io/pxt-maker
-cd ../pxt-maker; pxt staticpkg --githubpages
+deploy() {
+    # Deploy to https://lupyuen.github.io/pxt-maker
+    cd ../pxt-maker; pxt staticpkg --githubpages
+}
+# deploy
 
 dump_flash() {
     # Dump a UF2 file as text.
