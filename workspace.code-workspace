@@ -11,6 +11,15 @@
 		},
 		{
 			"path": "/Users/Luppy/NEWmaker.makecode.com/visualbluepill.github.io"
+		},
+		{
+			"path": "C:/maker.makecode.com/pxt"
+		},
+		{
+			"path": "C:/maker.makecode.com/pxt-common-packages"
+		},
+		{
+			"path": "."
 		}
 	],
 	"settings": {}
