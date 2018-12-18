@@ -12,7 +12,7 @@ deploy() {
     # Deploy to https://lupyuen.github.io/pxt-maker
     cd ../pxt-maker; pxt staticpkg --githubpages
 }
-# deploy
+deploy
 
 dump_flash() {
     # Dump a UF2 file as text.
