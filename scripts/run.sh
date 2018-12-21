@@ -125,3 +125,6 @@ rebuild_dal() {
 # Build locally and serve.  Must build locally since we are using our own codal-libopencm3 layer instead of codal-mbed.
 # Without "localbuild" option, the build will fail because it will fetch the codal-libopencm3 layer from the pxt-maker web service.
 pxt serve --localbuild --noBrowser
+
+# pxt will call docker to build codal libraries like this:
+# docker run --rm -v /Users/Luppy/NEWmaker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/:/src -w /src -u build pext/yotta:latest python build.py
