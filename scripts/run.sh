@@ -4,9 +4,13 @@
 
 # Location of local version of codal-libopencm3.  If we don't link or copy this local version,
 # the build script will check out THREE copies of codal-libopencm3 from GitHub and build all three copies.
-# Same for newlib.
+# Same for codal-core and newlib.
 CODALCM=$PWD/../../codal-libopencm3
+CODALCORE=$PWD/../../codal-core
 NEWLIB=$PWD/../../newlib
+
+# Enable verbose log.
+export VERBOSE=1
 
 rebuild_stm32bluepill() {
     # Rebuild stm32bluepill.
@@ -63,8 +67,14 @@ link_newlib() {
     ln -s $NEWLIB $PWD/libs/blocksprj/built/dockercodal/libraries/
     ln -s $NEWLIB $PWD/projects/blink/built/dockercodal/libraries/
 }
-# Uncomment to link local version of newlib.
-# link_newlib
+
+link_codal_core() {
+    # Link local version of codal-core, to speed up the build.
+    create_lib_folders
+    ln -s $CODALCORE $PWD/libs/stm32bluepill/built/dockercodal/libraries/
+    ln -s $CODALCORE $PWD/libs/blocksprj/built/dockercodal/libraries/
+    ln -s $CODALCORE $PWD/projects/blink/built/dockercodal/libraries/
+}
 
 link_codal_libopencm3() {
     # Link local version of codal-libopencm3, to speed up the build.  But this fails if any source files have been modified.
@@ -73,8 +83,15 @@ link_codal_libopencm3() {
     ln -s $CODALCM $PWD/libs/blocksprj/built/dockercodal/libraries/
     ln -s $CODALCM $PWD/projects/blink/built/dockercodal/libraries/
 }
-# Uncomment to link local version of codal-libopencm3
-# link_codal_libopencm3
+
+link_local_libs() {
+    # Link local versions of newlib, codal-core and codal-libopencm3 to speed up the build.
+    link_newlib
+    link_codal_core
+    link_codal_libopencm3
+}
+# Uncomment to link local versions of newlib, codal-core and codal-libopencm3
+# link_local_libs
 
 copy_codal_libopencm3() {
     # Copy local built version of codal-libopencm3, to speed up the build.  Slower than link_codal_libopencm3() but it always works.
