@@ -17,14 +17,14 @@ rebuild_stm32bluepill() {
     rm -rf libs/stm32bluepill/built
 }
 # Uncomment to rebuild libs/stm32bluepill.
-# rebuild_stm32bluepill
+rebuild_stm32bluepill
 
 rebuild_core() {
     # Rebuild core.
     rm -rf libs/core---stm32bluepill/built
 }
 # Uncomment to rebuild libs/core for stm32bluepill.
-# rebuild_core
+rebuild_core
 
 rebuild_newlib() {
     # Rebuild newlib.
@@ -33,7 +33,7 @@ rebuild_newlib() {
     rm -rf projects/blink/built/dockercodal/libraries/newlib
 }
 # Uncomment to rebuild newlib
-# rebuild_newlib
+rebuild_newlib
 
 rebuild_codal_core() {
     # Rebuild codal-core.
