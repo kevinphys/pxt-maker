@@ -1,0 +1,1697 @@
+ls: libs/stm32bluepill/built/dockercodal/libraries/codal-libopencm3/output.map: No such file or directory
+Cloning into 'built/dockercodal'...
+Note: checking out 'v0.5.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 5bf2d50... Allow for submodules in libraries
+HEAD is now at 5bf2d50... Allow for submodules in libraries
+HEAD is now at 5bf2d50... Allow for submodules in libraries
+Creating libraries folder
+Cloning into: https://github.com/lupyuen/codal-libopencm3
+Cloning into 'codal-libopencm3'...
+Checking out files:  13% (307/2281)   Checking out files:  14% (320/2281)   Checking out files:  15% (343/2281)   Checking out files:  16% (365/2281)   Checking out files:  17% (388/2281)   Checking out files:  18% (411/2281)   Checking out files:  19% (434/2281)   Checking out files:  20% (457/2281)   Checking out files:  21% (480/2281)   Checking out files:  22% (502/2281)   Checking out files:  23% (525/2281)   Checking out files:  24% (548/2281)   Checking out files:  25% (571/2281)   Checking out files:  26% (594/2281)   Checking out files:  26% (614/2281)   Checking out files:  27% (616/2281)   Checking out files:  28% (639/2281)   Checking out files:  29% (662/2281)   Checking out files:  30% (685/2281)   Checking out files:  31% (708/2281)   Checking out files:  32% (730/2281)   Checking out files:  33% (753/2281)   Checking out files:  34% (776/2281)   Checking out files:  35% (799/2281)   Checking out files:  36% (822/2281)   Checking out files:  37% (844/2281)   Checking out files:  37% (851/2281)   Checking out files:  38% (867/2281)   Checking out files:  39% (890/2281)   Checking out files:  40% (913/2281)   Checking out files:  41% (936/2281)   Checking out files:  42% (959/2281)   Checking out files:  43% (981/2281)   Checking out files:  44% (1004/2281)   Checking out files:  45% (1027/2281)   Checking out files:  46% (1050/2281)   Checking out files:  47% (1073/2281)   Checking out files:  48% (1095/2281)   Checking out files:  49% (1118/2281)   Checking out files:  50% (1141/2281)   Checking out files:  51% (1164/2281)   Checking out files:  52% (1187/2281)   Checking out files:  53% (1209/2281)   Checking out files:  54% (1232/2281)   Checking out files:  55% (1255/2281)   Checking out files:  56% (1278/2281)   Checking out files:  57% (1301/2281)   Checking out files:  58% (1323/2281)   Checking out files:  59% (1346/2281)   Checking out files:  60% (1369/2281)   Checking out files:  61% (1392/2281)   Checking out files:  62% (1415/2281)   Checking out files:  63% (1438/2281)   Checking out files:  64% (1460/2281)   Checking out files:  65% (1483/2281)   Checking out files:  65% (1491/2281)   Checking out files:  66% (1506/2281)   Checking out files:  67% (1529/2281)   Checking out files:  68% (1552/2281)   Checking out files:  69% (1574/2281)   Checking out files:  70% (1597/2281)   Checking out files:  71% (1620/2281)   Checking out files:  72% (1643/2281)   Checking out files:  73% (1666/2281)   Checking out files:  74% (1688/2281)   Checking out files:  75% (1711/2281)   Checking out files:  76% (1734/2281)   Checking out files:  77% (1757/2281)   Checking out files:  78% (1780/2281)   Checking out files:  78% (1788/2281)   Checking out files:  79% (1802/2281)   Checking out files:  80% (1825/2281)   Checking out files:  81% (1848/2281)   Checking out files:  82% (1871/2281)   Checking out files:  83% (1894/2281)   Checking out files:  84% (1917/2281)   Checking out files:  85% (1939/2281)   Checking out files:  86% (1962/2281)   Checking out files:  87% (1985/2281)   Checking out files:  88% (2008/2281)   Checking out files:  89% (2031/2281)   Checking out files:  90% (2053/2281)   Checking out files:  91% (2076/2281)   Checking out files:  92% (2099/2281)   Checking out files:  93% (2122/2281)   Checking out files:  93% (2131/2281)   Checking out files:  94% (2145/2281)   Checking out files:  95% (2167/2281)   Checking out files:  96% (2190/2281)   Checking out files:  97% (2213/2281)   Checking out files:  98% (2236/2281)   Checking out files:  99% (2259/2281)   Checking out files: 100% (2281/2281)   Checking out files: 100% (2281/2281), done.
+No submodule mapping found in .gitmodules for path 'lib/codal-core'
+Checking out branch: master
+Already on 'master'
+[1;35mSet target: codal-libopencm3 [m
+[1;35mUsing target-locked.json[m
+[1;34mTargeting codal-libopencm3[m
+Installing dependencies...
+Cloning into: https://github.com/lupyuen/newlib
+Cloning into 'newlib'...
+Checking out files:   0% (22/7864)   Checking out files:   1% (79/7864)   Checking out files:   1% (107/7864)   Checking out files:   2% (158/7864)   Checking out files:   3% (236/7864)   Checking out files:   4% (315/7864)   Checking out files:   5% (394/7864)   Checking out files:   6% (472/7864)   Checking out files:   6% (501/7864)   Checking out files:   7% (551/7864)   Checking out files:   8% (630/7864)   Checking out files:   8% (706/7864)   Checking out files:   9% (708/7864)   Checking out files:  10% (787/7864)   Checking out files:  11% (866/7864)   Checking out files:  12% (944/7864)   Checking out files:  13% (1023/7864)   Checking out files:  14% (1101/7864)   Checking out files:  14% (1132/7864)   Checking out files:  15% (1180/7864)   Checking out files:  16% (1259/7864)   Checking out files:  17% (1337/7864)   Checking out files:  18% (1416/7864)   Checking out files:  19% (1495/7864)   Checking out files:  20% (1573/7864)   Checking out files:  20% (1582/7864)   Checking out files:  21% (1652/7864)   Checking out files:  22% (1731/7864)   Checking out files:  23% (1809/7864)   Checking out files:  24% (1888/7864)   Checking out files:  25% (1966/7864)   Checking out files:  25% (1967/7864)   Checking out files:  26% (2045/7864)   Checking out files:  27% (2124/7864)   Checking out files:  28% (2202/7864)   Checking out files:  28% (2227/7864)   Checking out files:  29% (2281/7864)   Checking out files:  30% (2360/7864)   Checking out files:  31% (2438/7864)   Checking out files:  32% (2517/7864)   Checking out files:  32% (2563/7864)   Checking out files:  33% (2596/7864)   Checking out files:  34% (2674/7864)   Checking out files:  35% (2753/7864)   Checking out files:  36% (2832/7864)   Checking out files:  36% (2848/7864)   Checking out files:  37% (2910/7864)   Checking out files:  38% (2989/7864)   Checking out files:  39% (3067/7864)   Checking out files:  39% (3115/7864)   Checking out files:  40% (3146/7864)   Checking out files:  41% (3225/7864)   Checking out files:  42% (3303/7864)   Checking out files:  43% (3382/7864)   Checking out files:  43% (3435/7864)   Checking out files:  44% (3461/7864)   Checking out files:  45% (3539/7864)   Checking out files:  46% (3618/7864)   Checking out files:  47% (3697/7864)   Checking out files:  47% (3726/7864)   Checking out files:  48% (3775/7864)   Checking out files:  49% (3854/7864)   Checking out files:  50% (3932/7864)   Checking out files:  51% (4011/7864)   Checking out files:  51% (4045/7864)   Checking out files:  52% (4090/7864)   Checking out files:  53% (4168/7864)   Checking out files:  54% (4247/7864)   Checking out files:  55% (4326/7864)   Checking out files:  55% (4372/7864)   Checking out files:  56% (4404/7864)   Checking out files:  57% (4483/7864)   Checking out files:  58% (4562/7864)   Checking out files:  59% (4640/7864)   Checking out files:  60% (4719/7864)   Checking out files:  60% (4727/7864)   Checking out files:  61% (4798/7864)   Checking out files:  62% (4876/7864)   Checking out files:  63% (4955/7864)   Checking out files:  64% (5033/7864)   Checking out files:  65% (5112/7864)   Checking out files:  65% (5123/7864)   Checking out files:  66% (5191/7864)   Checking out files:  67% (5269/7864)   Checking out files:  68% (5348/7864)   Checking out files:  69% (5427/7864)   Checking out files:  70% (5505/7864)   Checking out files:  71% (5584/7864)   Checking out files:  71% (5605/7864)   Checking out files:  72% (5663/7864)   Checking out files:  73% (5741/7864)   Checking out files:  74% (5820/7864)   Checking out files:  75% (5898/7864)   Checking out files:  76% (5977/7864)   Checking out files:  77% (6056/7864)   Checking out files:  77% (6112/7864)   Checking out files:  78% (6134/7864)   Checking out files:  79% (6213/7864)   Checking out files:  80% (6292/7864)   Checking out files:  81% (6370/7864)   Checking out files:  82% (6449/7864)   Checking out files:  83% (6528/7864)   Checking out files:  83% (6591/7864)   Checking out files:  84% (6606/7864)   Checking out files:  85% (6685/7864)   Checking out files:  86% (6764/7864)   Checking out files:  87% (6842/7864)   Checking out files:  88% (6921/7864)   Checking out files:  88% (6926/7864)   Checking out files:  89% (6999/7864)   Checking out files:  90% (7078/7864)   Checking out files:  91% (7157/7864)   Checking out files:  92% (7235/7864)   Checking out files:  93% (7314/7864)   Checking out files:  93% (7321/7864)   Checking out files:  94% (7393/7864)   Checking out files:  95% (7471/7864)   Checking out files:  96% (7550/7864)   Checking out files:  97% (7629/7864)   Checking out files:  98% (7707/7864)   Checking out files:  98% (7716/7864)   Checking out files:  99% (7786/7864)   Checking out files: 100% (7864/7864)   Checking out files: 100% (7864/7864), done.
+Checking out branch: master
+Already on 'master'
+Cloning into: https://github.com/lancaster-university/codal-core
+Cloning into 'codal-core'...
+Checking out branch: main
+error: pathspec 'main' did not match any file(s) known to git.
+[1;32mUsing library: codal-libopencm3[m
+VERBOSE: 1
+CODAL_CORE_DIR: /src/libraries/codal-libopencm3/../codal-core
+COCOOS_DIR: /src/libraries/codal-libopencm3/lib/cocoOS_5.0.3
+BME280_DIR: /src/libraries/codal-libopencm3/lib/BME280
+BOOST_DIR: /src/libraries/codal-libopencm3/lib/boost_
+STM32_DIR: /src/libraries/codal-libopencm3/stm32
+NEWLIB_DIR: /src/libraries/codal-libopencm3/../newlib
+LIBOPENCM3_DIR: /src/libraries/codal-libopencm3/lib/libopencm3
+Cloning into 'libopencm3'...
+Checking out files:  29% (301/1017)   Checking out files:  30% (306/1017)   Checking out files:  31% (316/1017)   Checking out files:  32% (326/1017)   Checking out files:  33% (336/1017)   Checking out files:  34% (346/1017)   Checking out files:  35% (356/1017)   Checking out files:  36% (367/1017)   Checking out files:  37% (377/1017)   Checking out files:  38% (387/1017)   Checking out files:  39% (397/1017)   Checking out files:  40% (407/1017)   Checking out files:  41% (417/1017)   Checking out files:  42% (428/1017)   Checking out files:  43% (438/1017)   Checking out files:  44% (448/1017)   Checking out files:  45% (458/1017)   Checking out files:  46% (468/1017)   Checking out files:  47% (478/1017)   Checking out files:  48% (489/1017)   Checking out files:  49% (499/1017)   Checking out files:  50% (509/1017)   Checking out files:  51% (519/1017)   Checking out files:  52% (529/1017)   Checking out files:  53% (540/1017)   Checking out files:  54% (550/1017)   Checking out files:  55% (560/1017)   Checking out files:  56% (570/1017)   Checking out files:  57% (580/1017)   Checking out files:  58% (590/1017)   Checking out files:  59% (601/1017)   Checking out files:  60% (611/1017)   Checking out files:  61% (621/1017)   Checking out files:  62% (631/1017)   Checking out files:  63% (641/1017)   Checking out files:  64% (651/1017)   Checking out files:  65% (662/1017)   Checking out files:  66% (672/1017)   Checking out files:  66% (678/1017)   Checking out files:  67% (682/1017)   Checking out files:  68% (692/1017)   Checking out files:  69% (702/1017)   Checking out files:  70% (712/1017)   Checking out files:  71% (723/1017)   Checking out files:  72% (733/1017)   Checking out files:  73% (743/1017)   Checking out files:  74% (753/1017)   Checking out files:  75% (763/1017)   Checking out files:  76% (773/1017)   Checking out files:  77% (784/1017)   Checking out files:  78% (794/1017)   Checking out files:  79% (804/1017)   Checking out files:  80% (814/1017)   Checking out files:  81% (824/1017)   Checking out files:  82% (834/1017)   Checking out files:  83% (845/1017)   Checking out files:  84% (855/1017)   Checking out files:  85% (865/1017)   Checking out files:  86% (875/1017)   Checking out files:  87% (885/1017)   Checking out files:  88% (895/1017)   Checking out files:  89% (906/1017)   Checking out files:  90% (916/1017)   Checking out files:  91% (926/1017)   Checking out files:  92% (936/1017)   Checking out files:  93% (946/1017)   Checking out files:  94% (956/1017)   Checking out files:  95% (967/1017)   Checking out files:  96% (977/1017)   Checking out files:  97% (987/1017)   Checking out files:  98% (997/1017)   Checking out files:  99% (1007/1017)   Checking out files: 100% (1017/1017)   Checking out files: 100% (1017/1017), done.
+CODAL_LIBOPENCM3_DIR: /src/libraries/codal-libopencm3/src
+TOP_LEVEL_INCLUDE_DIRS: /src/libraries/codal-libopencm3/../newlib/include;/src/libraries/codal-libopencm3/src
+TOP_LEVEL_SOURCE_FILES: /src/libraries/codal-libopencm3/src/sensor_display.cpp
+[1;32mUsing library: newlib[m
+VERBOSE: 1
+CMAKE_CXX_LINK_EXECUTABLE before: <CMAKE_CXX_COMPILER> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> -Wl,-Map,<TARGET>.map -Wl,--start-group <OBJECTS> <LINK_LIBRARIES> -lnosys -lstdc++ -lsupc++ -lm -lc -lgcc -lstdc++ -lsupc++ -lm -lc -lgcc -Wl,--end-group  --specs=nano.specs -o <TARGET>
+CMAKE_CXX_LINK_EXECUTABLE after: <CMAKE_CXX_COMPILER> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> -Wl,-Map,<TARGET>.map -Wl,--start-group <OBJECTS> <LINK_LIBRARIES> -lnosys -lstdc++ -lsupc++ -lstdc++ -lsupc++ -Wl,--end-group  -o <TARGET>
+NEWLIB_DIR: /src/libraries/newlib
+[1;32mUsing library: codal-core[m
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c: In function 'queue_push':
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:160:28: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  uint8_t *dst = (uint8_t*)((Mem_t)queue->list + head * msgSz);
+                            ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:160:17: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  uint8_t *dst = (uint8_t*)((Mem_t)queue->list + head * msgSz);
+                 ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c: In function 'os_msg_receive':
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:199:27: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         src = (uint8_t*)( (Mem_t)q->list + tail * msgSz );
+                           ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:199:15: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+         src = (uint8_t*)( (Mem_t)q->list + tail * msgSz );
+               ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:221:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+             dst = (uint8_t*)( (Mem_t)q->list + q->head * msgSz );
+                               ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:221:19: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+             dst = (uint8_t*)( (Mem_t)q->list + q->head * msgSz );
+                   ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c: In function 'os_msgQ_tick':
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:255:26: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         pMsg = (Msg_t*)( (Mem_t)q->list + nextMessage * msgSz );
+                          ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:255:16: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+         pMsg = (Msg_t*)( (Mem_t)q->list + nextMessage * msgSz );
+                ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c: In function 'MsgQAllDelayed':
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:284:26: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         pMsg = (Msg_t*)( (Mem_t)q->list + (nextMessage * msgSz) );
+                          ^
+/src/libraries/codal-libopencm3/lib/cocoOS_5.0.3/src/os_msgqueue.c:284:16: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+         pMsg = (Msg_t*)( (Mem_t)q->list + (nextMessage * msgSz) );
+                ^
+/src/libraries/codal-libopencm3/lib/BME280/src/BME280.cpp: In member function 'bool BME280::WriteSettings()':
+/src/libraries/codal-libopencm3/lib/BME280/src/BME280.cpp:98:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+/src/libraries/codal-core/source/JACDAC/JDDriver.cpp: In member function 'virtual int codal::JDDriver::handlePairingPacket(codal::JDPkt*)':
+/src/libraries/codal-core/source/JACDAC/JDDriver.cpp:134:50: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     ControlPacket cp = *((ControlPacket *)p->data);
+                                                  ^
+/src/libraries/codal-core/source/JACDAC/JDDriver.cpp:134:50: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+/src/libraries/codal-core/source/JACDAC/JDDriver.cpp:136:38: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     JDDevice d = *((JDDevice*)cp.data);
+                                      ^
+/src/libraries/codal-core/source/JACDAC/JDDriver.cpp:136:38: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+/src/libraries/codal-core/source/driver-models/Serial.cpp:849:6: warning: #warning define API for pin swap... [-Wcpp]
+     #warning define API for pin swap...
+      ^~~~~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp: In function 'void demo_task(void*)':
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:20:8: warning: unused variable 'vref' [-Wunused-variable]
+  float vref = adc_read_scaled_vref() / 100.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:21:8: warning: unused variable 'adc0' [-Wunused-variable]
+  float adc0 = adc_read(0) * 3.30 / 4095.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:22:8: warning: unused variable 'adc1' [-Wunused-variable]
+  float adc1 = adc_read(1) * 3.30 / 4095.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:23:8: warning: unused variable 'temp' [-Wunused-variable]
+  float temp = adc_read_scaled_temperature() / 100.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp: At global scope:
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:18:13: warning: 'void demo_task(void*)' defined but not used [-Wunused-function]
+ static void demo_task(void *arg __attribute((unused))) {
+             ^~~~~~~~~
+/src/libraries/codal-libopencm3/stm32/cm/CmPin.cpp: In member function 'virtual int codal::_cm::Pin::setAnalogValue(int)':
+/src/libraries/codal-libopencm3/stm32/cm/CmPin.cpp:283:11: warning: unused variable 'level' [-Wunused-variable]
+     float level = (float)value / float(DEVICE_PIN_MAX_OUTPUT);
+           ^~~~~
+/src/libraries/codal-libopencm3/stm32/cm/CmSPI.cpp: In member function 'void codal::_cm::SPI::init()':
+/src/libraries/codal-libopencm3/stm32/cm/CmSPI.cpp:66:22: warning: variable 'instance' set but not used [-Wunused-but-set-variable]
+             uint32_t instance = _codal_setup_pin(sclk, 0, PinMap_SPI_SCK);
+                      ^~~~~~~~
+/src/libraries/codal-libopencm3/stm32/cm/CmSPI.cpp: At global scope:
+/src/libraries/codal-libopencm3/stm32/cm/CmSPI.cpp:254:20: warning: 'int codal::_cm::enable_clock(uint32_t)' defined but not used [-Wunused-function]
+         static int enable_clock(uint32_t instance) {
+                    ^~~~~~~~~~~~
+libcodal-core.a(CodalHeapAllocator.cpp.o): In function `_malloc_r':
+/src/libraries/codal-core/source/core/CodalHeapAllocator.cpp:418: multiple definition of `_malloc_r'
+libnewlib.a(nano-mallocr.c.o):/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:235: first defined here
+libcodal-core.a(CodalHeapAllocator.cpp.o): In function `device_create_heap(unsigned long, unsigned long)':
+/src/libraries/codal-core/source/core/CodalHeapAllocator.cpp:143: multiple definition of `_free_r'
+libnewlib.a(nano-mallocr.c.o):/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:235: first defined here
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `String_::mystrtod(char const*, char**)':
+/src/pxtapp/base/core.cpp:202: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:203: undefined reference to `__aeabi_i2d'
+/src/pxtapp/base/core.cpp:203: undefined reference to `__aeabi_dadd'
+/src/pxtapp/base/core.cpp:205: undefined reference to `__aeabi_ddiv'
+/src/pxtapp/base/core.cpp:220: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:220: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:225: undefined reference to `__powidf2'
+/src/pxtapp/base/core.cpp:225: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:197: undefined reference to `__aeabi_i2d'
+/src/pxtapp/base/core.cpp:197: undefined reference to `__aeabi_dmul'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `String_::toNumber(pxt::BoxedString*)':
+/src/pxtapp/base/core.cpp:240: undefined reference to `__aeabi_dcmpeq'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnormal(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpgt'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromInt(int)':
+/src/pxtapp/base/core.cpp:418: undefined reference to `__aeabi_i2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromFloat(float)':
+/src/pxtapp/base/core.cpp:412: undefined reference to `__aeabi_f2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromUInt(unsigned int)':
+/src/pxtapp/base/core.cpp:426: undefined reference to `__aeabi_ui2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::mycvt(double, char*)':
+/src/pxtapp/base/core.cpp:698: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:703: undefined reference to `__aeabi_dcmpeq'
+/src/pxtapp/base/core.cpp:709: undefined reference to `__aeabi_d2iz'
+/src/pxtapp/base/core.cpp:713: undefined reference to `__aeabi_dcmpge'
+/src/pxtapp/base/core.cpp:719: undefined reference to `__powidf2'
+/src/pxtapp/base/core.cpp:719: undefined reference to `__aeabi_ddiv'
+/src/pxtapp/base/core.cpp:726: undefined reference to `__aeabi_d2iz'
+/src/pxtapp/base/core.cpp:728: undefined reference to `__aeabi_i2d'
+/src/pxtapp/base/core.cpp:728: undefined reference to `__aeabi_dsub'
+/src/pxtapp/base/core.cpp:728: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:713: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:715: undefined reference to `__powidf2'
+/src/pxtapp/base/core.cpp:715: undefined reference to `__aeabi_ddiv'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `Math_::randomDouble()':
+/src/pxtapp/base/core.cpp:859: undefined reference to `__aeabi_ui2d'
+/src/pxtapp/base/core.cpp:859: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:860: undefined reference to `__aeabi_ui2d'
+/src/pxtapp/base/core.cpp:860: undefined reference to `__aeabi_ddiv'
+/src/pxtapp/base/core.cpp:860: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::toDouble(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:318: undefined reference to `__aeabi_i2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnormal(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpgt'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::toUInt(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:306: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:308: undefined reference to `__aeabi_d2uiz'
+/src/pxtapp/base/core.cpp:307: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromUInt(unsigned int)':
+/src/pxtapp/base/core.cpp:426: undefined reference to `__aeabi_ui2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::toFloat(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:337: undefined reference to `__aeabi_d2f'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::adds(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:570: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::subs(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:573: undefined reference to `__aeabi_dsub'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::muls(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:586: undefined reference to `__aeabi_dmul'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::div(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:590: undefined reference to `__aeabi_ddiv'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `Math_::randomRange(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:885: undefined reference to `__aeabi_dcmpgt'
+/src/pxtapp/base/core.cpp:890: undefined reference to `__aeabi_dcmpeq'
+/src/pxtapp/base/core.cpp:893: undefined reference to `__aeabi_dsub'
+/src/pxtapp/base/core.cpp:893: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:893: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `Math_::round(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:941: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `eq_core':
+/src/pxtapp/base/core.cpp:459: undefined reference to `__aeabi_dcmpeq'
+/src/pxtapp/base/core.cpp:459: undefined reference to `__aeabi_dcmpeq'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::toBool(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:547: undefined reference to `__aeabi_dcmpeq'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::valCompare(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:651: undefined reference to `__aeabi_dcmpun'
+/src/pxtapp/base/core.cpp:654: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:656: undefined reference to `__aeabi_dcmpgt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::toString(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:812: undefined reference to `__aeabi_dcmpun'
+/src/pxtapp/base/core.cpp:812: undefined reference to `__aeabi_dcmple'
+/src/pxtapp/base/core.cpp:813: undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+libnewlib.a(s_ceil.c.o): In function `ceil':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:46: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:46: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:53: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:53: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:59: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:64: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:64: undefined reference to `__aeabi_dcmpgt'
+libnewlib.a(s_floor.c.o): In function `floor':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:88: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:88: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:96: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:96: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:102: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:107: undefined reference to `__aeabi_dcmpgt'
+libnewlib.a(e_acos.c.o): In function `__ieee754_acos':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:84: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:84: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:88: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:91: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:92: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:100: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:94: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:94: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:98: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:99: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:100: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:100: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:102: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:102: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:109: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:110: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:111: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:111: undefined reference to `__aeabi_dadd'
+libnewlib.a(e_asin.c.o): In function `__ieee754_asin':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:91: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:91: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:101: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:92: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:95: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:105: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:106: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:111: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:120: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:97: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:100: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:101: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:117: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:119: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:119: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:120: undefined reference to `__aeabi_dsub'
+libnewlib.a(e_atan2.c.o): In function `__ieee754_atan2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:79: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:120: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:131: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:129: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:131: undefined reference to `__aeabi_dsub'
+libnewlib.a(e_log.c.o): In function `__ieee754_log':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:113: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:113: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:114: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:126: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:123: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:125: undefined reference to `__aeabi_dcmpeq'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:125: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:126: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:126: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:128: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:129: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:131: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:131: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:132: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:133: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:135: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:140: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:142: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:142: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:143: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:143: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:143: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:146: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:146: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dmul'
+libnewlib.a(e_log10.c.o): In function `__ieee754_log10':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:88: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:88: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:96: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:99: undefined reference to `__aeabi_dmul'
+libnewlib.a(e_pow.c.o): In function `__ieee754_pow':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:181: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:199: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:178: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:181: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:207: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:209: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:210: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:210: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:210: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:211: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:272: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:273: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:219: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:230: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:231: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:231: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:232: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:238: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:238: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:241: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:243: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:243: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:243: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:244: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:245: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:245: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:249: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:247: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:247: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:247: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:250: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:250: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:250: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:252: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:255: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:254: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:254: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:258: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:259: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:259: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:259: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:301: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:303: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:305: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:307: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:308: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:308: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:309: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:312: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:312: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:285: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:285: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:285: undefined reference to `__aeabi_dcmple'
+libnewlib.a(s_atan.c.o): In function `atan':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:137: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:142: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:142: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:161: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:162: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:166: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:166: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:166: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:151: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:151: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:151: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:157: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dsub'
+libnewlib.a(s_scalbn.c.o): In function `scalbn':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_scalbn.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_scalbn.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_scalbn.c:95: undefined reference to `__aeabi_dadd'
+libnewlib.a(e_rem_pio2.c.o): In function `__ieee754_rem_pio2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:110: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:111: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:113: undefined reference to `__aeabi_dsub'
+libnewlib.a(e_rem_pio2.c.o):/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:114: more undefined references to `__aeabi_dsub' follow
+libnewlib.a(e_rem_pio2.c.o): In function `__ieee754_rem_pio2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:119: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:121: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:122: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:126: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:124: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:125: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:126: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:133: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:133: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:133: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:134: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:135: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:135: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:136: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:158: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:162: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:162: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:142: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:147: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:148: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:150: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:155: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:156: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:170: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:183: undefined reference to `__aeabi_dcmpeq'
+libnewlib.a(k_cos.c.o): In function `__kernel_cos':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:78: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:80: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:91: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:90: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dsub'
+libnewlib.a(k_sin.c.o): In function `__kernel_sin':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:71: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:72: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:73: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dsub'
+libnewlib.a(k_tan.c.o): In function `__kernel_tan':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:88: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:92: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:97: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:98: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:101: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:102: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:109: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:111: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:111: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:112: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:114: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:125: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:124: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:124: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:127: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2bc): undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2c0): undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2c4): undefined reference to `__aeabi_dcmpgt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2c8): undefined reference to `__aeabi_dsub'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2cc): undefined reference to `__aeabi_ddiv'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2d0): undefined reference to `__aeabi_dmul'
+libnewlib.a(malloc.c.o): In function `malloc':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/malloc.c:164: undefined reference to `_impure_ptr'
+libnewlib.a(malloc.c.o): In function `free':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/malloc.c:170: undefined reference to `_impure_ptr'
+libnewlib.a(nano-mallocr.c.o): In function `sbrk_aligned':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:209: undefined reference to `_sbrk_r'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:211: undefined reference to `_sbrk_r'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:222: undefined reference to `_sbrk_r'
+libnewlib.a(nano-mallocr.c.o): In function `_realloc_r':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:472: undefined reference to `_malloc_usable_size_r'
+libnewlib.a(realloc.c.o): In function `realloc':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/realloc.c:17: undefined reference to `_impure_ptr'
+libnewlib.a(strtol.c.o): In function `strtol':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/strtol.c:237: undefined reference to `_impure_ptr'
+libnewlib.a(s_trunc.c.o): In function `trunc':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_trunc.c:85: undefined reference to `__aeabi_dadd'
+libnewlib.a(e_sqrt.c.o): In function `__ieee754_sqrt':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:114: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:114: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:121: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:121: undefined reference to `__aeabi_ddiv'
+libnewlib.a(e_fmod.c.o): In function `__ieee754_fmod':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_fmod.c:53: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_fmod.c:53: undefined reference to `__aeabi_ddiv'
+libnewlib.a(s_cos.c.o): In function `cos':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_cos.c:67: undefined reference to `__aeabi_dsub'
+libnewlib.a(s_sin.c.o): In function `sin':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_sin.c:105: undefined reference to `__aeabi_dsub'
+libnewlib.a(s_tan.c.o): In function `tan':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_tan.c:95: undefined reference to `__aeabi_dsub'
+libnewlib.a(k_rem_pio2.c.o): In function `__kernel_rem_pio2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:186: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:190: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:190: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:205: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:205: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:205: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:206: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:207: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:207: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:236: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:237: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:198: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:198: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:198: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:199: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:199: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:199: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:200: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:215: undefined reference to `__aeabi_dcmpge'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:242: undefined reference to `__aeabi_dcmpeq'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:249: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:250: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:250: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:264: undefined reference to `__aeabi_dcmpge'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:265: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:265: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:265: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:266: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:266: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:266: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:269: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:275: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:275: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:275: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:280: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:280: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:296: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:288: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:294: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:297: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:302: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:303: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:303: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:307: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:308: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:308: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:311: undefined reference to `__aeabi_dadd'
+collect2: error: ld returned 1 exit status
+make[2]: *** [STM32_BLUE_PILL] Error 1
+make[1]: *** [CMakeFiles/STM32_BLUE_PILL.dir/all] Error 2
+make: *** [all] Error 2
+codal-libopencm3 is already installed
+[1;35mSet target: codal-libopencm3 [m
+[1;35mUsing target-locked.json[m
+[1;34mTargeting codal-libopencm3[m
+Installing dependencies...
+newlib is already installed
+codal-core is already installed
+[1;32mUsing library: codal-libopencm3[m
+VERBOSE: 1
+CODAL_CORE_DIR: /src/libraries/codal-libopencm3/../codal-core
+COCOOS_DIR: /src/libraries/codal-libopencm3/lib/cocoOS_5.0.3
+BME280_DIR: /src/libraries/codal-libopencm3/lib/BME280
+BOOST_DIR: /src/libraries/codal-libopencm3/lib/boost_
+STM32_DIR: /src/libraries/codal-libopencm3/stm32
+NEWLIB_DIR: /src/libraries/codal-libopencm3/../newlib
+LIBOPENCM3_DIR: /src/libraries/codal-libopencm3/lib/libopencm3
+fatal: destination path 'libopencm3' already exists and is not an empty directory.
+rm: cannot remove 'lib/stm32/common/adc_common_v2.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/adc_common_v2_multi.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/crc_v2.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/crs_common_all.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/crypto_common_f24.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/flash_common_f24.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/dma_common_f24.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/hash_common_f24.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/timer_common_f24.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/gpio_common_f0234.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/rtc_common_l1f024.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/timer_common_f0234.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/i2c_common_v2.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/pwr_common_v2.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/spi_common_v2.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/usart_common_v2.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/flash_common_l01.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/spi_common_v1_frf.c': No such file or directory
+rm: cannot remove 'lib/stm32/common/rng_common_v1.c': No such file or directory
+CODAL_LIBOPENCM3_DIR: /src/libraries/codal-libopencm3/src
+TOP_LEVEL_INCLUDE_DIRS: /src/libraries/codal-libopencm3/../newlib/include;/src/libraries/codal-libopencm3/src
+TOP_LEVEL_SOURCE_FILES: /src/libraries/codal-libopencm3/src/sensor_display.cpp
+[1;32mUsing library: newlib[m
+VERBOSE: 1
+CMAKE_CXX_LINK_EXECUTABLE before: <CMAKE_CXX_COMPILER> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> -Wl,-Map,<TARGET>.map -Wl,--start-group <OBJECTS> <LINK_LIBRARIES> -lnosys -lstdc++ -lsupc++ -lm -lc -lgcc -lstdc++ -lsupc++ -lm -lc -lgcc -Wl,--end-group  --specs=nano.specs -o <TARGET>
+CMAKE_CXX_LINK_EXECUTABLE after: <CMAKE_CXX_COMPILER> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> -Wl,-Map,<TARGET>.map -Wl,--start-group <OBJECTS> <LINK_LIBRARIES> -lnosys -lstdc++ -lsupc++ -lstdc++ -lsupc++ -Wl,--end-group  -o <TARGET>
+NEWLIB_DIR: /src/libraries/newlib
+[1;32mUsing library: codal-core[m
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp: In function 'void demo_task(void*)':
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:20:8: warning: unused variable 'vref' [-Wunused-variable]
+  float vref = adc_read_scaled_vref() / 100.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:21:8: warning: unused variable 'adc0' [-Wunused-variable]
+  float adc0 = adc_read(0) * 3.30 / 4095.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:22:8: warning: unused variable 'adc1' [-Wunused-variable]
+  float adc1 = adc_read(1) * 3.30 / 4095.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:23:8: warning: unused variable 'temp' [-Wunused-variable]
+  float temp = adc_read_scaled_temperature() / 100.0;
+        ^~~~
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp: At global scope:
+/src/libraries/codal-libopencm3/stm32/adcint/adcint.cpp:18:13: warning: 'void demo_task(void*)' defined but not used [-Wunused-function]
+ static void demo_task(void *arg __attribute((unused))) {
+             ^~~~~~~~~
+libcodal-core.a(CodalHeapAllocator.cpp.o): In function `_malloc_r':
+/src/libraries/codal-core/source/core/CodalHeapAllocator.cpp:418: multiple definition of `_malloc_r'
+libnewlib.a(nano-mallocr.c.o):/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:235: first defined here
+libcodal-core.a(CodalHeapAllocator.cpp.o): In function `device_create_heap(unsigned long, unsigned long)':
+/src/libraries/codal-core/source/core/CodalHeapAllocator.cpp:143: multiple definition of `_free_r'
+libnewlib.a(nano-mallocr.c.o):/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:235: first defined here
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `String_::mystrtod(char const*, char**)':
+/src/pxtapp/base/core.cpp:202: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:203: undefined reference to `__aeabi_i2d'
+/src/pxtapp/base/core.cpp:203: undefined reference to `__aeabi_dadd'
+/src/pxtapp/base/core.cpp:205: undefined reference to `__aeabi_ddiv'
+/src/pxtapp/base/core.cpp:220: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:220: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:225: undefined reference to `__powidf2'
+/src/pxtapp/base/core.cpp:225: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:197: undefined reference to `__aeabi_i2d'
+/src/pxtapp/base/core.cpp:197: undefined reference to `__aeabi_dmul'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `String_::toNumber(pxt::BoxedString*)':
+/src/pxtapp/base/core.cpp:240: undefined reference to `__aeabi_dcmpeq'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnormal(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpgt'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromInt(int)':
+/src/pxtapp/base/core.cpp:418: undefined reference to `__aeabi_i2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromFloat(float)':
+/src/pxtapp/base/core.cpp:412: undefined reference to `__aeabi_f2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromUInt(unsigned int)':
+/src/pxtapp/base/core.cpp:426: undefined reference to `__aeabi_ui2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::mycvt(double, char*)':
+/src/pxtapp/base/core.cpp:698: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:703: undefined reference to `__aeabi_dcmpeq'
+/src/pxtapp/base/core.cpp:709: undefined reference to `__aeabi_d2iz'
+/src/pxtapp/base/core.cpp:713: undefined reference to `__aeabi_dcmpge'
+/src/pxtapp/base/core.cpp:719: undefined reference to `__powidf2'
+/src/pxtapp/base/core.cpp:719: undefined reference to `__aeabi_ddiv'
+/src/pxtapp/base/core.cpp:726: undefined reference to `__aeabi_d2iz'
+/src/pxtapp/base/core.cpp:728: undefined reference to `__aeabi_i2d'
+/src/pxtapp/base/core.cpp:728: undefined reference to `__aeabi_dsub'
+/src/pxtapp/base/core.cpp:728: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:713: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:715: undefined reference to `__powidf2'
+/src/pxtapp/base/core.cpp:715: undefined reference to `__aeabi_ddiv'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `Math_::randomDouble()':
+/src/pxtapp/base/core.cpp:859: undefined reference to `__aeabi_ui2d'
+/src/pxtapp/base/core.cpp:859: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:860: undefined reference to `__aeabi_ui2d'
+/src/pxtapp/base/core.cpp:860: undefined reference to `__aeabi_ddiv'
+/src/pxtapp/base/core.cpp:860: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::toDouble(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:318: undefined reference to `__aeabi_i2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnormal(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpgt'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmpun'
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:673: undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::toUInt(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:306: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:308: undefined reference to `__aeabi_d2uiz'
+/src/pxtapp/base/core.cpp:307: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::fromUInt(unsigned int)':
+/src/pxtapp/base/core.cpp:426: undefined reference to `__aeabi_ui2d'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `pxt::toFloat(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:337: undefined reference to `__aeabi_d2f'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::adds(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:570: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::subs(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:573: undefined reference to `__aeabi_dsub'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::muls(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:586: undefined reference to `__aeabi_dmul'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::div(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:590: undefined reference to `__aeabi_ddiv'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `Math_::randomRange(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:885: undefined reference to `__aeabi_dcmpgt'
+/src/pxtapp/base/core.cpp:890: undefined reference to `__aeabi_dcmpeq'
+/src/pxtapp/base/core.cpp:893: undefined reference to `__aeabi_dsub'
+/src/pxtapp/base/core.cpp:893: undefined reference to `__aeabi_dmul'
+/src/pxtapp/base/core.cpp:893: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `Math_::round(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:941: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `eq_core':
+/src/pxtapp/base/core.cpp:459: undefined reference to `__aeabi_dcmpeq'
+/src/pxtapp/base/core.cpp:459: undefined reference to `__aeabi_dcmpeq'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::toBool(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:547: undefined reference to `__aeabi_dcmpeq'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::valCompare(pxt::TValueStruct*, pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:651: undefined reference to `__aeabi_dcmpun'
+/src/pxtapp/base/core.cpp:654: undefined reference to `__aeabi_dcmplt'
+/src/pxtapp/base/core.cpp:656: undefined reference to `__aeabi_dcmpgt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `numops::toString(pxt::TValueStruct*)':
+/src/pxtapp/base/core.cpp:812: undefined reference to `__aeabi_dcmpun'
+/src/pxtapp/base/core.cpp:812: undefined reference to `__aeabi_dcmple'
+/src/pxtapp/base/core.cpp:813: undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/core.cpp.o: In function `std::isnan(double)':
+/usr/arm-none-eabi/include/c++/6.2.1/cmath:650: undefined reference to `__aeabi_dcmpun'
+libnewlib.a(s_ceil.c.o): In function `ceil':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:46: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:46: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:53: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:53: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:59: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:64: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_ceil.c:64: undefined reference to `__aeabi_dcmpgt'
+libnewlib.a(s_floor.c.o): In function `floor':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:88: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:88: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:96: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:96: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:102: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/s_floor.c:107: undefined reference to `__aeabi_dcmpgt'
+libnewlib.a(e_acos.c.o): In function `__ieee754_acos':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:84: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:84: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:88: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:90: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:91: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:92: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:100: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:94: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:94: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:95: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:96: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:98: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:99: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:100: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:100: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:102: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:102: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:109: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:110: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:106: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:111: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_acos.c:111: undefined reference to `__aeabi_dadd'
+libnewlib.a(e_asin.c.o): In function `__ieee754_asin':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:91: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:91: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:101: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:92: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:95: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:95: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:105: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:106: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:111: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:112: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:120: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:97: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:100: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:101: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:117: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:116: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:118: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:119: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:119: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_asin.c:120: undefined reference to `__aeabi_dsub'
+libnewlib.a(e_atan2.c.o): In function `__ieee754_atan2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:79: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:120: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:131: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:129: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_atan2.c:131: undefined reference to `__aeabi_dsub'
+libnewlib.a(e_log.c.o): In function `__ieee754_log':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:113: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:113: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:114: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:126: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:123: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:125: undefined reference to `__aeabi_dcmpeq'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:125: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:126: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:126: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:128: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:129: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:131: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:131: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:132: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:133: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:135: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:138: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:137: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:140: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:142: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:142: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:143: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:143: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:143: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:144: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:146: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:146: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log.c:147: undefined reference to `__aeabi_dmul'
+libnewlib.a(e_log10.c.o): In function `__ieee754_log10':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:88: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:88: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:89: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:96: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:98: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:98: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_log10.c:99: undefined reference to `__aeabi_dmul'
+libnewlib.a(e_pow.c.o): In function `__ieee754_pow':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:181: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:199: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:178: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:181: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:207: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:209: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:210: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:208: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:210: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:210: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:211: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:271: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:272: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:273: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:219: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:230: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:231: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:231: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:232: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:238: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:238: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:239: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:241: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:242: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:243: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:243: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:243: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:244: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:245: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:245: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:249: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:247: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:247: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:247: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:250: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:250: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:250: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:252: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:255: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:254: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:254: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:256: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:258: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:259: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:259: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:259: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:261: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:279: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:301: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:303: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:305: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:306: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:307: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:308: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:308: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:309: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:310: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:311: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:312: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:312: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:285: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:285: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_pow.c:285: undefined reference to `__aeabi_dcmple'
+libnewlib.a(s_atan.c.o): In function `atan':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:137: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:142: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:142: undefined reference to `__aeabi_dcmpgt'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:149: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:161: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:162: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:164: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:165: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:166: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:166: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:166: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:151: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:151: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:151: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:155: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:157: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_atan.c:168: undefined reference to `__aeabi_dsub'
+libnewlib.a(s_scalbn.c.o): In function `scalbn':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_scalbn.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_scalbn.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_scalbn.c:95: undefined reference to `__aeabi_dadd'
+libnewlib.a(e_rem_pio2.c.o): In function `__ieee754_rem_pio2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:108: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:110: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:111: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:113: undefined reference to `__aeabi_dsub'
+libnewlib.a(e_rem_pio2.c.o):/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:114: more undefined references to `__aeabi_dsub' follow
+libnewlib.a(e_rem_pio2.c.o): In function `__ieee754_rem_pio2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:119: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:121: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:122: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:126: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:124: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:125: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:126: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:133: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:133: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:133: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:134: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:135: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:135: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:136: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:158: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:162: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:162: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:142: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:147: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:148: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:149: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:150: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:155: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:156: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:157: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:170: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:178: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:179: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_rem_pio2.c:183: undefined reference to `__aeabi_dcmpeq'
+libnewlib.a(k_cos.c.o): In function `__kernel_cos':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:78: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:80: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:81: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:83: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:91: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:90: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:90: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_cos.c:92: undefined reference to `__aeabi_dsub'
+libnewlib.a(k_sin.c.o): In function `__kernel_sin':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:71: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:72: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:73: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:74: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:75: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_sin.c:76: undefined reference to `__aeabi_dsub'
+libnewlib.a(k_tan.c.o): In function `__kernel_tan':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:88: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:92: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:97: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:98: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:99: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:101: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:102: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:109: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:108: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:107: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:110: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:111: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:111: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:112: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:114: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:115: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:125: undefined reference to `__aeabi_ddiv'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:124: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:124: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:127: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:127: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_tan.c:128: undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2bc): undefined reference to `__aeabi_dadd'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2c0): undefined reference to `__aeabi_dcmplt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2c4): undefined reference to `__aeabi_dcmpgt'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2c8): undefined reference to `__aeabi_dsub'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2cc): undefined reference to `__aeabi_ddiv'
+CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/pointers.cpp.o:(.rodata._ZN3pxt20functionsAndBytecodeE+0x2d0): undefined reference to `__aeabi_dmul'
+libnewlib.a(malloc.c.o): In function `malloc':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/malloc.c:164: undefined reference to `_impure_ptr'
+libnewlib.a(malloc.c.o): In function `free':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/malloc.c:170: undefined reference to `_impure_ptr'
+libnewlib.a(nano-mallocr.c.o): In function `sbrk_aligned':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:209: undefined reference to `_sbrk_r'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:211: undefined reference to `_sbrk_r'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:222: undefined reference to `_sbrk_r'
+libnewlib.a(nano-mallocr.c.o): In function `_realloc_r':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/nano-mallocr.c:472: undefined reference to `_malloc_usable_size_r'
+libnewlib.a(realloc.c.o): In function `realloc':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/realloc.c:17: undefined reference to `_impure_ptr'
+libnewlib.a(strtol.c.o): In function `strtol':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libc/stdlib/strtol.c:237: undefined reference to `_impure_ptr'
+libnewlib.a(s_trunc.c.o): In function `trunc':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/common/s_trunc.c:85: undefined reference to `__aeabi_dadd'
+libnewlib.a(e_sqrt.c.o): In function `__ieee754_sqrt':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:114: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:114: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:121: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/machine/arm/../../math/e_sqrt.c:121: undefined reference to `__aeabi_ddiv'
+libnewlib.a(e_fmod.c.o): In function `__ieee754_fmod':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_fmod.c:53: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/e_fmod.c:53: undefined reference to `__aeabi_ddiv'
+libnewlib.a(s_cos.c.o): In function `cos':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_cos.c:67: undefined reference to `__aeabi_dsub'
+libnewlib.a(s_sin.c.o): In function `sin':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_sin.c:105: undefined reference to `__aeabi_dsub'
+libnewlib.a(s_tan.c.o): In function `tan':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/s_tan.c:95: undefined reference to `__aeabi_dsub'
+libnewlib.a(k_rem_pio2.c.o): In function `__kernel_rem_pio2':
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:186: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:190: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:190: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:205: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:205: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:205: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:206: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:207: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:207: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:236: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:237: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:198: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:198: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:198: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:199: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:199: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:199: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:200: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:215: undefined reference to `__aeabi_dcmpge'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:242: undefined reference to `__aeabi_dcmpeq'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:249: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:250: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:250: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:264: undefined reference to `__aeabi_dcmpge'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:265: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:265: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:265: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:266: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:266: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:266: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:269: undefined reference to `__aeabi_d2iz'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:275: undefined reference to `__aeabi_i2d'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:275: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:275: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:280: undefined reference to `__aeabi_dmul'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:280: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:296: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:288: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:294: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:297: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:302: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:303: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:303: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:307: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:308: undefined reference to `__aeabi_dsub'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:308: undefined reference to `__aeabi_dadd'
+/src/libraries/newlib/build-arm-none-eabi/../newlib/libm/math/k_rem_pio2.c:311: undefined reference to `__aeabi_dadd'
+collect2: error: ld returned 1 exit status
+make[2]: *** [STM32_BLUE_PILL] Error 1
+make[1]: *** [CMakeFiles/STM32_BLUE_PILL.dir/all] Error 2
+make: *** [all] Error 2
