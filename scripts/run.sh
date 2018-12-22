@@ -129,7 +129,8 @@ pxt serve --localbuild --noBrowser
 # cp libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL.map logs
 
 # Build and capture the log:
-# ./scripts/run.sh &>logs/build.log ; cp libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL.map logs
+# ./scripts/run.sh &>logs/build.log
+# cp libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL.map logs
 
 # pxt will call docker to build codal libraries like this:
 # docker run --rm -v /Users/Luppy/NEWmaker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/:/src -w /src -u build pext/yotta:latest python build.py
