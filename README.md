@@ -18,54 +18,63 @@ The local server lets you to run the editor and serve the documentation from you
 
 ### Setup
 
+1. Make sure you installed the GNU Toolchain for Windows / Mac / Linux: https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads
+
+1. On Windows, use the Windows Ubuntu bash shell: https://docs.microsoft.com/en-us/windows/wsl/about
+
 1. Install [Node.js](https://nodejs.org/) 8.9.4 or higher.
-2. Install [Docker](https://www.docker.com/) if you are going to edit any `.cpp` files.
-3. Clone the pxt repository.
-```
-mkdir maker.makecode.com
-cd maker.makecode.com
-git clone https://github.com/microsoft/pxt
-cd pxt
-```
-4. Install the dependencies of ``Microsoft/pxt`` and build it
-```
-npm install
-npm run build
-cd ..
-```
-5. Clone the ``Microsoft/pxt-common-packages`` repository
-```
-git clone https://github.com/microsoft/pxt-common-packages
-cd pxt-common-packages
-npm install
-cd ..
-```
-6. Clone the ``lupyuen/pxt-maker`` repository
-```
-git clone https://github.com/lupyuen/pxt-maker
-cd pxt-maker
-```
-7. Install the PXT command line (add `sudo` for Mac/Linux shells).
-```
-npm install -g pxt
-```
-8. Install the pxt-maker dependencies.
-```
-npm install
-```
-8. Link pxt-maker back to base pxt repo (add `sudo` for Mac/Linux shells).
-```
-npm link ../pxt
-npm link ../pxt-common-packages
-```
+
+1. Install [Docker](https://www.docker.com/). For Ubuntu and Windows Ubuntu, run `sudo apt install docker.io`
+
+1. Install [ninja](https://ninja-build.org/). For Ubuntu and Windows Ubuntu, run `sudo apt install ninja-build`
+
+1. Clone the pxt repository.
+
+       mkdir maker.makecode.com
+       cd maker.makecode.com
+       git clone https://github.com/microsoft/pxt
+       cd pxt
+
+1. Install the dependencies of ``Microsoft/pxt`` and build it
+
+       npm install
+       npm run build
+       cd ..
+
+1. Clone the ``Microsoft/pxt-common-packages`` repository
+
+       git clone https://github.com/microsoft/pxt-common-packages
+       cd pxt-common-packages
+       npm install
+       cd ..
+
+1. Clone the ``lupyuen/pxt-maker`` repository
+
+       git clone https://github.com/lupyuen/pxt-maker
+       cd pxt-maker
+
+1. Install the PXT command line
+
+       npm install -g pxt
+
+1. Install the pxt-maker dependencies.
+
+       npm install
+
+1. Link pxt-maker back to base pxt repo
+
+       npm link ../pxt
+       npm link ../pxt-common-packages
+       
 Note the above command assumes the folder structure of   
+
 ```
        maker.makecode.com
           |
   ----------------------------------
   |       |                        |
  pxt      pxt-common-packages  pxt-maker
- ```
+```
 
 ### Running
 
@@ -75,11 +84,6 @@ pxt serve --localbuild
 ```
 If the local server opens in the wrong browser, make sure to copy the URL containing the local token. 
 Otherwise, the editor will not be able to load the projects.
-
-If you need to modify the `.cpp` files (and have installed yotta), enable yotta compilation using the `--localbuild` flag:
-```
-pxt serve --localbuild
-```
 
 ### Updates
 
