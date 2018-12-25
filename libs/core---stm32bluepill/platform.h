@@ -9,17 +9,6 @@
 #include "STM32BluePillPin.h"
 #include "MultiButton.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-// void target_wait_us(unsigned long us);
-// int target_seed_random(uint32_t rand);
-
-#ifdef __cplusplus
-}
-#endif
-
 #define PAGE_SIZE 1024
 
 #define DEV_NUM_PINS 48
@@ -36,6 +25,12 @@ extern "C" {
 #define CODAL_TIMER codal::_cm::Timer
 
 #define IMAGE_BITS 4
+
+// From pxt-common-packages/libs/base/pxtbase.h:
+// #define PXT_IN_ISR() (SCB->ICSR & SCB_ICSR_VECTACTIVE_Msk)
+
+extern "C" uint32_t target_in_isr(void);
+#define PXT_IN_ISR() target_in_isr()
 
 // The parameters below needs tuning!
 

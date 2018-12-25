@@ -1,3 +1,34 @@
 {
-    "additionalFilePath": "../../node_modules/pxt-common-packages/libs/base"
+    "additionalFilePath": "../../node_modules/pxt-common-packages/libs/base",
+    "name": "base",
+    "description": "The base library",
+    "files": [
+        "README.md",
+        "pxt-core.d.ts",
+        "pxt.cpp",
+        "gc.cpp",
+        "configkeys.h",
+        "pxtbase.h",
+        "core.cpp",
+        "advmath.cpp",
+        "pxt-helpers.ts",
+        "buffer.cpp",
+        "buffer.ts",
+        "shims.d.ts",
+        "enums.d.ts",
+        "loops.cpp",
+        "math.ts",
+        "ns.ts",
+        "control.cpp",
+        "control.ts",
+        "console.ts",
+        "json.ts",
+        "eventcontext.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "dependencies": {},
+    "installedVersion": "file:../base"
 }

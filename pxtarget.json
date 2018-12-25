@@ -10,11 +10,8 @@
         "libs/base",
         "libs/core",
         "libs/core---stm32bluepill",
-        "libs/pixel",
-        "libs/light",
         "libs/stm32bluepill",
         "libs/tests",
-        "libs/servo",
         "libs/serial",
         "libs/datalogger"
     ],
