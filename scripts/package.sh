@@ -1,4 +1,5 @@
-# See https://makecode.com/cli/staticpkg
+#!/usr/bin/env bash
+# Package and deploy pxt-maker. See https://makecode.com/cli/staticpkg
 
 package() {
     # Package and test locally

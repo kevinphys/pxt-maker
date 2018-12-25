@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Script to build and run pxt-maker for STM32 Blue Pill:
 # cd maker.makecode.com/pxt-maker
 # ./scripts/run.sh
