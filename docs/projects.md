@@ -15,10 +15,18 @@
     {
         "name": "Actuators",
         "url": "/projects/actuators"
-    }
+    },
     {
         "name": "HID",
         "url": "/projects/hid"
+    },
+    {
+        "name": "Storage",
+        "url": "/projects/storage"
+    },
+    {
+        "name": "JacDac (beta)",
+        "url": "/projects/jacdac"
     }
 ]
 ```
@@ -28,4 +36,6 @@
 [Digital IO](/projects/digital-io),
 [Analog IO](/projects/analog-io),
 [Actuators](/projects/actuators),
-[HID](/projects/hid)
+[HID](/projects/hid),
+[Storage](/projects/storage),
+[JACDAC (beta)](/projects/jacdac)

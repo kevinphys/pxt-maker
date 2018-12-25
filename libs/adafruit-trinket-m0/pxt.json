@@ -12,14 +12,17 @@
     ],
     "core": true,
     "dependencies": {
-        "core": "file:../core",
+        "core---samd": "file:../core---samd",
         "buttons": "file:../buttons",
+        "light": "file:../light",
         "touch": "file:../touch",
         "pixel": "file:../pixel"
     },
     "public": true,
+    "compileServiceVariant": "samd21",
     "features": [
         "uf2",
+        "i2c",
         "pixel",
         "pinled",
         "pind0",
@@ -29,6 +32,8 @@
         "buttond0",
         "buttond1",
         "touchd0",
-        "touchd1"
+        "touchd1",
+        "light",
+        "light"
     ]
 }

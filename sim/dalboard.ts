@@ -21,11 +21,15 @@ namespace pxsim {
         CapTouchBoard,
         AccelerometerBoard,
         PixelBoard,
-        StorageBoard {
+        StorageBoard,
+        JacDacBoard,
+        LightSensorBoard,
+        TemperatureBoard,
+        MicrophoneBoard {
         // state & update logic for component services
         view: SVGElement;
         edgeConnectorState: EdgeConnectorState;
-        lightSensorState: LightSensorState;
+        lightSensorState: AnalogSensorState;
         buttonState: CommonButtonState;
         _neopixelState: pxt.Map<CommonNeoPixelState>;
         audioState: AudioState;
@@ -34,6 +38,10 @@ namespace pxsim {
         touchButtonState: TouchButtonState;
         accelerometerState: AccelerometerState;
         storageState: StorageState;
+        jacdacState: JacDacState;
+        thermometerState: AnalogSensorState;
+        thermometerUnitState: TemperatureUnit;
+        microphoneState: AnalogSensorState;
 
         constructor(public boardDefinition: BoardDefinition) {
             super();
@@ -95,7 +103,12 @@ namespace pxsim {
             this.pixelPin = this.neopixelPin;
 
             this._neopixelState = {};
+            this.microphoneState = new AnalogSensorState(DAL.DEVICE_ID_MICROPHONE, 52, 120, 75, 96);
             this.storageState = new StorageState();
+            this.jacdacState = new JacDacState(this);
+            this.lightSensorState = new AnalogSensorState(DAL.DEVICE_ID_LIGHT_SENSOR, 0, 255, 128 / 4, 896 / 4);
+            this.thermometerState = new AnalogSensorState(DAL.DEVICE_ID_THERMOMETER, -20, 50, 10, 30);
+            this.thermometerUnitState = TemperatureUnit.Celsius;
             this.bus.setNotify(DAL.DEVICE_ID_NOTIFY, DAL.DEVICE_ID_NOTIFY_ONE);
 
             // TODO we need this.buttonState set for pxtcore.getButtonByPin(), but
@@ -137,6 +150,7 @@ namespace pxsim {
         }
 
         receiveMessage(msg: SimulatorMessage) {
+            super.receiveMessage(msg);
             if (!runtime || runtime.dead) return;
 
             switch (msg.type || "") {
@@ -181,7 +195,8 @@ namespace pxsim {
                 maxHeight: "100%",
             };
             const viewHost = new visuals.BoardHost(pxsim.visuals.mkBoardView({
-                visual: boardDef.visual
+                visual: boardDef.visual,
+                boardDef
             }), opts);
 
             document.body.innerHTML = ""; // clear children

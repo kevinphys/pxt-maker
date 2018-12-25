@@ -12,13 +12,17 @@
     ],
     "core": true,
     "dependencies": {
-        "core": "file:../core",
+        "core---samd": "file:../core---samd",
         "buttons": "file:../buttons",
+        "light": "file:../light",
         "touch": "file:../touch",
         "pixel": "file:../pixel",
-        "storage": "file:../storage"
+        "storage": "file:../storage",
+        "serial": "file:../serial",
+        "jacdac": "file:../jacdac"
     },
     "public": true,
+    "compileServiceVariant": "samd21",
     "weight": 100,
     "features": [
         "uf2",
@@ -32,6 +36,8 @@
         "buttond1",
         "toucha0",
         "toucha1",
-        "storage"
+        "storage",
+        "light",
+        "jacdac"
     ]
 }
