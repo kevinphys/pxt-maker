@@ -24,7 +24,7 @@ The local server lets you to run the editor and serve the documentation from you
 
 1. Install [Node.js](https://nodejs.org/) 8.9.4 or higher.
 
-1. Install [Docker](https://www.docker.com/). For Ubuntu and Windows Ubuntu, run `sudo apt install docker.io`
+1. Install [Docker](https://www.docker.com/). For Ubuntu (but not Windows Ubuntu), run `sudo apt install docker.io`
 
 1. Install [ninja](https://ninja-build.org/). For Ubuntu and Windows Ubuntu, run `sudo apt install ninja-build`
 
@@ -84,6 +84,53 @@ pxt serve --localbuild
 ```
 If the local server opens in the wrong browser, make sure to copy the URL containing the local token. 
 Otherwise, the editor will not be able to load the projects.
+
+While fixing the build you may suppress the browser like this:
+```
+pxt serve --localbuild --no-browser
+```
+
+### Running on Windows Ubuntu Bash
+
+Because Docker is not supported on Windows Ubuntu, the build will fail with an error like this:
+```log
+building libs/base
+building libs/core
+building libs/core---stm32bluepill
+building libs/stm32bluepill
+[run] cd built/dockercodal; docker run --rm -v /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/:/src -w /src -u build pext/yotta:latest python build.py
+INTERNAL ERROR: Error: spawn docker ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:190:19)
+    at onErrorNT (internal/child_process.js:362:16)
+    at _combinedTickCallback (internal/process/next_tick.js:139:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+```
+
+Look for the folder name before `:/src`. Manually continue the build for the folder like this:
+```bash
+cd /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/
+export VERBOSE=1
+python build.py
+```
+
+Eventually the `libs/stm32bluepill` build will succeed...
+```log
+make[2]: Entering directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
+[ 99%] converting to hex file.
+/usr/bin/arm-none-eabi-objcopy -O ihex /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL.hex
+[100%] converting to bin file.
+/usr/bin/arm-none-eabi-objcopy -O binary /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL.bin
+make[2]: Leaving directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
+make[2]: Leaving directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
+[100%] Built target STM32_BLUE_PILL_hex
+[100%] Built target STM32_BLUE_PILL_bin
+make[1]: Leaving directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
+/usr/bin/cmake -E cmake_progress_start /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/CMakeFiles 0
+```
+
+TODO: How to resume build
+
+Return to `pxt-maker` and re-run `pxt serve --localbuild --no-browser`
 
 ### Updates
 
