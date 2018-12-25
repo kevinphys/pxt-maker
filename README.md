@@ -92,21 +92,25 @@ pxt serve --localbuild --no-browser
 
 ### Running on Windows Ubuntu Bash
 
-Because Docker is not supported on Windows Ubuntu, the build will fail with an error like this:
+Because Docker is not supported on Windows Ubuntu, we will install a dummy `docker` command to intervene manually during the build...
+
+```bash
+chmod +x scripts/docker
+sudo cp scripts/docker /usr/local/bin/
+pxt serve --localbuild --no-browser
+```
+
+The build will pause at the `docker` step like this:
 ```log
 building libs/base
 building libs/core
 building libs/core---stm32bluepill
 building libs/stm32bluepill
 [run] cd built/dockercodal; docker run --rm -v /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/:/src -w /src -u build pext/yotta:latest python build.py
-INTERNAL ERROR: Error: spawn docker ENOENT
-    at Process.ChildProcess._handle.onexit (internal/child_process.js:190:19)
-    at onErrorNT (internal/child_process.js:362:16)
-    at _combinedTickCallback (internal/process/next_tick.js:139:11)
-    at process._tickCallback (internal/process/next_tick.js:181:9)
+***** Paused in dummy docker script. Press Enter to continue build...
 ```
 
-Look for the folder name before `:/src`. Manually continue the build for the folder like this:
+Look for the folder name before `:/src`. In a new shell, manually `cd` to the folder and continue the build in that folder like this:
 ```bash
 cd /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/
 export VERBOSE=1
@@ -115,22 +119,34 @@ python build.py
 
 Eventually the `libs/stm32bluepill` build will succeed...
 ```log
-make[2]: Entering directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
+Entering directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
 [ 99%] converting to hex file.
-/usr/bin/arm-none-eabi-objcopy -O ihex /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL.hex
+...
 [100%] converting to bin file.
-/usr/bin/arm-none-eabi-objcopy -O binary /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL.bin
-make[2]: Leaving directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
-make[2]: Leaving directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
+...
 [100%] Built target STM32_BLUE_PILL_hex
 [100%] Built target STM32_BLUE_PILL_bin
-make[1]: Leaving directory `/mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build'
-/usr/bin/cmake -E cmake_progress_start /mnt/c/maker.makecode.com/pxt-maker/libs/stm32bluepill/built/dockercodal/build/CMakeFiles 0
 ```
 
-TODO: How to resume build
+Return to the `pxt-maker` shell and press Enter.  It will continue the build.
 
-Return to `pxt-maker` and re-run `pxt serve --localbuild --no-browser`
+When the build pauses in a different folder like `libs/blocksprj/built/dockercodal`, repeat the above steps.
+
+Here are the folders that require manual building:
+
+```
+libs/stm32bluepill/built/dockercodal
+libs/blocksprj/built/dockercodal
+```
+
+TODO: Fix this build error:
+```
+[run] cd sim; node ../node_modules/typescript/bin/tsc
+dalboard.ts(183,78): error TS2345: Argument of type '{ visual: string | BoardImageDefinition; }' is not assignable to parameter of type 'BoardViewOptions'.
+  Property 'boardDef' is missing in type '{ visual: string | BoardImageDefinition; }'.
+visuals/boardview.ts(3,42): error TS2345: Argument of type '{ runtime: Runtime; theme: IBoardTheme; visualDef: BoardImageDefinition; disableTilt: false; wire...' is not assignable to parameter of type 'MetroBoardProps'.
+  Property 'boardDef' is missing in type '{ runtime: Runtime; theme: IBoardTheme; visualDef: BoardImageDefinition; disableTilt: false; wire...'.
+```
 
 ### Updates
 

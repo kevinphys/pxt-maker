@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Dummy replacement for the docker command
+
+echo "***** Paused in dummy docker script. Press Enter to continue build..."
+read docker_tmp
