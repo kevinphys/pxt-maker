@@ -29,51 +29,45 @@ The local server lets you to run the editor and serve the documentation from you
 1. Install [ninja](https://ninja-build.org/). For Ubuntu and Windows Ubuntu, run `sudo apt install ninja-build`
 
 1. Clone the pxt repository.
-       ```
+
        mkdir maker.makecode.com
        cd maker.makecode.com
        git clone https://github.com/microsoft/pxt
        cd pxt
-       ```
 
 1. Install the dependencies of ``Microsoft/pxt`` and build it
-       ```
+
        npm install
        npm run build
        cd ..
-       ```
 
 1. Clone the ``Microsoft/pxt-common-packages`` repository
-       ```
+
        git clone https://github.com/microsoft/pxt-common-packages
        cd pxt-common-packages
        npm install
        cd ..
-       ```
 
 1. Clone the ``lupyuen/pxt-maker`` repository
-       ```
+
        git clone https://github.com/lupyuen/pxt-maker
        cd pxt-maker
-       ```
 
 1. Install the PXT command line
-       ```
+
        npm install -g pxt
-       ```
 
 1. Install the pxt-maker dependencies.
-       ```
+
        npm install
-       ```
 
 1. Link pxt-maker back to base pxt repo
-       ```
+
        npm link ../pxt
        npm link ../pxt-common-packages
-       ```
        
 Note the above command assumes the folder structure of   
+
 ```
        maker.makecode.com
           |
