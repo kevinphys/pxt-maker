@@ -11,7 +11,8 @@
 
 #define PAGE_SIZE 1024
 
-#define DEV_NUM_PINS 48
+//  How many pins this device has.
+#define DEV_NUM_PINS 128
 
 #define DEV_PWM_PINS 0x0000E0030FCEULL
 #define DEV_AIN_PINS 0x003f000300ffULL
@@ -34,7 +35,7 @@ extern "C" uint32_t target_in_isr(void);
 
 // The parameters below needs tuning!
 
-//  TODO: Sync with pxt-common-packages/libs/core/pins.h and codal-libopencm3
+//  TODO: Sync with pxt-common-packages/libs/core/pins.h and codal-libopencm3/stm32/cm/CmPinName.h
 #define CFG_PIN_PA0 100
 #define CFG_PIN_PA1 101
 #define CFG_PIN_PA2 102
