@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 # Dummy replacement for the docker command
 
-echo "***** Paused in dummy docker script. Press Enter to continue build..."
+echo "***** Paused in dummy docker script. Open another window and enter:"
+
+echo "cd $PWD"
+echo "export VERBOSE=1"
+echo "python build.py"
+
+echo "***** Press Enter to continue build..."
 read docker_tmp
