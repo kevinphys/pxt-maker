@@ -24,9 +24,9 @@ The local server lets you to run the editor and serve the documentation from you
 
 1. Install [Node.js](https://nodejs.org/) 8.9.4 or higher.
 
-1. Install [Docker](https://www.docker.com/). For Ubuntu (but not Windows Ubuntu), run `sudo apt install docker.io`
-
 1. Install [ninja](https://ninja-build.org/). For Ubuntu and Windows Ubuntu, run `sudo apt install ninja-build`
+
+1. For Mac and Linux: Install [Docker](https://www.docker.com/). For Ubuntu (but not Windows Ubuntu), run `sudo apt install docker.io`. Do not install Docker for Windows.
 
 1. Clone the pxt repository.
 
