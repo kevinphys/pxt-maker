@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 # Dummy replacement for the docker command
 
-echo "***** Paused in dummy docker script. Open another window and enter:"
+# Exit when any command fails
+set -e
+echo "***** dummy docker script starting sub-build in $PWD"
 
 echo "cd $PWD"
+cd "$PWD"
 echo "export VERBOSE=1"
+export VERBOSE=1
 echo "python build.py"
+python build.py
 
-echo "***** Press Enter to continue build..."
-read docker_tmp
+echo "***** dummy docker script finished sub-build in $PWD"
