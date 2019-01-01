@@ -9,26 +9,26 @@ set remotetimeout 100000
 target remote :1234
 
 # Disable all messages.
-set verbose off
-set complaints 0
-set confirm off
-set exec-done-display off
-show exec-done-display
-set trace-commands off
-set debug displaced off 
-set debug expression 0
-set debug frame 0
-set debug infrun 0
-set debug observer 0
-set debug overload 0
-set pagination off
-set print address off
-set print symbol-filename off
-set print symbol off
-set print pretty off
-set print object off
-set debug parser off
-set debug remote 0
+# set verbose off
+# set complaints 0
+# set confirm off
+# set exec-done-display off
+# show exec-done-display
+# set trace-commands off
+# set debug displaced off 
+# set debug expression 0
+# set debug frame 0
+# set debug infrun 0
+# set debug observer 0
+# set debug overload 0
+# set pagination off
+# set print address off
+# set print symbol-filename off
+# set print symbol off
+# set print pretty off
+# set print object off
+# set debug parser off
+# set debug remote 0
 
 # Print demangled symbols by default.
 set print asm-demangle on
@@ -43,17 +43,21 @@ set print asm-demangle on
 # monitor halt
 # monitor sleep 1000
 
-# Specify the target program to be debugged.  Must be specified here (not the command line) because the VSCode debugger will fail without it.
-file libs/stm32bluepill/built/dockercodal/build/STM32_BLUE_PILL
+# Rewrite pathnames from /mnt/c/stm32bluepill-makecode/... to ./...
+set substitute-path /mnt/c/stm32bluepill-makecode .
+set substitute-path /src/libraries ./pxt-maker/projects/blink/built/dockercodal/libraries
 
-# Load the program into device memory.
-load
+# Specify the target program to be debugged.  Must be specified here (not the command line) otherwise the break command below will not work.
+file pxt-maker/projects/blink/built/dockercodal/build/STM32_BLUE_PILL
+
+# Load the above program into device memory.  Note: This will overwrite the memory used by the program specified at command line.
+# load
 
 # Set breakpoint at the main() function.
-break main
+# break main
 
 # Run the program and stop at the main() function.
-continue
+# continue
 
 # Remove the breakpoint at the main() function.
 # clear stm32_blue_pill_rust::main

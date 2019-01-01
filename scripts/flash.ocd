@@ -21,7 +21,7 @@ flash list
 
 echo "Flashing the Blue Pill..."
 flash write_image erase unlock pxt-maker/projects/blink/built/flash.bin 0x08000000
-flash verify_bank 0            pxt-maker/projects/blink/built/flash.bin 0x08000000
+flash verify_bank 0            pxt-maker/projects/blink/built/flash.bin 0
 
 # Restart the device.
 echo "Restarting the Blue Pill..."
