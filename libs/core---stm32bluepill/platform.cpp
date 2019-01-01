@@ -7,7 +7,6 @@ extern "C" void debug_println(const char *s);  //  TODO: Write a string plus new
 extern "C" void debug_flush(void);             //  TODO: Flush the buffer of the debug log so that buffered data will appear.
 
 namespace pxt {
-
     extern CODAL_TIMER devTimer;
 
     static void initRandomSeed() {
@@ -24,14 +23,9 @@ namespace pxt {
         initRandomSeed();
         //  setSendToUART(platformSendSerial);
     }
-
-    void cpu_clock_init() {
-        debug_println("---pxt::cpu_clock_init1"); ////
-        devTimer.init();
-    }
 }
 
 void cpu_clock_init() {
-    debug_println("---pxt::cpu_clock_init2"); ////
+    debug_println("---pxt::cpu_clock_init"); ////
     devTimer.init();
 }
