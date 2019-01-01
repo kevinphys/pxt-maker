@@ -14,7 +14,7 @@ python2 ../../scripts/uf2conv.py \
 
 # Copy the linker map
 cp built/dockercodal/build/STM32_BLUE_PILL.map \
-    ./../logs/
+    ../../logs/
 
 # Disassemble the executable
 arm-none-eabi-objdump -t -S \

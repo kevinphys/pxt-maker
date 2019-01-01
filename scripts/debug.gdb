@@ -5,8 +5,10 @@ set architecture arm
 
 # Send GDB commands to OpenOCD, which listens on port 3333.  Extend the timeout.
 set remotetimeout 100000
-# target remote :3333
-target remote :1234
+target remote :3333
+
+# For QEMU
+# target remote :1234
 
 # Disable all messages.
 # set verbose off
@@ -34,18 +36,21 @@ target remote :1234
 set print asm-demangle on
 
 # Enable ARM semihosting to show debug console output in OpenOCD console.
-# monitor arm semihosting enable
+monitor arm semihosting enable
 
 # Reset the device.
-# monitor reset init
-# monitor reset
+monitor reset init
+monitor reset run
 # monitor sleep 1000
-# monitor halt
-# monitor sleep 1000
+monitor halt
+monitor sleep 1000
 
 # Rewrite pathnames from /mnt/c/stm32bluepill-makecode/... to ./...
 set substitute-path /mnt/c/stm32bluepill-makecode .
 set substitute-path /src/libraries ./pxt-maker/projects/blink/built/dockercodal/libraries
+set substitute-path /Users/Luppy/stm32bluepill-makecode/pxt-maker/projects/blink/built/dockercodal/libraries/codal-libopencm3 /Users/Luppy/codal-libopencm3
+# set substitute-path /Users/Luppy/stm32bluepill-makecode/pxt-maker/projects/blink/built/dockercodal/pxtapp/core---stm32bluepill /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/core---stm32bluepill
+# set substitute-path /Users/Luppy/stm32bluepill-makecode/pxt-maker/projects/blink/built/dockercodal/pxtapp/stm32bluepill /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill
 
 # Specify the target program to be debugged.  Must be specified here (not the command line) otherwise the break command below will not work.
 file pxt-maker/projects/blink/built/dockercodal/build/STM32_BLUE_PILL
