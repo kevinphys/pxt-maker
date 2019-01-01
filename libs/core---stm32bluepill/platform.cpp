@@ -8,25 +8,30 @@ extern "C" void debug_flush(void);             //  TODO: Flush the buffer of the
 
 namespace pxt {
 
-    // extern "C" void target_wait_us(unsigned long us) { wait_us(us); }
+    extern CODAL_TIMER devTimer;
 
     static void initRandomSeed() {
+        debug_println("---pxt::initRandomSeed"); //// 
         //  TODO
     }
 
     void platformSendSerial(const char *data, int len) {
-        //  TODO
+        debug_println("---pxt::platformSendSerial"); //// 
     }
 
     void platform_init() {
-        debug_println("---pxt::platform_init"); debug_flush();  //// TODO
+        debug_println("---pxt::platform_init"); //// 
         initRandomSeed();
         //  setSendToUART(platformSendSerial);
     }
 
+    void cpu_clock_init() {
+        debug_println("---pxt::cpu_clock_init1"); ////
+        devTimer.init();
+    }
 }
 
 void cpu_clock_init() {
-    //  TODO
-    // missing in Codal
+    debug_println("---pxt::cpu_clock_init2"); ////
+    devTimer.init();
 }
