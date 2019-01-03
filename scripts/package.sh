@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Package and deploy pxt-maker. See https://makecode.com/cli/staticpkg
+# Package into static website and test locally. See https://makecode.com/cli/staticpkg
 
 package() {
     # Package and test locally
@@ -8,9 +8,3 @@ package() {
     pxt serve -pkg
 }
 package
-
-deploy() {
-    # Deploy to https://lupyuen.github.io/pxt-maker
-    cd ../pxt-maker; pxt staticpkg --githubpages
-}
-# deploy
