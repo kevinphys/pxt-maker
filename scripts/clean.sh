@@ -1,0 +1,10 @@
+rm -rf ./projects/blink/built
+rm -rf ./built
+rm -rf ./libs/blocksprj/built
+rm -rf ./libs/core---stm32bluepill/built
+rm -rf ./libs/core/built
+rm -rf ./libs/tests/built
+rm -rf ./libs/datalogger/built
+rm -rf ./libs/stm32bluepill/built
+rm -rf ./libs/base/built
+rm -rf ./libs/serial/built
