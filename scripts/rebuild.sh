@@ -26,8 +26,8 @@ echo "pushd libs/stm32bluepill/built/dockercodal"
 pushd libs/stm32bluepill/built/dockercodal
 echo "rm -rf build"
 rm -rf build
-echo "export VERBOSE=1 ; python build.py"
-export VERBOSE=1 ; python build.py
+echo "export VERBOSE= ; python build.py"
+export VERBOSE= ; python build.py
 echo "popd"
 popd
 
@@ -35,8 +35,8 @@ echo "pushd libs/blocksprj/built/dockercodal"
 pushd libs/blocksprj/built/dockercodal
 echo "rm -rf build"
 rm -rf build
-echo "export VERBOSE=1 ; python build.py"
-export VERBOSE=1 ; python build.py
+echo "export VERBOSE= ; python build.py"
+export VERBOSE= ; python build.py
 echo "popd"
 popd
 
@@ -44,8 +44,8 @@ echo "pushd projects/blink/built/dockercodal"
 pushd projects/blink/built/dockercodal
 echo "rm -rf build"
 rm -rf build
-echo "export VERBOSE=1 ; python build.py"
-export VERBOSE=1 ; python build.py
+echo "export VERBOSE= ; python build.py"
+export VERBOSE= ; python build.py
 echo "popd"
 popd
 
