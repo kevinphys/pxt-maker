@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Script to flash the UF2 build output to STM32 Blue Pill via OpenOCD.
 
 # UF2 file to be flashed.
