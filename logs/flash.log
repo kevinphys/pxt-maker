@@ -1,0 +1,116 @@
+→ ./scripts/flash2.sh
+-rw-r--r--@ 1 Luppy  staff  108032 Jan  4 13:26 binary.uf2
+Converting to bin, output size: 54528, start address: 0x8000000
+Wrote 54528 bytes to flash.bin.
+Open On-Chip Debugger 0.10.0
+Licensed under GNU GPL v2
+For bug reports, read
+        http://openocd.org/doc/doxygen/bugs.html
+Info : auto-selecting first available session transport "hla_swd". To override use 'transport select <transport>'.
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 1000 kHz
+adapter_nsrst_delay: 100
+none separate
+debug_level: 0
+semihosting is enabled
+NOTE: Trash this window before flashing the Blue Pill again
+Stopping the Blue Pill...
+target halted due to debug-request, current mode: Thread
+xPSR: 0x01000000 pc: 0x08000150 msp: 0x20005000, semihosting
+#0 : stm32f1x.flash (stm32f1x) at 0x08000000, size 0x00000000, buswidth 0, chipwidth 0
+Flashing the Blue Pill...
+auto erase enabled
+auto unlock enabled
+target halted due to breakpoint, current mode: Thread
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
+target halted due to breakpoint, current mode: Thread
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
+wrote 55296 bytes from file flash.bin in 3.068479s (17.598 KiB/s)
+read 54528 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.159217s (45.936 KiB/s)
+contents match
+Restarting the Blue Pill...
+----platform_setup
+heap start: 20001678, end: 20004800, size: 12 KB, stack used: 0 KB
+platform_start_timer
+rtc awake...
+rtc awake ok
+----bootloader
+boot_target_get_serial_number
+usb_set_serial_number
+app exists
+----application mode
+usb_setup
+flash allow 08006800 to 08010000
+sync! sync! sync! sync! ---pxt::cpu_clock_init
+timer init
+set restart callback 0800bbad
+---pxt::platform_init
+---pxt::initRandomSeed
+wt <1> wt <5> wt <1> wt <5> wt <1> wt <5.SET_ADR
+u{ ........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
+bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
+...weburl typ c0, req 22, val 0001, idx 0002, len 00ff
+.>>  typ 00, req 09, val 0001, idx 0000, len 0000, SET_CFG     t 00 i 01
+HF2 config
+.......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
+} > wt <1> wt <5> wt <1> wt <5> wt <1> wt <5.02restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 4a 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> wt <1> wt <5> .>>  typ 02, req 01, val 0000, idx 0082, len 0000
+u{ .>>  typ 02, req 01, val 0000, idx 0082, len 0000
+hf2 >> bininfo
+hf2 << 25 / 58 4b 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 4d 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+} wt <1> wt <5> wt <1hf2 >> bininfo
+hf2 << 25 / 58 4e 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> start
+hf2 << 5 / 44 4f 9c 00 00
+restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 50 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+> wt <5hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+> wt <1> wt <5> hf2 >> bininfo
+hf2 << 25 / 58 52 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> start
+hf2 << 5 / 44 53 9c 00 00
+restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 54 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+wt <1> wt <5> wt <1> wt <5> wt <1> wt <5hf2 >> bininfo
+hf2 << 25 / 58 56 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> start
+hf2 << 5 / 44 57 9c 00 00
+restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 58 9c 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+> hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+wt <1> wt <5> wt <1> wt <5.>>  typ 02, req 01, val 0000, idx 0082, len 0000
+u{ .>>  typ 02, req 01, val 0000, idx 0082, len 0000
+.>>  typ 02, req 01, val 0000, idx 0082, len 0000
+} > wt <1> wt <5.>>  typ 02, req 01, val 0000, idx 0082, len 0000
+u{ hf2 >> bininfo
+  restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 f6 58 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+} > wt <1> wt <5hf2 >> bininfo
+hf2 << 25 / 58 f7 58 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> start
+hf2 << 5 / 44 f8 58 00 00
+restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 f9 58 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+> wt <1hf2 >> bininfo
+hf2 << 25 / 58 fb 58 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> start
+hf2 << 5 / 44 fc 58 00 00

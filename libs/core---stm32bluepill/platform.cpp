@@ -5,6 +5,8 @@
 extern "C" void debug_print(const char *s);    //  TODO: Write a string to the buffered debug log.
 extern "C" void debug_println(const char *s);  //  TODO: Write a string plus newline to the buffered debug log.
 extern "C" void debug_flush(void);             //  TODO: Flush the buffer of the debug log so that buffered data will appear.
+extern "C" void debug_force_flush(void);       //  TODO: Flush the buffer of the debug log so that buffered data will appear.
+extern "C" int start_background_tasks(void);
 
 namespace pxt {
     extern CODAL_TIMER devTimer;
@@ -28,4 +30,6 @@ namespace pxt {
 void cpu_clock_init() {
     debug_println("---pxt::cpu_clock_init"); ////
     devTimer.init();
+    start_background_tasks();
+    debug_force_flush(); ////
 }

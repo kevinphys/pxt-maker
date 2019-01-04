@@ -56,4 +56,5 @@ pushd projects/blink
 popd
 
 # pxt serve --localbuild --no-browser
+
 pxt staticpkg && pxt serve -pkg

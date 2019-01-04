@@ -2,16 +2,16 @@
 ; Virtual methods: 0 / 0
 ; generated code sizes (bytes): 1428 (incl. 734 user, 554 helpers, 12 vtables, 128 lits); src size 896
 ; assembly: 982 lines; density: 104.86 bytes/stmt; (7 stmts)
-; total bytes: 55316 (42.2% of 128.0k flash with 75756 free)
+; total bytes: 54804 (41.8% of 128.0k flash with 76268 free)
 ; peep hole pass: 17 instructions removed and 15 updated
 ; peep hole pass: 0 instructions removed and 0 updated
 
 
 ; start
-    .startaddr 0x800cf00
+    .startaddr 0x800cd00
     .hex 708E3B92C615A841C49866C975EE5197 ; magic number
-    .hex 0A6C1C1E0AB5873D ; hex template hash
-    .hex 7D4D19ED38F7903E ; program hash
+    .hex 002A864EEDF3E263 ; hex template hash
+    .hex DF85D43A76AB7ADD ; program hash
     .short 3   ; num. globals
     .short 0 ; patched with number of 64 bit words resulting from assembly
     .word _pxt_config_data
