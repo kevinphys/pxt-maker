@@ -11,7 +11,8 @@ CODALCORE=$PWD/../../codal-core
 NEWLIB=$PWD/../../newlib
 
 # Enable verbose log.
-export VERBOSE=1
+# export VERBOSE=1
+export VERBOSE=
 
 rebuild_stm32bluepill() {
     # Rebuild stm32bluepill.
