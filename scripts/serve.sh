@@ -34,6 +34,7 @@ pkill -f "node .*pxt"
 
 # Push the hexcache to visualbluepill.github.io
 cp built/hexcache/* ../../visualbluepill.github.io/compile/
+set +e
 
 pushd ../../visualbluepill.github.io
 git add --all
@@ -41,4 +42,5 @@ git commit --message="Update hexcache"
 git push
 popd
 
+set -e
 echo "Done"
