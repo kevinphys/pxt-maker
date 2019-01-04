@@ -32,26 +32,20 @@ popd
 pushd libs/stm32bluepill/built/dockercodal
 rm -rf build
 patch_ninja
-export VERBOSE= ; python build.py
+# export VERBOSE= ; python build.py
 popd
 
 pushd libs/blocksprj/built/dockercodal
 rm -rf build
 patch_ninja
-export VERBOSE= ; python build.py
+# export VERBOSE= ; python build.py
 popd
 
 pushd projects/blink/built/dockercodal
 rm -rf build
 patch_ninja
-export VERBOSE= ; python build.py
+# export VERBOSE= ; python build.py
 popd
-
-build_demo() {
-    pushd projects/blink
-    ./build.sh
-    popd
-}
 
 # Remove hexcache.
 if [ -f built/hexcache/* ]
@@ -76,6 +70,34 @@ sleep 10
 # Kill "pxt serve"
 pkill -f "node .*pxt"
 
-build_demo && pxt staticpkg && pxt serve -pkg
+pushd libs/stm32bluepill/built/dockercodal
+# rm -rf build
+# patch_ninja
+export VERBOSE= ; python build.py
+popd
+
+pushd libs/blocksprj/built/dockercodal
+# rm -rf build
+# patch_ninja
+export VERBOSE= ; python build.py
+popd
+
+pushd projects/blink/built/dockercodal
+# rm -rf build
+# patch_ninja
+export VERBOSE= ; python build.py
+popd
+
+build_demo() {
+    pushd projects/blink
+    ./build.sh
+    popd
+}
+
+build_demo
+
+pxt staticpkg
+
+pxt serve -pkg
 
 echo "Done"
