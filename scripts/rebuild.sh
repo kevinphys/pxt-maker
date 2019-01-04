@@ -47,28 +47,8 @@ patch_ninja
 # export VERBOSE= ; python build.py
 popd
 
-# Remove hexcache.
-if [ -f built/hexcache/* ]
-then
-    rm built/hexcache/*
-fi
-
-# Run "pxt serve" in the background since it never stops.
-pxt serve --localbuild --no-browser &
-
-# Wait for hexcache to be built by "pxt serve".
-for (( ; ; ))
-do
-    if [ -f built/hexcache/* ]
-    then
-        break
-    fi
-    sleep 10
-done
-sleep 10
-
-# Kill "pxt serve"
-pkill -f "node .*pxt"
+# Wait for "pxt serve" to finish building and kill it.
+./scripts/serve.sh
 
 pushd libs/stm32bluepill/built/dockercodal
 # rm -rf build
@@ -96,8 +76,6 @@ build_demo() {
 
 build_demo
 
-pxt staticpkg
-
-pxt serve -pkg
+pxt staticpkg && pxt serve -pkg
 
 echo "Done"
