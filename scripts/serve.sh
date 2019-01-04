@@ -25,11 +25,20 @@ do
     then
         break
     fi
-    sleep 10
+    sleep 30
 done
-sleep 10
+sleep 30
 
 # Kill "pxt serve"
 pkill -f "node .*pxt"
+
+# Push the hexcache to visualbluepill.github.io
+cp built/hexcache/* ../../visualbluepill.github.io/compile/
+
+pushd ../../visualbluepill.github.io
+git add --all
+git commit --message="Update hexcache"
+git push
+popd
 
 echo "Done"
