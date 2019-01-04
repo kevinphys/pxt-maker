@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Build the sample blink project
 
+set -x
+
 rm -rf build pxt_modules
 pxt install
 pxt build --localbuild
@@ -20,3 +22,7 @@ cp built/dockercodal/build/STM32_BLUE_PILL.map \
 arm-none-eabi-objdump -t -S \
     built/dockercodal/build/STM32_BLUE_PILL \
     >../../logs/STM32_BLUE_PILL.dump
+
+# Copy the assembly
+cp built/binary.asm \
+    ../../logs/
