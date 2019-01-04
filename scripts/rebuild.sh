@@ -8,7 +8,7 @@ set -e
 set -x
 
 export PXT_DEBUG=1          # - display extensive logging info
-export PXT_FORCE_LOCAL=     # - compile C++ on the local machine, not the cloud service
+export PXT_FORCE_LOCAL=1    # - compile C++ on the local machine, not the cloud service
 export PXT_NODOCKER=1       # - don't use Docker image, and instead use host's arm-none-eabi-gcc (doesn't apply to Linux targets)
 export PXT_RUNTIME_DEV=     # - always rebuild the C++ runtime, allowing for modification in the lower level runtime if any
 export PXT_ASMDEBUG=1       # - embed additional information in generated binary.asm file
