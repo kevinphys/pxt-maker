@@ -4,7 +4,6 @@
 package() {
     # Package and test locally
     # cd ../pxt; npm run build
-    cd ../pxt-maker; pxt staticpkg
-    pxt serve -pkg
+    cd ../pxt-maker; pxt staticpkg && pxt serve -pkg
 }
 package
