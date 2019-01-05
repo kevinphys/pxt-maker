@@ -1,4 +1,4 @@
--rw-r--r--@ 1 Luppy  staff  108032 Jan  6 00:44 binary.uf2
+-rw-r--r--@ 1 Luppy  staff  108032 Jan  6 01:53 binary.uf2
 Converting to bin, output size: 54784, start address: 0x8000000
 Wrote 54784 bytes to flash.bin.
 Open On-Chip Debugger 0.10.0
@@ -24,8 +24,8 @@ target halted due to breakpoint, current mode: Thread
 xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
 target halted due to breakpoint, current mode: Thread
 xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
-wrote 55296 bytes from file flash.bin in 3.073711s (17.568 KiB/s)
-read 54784 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.164069s (45.959 KiB/s)
+wrote 55296 bytes from file flash.bin in 3.059380s (17.651 KiB/s)
+read 54784 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.164656s (45.936 KiB/s)
 contents match
 Restarting the Blue Pill...
 ----platform_setup
@@ -70,18 +70,8 @@ wt <9> pin 0
 wt <1> pin 1
 wt <9> pin 0
 wt <1> pin 1
-wt <9> pin 0
-wt <1> pin 1
-wt <9> pin 0
-wt <1> pin 1
-wt <9> pin 0
-wt <1> pin 1
-wt <9> pin 0
-wt <1> pin 1
-wt <9> pin 0
-wt <1> pin 1
 wt <9hf2 >> bininfo
-hf2 << 25 / 58 09 26 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 a6 58 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> info
 hf2 << 40
 hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
@@ -108,37 +98,28 @@ hf2 set config
 .......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
 .weburl typ c0, req 22, val 0001, idx 0002, len 00ff
 hf2 >> bininfo
-hf2 << 25 / 58 0c 26 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
-hf2 >> info
-hf2 << 40
-hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
-.>>  typ 02, req 01, val 0000, idx 0082, len 0000
-.>>  typ 02, req 01, val 0000, idx 0082, len 0000
-.>>  typ 02, req 01, val 0000, idx 0082, len 0000
-hf2 >> bininfo
-hf2 << 25 / 58 0e 26 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 a9 58 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> info
 hf2 << 40
 hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
 hf2 >> bininfo
-hf2 << 25 / 58 10 26 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 ab 58 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> start
-hf2 << 5 / 44 11 26 00 00
-hf2 >> flash 00000100 !!! hf2 << 5 / 44 11 26 00 00
+hf2 >> flash 00000100 !!! hf2 << 5 / 44 ac 58 00 00
 *** ERROR: *** ERROR: checkDataSize failed
 hf2 >> bininfo
-hf2 << 25 / 58 12 26 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 ad 58 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> info
 hf2 << 40
-0800cf00 hf2 << 5 / 44 e0 26 00 00
->> 0800d000 hf2 << 5 / 44 e1 26 00 00
->> 0800d100 hf2 << 5 / 44 e2 26 00 00
->> 0800d200 hf2 << 5 / 44 e3 26 00 00
->> 0800d300 hf2 << 5 / 44 e4 26 00 00
->> 0800d400 hf2 << 5 / 44 e5 26 00 00
->> 0800d500 hf2 << 5 / 44 e6 26 00 00
+0800cf00 hf2 << 5 / 44 7b 59 00 00
+>> 0800d000 hf2 << 5 / 44 7c 59 00 00
+>> 0800d100 hf2 << 5 / 44 7d 59 00 00
+>> 0800d200 hf2 << 5 / 44 7e 59 00 00
+>> 0800d300 hf2 << 5 / 44 7f 59 00 00
+>> 0800d400 hf2 << 5 / 44 80 59 00 00
+>> 0800d500 hf2 << 5 / 44 81 59 00 00
 hf2 >> app
-hf2 << 5 / 44 e7 26 00 00
+hf2 << 5 / 44 82 59 00 00
 .>>  typ 02, req 01, val 0000, idx 0082, len 0000
 boot app
 ----platform_setup
@@ -150,7 +131,7 @@ rtc awake ok
 boot_target_get_serial_number
 usb_set_serial_number
 app exists
-----application mode
+----application mode (forced)
 usb_setup
 flash allow 08006800 to 08010000
 sync! sync! sync! sync! ---pxt::cpu_clock_init
@@ -170,10 +151,32 @@ hf2 set config
 .......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
 .weburl typ c0, req 22, val 0001, idx 0002, len 00ff
 hf2 >> bininfo
-hf2 << 25 / 58 e9 26 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 84 59 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> info
 hf2 << 40
 hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+} > pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9hf2 >> bininfo
+hf2 << 25 / 58 86 59 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> start
 boot bootloader
 ----platform_setup
 heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
