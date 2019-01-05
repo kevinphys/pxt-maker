@@ -1,10 +1,16 @@
 
-# Luppy at Luppys-MacBook-Pro.local in ~/stm32bluepill-makecode on git:master ● [13:53:44]
-→ cd pxt-maker
-
-# Luppy at Luppys-MacBook-Pro.local in ~/stm32bluepill-makecode/pxt-maker on git:master ✖︎ [14:05:39]
+# Luppy at Luppys-MacBook-Pro.local in ~/stm32bluepill-makecode/pxt-maker/logs on git:master ● [14:23:35]
 → rm binary.uf2 ; mv maker*.uf2 binary.uf2 ; ./scripts/flash2.sh
--rw-r--r--@ 1 Luppy  staff  107520 Jan  5 14:04 binary.uf2
+rm: binary.uf2: No such file or directory
+zsh: no matches found: maker*.uf2
+zsh: no such file or directory: ./scripts/flash2.sh
+
+# Luppy at Luppys-MacBook-Pro.local in ~/stm32bluepill-makecode/pxt-maker/logs on git:master ✖︎ [14:35:53]
+→ cd ..
+
+# Luppy at Luppys-MacBook-Pro.local in ~/stm32bluepill-makecode/pxt-maker on git:master ✖︎ [14:35:57]
+→ rm binary.uf2 ; mv maker*.uf2 binary.uf2 ; ./scripts/flash2.sh
+-rw-r--r--@ 1 Luppy  staff  107520 Jan  5 14:35 binary.uf2
 Converting to bin, output size: 54784, start address: 0x8000000
 Wrote 54784 bytes to flash.bin.
 Open On-Chip Debugger 0.10.0
@@ -30,8 +36,8 @@ target halted due to breakpoint, current mode: Thread
 xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
 target halted due to breakpoint, current mode: Thread
 xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
-wrote 55296 bytes from file flash.bin in 3.044387s (17.738 KiB/s)
-read 54784 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.162809s (46.009 KiB/s)
+wrote 55296 bytes from file flash.bin in 3.071528s (17.581 KiB/s)
+read 54784 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.165039s (45.921 KiB/s)
 contents match
 Restarting the Blue Pill...
 ----platform_setup
@@ -60,6 +66,158 @@ wt <9> pin 1
 wt <1> pin 0
 wt <9> pin 1
 wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
 wt <9.SET_ADR
 u{ ........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
 bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
@@ -69,33 +227,30 @@ HF2 config
 .......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
 } > pin 1
 wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
 wt <9.>>  typ 02, req 01, val 0000, idx 0082, len 0000
 u{ } > pin 1
 wt <1> pin 0
 wt <9> pin 1
 wt <1> pin 0
-wt <9> pin 1
-wt <1> pin 0
-wt <9> pin 1
-wt <1> pin 0
-wt <9> pin 1
-wt <1> pin 0
-wt <9> pin 1
-wt <1> pin 0
-wt <9> pin 1
-wt <1> pin 0
-wt <9> pin 1
-wt <1> pin 0
 wt <9hf2 >> bininfo
-hf2 << 25 / 58 2f 88 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 93 57 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> info
 hf2 << 40
 hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
 hf2 >> bininfo
-hf2 << 25 / 58 31 88 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
-hf2 >> startrestart callback
+hf2 << 25 / 58 95 57 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 restart callback
 hf2 >> bininfo
-hf2 << 25 / 58 33 88 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 97 57 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 > pin 1
 wt <1> pin 0
 wt <9> pin 1
@@ -110,4 +265,205 @@ wt <9> pin 1
 wt <1> pin 0
 wt <9> pin 1
 wt <1> pin 0
-wt <9>
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> ^C
+
+# Luppy at Luppys-MacBook-Pro.local in ~/stm32bluepill-makecode/pxt-maker on git:master ✖︎ [14:53:43]
+→ ./scripts/flash2.sh
+-rw-r--r--@ 1 Luppy  staff  107520 Jan  5 14:35 binary.uf2
+Converting to bin, output size: 54784, start address: 0x8000000
+Wrote 54784 bytes to flash.bin.
+Open On-Chip Debugger 0.10.0
+Licensed under GNU GPL v2
+For bug reports, read
+        http://openocd.org/doc/doxygen/bugs.html
+Info : auto-selecting first available session transport "hla_swd". To override use 'transport select <transport>'.
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 1000 kHz
+adapter_nsrst_delay: 100
+none separate
+debug_level: 0
+semihosting is enabled
+NOTE: Trash this window before flashing the Blue Pill again
+Stopping the Blue Pill...
+target halted due to debug-request, current mode: Thread
+xPSR: 0x01000000 pc: 0x08000150 msp: 0x20005000, semihosting
+#0 : stm32f1x.flash (stm32f1x) at 0x08000000, size 0x00000000, buswidth 0, chipwidth 0
+Flashing the Blue Pill...
+auto erase enabled
+auto unlock enabled
+target halted due to breakpoint, current mode: Thread
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
+target halted due to breakpoint, current mode: Thread
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
+wrote 55296 bytes from file flash.bin in 3.069430s (17.593 KiB/s)
+read 54784 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.163652s (45.976 KiB/s)
+contents match
+Restarting the Blue Pill...
+----platform_setup
+heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
+platform_start_timer
+rtc awake...
+rtc awake ok
+----bootloader
+boot_target_get_serial_number
+usb_set_serial_number
+app exists
+----bootloader mode (forced)
+usb_setup
+flash allow 08006800 to 08010000
+usbd polling...
+set restart callback 08003e3d
+^C
+
+# Luppy at Luppys-MacBook-Pro.local in ~/stm32bluepill-makecode/pxt-maker on git:master ✖︎ [15:01:45]
+→ ./scripts/flash2.sh
+-rw-r--r--@ 1 Luppy  staff  107520 Jan  5 14:35 binary.uf2
+Converting to bin, output size: 54784, start address: 0x8000000
+Wrote 54784 bytes to flash.bin.
+Open On-Chip Debugger 0.10.0
+Licensed under GNU GPL v2
+For bug reports, read
+        http://openocd.org/doc/doxygen/bugs.html
+Info : auto-selecting first available session transport "hla_swd". To override use 'transport select <transport>'.
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 1000 kHz
+adapter_nsrst_delay: 100
+none separate
+debug_level: 0
+semihosting is enabled
+NOTE: Trash this window before flashing the Blue Pill again
+Stopping the Blue Pill...
+target halted due to debug-request, current mode: Thread
+xPSR: 0x01000000 pc: 0x08000150 msp: 0x20005000, semihosting
+#0 : stm32f1x.flash (stm32f1x) at 0x08000000, size 0x00000000, buswidth 0, chipwidth 0
+Flashing the Blue Pill...
+auto erase enabled
+auto unlock enabled
+target halted due to breakpoint, current mode: Thread
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
+target halted due to breakpoint, current mode: Thread
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
+wrote 55296 bytes from file flash.bin in 3.074700s (17.563 KiB/s)
+read 54784 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.165964s (45.885 KiB/s)
+contents match
+Restarting the Blue Pill...
+----platform_setup
+heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
+platform_start_timer
+rtc awake...
+rtc awake ok
+----bootloader
+boot_target_get_serial_number
+usb_set_serial_number
+app exists
+----application mode
+usb_setup
+flash allow 08006800 to 08010000
+sync! sync! sync! sync! ---pxt::cpu_clock_init
+timer init
+no scheduler, start bg tasks later
+set restart callback 0800bb65
+pin 0
+---pxt::platform_init
+start bg tasks
+flush task
+pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9.SET_ADR
+u{ ........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
+bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
+...weburl typ c0, req 22, val 0001, idx 0002, len 00ff
+.>>  typ 00, req 09, val 0001, idx 0000, len 0000, SET_CFG     t 00 i 01
+HF2 config
+.......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
+} > pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9.>>  typ 02, req 01, val 0000, idx 0082, len 0000
+u{ } > pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9hf2 >> bininfo
+hf2 << 25 / 58 62 5a 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+hf2 >> bininfo
+hf2 << 25 / 58 64 5a 00 00 02 00 00  restart callback
+hf2 >> bininfo
+hf2 << 25 / 58 66 5a 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> restart handler
+restarting...
+pin 1
+wt <1> pin 0
+wt <9> done
+----platform_setup
+heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
+platform_start_timer
+rtc awake...
+rtc awake ok
+----bootloader
+boot_target_get_serial_number
+usb_set_serial_number
+app exists
+----bootloader mode (forced)
+usb_setup
+flash allow 08006800 to 08010000
+usbd polling...
+set restart callback 08003e3d
+.SET_ADR
+........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
+bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
+...>>  typ 00, req 09, val 0001, idx 0000, len 0000, SET_CFG     t 00 i 01
+HF2 config
+.......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
+.weburl typ c0, req 22, val 0001, idx 0002, len 00ff
