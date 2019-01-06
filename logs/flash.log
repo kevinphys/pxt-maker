@@ -1,6 +1,6 @@
--rw-r--r--@ 1 Luppy  staff  108032 Jan  6 09:32 binary.uf2
-Converting to bin, output size: 54784, start address: 0x8000000
-Wrote 54784 bytes to flash.bin.
+-rw-r--r--@ 1 Luppy  staff  109056 Jan  6 09:53 binary.uf2
+Converting to bin, output size: 55296, start address: 0x8000000
+Wrote 55296 bytes to flash.bin.
 Open On-Chip Debugger 0.10.0
 Licensed under GNU GPL v2
 For bug reports, read
@@ -15,7 +15,7 @@ semihosting is enabled
 NOTE: Trash this window before flashing the Blue Pill again
 Stopping the Blue Pill...
 target halted due to debug-request, current mode: Thread
-xPSR: 0x01000000 pc: 0x080001a0 msp: 0x20005000, semihosting
+xPSR: 0x01000000 pc: 0x08000150 msp: 0x20005000, semihosting
 #0 : stm32f1x.flash (stm32f1x) at 0x08000000, size 0x00000000, buswidth 0, chipwidth 0
 Flashing the Blue Pill...
 auto erase enabled
@@ -24,8 +24,8 @@ target halted due to breakpoint, current mode: Thread
 xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
 target halted due to breakpoint, current mode: Thread
 xPSR: 0x61000000 pc: 0x2000003a msp: 0x20005000, semihosting
-wrote 55296 bytes from file flash.bin in 3.076939s (17.550 KiB/s)
-read 54784 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.165863s (45.889 KiB/s)
+wrote 55296 bytes from file flash.bin in 3.082738s (17.517 KiB/s)
+read 55296 bytes from file flash.bin and flash bank 0 at offset 0x00000000 in 1.176898s (45.883 KiB/s)
 contents match
 Restarting the Blue Pill...
 ----platform_setup
@@ -40,26 +40,39 @@ app exists
 ----application mode
 usb_setup
 flash allow 08006800 to 08010000
-sync! sync! sync! sync! ---pxt::cpu_clock_init
+sync! sync! sync! sync! ---exec_binary addr 0800c083, ver 00004210
+---exec_binary allocate
+---exec_binary compare
+---exec_binary initPerfCounters
+---exec_binary initRuntime
+---initCodal cpu_clock_init
+---pxt::cpu_clock_init
 timer init
 no scheduler, start bg tasks later
-set restart callback 0800bb65
+set restart callback 0800bc6d
+---initCodal commInit
+---initCodal scheduler_init
+---initCodal components.init
+---initCodal usb_init
+---initCodal done
 pin 0
 ---pxt::platform_init
 start bg tasks
+---exec_binary runAction0
+---exec_binary releaseFiber
 flush task
 pin 0
 wt <1> pin 1
 wt <9> pin 0
-wt <1> pin 1
-wt <9.SET_ADR
+wt <1.SET_ADR
 u{ ........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
 bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
 ...weburl typ c0, req 22, val 0001, idx 0002, len 00ff
 .>>  typ 00, req 09, val 0001, idx 0000, len 0000, SET_CFG     t 00 i 01
 hf2 set config
 .......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
-} .>>  typ 02, req 01, val 0000, idx 0082, len 0000
+} > pin 1
+wt <9.>>  typ 02, req 01, val 0000, idx 0082, len 0000
 u{ } > pin 0
 wt <1> pin 1
 wt <9> pin 0
@@ -70,17 +83,15 @@ wt <9> pin 0
 wt <1> pin 1
 wt <9> pin 0
 wt <1> pin 1
-wt <9> pin 0
-wt <1> pin 1
 wt <9hf2 >> bininfo
-hf2 << 25 / 58 37 f1 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 4a 89 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> info
 hf2 << 40
 hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
 hf2 >> bininfo
-hf2 << 25 / 58 39 f1 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 << 25 / 58 4c 89 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
 hf2 >> start
-hf2 << 5 / 44 3a f1 00 00
+hf2 << 5 / 44 4d 89 00 00
 boot bootloader
 ----platform_setup
 heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
@@ -103,3 +114,182 @@ bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
 hf2 set config
 .......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
 .weburl typ c0, req 22, val 0001, idx 0002, len 00ff
+hf2 >> bininfo
+hf2 << 25 / 58 4f 89 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+hf2 >> bininfo
+hf2 << 25 / 58 51 89 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> bininfo
+hf2 << 25 / 58 52 89 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+0800cf00 hf2 << 5 / 44 20 8a 00 00
+>> 0800d000 hf2 << 5 / 44 21 8a 00 00
+>> 0800d100 hf2 << 5 / 44 22 8a 00 00
+>> 0800d200 hf2 << 5 / 44 23 8a 00 00
+>> 0800d300 hf2 << 5 / 44 24 8a 00 00
+>> 0800d400 hf2 << 5 / 44 25 8a 00 00
+>> 0800d500 hf2 << 5 / 44 26 8a 00 00
+>> 0800d600 hf2 << 5 / 44 27 8a 00 00
+>> 0800d700 hf2 << 5 / 44 28 8a 00 00
+hf2 >> app
+hf2 << 5 / 44 29 8a 00 00
+.>>  typ 02, req 01, val 0000, idx 0082, len 0000
+boot app
+----platform_setup
+heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
+platform_start_timer
+rtc awake...
+rtc awake ok
+----bootloader
+boot_target_get_serial_number
+usb_set_serial_number
+app exists
+----application mode (forced)
+usb_setup
+flash allow 08006800 to 08010000
+sync! sync! sync! sync! ---exec_binary addr 0800c083, ver 00004210
+---exec_binary allocate
+---exec_binary compare
+---exec_binary initPerfCounters
+---exec_binary initRuntime
+---initCodal cpu_clock_init
+---pxt::cpu_clock_init
+timer init
+no scheduler, start bg tasks later
+set restart callback 0800bc6d
+---initCodal commInit
+---initCodal scheduler_init
+---initCodal components.init
+---initCodal usb_init
+---initCodal done
+pin 0
+---pxt::platform_init
+start bg tasks
+---exec_binary runAction0
+---exec_binary releaseFiber
+flush task
+pin 0
+wt <1.SET_ADR
+u{ ........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
+bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
+...>>  typ 00, req 09, val 0001, idx 0000, len 0000, SET_CFG     t 00 i 01
+hf2 set config
+.......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
+.weburl typ c0, req 22, val 0001, idx 0002, len 00ff
+hf2 >> bininfo
+hf2 << 25 / 58 2b 8a 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+} > pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1> pin 1
+wt <9> pin 0
+wt <1hf2 >> bininfo
+hf2 << 25 / 58 2d 8a 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> start
+hf2 << 5 / 44 2e 8a 00 00
+boot bootloader
+----platform_setup
+heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
+platform_start_timer
+rtc awake...
+rtc awake ok
+----bootloader
+boot_target_get_serial_number
+usb_set_serial_number
+app exists
+----bootloader mode (forced)
+usb_setup
+flash allow 08006800 to 08010000
+usbd polling...
+set restart callback 08003e4d
+.SET_ADR
+........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
+bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
+...>>  typ 00, req 09, val 0001, idx 0000, len 0000, SET_CFG     t 00 i 01
+hf2 set config
+.......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
+.weburl typ c0, req 22, val 0001, idx 0002, len 00ff
+hf2 >> bininfo
+hf2 << 25 / 58 30 8a 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+hf2 >> bininfo
+hf2 << 25 / 58 32 8a 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> bininfo
+hf2 << 25 / 58 33 8a 00 00 01 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+8b 00 00
+boot app
+----platform_setup
+heap start: 20001674, end: 20004800, size: 12 KB, stack used: 0 KB
+platform_start_timer
+rtc awake...
+rtc awake ok
+----bootloader
+boot_target_get_serial_number
+usb_set_serial_number
+app exists
+----application mode (forced)
+usb_setup
+flash allow 08006800 to 08010000
+sync! sync! sync! sync! ---exec_binary addr 0800c083, ver 00004210
+---exec_binary allocate
+---exec_binary compare
+---exec_binary initPerfCounters
+---exec_binary initRuntime
+---initCodal cpu_clock_init
+---pxt::cpu_clock_init
+timer init
+no scheduler, start bg tasks later
+set restart callback 0800bc6d
+---initCodal commInit
+---initCodal scheduler_init
+---initCodal components.init
+---initCodal usb_init
+---initCodal done
+pin 0
+---pxt::platform_init
+start bg tasks
+---exec_binary runAction0
+---exec_binary releaseFiber
+flush task
+pin 0
+wt <9.SET_ADR
+u{ ........bos typ 80, req 06, val 0f00, idx 0000, len 0005, GET_DES_BOS t 0f i 00
+bos typ 80, req 06, val 0f00, idx 0000, len 0039, GET_DES_BOS t 0f i 00
+...>>  typ 00, req 09, val 0001, idx 0000, len 0000, SET_CFG     t 00 i 01
+hf2 set config
+.......>>  typ 80, req 08, val 0000, idx 0000, len 0001, t 00 i 00
+.weburl typ c0, req 22, val 0001, idx 0002, len 00ff
+hf2 >> bininfo
+hf2 << 25 / 58 0c 8b 00 00 02 00 00 00 00 01 00 00 00 01 00 00 40 04 00 00 72 10 e2 5e
+hf2 >> info
+hf2 << 40
+hf2 << 26 / 59 53 54 4d 33 32 46 31 30 33 43 38 2d 42 6c 75 65 50 69 6c 6c 2d 76 30 0d 0a
+} > pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1> pin 0
+wt <9> pin 1
+wt <1>
