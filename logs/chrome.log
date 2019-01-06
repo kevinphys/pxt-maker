@@ -1,1674 +1,401 @@
-08:28:38.151 pxtapp.js:formatted:1995 menu.pair
-08:28:40.532 pxtapp.js:formatted:3833 WebUSB: open device
-08:28:40.533 pxtapp.js:formatted:3833 WebUSB: select configuration
-08:28:40.534 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
-08:28:40.536 pxtapp.js:formatted:3833 WebUSB: claim interface
-08:28:40.537 pxtapp.js:formatted:3833 WebUSB: device ready
-08:28:40.538 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:28:40.538 pxtapp.js:formatted:3833 WebUSB: close device
-08:28:41.042 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
-08:28:41.043 pxtapp.js:formatted:3833 WebUSB: open device
-08:28:41.045 pxtapp.js:formatted:3833 WebUSB: select configuration
-08:28:41.046 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
-08:28:41.046 pxtapp.js:formatted:3833 WebUSB: claim interface
-08:28:41.048 pxtapp.js:formatted:3833 WebUSB: device ready
-08:28:41.049 pxtapp.js:formatted:3828 Device paired! Try downloading now.
-08:29:42.822 pxtapp.js:formatted:2007 editortools.download {name: "stm32bluepill", view: "computer", collapsed: "false", editor: "blocksArea"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
-08:29:42.823 pxtapp.js:formatted:1995 compile
-08:29:42.823 pxtapp.js:formatted:3828 compiling...
-08:29:42.824 pxtapp.js:formatted:1995 simulator.stop
-08:29:42.824 pxtapp.js:formatted:3828 stop sim (autorun true)
-08:29:42.843 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
-08:29:42.844 pxtapp.js:formatted:3828 Using cached extinfo
-08:29:42.844 pxtapp.js:formatted:3828 get hex info: 26b80828c3f592430fe034d0d2a5688b5c87be8d5e96a0a8bd2f8d16e122783d
-08:29:42.850 pxtapp.js:formatted:3828 cache hit, size=68221
-08:29:42.957 pxtapp.js:formatted:1588 [Violation] 'setTimeout' handler took 69ms
-08:29:43.242 pxtapp.js:formatted:1995 webusb.deploy
-08:29:43.243 pxtapp.js:formatted:1995 hid.deploy
-08:29:43.243 pxtapp.js:formatted:3828 Downloading...
-08:29:43.249 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:43.254 pxtapp.js:formatted:3833 HF2: Connected; msgSize 1088B; flash 64kB; application mode
-08:29:43.256 pxtapp.js:formatted:9181 hf2.talkAsync 2
-08:29:43.708 pxtapp.js:formatted:3833 HF2: Board-ID: STM32F103C8-BluePill-v0 v1.1.3 fSFA
-08:29:43.709 pxtapp.js:formatted:3833 HF2: reflash
-08:29:43.710 pxtapp.js:formatted:3833 HF2: Switching into bootloader mode
-08:29:43.711 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:43.949 pxtapp.js:formatted:3833 HF2: recv error: USB error on device DAPBoot DFU Bootloader (USB IN transfer failed)
-08:29:44.253 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
-08:29:44.555 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
-08:29:44.715 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:44.717 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:44.719 pxtapp.js:formatted:3833 WebUSB: close device
-08:29:44.723 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:29:45.228 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #1
-08:29:45.732 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:45.734 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:45.739 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #2
-08:29:46.242 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:46.244 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:46.249 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #3
-08:29:46.753 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:46.756 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:46.760 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #4
-08:29:47.265 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:47.268 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:47.273 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
-08:29:47.275 pxtapp.js:formatted:3833 WebUSB: open device
-08:29:47.278 pxtapp.js:formatted:3833 WebUSB: select configuration
-08:29:47.281 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
-08:29:47.284 pxtapp.js:formatted:3833 WebUSB: claim interface
-08:29:47.289 pxtapp.js:formatted:3833 WebUSB: device ready
-08:29:47.292 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:47.297 pxtapp.js:formatted:3833 HF2: Connected; msgSize 1088B; flash 64kB; bootloader mode
-08:29:47.299 pxtapp.js:formatted:9181 hf2.talkAsync 2
-08:29:47.888 pxtapp.js:formatted:3833 HF2: Board-ID: STM32F103C8-BluePill-v0 v1.1.3 fSFA
-08:29:47.890 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:47.893 pxtapp.js:formatted:9181 hf2.talkAsync 5
-08:29:48.486 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:48.490 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:48.959 pxtapp.js:formatted:3833 HF2: Connected; msgSize 1088B; flash 64kB; bootloader mode
-08:29:48.961 pxtapp.js:formatted:9181 hf2.talkAsync 2
-08:29:49.319 pxtapp.js:formatted:3833 HF2: Board-ID: STM32F103C8-BluePill-v0 v1.1.3 fSFA
-08:29:49.321 pxtapp.js:formatted:3833 HF2: Starting flash (53kB).
-08:29:49.323 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.329 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.335 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.341 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.347 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.353 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.359 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.365 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.370 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.375 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.380 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.386 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.390 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.395 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.401 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.407 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.412 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.417 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.423 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.427 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.433 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.438 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.443 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.448 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.453 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.457 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.462 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.468 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.473 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.477 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.485 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.494 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.499 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.504 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.509 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.515 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.521 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.525 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.529 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.535 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.539 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.544 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.548 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.553 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.558 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.563 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.568 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.572 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.578 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.582 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.587 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.592 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.600 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.605 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.609 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.613 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.619 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.622 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.627 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.631 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.636 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.641 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.649 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.654 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.659 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.663 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.668 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.672 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.676 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.680 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.684 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.689 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.692 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.696 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.701 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.705 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.709 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.713 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.718 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.723 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.728 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.734 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.739 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.744 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.749 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.755 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.759 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.764 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.769 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.774 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.777 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.781 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.789 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.796 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.808 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.826 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.831 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.835 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.839 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.842 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.846 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.851 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.855 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.859 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.862 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.867 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.871 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.924 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.928 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.932 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.937 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.990 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.994 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:49.998 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.002 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.055 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.059 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.064 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.069 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.122 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.126 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.130 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.135 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.188 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.197 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.202 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.206 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.209 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.213 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.217 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.222 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.275 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.279 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.282 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.287 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.340 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.344 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.348 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.352 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.405 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.409 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.413 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.418 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.470 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.475 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.481 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.487 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.540 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.544 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.549 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.554 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.607 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.611 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.615 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.619 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.676 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.679 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.684 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.689 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.742 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.746 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.751 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.756 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.809 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.813 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.817 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.822 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.875 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.879 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.884 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.888 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.941 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.945 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.949 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:50.953 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.006 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.011 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.015 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.019 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.072 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.076 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.080 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.085 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.138 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.143 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.151 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.155 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.208 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.212 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.217 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.221 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.274 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.278 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.281 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.286 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.338 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.342 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.346 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.351 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.405 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.410 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.415 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.420 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.473 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.477 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.482 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.486 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.539 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.543 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.548 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.553 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.606 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.610 pxtapp.js:formatted:9181 hf2.talkAsync 6
-08:29:51.615 pxtapp.js:formatted:3833 HF2: Flashing done at 23 kB/s in 7904ms (reset 5612ms). Resetting.
-08:29:51.616 pxtapp.js:formatted:9181 hf2.talkAsync 3
-08:29:51.770 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:51.772 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:51.773 pxtapp.js:formatted:3833 WebUSB: close device
-08:29:51.809 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:29:51.810 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:29:51.811 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:29:52.310 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
-08:29:52.312 pxtapp.js:formatted:3833 WebUSB: open device
-08:29:52.315 pxtapp.js:formatted:3833 WebUSB: select configuration
-08:29:52.316 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
-08:29:52.318 pxtapp.js:formatted:3833 WebUSB: claim interface
-08:29:52.322 pxtapp.js:formatted:3833 WebUSB: device ready
-08:29:52.324 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:52.326 pxtapp.js:formatted:3833 HF2: recv error: USB error on device DAPBoot DFU Bootloader (USB IN transfer failed)
-08:29:52.328 pxtapp.js:formatted:3833 HF2: error USB error on device DAPBoot DFU Bootloader (USB OUT transfer failed); reconnecting attempt #1
-08:29:52.415 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
-08:29:52.416 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
-08:29:52.417 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
-08:29:52.629 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:29:52.716 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:29:52.718 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:29:52.719 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:29:52.832 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:52.833 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:52.834 pxtapp.js:formatted:3833 WebUSB: close device
-08:29:53.339 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #2
-08:29:53.841 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:53.842 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:53.846 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #3
-08:29:54.348 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:54.350 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:54.355 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #4
-08:29:54.860 pxtapp.js:formatted:3833 HF2: reconnect raw=false
-08:29:54.862 pxtapp.js:formatted:3833 WebUSB: reconnect
-08:29:54.866 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
-08:29:54.869 pxtapp.js:formatted:3833 WebUSB: open device
-08:29:54.872 pxtapp.js:formatted:3833 WebUSB: select configuration
-08:29:54.874 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
-08:29:54.876 pxtapp.js:formatted:3833 WebUSB: claim interface
-08:29:54.879 pxtapp.js:formatted:3833 WebUSB: device ready
-08:29:54.881 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:29:54.886 pxtapp.js:formatted:3833 HF2: Connected; msgSize 1088B; flash 64kB; application mode
-08:29:54.888 pxtapp.js:formatted:9181 hf2.talkAsync 2
-08:29:55.395 pxtapp.js:formatted:3833 HF2: Board-ID: STM32F103C8-BluePill-v0 v1.1.3 fSFA
-08:29:55.410 pxtapp.js:formatted:3828 run sim (autorun true)
-08:29:55.411 pxtapp.js:formatted:2007 run {name: "stm32bluepill", view: "computer", collapsed: "false", editor: "blocksArea"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
-08:29:55.427 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
-08:29:55.429 pxtapp.js:formatted:3828 Using cached extinfo
-08:29:55.592 pxtapp.js:formatted:3828 {
+08:48:01.483 pxtapp.js:formatted:1995 menu.pair
+08:48:05.477 pxtapp.js:formatted:3833 WebUSB: open device
+08:48:05.478 pxtapp.js:formatted:3833 WebUSB: select configuration
+08:48:05.479 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
+08:48:05.481 pxtapp.js:formatted:3833 WebUSB: claim interface
+08:48:05.483 pxtapp.js:formatted:3833 WebUSB: device ready
+08:48:05.484 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:05.484 pxtapp.js:formatted:3833 WebUSB: close device
+08:48:05.989 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
+08:48:05.990 pxtapp.js:formatted:3833 WebUSB: open device
+08:48:05.991 pxtapp.js:formatted:3833 WebUSB: select configuration
+08:48:05.991 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
+08:48:05.992 pxtapp.js:formatted:3833 WebUSB: claim interface
+08:48:05.994 pxtapp.js:formatted:3833 WebUSB: device ready
+08:48:05.994 pxtapp.js:formatted:3828 Device paired! Try downloading now.
+08:48:14.098 pxtapp.js:formatted:2007 editortools.download {view: "computer", collapsed: "false"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
+08:48:14.100 pxtapp.js:formatted:1995 compile
+08:48:14.101 pxtapp.js:formatted:3828 compiling...
+08:48:14.102 pxtapp.js:formatted:1995 simulator.stop
+08:48:14.102 pxtapp.js:formatted:3828 stop sim (autorun true)
+08:48:14.123 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
+08:48:14.124 pxtapp.js:formatted:3828 Using cached extinfo
+08:48:14.124 pxtapp.js:formatted:3828 get hex info: 26b80828c3f592430fe034d0d2a5688b5c87be8d5e96a0a8bd2f8d16e122783d
+08:48:14.132 pxtapp.js:formatted:3828 cache hit, size=68221
+08:48:14.250 pxtapp.js:formatted:1588 [Violation] 'setTimeout' handler took 75ms
+08:48:14.663 pxtapp.js:formatted:1995 webusb.deploy
+08:48:14.664 pxtapp.js:formatted:1995 hid.deploy
+08:48:14.665 pxtapp.js:formatted:3828 Downloading...
+08:48:14.672 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:48:14.679 pxtapp.js:formatted:3833 HF2: Connected; msgSize 1088B; flash 64kB; application mode
+08:48:14.680 pxtapp.js:formatted:9181 hf2.talkAsync 2
+08:48:15.226 pxtapp.js:formatted:3833 HF2: Board-ID: STM32F103C8-BluePill-v0 v1.1.3 fSFA
+08:48:15.228 pxtapp.js:formatted:3833 HF2: reflash
+08:48:15.229 pxtapp.js:formatted:3833 HF2: Switching into bootloader mode
+08:48:15.230 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:48:15.233 pxtapp.js:formatted:9181 hf2.talkAsync 5
+08:48:15.699 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:48:15.931 pxtapp.js:formatted:3833 HF2: recv error: USB error on device DAPBoot DFU Bootloader (USB IN transfer failed)
+08:48:16.235 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
+08:48:16.538 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
+08:48:16.703 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:16.705 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:16.707 pxtapp.js:formatted:3833 WebUSB: close device
+08:48:16.711 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:48:17.215 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #1
+08:48:17.717 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:17.719 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:17.722 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #2
+08:48:18.226 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:18.229 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:18.233 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #3
+08:48:18.740 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:18.743 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:18.749 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #4
+08:48:19.253 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:19.255 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:19.260 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
+08:48:19.264 pxtapp.js:formatted:3833 WebUSB: open device
+08:48:19.268 pxtapp.js:formatted:3833 WebUSB: select configuration
+08:48:19.271 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
+08:48:19.274 pxtapp.js:formatted:3833 WebUSB: claim interface
+08:48:19.278 pxtapp.js:formatted:3833 WebUSB: device ready
+08:48:19.282 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:48:19.286 pxtapp.js:formatted:3833 HF2: Connected; msgSize 1088B; flash 64kB; bootloader mode
+08:48:19.289 pxtapp.js:formatted:9181 hf2.talkAsync 2
+08:48:19.853 pxtapp.js:formatted:3833 HF2: Board-ID: STM32F103C8-BluePill-v0 v1.1.3 fSFA
+08:48:19.855 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:48:19.858 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:48:20.326 pxtapp.js:formatted:3833 HF2: Connected; msgSize 1088B; flash 64kB; bootloader mode
+08:48:20.328 pxtapp.js:formatted:9181 hf2.talkAsync 2
+08:48:20.682 pxtapp.js:formatted:3833 HF2: Board-ID: STM32F103C8-BluePill-v0 v1.1.3 fSFA
+08:48:20.685 pxtapp.js:formatted:3833 HF2: Starting flash (53kB).
+08:48:20.688 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.696 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.705 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.712 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.720 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.729 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.737 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.743 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.750 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.755 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.761 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.768 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.774 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.782 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.789 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.796 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.802 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.808 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.815 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.821 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.826 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.833 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.840 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.847 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.853 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.859 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.867 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.873 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.879 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.885 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.896 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.901 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.906 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.912 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.917 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.922 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.928 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.933 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.938 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.943 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.950 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.956 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.961 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.967 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.972 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.977 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.983 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.987 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.992 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:20.999 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.005 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.010 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.017 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.022 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.027 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.034 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.040 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.045 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.051 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.055 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.060 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.068 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.072 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.078 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.083 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.088 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.093 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.099 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.104 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.110 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.115 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.120 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.124 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.129 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.133 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.137 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.142 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.147 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.152 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.157 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.161 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.166 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.170 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.174 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.178 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.184 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.189 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.193 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.198 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.203 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.209 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.213 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.222 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.227 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.233 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.237 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.242 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.247 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.251 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.255 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.259 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.264 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.269 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.273 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.279 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.283 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.288 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.294 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.298 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.302 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.307 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.312 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.317 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.322 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.326 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.332 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.337 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.341 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.346 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.351 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.355 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.360 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.364 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.370 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.379 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.385 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.389 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.395 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.400 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.405 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.410 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.416 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.420 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.424 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.429 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.434 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.439 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.444 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.449 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.454 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.459 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.464 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.470 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.475 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.483 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.490 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.497 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.504 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.512 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.520 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.526 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.535 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.541 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.547 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.557 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.563 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.569 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.574 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.579 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.584 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.589 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.596 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.602 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.606 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.611 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.616 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.622 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.635 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.648 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.659 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.669 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.674 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.679 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.684 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.687 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.693 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.698 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.702 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.706 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.711 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.715 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.719 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.723 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.727 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.733 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.743 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.748 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.753 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.757 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.761 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.766 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.770 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.774 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.778 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.783 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.788 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.793 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.798 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.803 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.808 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.814 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.818 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.824 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.830 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.835 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.839 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.844 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.850 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.854 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.858 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.862 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.866 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.870 pxtapp.js:formatted:9181 hf2.talkAsync 6
+08:48:21.875 pxtapp.js:formatted:3833 HF2: Flashing done at 45 kB/s in 6646ms (reset 5459ms). Resetting.
+08:48:21.876 pxtapp.js:formatted:9181 hf2.talkAsync 3
+08:48:21.981 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:21.982 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:21.983 pxtapp.js:formatted:3833 WebUSB: close device
+08:48:22.870 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:48:22.871 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:48:22.873 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:48:23.373 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
+08:48:23.374 pxtapp.js:formatted:3833 WebUSB: open device
+08:48:23.375 pxtapp.js:formatted:3833 WebUSB: select configuration
+08:48:23.377 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
+08:48:23.379 pxtapp.js:formatted:3833 WebUSB: claim interface
+08:48:23.382 pxtapp.js:formatted:3833 WebUSB: device ready
+08:48:23.383 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:48:23.386 pxtapp.js:formatted:3833 HF2: recv error: USB error on device DAPBoot DFU Bootloader (USB IN transfer failed)
+08:48:23.388 pxtapp.js:formatted:3833 HF2: error USB error on device DAPBoot DFU Bootloader (USB OUT transfer failed); reconnecting attempt #1
+08:48:23.476 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
+08:48:23.477 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
+08:48:23.479 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
+08:48:23.689 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
+08:48:23.778 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
+08:48:23.779 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
+08:48:23.781 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
+08:48:23.892 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:23.895 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:23.897 pxtapp.js:formatted:3833 WebUSB: close device
+08:48:24.400 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #2
+08:48:24.904 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:24.905 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:24.908 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #3
+08:48:25.411 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:25.413 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:25.417 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #4
+08:48:25.920 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:25.922 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:25.926 pxtapp.js:formatted:3833 HF2: error No USB device selected or connected; try pairing!; reconnecting attempt #5
+08:48:26.429 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:48:26.432 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:48:26.438 cmds.js:127 Error: No USB device selected or connected; try pairing!
+    at Object.userError (http://localhost:3232/pxtapp.js:386:25)
+    at http://localhost:3232/pxtapp.js:12483:27
+From previous event:
+    at HID.reconnectAsync (http://localhost:3232/pxtapp.js:12329:22)
+    at Wrapper.reconnectAsync (http://localhost:3232/pxtapp.js:6823:32)
+    at http://localhost:3232/pxtapp.js:6830:62
+08:48:26.440 pxtapp.js:formatted:3828 saving maker-Untitled.uf2
+08:48:26.441 pxtapp.js:formatted:3828 trigger download
+08:48:58.892 pxtapp.js:formatted:3828 run sim (autorun true)
+08:48:58.893 pxtapp.js:formatted:2007 run {view: "computer", collapsed: "false", editor: "blocksArea"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
+08:48:58.913 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
+08:48:58.915 pxtapp.js:formatted:3828 Using cached extinfo
+08:48:59.134 pxtapp.js:formatted:3828 {
   "boardDefinition": {
     "driveDisplayName": "STM32BLUEPILL",
     "visual": {
       "image": "data:image/svg+xml,%3C%3Fxml%20version%3D'1.0'%20encoding%3D'utf-8'%3F%3E%0A%3C!DOCTYPE%20svg%3E%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20gorn%3D%220%22%20width%3D%220.900403in%22%20xml%3Aspace%3D%22preserve%22%20xmlns%3Axml%3D%22http%3A%2F%2Fwww.w3.org%2FXML%2F1998%2Fnamespace%22%20x%3D%220px%22%20%0AviewBox%3D%220%200%2064.829%20151.228%22%20height%3D%222.10039in%22%20y%3D%220px%22%20%20version%3D%221.1%22%20id%3D%22Layer_1%22%3E%0A%20%20%20%20%3Cdesc%20%3E%0A%20%20%20%20%20%20%20%20%3CreferenceFile%20%3ESTM32F103C8T6_blue_breadboard2.svg%3C%2FreferenceFile%3E%0A%20%20%20%20%3C%2Fdesc%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(54%2C-1)%22%20%3E%0A%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22rotate(90)%22%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20%20d%3D%22M7.269-10.813v64.828h144.951v-64.828H7.269%20M12.093%2C10.604c0.548%2C0%2C0.992%2C0.441%2C0.992%2C0.991c0%2C0.549-0.444%2C0.99-0.992%2C0.99s-0.992-0.441-0.992-0.99C11.101%2C11.044%2C11.546%2C10.604%2C12.093%2C10.604z%20M10.652%2C10.604c0.549%2C0%2C0.992%2C0.441%2C0.992%2C0.991c0%2C0.549-0.443%2C0.99-0.992%2C0.99c-0.548%2C0-0.991-0.441-0.991-0.99C9.661%2C11.044%2C10.104%2C10.604%2C10.652%2C10.604z%20M12.093%2C30.473c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992s-0.444%2C0.99-0.992%2C0.99s-0.992-0.441-0.992-0.99S11.546%2C30.473%2C12.093%2C30.473z%20M10.652%2C30.473c0.549%2C0%2C0.992%2C0.443%2C0.992%2C0.992s-0.443%2C0.99-0.992%2C0.99c-0.548%2C0-0.991-0.441-0.991-0.99S10.104%2C30.473%2C10.652%2C30.473z%20M19.006%2C13.122c0.548%2C0%2C0.992%2C0.444%2C0.992%2C0.992s-0.444%2C0.992-0.992%2C0.992s-0.992-0.444-0.992-0.992S18.458%2C13.122%2C19.006%2C13.122z%20M19.006%2C13.842c0.548%2C0%2C0.992%2C0.442%2C0.992%2C0.99c0%2C0.55-0.444%2C0.992-0.992%2C0.992s-0.992-0.442-0.992-0.992C18.014%2C14.286%2C18.458%2C13.842%2C19.006%2C13.842z%20M19.006%2C27.235c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992c0%2C0.547-0.444%2C0.992-0.992%2C0.992l0%2C0c-0.548%2C0-0.992-0.445-0.992-0.992C18.014%2C27.678%2C18.458%2C27.235%2C19.006%2C27.235z%20M19.006%2C27.954c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992c0%2C0.547-0.444%2C0.992-0.992%2C0.992l0%2C0c-0.548%2C0-0.992-0.445-0.992-0.992C18.014%2C28.397%2C18.458%2C27.954%2C19.006%2C27.954z%20M39.28%2C15.449c0.743%2C0%2C1.348%2C0.605%2C1.348%2C1.349s-0.604%2C1.346-1.348%2C1.346c-0.744%2C0-1.348-0.604-1.348-1.346C37.933%2C16.053%2C38.536%2C15.449%2C39.28%2C15.449L39.28%2C15.449z%20M39.28%2C8.248c0.743-0.001%2C1.348%2C0.602%2C1.348%2C1.345c0.002%2C0.745-0.604%2C1.348-1.344%2C1.349c-0.002%2C0-0.002%2C0-0.004%2C0c-0.744%2C0-1.348-0.604-1.348-1.347C37.933%2C8.85%2C38.536%2C8.248%2C39.28%2C8.248L39.28%2C8.248L39.28%2C8.248z%20M46.482%2C15.449c0.745%2C0%2C1.348%2C0.605%2C1.348%2C1.349s-0.604%2C1.346-1.348%2C1.346c-0.742%2C0-1.346-0.604-1.346-1.346C45.138%2C16.053%2C45.74%2C15.449%2C46.482%2C15.449z%20M46.482%2C8.248c0.745-0.001%2C1.35%2C0.602%2C1.35%2C1.345c0.002%2C0.745-0.604%2C1.348-1.348%2C1.349c0%2C0%2C0%2C0-0.002%2C0c-0.742%2C0-1.346-0.604-1.346-1.347C45.138%2C8.85%2C45.74%2C8.248%2C46.482%2C8.248L46.482%2C8.248z%20M53.686%2C15.449c0.745%2C0%2C1.349%2C0.605%2C1.349%2C1.349s-0.604%2C1.346-1.349%2C1.346c-0.742%2C0-1.346-0.604-1.346-1.346C52.34%2C16.053%2C52.941%2C15.449%2C53.686%2C15.449z%20M53.686%2C8.248c0.745-0.001%2C1.351%2C0.602%2C1.351%2C1.345c0%2C0.745-0.603%2C1.348-1.347%2C1.349c-0.002%2C0-0.002%2C0-0.004%2C0c-0.742%2C0-1.346-0.604-1.346-1.347C52.34%2C8.85%2C52.941%2C8.248%2C53.686%2C8.248L53.686%2C8.248z%20M133.268-1.365c0.715%2C0%2C1.295%2C0.58%2C1.295%2C1.296c0%2C0.716-0.58%2C1.296-1.295%2C1.296c-0.717%2C0-1.297-0.58-1.297-1.296C131.971-0.785%2C132.553-1.365%2C133.268-1.365z%20M126.069-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.297-0.58-1.297-1.296C124.772-0.785%2C125.352-1.365%2C126.069-1.365z%20M118.87-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.295-0.58-1.295-1.296C117.575-0.785%2C118.153-1.365%2C118.87-1.365z%20M111.668-1.365c0.719%2C0%2C1.299%2C0.58%2C1.299%2C1.296c0%2C0.716-0.58%2C1.296-1.299%2C1.296c-0.715%2C0-1.295-0.58-1.295-1.296C110.374-0.785%2C110.954-1.365%2C111.668-1.365z%20M104.469-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.295-0.58-1.295-1.296C103.174-0.785%2C103.752-1.365%2C104.469-1.365z%20M97.268-1.365c0.717%2C0%2C1.295%2C0.58%2C1.295%2C1.296c0%2C0.716-0.58%2C1.296-1.295%2C1.296l0%2C0c-0.717%2C0-1.297-0.58-1.297-1.296
-08:31:27.123 pxtapp.js:formatted:3828 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-  <block type="forever" x="176" y="0">
-    <statement name="HANDLER">
-      <block type="device_set_digital_pin">
-        <field name="name">pins.LED</field>
-        <value name="value">
-          <shadow type="toggleHighLow">
-            <field name="high">false</field>
-          </shadow>
-        </value>
-        <next>
-          <block type="control_wait_us">
-            <value name="micros">
-              <shadow type="math_number">
-                <field name="NUM">1000000</field>
-              </shadow>
-            </value>
-            <next>
-              <block type="device_set_digital_pin">
-                <field name="name">pins.LED</field>
-                <value name="value">
-                  <shadow type="toggleHighLow">
-                    <field name="high">true</field>
-                  </shadow>
-                </value>
-                <next>
-                  <block type="control_wait_us">
-                    <value name="micros">
-                      <shadow type="math_number">
-                        <field name="NUM">9000000</field>
-                      </shadow>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-</xml>
-08:31:29.109 pxtapp.js:formatted:3828 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-  <block type="forever" x="176" y="0">
-    <statement name="HANDLER">
-      <block type="device_set_digital_pin">
-        <field name="name">pins.LED</field>
-        <value name="value">
-          <shadow type="toggleHighLow">
-            <field name="high">false</field>
-          </shadow>
-        </value>
-        <next>
-          <block type="control_wait_us">
-            <value name="micros">
-              <shadow type="math_number">
-                <field name="NUM">9000000</field>
-              </shadow>
-            </value>
-            <next>
-              <block type="control_wait_us">
-                <value name="micros">
-                  <shadow type="math_number">
-                    <field name="NUM">1000000</field>
-                  </shadow>
-                </value>
-                <next>
-                  <block type="device_set_digital_pin">
-                    <field name="name">pins.LED</field>
-                    <value name="value">
-                      <shadow type="toggleHighLow">
-                        <field name="high">true</field>
-                      </shadow>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-</xml>
-08:31:31.034 pxtapp.js:formatted:3828 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-  <block type="forever" x="176" y="0">
-    <statement name="HANDLER">
-      <block type="device_set_digital_pin">
-        <field name="name">pins.LED</field>
-        <value name="value">
-          <shadow type="toggleHighLow">
-            <field name="high">false</field>
-          </shadow>
-        </value>
-        <next>
-          <block type="control_wait_us">
-            <value name="micros">
-              <shadow type="math_number">
-                <field name="NUM">9000000</field>
-              </shadow>
-            </value>
-            <next>
-              <block type="control_wait_us">
-                <value name="micros">
-                  <shadow type="math_number">
-                    <field name="NUM">1000000</field>
-                  </shadow>
-                </value>
-                <next>
-                  <block type="device_set_digital_pin">
-                    <field name="name">pins.LED</field>
-                    <value name="value">
-                      <shadow type="toggleHighLow">
-                        <field name="high">true</field>
-                      </shadow>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-</xml>
-08:31:32.669 pxtapp.js:formatted:3828 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-  <block type="forever" x="176" y="0">
-    <statement name="HANDLER">
-      <block type="device_set_digital_pin">
-        <field name="name">pins.LED</field>
-        <value name="value">
-          <shadow type="toggleHighLow">
-            <field name="high">false</field>
-          </shadow>
-        </value>
-        <next>
-          <block type="control_wait_us">
-            <value name="micros">
-              <shadow type="math_number">
-                <field name="NUM">9000000</field>
-              </shadow>
-            </value>
-            <next>
-              <block type="control_wait_us">
-                <value name="micros">
-                  <shadow type="math_number">
-                    <field name="NUM">1000000</field>
-                  </shadow>
-                </value>
-                <next>
-                  <block type="device_set_digital_pin">
-                    <field name="name">pins.LED</field>
-                    <value name="value">
-                      <shadow type="toggleHighLow">
-                        <field name="high">true</field>
-                      </shadow>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-</xml>
-08:31:34.237 pxtapp.js:formatted:3828 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-  <block type="forever" x="176" y="0">
-    <statement name="HANDLER">
-      <block type="device_set_digital_pin">
-        <field name="name">pins.LED</field>
-        <value name="value">
-          <shadow type="toggleHighLow">
-            <field name="high">false</field>
-          </shadow>
-        </value>
-        <next>
-          <block type="control_wait_us">
-            <value name="micros">
-              <shadow type="math_number">
-                <field name="NUM">9000000</field>
-              </shadow>
-            </value>
-            <next>
-              <block type="device_set_digital_pin">
-                <field name="name">pins.LED</field>
-                <value name="value">
-                  <shadow type="toggleHighLow">
-                    <field name="high">true</field>
-                  </shadow>
-                </value>
-                <next>
-                  <block type="control_wait_us">
-                    <value name="micros">
-                      <shadow type="math_number">
-                        <field name="NUM">1000000</field>
-                      </shadow>
-                    </value>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </statement>
-  </block>
-</xml>
-08:31:35.223 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
-08:31:35.224 pxtapp.js:formatted:3828 Using cached extinfo
-08:31:35.224 pxtapp.js:formatted:3828 get hex info: 26b80828c3f592430fe034d0d2a5688b5c87be8d5e96a0a8bd2f8d16e122783d
-08:31:35.226 pxtapp.js:formatted:3828 cache hit, size=68221
-08:31:35.318 pxtapp.js:formatted:1588 [Violation] 'setTimeout' handler took 62ms
-08:31:35.387 pxtapp.js:formatted:3828 run sim (autorun true)
-08:31:35.407 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
-08:31:35.408 pxtapp.js:formatted:3828 Using cached extinfo
-08:31:35.556 pxtapp.js:formatted:3828 {
-  "boardDefinition": {
-    "driveDisplayName": "STM32BLUEPILL",
-    "visual": {
-      "image": "data:image/svg+xml,%3C%3Fxml%20version%3D'1.0'%20encoding%3D'utf-8'%3F%3E%0A%3C!DOCTYPE%20svg%3E%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20gorn%3D%220%22%20width%3D%220.900403in%22%20xml%3Aspace%3D%22preserve%22%20xmlns%3Axml%3D%22http%3A%2F%2Fwww.w3.org%2FXML%2F1998%2Fnamespace%22%20x%3D%220px%22%20%0AviewBox%3D%220%200%2064.829%20151.228%22%20height%3D%222.10039in%22%20y%3D%220px%22%20%20version%3D%221.1%22%20id%3D%22Layer_1%22%3E%0A%20%20%20%20%3Cdesc%20%3E%0A%20%20%20%20%20%20%20%20%3CreferenceFile%20%3ESTM32F103C8T6_blue_breadboard2.svg%3C%2FreferenceFile%3E%0A%20%20%20%20%3C%2Fdesc%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(54%2C-1)%22%20%3E%0A%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22rotate(90)%22%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20%20d%3D%22M7.269-10.813v64.828h144.951v-64.828H7.269%20M12.093%2C10.604c0.548%2C0%2C0.992%2C0.441%2C0.992%2C0.991c0%2C0.549-0.444%2C0.99-0.992%2C0.99s-0.992-0.441-0.992-0.99C11.101%2C11.044%2C11.546%2C10.604%2C12.093%2C10.604z%20M10.652%2C10.604c0.549%2C0%2C0.992%2C0.441%2C0.992%2C0.991c0%2C0.549-0.443%2C0.99-0.992%2C0.99c-0.548%2C0-0.991-0.441-0.991-0.99C9.661%2C11.044%2C10.104%2C10.604%2C10.652%2C10.604z%20M12.093%2C30.473c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992s-0.444%2C0.99-0.992%2C0.99s-0.992-0.441-0.992-0.99S11.546%2C30.473%2C12.093%2C30.473z%20M10.652%2C30.473c0.549%2C0%2C0.992%2C0.443%2C0.992%2C0.992s-0.443%2C0.99-0.992%2C0.99c-0.548%2C0-0.991-0.441-0.991-0.99S10.104%2C30.473%2C10.652%2C30.473z%20M19.006%2C13.122c0.548%2C0%2C0.992%2C0.444%2C0.992%2C0.992s-0.444%2C0.992-0.992%2C0.992s-0.992-0.444-0.992-0.992S18.458%2C13.122%2C19.006%2C13.122z%20M19.006%2C13.842c0.548%2C0%2C0.992%2C0.442%2C0.992%2C0.99c0%2C0.55-0.444%2C0.992-0.992%2C0.992s-0.992-0.442-0.992-0.992C18.014%2C14.286%2C18.458%2C13.842%2C19.006%2C13.842z%20M19.006%2C27.235c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992c0%2C0.547-0.444%2C0.992-0.992%2C0.992l0%2C0c-0.548%2C0-0.992-0.445-0.992-0.992C18.014%2C27.678%2C18.458%2C27.235%2C19.006%2C27.235z%20M19.006%2C27.954c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992c0%2C0.547-0.444%2C0.992-0.992%2C0.992l0%2C0c-0.548%2C0-0.992-0.445-0.992-0.992C18.014%2C28.397%2C18.458%2C27.954%2C19.006%2C27.954z%20M39.28%2C15.449c0.743%2C0%2C1.348%2C0.605%2C1.348%2C1.349s-0.604%2C1.346-1.348%2C1.346c-0.744%2C0-1.348-0.604-1.348-1.346C37.933%2C16.053%2C38.536%2C15.449%2C39.28%2C15.449L39.28%2C15.449z%20M39.28%2C8.248c0.743-0.001%2C1.348%2C0.602%2C1.348%2C1.345c0.002%2C0.745-0.604%2C1.348-1.344%2C1.349c-0.002%2C0-0.002%2C0-0.004%2C0c-0.744%2C0-1.348-0.604-1.348-1.347C37.933%2C8.85%2C38.536%2C8.248%2C39.28%2C8.248L39.28%2C8.248L39.28%2C8.248z%20M46.482%2C15.449c0.745%2C0%2C1.348%2C0.605%2C1.348%2C1.349s-0.604%2C1.346-1.348%2C1.346c-0.742%2C0-1.346-0.604-1.346-1.346C45.138%2C16.053%2C45.74%2C15.449%2C46.482%2C15.449z%20M46.482%2C8.248c0.745-0.001%2C1.35%2C0.602%2C1.35%2C1.345c0.002%2C0.745-0.604%2C1.348-1.348%2C1.349c0%2C0%2C0%2C0-0.002%2C0c-0.742%2C0-1.346-0.604-1.346-1.347C45.138%2C8.85%2C45.74%2C8.248%2C46.482%2C8.248L46.482%2C8.248z%20M53.686%2C15.449c0.745%2C0%2C1.349%2C0.605%2C1.349%2C1.349s-0.604%2C1.346-1.349%2C1.346c-0.742%2C0-1.346-0.604-1.346-1.346C52.34%2C16.053%2C52.941%2C15.449%2C53.686%2C15.449z%20M53.686%2C8.248c0.745-0.001%2C1.351%2C0.602%2C1.351%2C1.345c0%2C0.745-0.603%2C1.348-1.347%2C1.349c-0.002%2C0-0.002%2C0-0.004%2C0c-0.742%2C0-1.346-0.604-1.346-1.347C52.34%2C8.85%2C52.941%2C8.248%2C53.686%2C8.248L53.686%2C8.248z%20M133.268-1.365c0.715%2C0%2C1.295%2C0.58%2C1.295%2C1.296c0%2C0.716-0.58%2C1.296-1.295%2C1.296c-0.717%2C0-1.297-0.58-1.297-1.296C131.971-0.785%2C132.553-1.365%2C133.268-1.365z%20M126.069-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.297-0.58-1.297-1.296C124.772-0.785%2C125.352-1.365%2C126.069-1.365z%20M118.87-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.295-0.58-1.295-1.296C117.575-0.785%2C118.153-1.365%2C118.87-1.365z%20M111.668-1.365c0.719%2C0%2C1.299%2C0.58%2C1.299%2C1.296c0%2C0.716-0.58%2C1.296-1.299%2C1.296c-0.715%2C0-1.295-0.58-1.295-1.296C110.374-0.785%2C110.954-1.365%2C111.668-1.365z%20M104.469-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.295-0.58-1.295-1.296C103.174-0.785%2C103.752-1.365%2C104.469-1.365z%20M97.268-1.365c0.717%2C0%2C1.295%2C0.58%2C1.295%2C1.296c0%2C0.716-0.58%2C1.296-1.295%2C1.296l0%2C0c-0.717%2C0-1.297-0.58-1.297-1.296
-08:31:39.105 pxtapp.js:formatted:3828 storage estimate: 0%, 46/12648Mb
-08:31:45.388 pxtapp.js:formatted:2007 activity {name: "stm32bluepill", view: "computer", collapsed: "false", editor: "blocksArea"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
-08:32:12.073 pxtapp.js:formatted:2007 editortools.download {name: "stm32bluepill", view: "computer", collapsed: "false", editor: "blocksArea"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
-08:32:12.073 pxtapp.js:formatted:1995 compile
-08:32:12.074 pxtapp.js:formatted:3828 compiling...
-08:32:12.074 pxtapp.js:formatted:1995 simulator.stop
-08:32:12.074 pxtapp.js:formatted:3828 stop sim (autorun true)
-08:32:12.089 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
-08:32:12.089 pxtapp.js:formatted:3828 Using cached extinfo
-08:32:12.090 pxtapp.js:formatted:3828 get hex info: 26b80828c3f592430fe034d0d2a5688b5c87be8d5e96a0a8bd2f8d16e122783d
-08:32:12.095 pxtapp.js:formatted:3828 cache hit, size=68221
-08:32:12.391 pxtapp.js:formatted:1995 webusb.deploy
-08:32:12.392 pxtapp.js:formatted:1995 hid.deploy
-08:32:12.392 pxtapp.js:formatted:3828 Downloading...
-08:32:12.396 pxtapp.js:formatted:3833 HF2: reflash
-08:32:12.397 pxtapp.js:formatted:3833 HF2: Switching into bootloader mode
-08:32:12.398 pxtapp.js:formatted:9181 hf2.talkAsync 1
-08:32:12.400 pxtapp.js:formatted:9181 hf2.talkAsync 5
-08:32:12.667 pxtapp.js:formatted:3833 HF2: recv error: USB error on device DAPBoot DFU Bootloader (USB IN transfer failed)
-08:32:12.970 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
-08:32:13.277 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
-08:32:13.406 main.js:formatted:7580 Error: Timeout
-    at http://localhost:3232/pxtapp.js:1184:48
+08:49:04.962 pxtapp.js:formatted:1995 menu.pair
+08:49:07.025 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:49:07.043 pxtapp.js:formatted:3833 WebUSB: got device: Devanarchy DAPBoot DFU Bootloader
+08:49:07.044 pxtapp.js:formatted:3833 WebUSB: open device
+08:49:07.045 pxtapp.js:formatted:3833 WebUSB: select configuration
+08:49:07.046 pxtapp.js:formatted:3833 WebUSB: got 3 interfaces
+08:49:07.047 pxtapp.js:formatted:3833 WebUSB: claim interface
+08:49:07.050 pxtapp.js:formatted:3833 WebUSB: device ready
+08:49:07.051 pxtapp.js:formatted:3828 Device paired! Try downloading now.
+08:49:12.398 pxtapp.js:formatted:2007 editortools.download {view: "computer", collapsed: "false", editor: "blocksArea"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
+08:49:12.398 pxtapp.js:formatted:1995 compile
+08:49:12.399 pxtapp.js:formatted:3828 compiling...
+08:49:12.399 pxtapp.js:formatted:1995 simulator.stop
+08:49:12.400 pxtapp.js:formatted:3828 stop sim (autorun true)
+08:49:12.416 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
+08:49:12.417 pxtapp.js:formatted:3828 Using cached extinfo
+08:49:12.417 pxtapp.js:formatted:3828 get hex info: 26b80828c3f592430fe034d0d2a5688b5c87be8d5e96a0a8bd2f8d16e122783d
+08:49:12.422 pxtapp.js:formatted:3828 cache hit, size=68221
+08:49:12.540 pxtapp.js:formatted:1588 [Violation] 'setTimeout' handler took 82ms
+08:49:12.871 pxtapp.js:formatted:1995 webusb.deploy
+08:49:12.872 pxtapp.js:formatted:1995 hid.deploy
+08:49:12.873 pxtapp.js:formatted:3828 Downloading...
+08:49:12.880 pxtapp.js:formatted:3833 HF2: reflash
+08:49:12.881 pxtapp.js:formatted:3833 HF2: Switching into bootloader mode
+08:49:12.882 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:49:12.886 pxtapp.js:formatted:9181 hf2.talkAsync 5
+08:49:13.234 pxtapp.js:formatted:9181 hf2.talkAsync 1
+08:49:13.467 pxtapp.js:formatted:3833 HF2: recv error: USB error on device DAPBoot DFU Bootloader (USB IN transfer failed)
+08:49:13.776 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
+08:49:14.079 pxtapp.js:formatted:3833 HF2: recv error: A transfer error has occurred.
+08:49:14.241 pxtapp.js:formatted:3833 HF2: reconnect raw=false
+08:49:14.244 pxtapp.js:formatted:3833 WebUSB: reconnect
+08:49:14.246 pxtapp.js:formatted:3833 WebUSB: close device
+08:49:14.253 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:49:14.257 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:49:14.260 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:49:14.261 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
+08:49:14.756 cmds.js:127 Error: No USB device selected or connected; try pairing!
+    at Object.userError (http://localhost:3232/pxtapp.js:386:25)
+    at http://localhost:3232/pxtapp.js:12483:27
 From previous event:
-    at PromiseBuffer.shiftAsync (http://localhost:3232/pxtapp.js:1170:32)
-    at handleReturnAsync (http://localhost:3232/pxtapp.js:6862:39)
+    at Wrapper.maybeReconnectAsync (http://localhost:3232/pxtapp.js:6974:27)
+    at http://localhost:3232/pxtapp.js:6939:54
 From previous event:
-    at Wrapper.talkAsync (http://localhost:3232/pxtapp.js:6892:22)
-    at http://localhost:3232/pxtapp.js:6938:54
-From previous event:
-    at Wrapper.switchToBootloaderAsync (http://localhost:3232/pxtapp.js:6938:22)
+    at Wrapper.switchToBootloaderAsync (http://localhost:3232/pxtapp.js:6939:22)
     at Wrapper.flashAsync (http://localhost:3232/pxtapp.js:6994:29)
     at Wrapper.reflashAsync (http://localhost:3232/pxtapp.js:6949:29)
     at http://localhost:3232/main.js:6349:43
-08:32:13.408 pxtapp.js:formatted:3828 saving maker-Untitled.uf2
-08:32:13.409 pxtapp.js:formatted:3828 trigger download
-08:32:13.558 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:32:13.568 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:32:13.571 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:32:13.573 pxtapp.js:formatted:3833 HF2: recv error: The transfer was cancelled.
-08:32:13.580 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:13.861 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:13.872 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:13.875 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:13.877 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:13.883 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.164 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.176 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.178 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.181 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.185 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.468 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.479 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.481 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.483 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.488 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.770 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.781 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.784 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.787 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:14.790 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.074 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.084 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.088 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.090 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.092 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.376 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.386 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.390 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.392 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.395 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.680 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.690 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.692 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.694 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.697 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.984 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.992 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.994 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.996 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:15.998 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.287 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.294 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.296 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.298 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.300 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.589 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.597 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.598 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.600 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.603 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.892 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.900 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.901 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.905 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:16.908 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.194 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.202 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.206 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.208 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.211 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.498 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.505 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.508 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.511 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.513 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.802 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.807 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.811 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.813 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:17.815 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.105 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.109 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.112 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.115 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.117 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.407 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.411 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.414 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.416 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.418 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.709 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.713 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.716 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.718 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:18.721 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.011 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.016 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.017 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.020 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.023 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.315 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.317 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.319 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.322 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.325 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.619 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.621 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.624 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.626 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.628 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.921 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.924 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.926 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.928 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:19.930 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.226 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.228 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.230 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.231 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.233 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.528 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.530 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.532 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.534 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.535 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.833 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.835 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.837 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.840 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:20.842 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.137 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.140 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.144 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.146 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.148 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.440 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.443 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.446 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.448 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.450 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.744 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.745 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.748 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.750 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:21.752 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.046 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.048 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.050 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.052 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.055 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.349 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.351 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.352 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.355 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.357 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.652 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.655 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.658 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.659 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.661 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.955 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.958 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.960 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.962 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:22.964 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.258 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.261 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.263 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.264 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.266 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.561 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.563 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.564 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.566 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.568 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.863 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.865 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.867 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.869 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:23.872 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.167 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.169 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.171 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.174 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.175 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.471 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.473 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.476 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.479 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.481 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.773 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.776 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.779 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.781 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:24.783 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.076 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.078 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.081 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.083 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.085 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.379 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.381 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.383 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.385 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.388 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.682 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.684 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.685 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.688 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.690 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.984 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.986 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.990 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.992 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:25.994 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.288 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.291 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.293 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.295 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.297 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.590 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.593 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.595 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.597 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.599 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.893 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.895 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.897 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.899 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:26.900 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.196 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.197 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.199 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.200 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.202 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.499 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.501 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.503 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.505 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.508 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.804 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.806 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.808 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.811 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:27.813 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.106 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.109 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.111 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.113 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.115 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.409 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.411 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.413 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.415 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.417 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.712 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.715 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.717 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.719 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:28.721 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.016 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.018 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.019 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.022 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.025 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.320 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.322 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.326 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.328 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.330 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.623 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.625 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.628 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.630 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.632 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.926 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.928 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.930 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.932 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:29.934 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.228 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.230 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.232 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.234 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.235 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.531 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.533 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.534 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.536 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.537 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.833 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.835 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.837 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.840 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:30.842 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.138 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.139 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.142 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.144 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.146 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.439 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.441 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.444 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.446 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.448 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.742 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.743 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.745 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.747 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:31.750 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.044 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.046 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.047 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.049 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.052 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.346 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.347 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.349 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.351 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.354 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.649 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.651 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.652 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.654 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.657 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.953 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.955 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.957 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.959 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:32.961 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.255 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.259 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.261 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.263 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.265 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.558 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.561 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.563 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.565 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.567 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.860 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.863 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.865 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.867 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:33.869 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.162 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.164 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.167 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.168 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.171 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.464 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.466 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.468 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.470 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.473 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.767 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.769 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.771 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.774 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:34.776 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.071 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.073 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.076 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.078 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.080 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.374 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.376 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.379 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.381 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.383 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.676 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.678 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.681 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.683 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.685 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.979 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.981 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.983 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.985 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:35.987 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.281 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.283 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.285 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.287 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.290 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.586 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.587 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.589 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.592 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.594 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.889 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.893 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.896 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.898 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:36.901 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.192 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.195 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.198 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.201 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.203 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.496 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.498 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.500 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.503 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.506 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.798 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.800 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.802 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.805 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:37.809 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.101 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.103 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.105 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.108 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.111 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.406 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.408 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.412 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.414 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.417 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.708 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.711 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.714 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.717 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:38.719 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.010 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.012 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.016 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.018 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.020 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.313 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.315 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.318 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.320 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.323 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.615 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.617 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.620 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.623 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.626 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.919 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.921 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.924 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.926 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:39.928 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.222 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.226 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.228 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.231 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.233 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.525 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.528 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.531 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.533 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.535 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.828 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.831 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.833 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.835 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:40.837 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.130 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.133 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.135 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.137 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.139 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.435 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.437 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.439 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.441 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.444 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.739 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.741 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.745 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.747 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:41.749 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.042 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.045 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.047 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.049 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.051 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.345 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.347 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.349 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.352 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.353 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.647 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.649 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.651 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.653 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.655 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.950 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.952 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.954 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.956 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:42.959 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.252 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.255 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.258 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.261 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.263 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.557 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.560 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.563 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.566 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.569 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.860 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.862 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.866 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.869 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:43.871 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.162 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.165 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.167 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.171 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.174 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.465 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.467 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.469 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.474 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.477 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.770 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.772 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.774 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.777 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:44.779 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.073 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.077 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.079 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.082 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.084 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.376 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.379 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.382 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.384 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.387 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.679 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.682 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.684 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.687 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.689 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.981 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.984 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.986 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.989 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:45.991 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.283 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.286 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.288 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.291 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.294 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.585 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.588 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.591 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.594 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.596 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.889 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.894 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.896 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.899 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:46.901 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.192 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.196 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.199 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.201 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.203 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.495 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.498 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.500 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.503 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.505 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.798 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.800 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.803 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.805 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:47.808 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.102 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.104 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.105 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.108 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.110 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.406 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.409 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.412 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.415 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.417 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.709 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.712 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.714 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.717 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:48.719 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.012 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.014 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.017 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.019 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.021 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.315 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.317 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.319 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.321 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.323 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.617 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.619 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.621 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.623 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.627 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.919 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.921 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.923 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.926 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:49.930 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.224 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.227 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.231 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.233 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.235 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.527 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.530 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.533 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.535 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.537 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.829 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.831 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.835 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.837 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:50.839 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.132 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.134 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.137 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.139 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.142 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.436 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.438 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.439 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.442 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.444 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.740 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.742 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.746 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.749 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:51.752 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.042 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.045 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.049 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.052 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.054 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.345 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.347 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.350 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.354 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.356 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.647 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.649 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.652 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.656 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.659 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.949 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.951 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.954 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.958 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:52.962 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.253 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.255 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.257 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.261 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.265 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.558 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.561 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.564 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.567 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.569 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.861 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.863 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.867 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.869 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:53.871 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.164 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.166 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.168 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.171 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.173 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.466 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.468 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.470 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.472 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.475 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.769 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.771 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.772 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.774 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:54.777 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.074 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.076 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.080 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.082 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.084 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.376 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.379 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.382 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.385 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.387 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.680 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.681 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.684 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.687 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.688 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.981 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.984 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.986 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.988 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:55.990 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.285 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.286 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.288 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.290 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.293 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.589 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.591 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.593 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.596 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.598 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.892 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.894 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.896 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.898 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:56.900 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.193 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.196 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.198 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.200 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.202 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.496 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.499 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.500 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.502 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.504 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.798 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.800 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.803 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.805 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:57.806 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.100 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.103 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.105 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.106 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.108 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.403 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.405 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.407 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.410 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.412 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.708 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.709 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.712 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.714 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:58.716 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.009 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.012 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.014 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.016 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.018 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.312 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.314 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.317 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.319 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.321 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.614 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.617 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.619 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.621 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.624 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.916 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.918 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.920 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.923 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:32:59.926 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.218 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.220 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.222 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.225 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.228 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.521 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.524 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.527 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.529 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.531 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.826 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.828 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.831 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.833 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:00.835 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.128 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.130 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.133 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.135 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.137 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.430 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.432 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.435 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.437 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.439 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.733 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.735 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.736 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.739 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:01.742 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.035 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.037 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.039 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.041 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.045 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.340 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.342 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.344 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.347 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.349 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.643 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.646 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.649 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.652 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.654 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.945 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.949 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.952 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.954 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:02.956 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.248 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.251 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.254 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.256 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.258 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.550 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.553 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.556 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.558 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.563 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.854 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.856 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.858 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.862 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:03.866 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.158 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.160 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.164 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.166 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.169 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.460 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.463 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.466 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.468 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.471 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.762 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.764 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.768 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.770 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:04.774 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.065 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.067 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.071 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.073 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.077 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.367 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.369 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.373 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.375 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.379 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.670 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.672 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.676 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.679 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.682 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.974 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.978 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.981 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.984 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:05.987 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.277 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.281 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.284 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.287 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.290 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.580 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.584 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.586 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.590 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.592 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.883 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.887 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.889 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.892 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:06.895 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.185 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.189 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.191 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.195 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.198 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.487 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.492 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.495 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.498 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.501 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.792 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.796 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.799 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.801 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:07.803 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.095 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.099 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.101 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.103 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.105 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.399 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.402 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.404 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.406 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.407 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.702 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.704 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.706 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.708 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:08.709 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.004 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.006 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.009 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.010 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.014 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.306 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.309 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.313 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.315 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.317 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.611 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.615 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.617 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.620 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.622 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.914 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.917 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.920 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.922 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:09.924 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.219 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.221 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.224 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.226 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.228 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.522 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.524 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.526 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.528 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.531 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.824 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.826 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.827 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.831 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:10.834 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.129 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.131 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.133 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.135 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.137 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.432 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.434 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.436 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.438 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.439 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.734 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.736 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.738 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.739 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:11.741 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.037 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.038 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.040 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.041 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.043 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.339 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.341 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.343 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.345 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.349 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.643 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.646 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.649 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.652 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.655 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.946 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.949 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.952 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.954 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:12.956 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.251 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.252 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.254 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.257 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.258 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.553 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.555 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.557 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.559 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.561 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.856 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.858 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.860 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.863 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:13.866 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.161 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.163 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.167 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.170 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.172 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.463 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.466 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.470 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.472 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.475 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.766 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.768 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.772 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.774 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:14.777 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.069 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.071 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.073 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.076 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.079 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.375 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.377 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.379 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.381 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.383 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.677 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.680 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.682 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.684 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.686 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.980 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.983 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.985 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.987 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:15.989 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.283 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.285 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.288 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.289 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.291 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.586 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.588 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.589 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.591 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.593 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.888 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.890 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.892 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.894 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:16.896 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.193 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.195 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.196 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.198 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.199 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.495 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.499 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.501 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.503 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.505 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.797 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.801 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.804 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.807 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
-08:33:17.809 pxtapp.js:formatted:3833 HF2: recv error: The device was disconnected.
+08:49:14.757 pxtapp.js:formatted:3828 saving maker-Untitled.uf2
+08:49:14.758 pxtapp.js:formatted:3828 trigger download
+08:49:38.887 pxtapp.js:formatted:3828 run sim (autorun true)
+08:49:38.888 pxtapp.js:formatted:2007 run {view: "computer", collapsed: "false", editor: "blocksArea"} {screen.width: 1440, screen.height: 900, screen.availwidth: 1440, screen.availheight: 821, screen.innerWidth: 1586, …}
+08:49:38.905 pxtapp.js:formatted:3828 building: base, core---stm32bluepill, stm32bluepill, Untitled
+08:49:38.906 pxtapp.js:formatted:3828 Using cached extinfo
+08:49:39.086 pxtapp.js:formatted:3828 {
+  "boardDefinition": {
+    "driveDisplayName": "STM32BLUEPILL",
+    "visual": {
+      "image": "data:image/svg+xml,%3C%3Fxml%20version%3D'1.0'%20encoding%3D'utf-8'%3F%3E%0A%3C!DOCTYPE%20svg%3E%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20gorn%3D%220%22%20width%3D%220.900403in%22%20xml%3Aspace%3D%22preserve%22%20xmlns%3Axml%3D%22http%3A%2F%2Fwww.w3.org%2FXML%2F1998%2Fnamespace%22%20x%3D%220px%22%20%0AviewBox%3D%220%200%2064.829%20151.228%22%20height%3D%222.10039in%22%20y%3D%220px%22%20%20version%3D%221.1%22%20id%3D%22Layer_1%22%3E%0A%20%20%20%20%3Cdesc%20%3E%0A%20%20%20%20%20%20%20%20%3CreferenceFile%20%3ESTM32F103C8T6_blue_breadboard2.svg%3C%2FreferenceFile%3E%0A%20%20%20%20%3C%2Fdesc%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(54%2C-1)%22%20%3E%0A%20%20%20%20%20%20%20%20%3Cg%20transform%3D%22rotate(90)%22%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20%20d%3D%22M7.269-10.813v64.828h144.951v-64.828H7.269%20M12.093%2C10.604c0.548%2C0%2C0.992%2C0.441%2C0.992%2C0.991c0%2C0.549-0.444%2C0.99-0.992%2C0.99s-0.992-0.441-0.992-0.99C11.101%2C11.044%2C11.546%2C10.604%2C12.093%2C10.604z%20M10.652%2C10.604c0.549%2C0%2C0.992%2C0.441%2C0.992%2C0.991c0%2C0.549-0.443%2C0.99-0.992%2C0.99c-0.548%2C0-0.991-0.441-0.991-0.99C9.661%2C11.044%2C10.104%2C10.604%2C10.652%2C10.604z%20M12.093%2C30.473c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992s-0.444%2C0.99-0.992%2C0.99s-0.992-0.441-0.992-0.99S11.546%2C30.473%2C12.093%2C30.473z%20M10.652%2C30.473c0.549%2C0%2C0.992%2C0.443%2C0.992%2C0.992s-0.443%2C0.99-0.992%2C0.99c-0.548%2C0-0.991-0.441-0.991-0.99S10.104%2C30.473%2C10.652%2C30.473z%20M19.006%2C13.122c0.548%2C0%2C0.992%2C0.444%2C0.992%2C0.992s-0.444%2C0.992-0.992%2C0.992s-0.992-0.444-0.992-0.992S18.458%2C13.122%2C19.006%2C13.122z%20M19.006%2C13.842c0.548%2C0%2C0.992%2C0.442%2C0.992%2C0.99c0%2C0.55-0.444%2C0.992-0.992%2C0.992s-0.992-0.442-0.992-0.992C18.014%2C14.286%2C18.458%2C13.842%2C19.006%2C13.842z%20M19.006%2C27.235c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992c0%2C0.547-0.444%2C0.992-0.992%2C0.992l0%2C0c-0.548%2C0-0.992-0.445-0.992-0.992C18.014%2C27.678%2C18.458%2C27.235%2C19.006%2C27.235z%20M19.006%2C27.954c0.548%2C0%2C0.992%2C0.443%2C0.992%2C0.992c0%2C0.547-0.444%2C0.992-0.992%2C0.992l0%2C0c-0.548%2C0-0.992-0.445-0.992-0.992C18.014%2C28.397%2C18.458%2C27.954%2C19.006%2C27.954z%20M39.28%2C15.449c0.743%2C0%2C1.348%2C0.605%2C1.348%2C1.349s-0.604%2C1.346-1.348%2C1.346c-0.744%2C0-1.348-0.604-1.348-1.346C37.933%2C16.053%2C38.536%2C15.449%2C39.28%2C15.449L39.28%2C15.449z%20M39.28%2C8.248c0.743-0.001%2C1.348%2C0.602%2C1.348%2C1.345c0.002%2C0.745-0.604%2C1.348-1.344%2C1.349c-0.002%2C0-0.002%2C0-0.004%2C0c-0.744%2C0-1.348-0.604-1.348-1.347C37.933%2C8.85%2C38.536%2C8.248%2C39.28%2C8.248L39.28%2C8.248L39.28%2C8.248z%20M46.482%2C15.449c0.745%2C0%2C1.348%2C0.605%2C1.348%2C1.349s-0.604%2C1.346-1.348%2C1.346c-0.742%2C0-1.346-0.604-1.346-1.346C45.138%2C16.053%2C45.74%2C15.449%2C46.482%2C15.449z%20M46.482%2C8.248c0.745-0.001%2C1.35%2C0.602%2C1.35%2C1.345c0.002%2C0.745-0.604%2C1.348-1.348%2C1.349c0%2C0%2C0%2C0-0.002%2C0c-0.742%2C0-1.346-0.604-1.346-1.347C45.138%2C8.85%2C45.74%2C8.248%2C46.482%2C8.248L46.482%2C8.248z%20M53.686%2C15.449c0.745%2C0%2C1.349%2C0.605%2C1.349%2C1.349s-0.604%2C1.346-1.349%2C1.346c-0.742%2C0-1.346-0.604-1.346-1.346C52.34%2C16.053%2C52.941%2C15.449%2C53.686%2C15.449z%20M53.686%2C8.248c0.745-0.001%2C1.351%2C0.602%2C1.351%2C1.345c0%2C0.745-0.603%2C1.348-1.347%2C1.349c-0.002%2C0-0.002%2C0-0.004%2C0c-0.742%2C0-1.346-0.604-1.346-1.347C52.34%2C8.85%2C52.941%2C8.248%2C53.686%2C8.248L53.686%2C8.248z%20M133.268-1.365c0.715%2C0%2C1.295%2C0.58%2C1.295%2C1.296c0%2C0.716-0.58%2C1.296-1.295%2C1.296c-0.717%2C0-1.297-0.58-1.297-1.296C131.971-0.785%2C132.553-1.365%2C133.268-1.365z%20M126.069-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.297-0.58-1.297-1.296C124.772-0.785%2C125.352-1.365%2C126.069-1.365z%20M118.87-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.295-0.58-1.295-1.296C117.575-0.785%2C118.153-1.365%2C118.87-1.365z%20M111.668-1.365c0.719%2C0%2C1.299%2C0.58%2C1.299%2C1.296c0%2C0.716-0.58%2C1.296-1.299%2C1.296c-0.715%2C0-1.295-0.58-1.295-1.296C110.374-0.785%2C110.954-1.365%2C111.668-1.365z%20M104.469-1.365c0.717%2C0%2C1.297%2C0.58%2C1.297%2C1.296c0%2C0.716-0.58%2C1.296-1.297%2C1.296s-1.295-0.58-1.295-1.296C103.174-0.785%2C103.752-1.365%2C104.469-1.365z%20M97.268-1.365c0.717%2C0%2C1.295%2C0.58%2C1.295%2C1.296c0%2C0.716-0.58%2C1.296-1.295%2C1.296l0%2C0c-0.717%2C0-1.297-0.58-1.297-1.296
