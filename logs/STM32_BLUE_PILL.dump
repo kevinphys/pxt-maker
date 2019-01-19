@@ -4,11 +4,11 @@ libs/stm32bluepill/built/codal/build/STM32_BLUE_PILL:     file format elf32-litt
 SYMBOL TABLE:
 08000000 l    d  .boot_text	00000000 .boot_text
 08007400 l    d  .text	00000000 .text
-08006bd4 l    d  .boot_preinit_array	00000000 .boot_preinit_array
+08006c30 l    d  .boot_preinit_array	00000000 .boot_preinit_array
 0800dad8 l    d  .preinit_array	00000000 .preinit_array
-08006bd4 l    d  .boot_init_array	00000000 .boot_init_array
+08006c30 l    d  .boot_init_array	00000000 .boot_init_array
 0800dad8 l    d  .init_array	00000000 .init_array
-08006bd4 l    d  .boot_fini_array	00000000 .boot_fini_array
+08006c30 l    d  .boot_fini_array	00000000 .boot_fini_array
 0800dae4 l    d  .fini_array	00000000 .fini_array
 20000000 l    d  .boot_data	00000000 .boot_data
 20001000 l    d  .data	00000000 .data
@@ -165,7 +165,7 @@ SYMBOL TABLE:
 200008c8 l     O .boot_bss	00000004 dest
 200008cc l     O .boot_bss	00000004 last_status
 200008d0 l     O .boot_bss	00000004 msTimer
-20000b8c l     O .boot_bss	00000001 poll_restart_requested
+20000b90 l     O .boot_bss	00000001 poll_restart_requested
 200008d4 l     O .boot_bss	00000004 src
 200008d8 l     O .boot_bss	00000004 status
 200008dc l     O .boot_bss	00000004 tmp_vector_table
@@ -183,28 +183,28 @@ SYMBOL TABLE:
 080049a8 l     F .boot_text	0000001c cdc_connected
 080049c4 l     F .boot_text	00000050 set_aggregate_callback
 08004d5c l     F .boot_text	000000c0 aggregate_callback
-20000b8d l     O .boot_bss	00000001 cdc_is_connected
+20000b91 l     O .boot_bss	00000001 cdc_is_connected
 200008ec l     O .boot_bss	00000028 config_callback
 20000914 l     O .boot_bss	00000050 control_callback
-20000b8e l     O .boot_bss	00000001 hf2_is_connected
+20000b92 l     O .boot_bss	00000001 hf2_is_connected
 20000964 l     O .boot_bss	00000004 last_busy_time
 20000968 l     O .boot_bss	00000004 last_frame_time
 2000096c l     O .boot_bss	00000019 serial_number
-20000a8c l     O .boot_bss	00000100 usbd_control_buffer
+20000a90 l     O .boot_bss	00000100 usbd_control_buffer
 20000474 l     O .boot_data	00000008 capabilities
 2000047c l     O .boot_data	00000024 usb_strings
-080063c4 l     O .boot_text	00000009 bos_descriptor
-080063d0 l     O .boot_text	00000008 cdc_iface_assoc
-080063d8 l     O .boot_text	00000013 cdcacm_functional_descriptors
-080063ec l     O .boot_text	0000000f comm_endp
-080063fc l     O .boot_text	00000015 comm_iface
-08006414 l     O .boot_text	0000000d config
-08006534 l     O .boot_text	00000030 interfaces
-08006424 l     O .boot_text	0000001e data_endp
-08006444 l     O .boot_text	00000015 data_iface
-0800645c l     O .boot_text	00000012 dev
-080064fc l     O .boot_text	0000001e hf2_endp
-0800651c l     O .boot_text	00000015 hf2_iface
+08006420 l     O .boot_text	00000009 bos_descriptor
+0800642c l     O .boot_text	00000008 cdc_iface_assoc
+08006434 l     O .boot_text	00000013 cdcacm_functional_descriptors
+08006448 l     O .boot_text	0000000f comm_endp
+08006458 l     O .boot_text	00000015 comm_iface
+08006470 l     O .boot_text	0000000d config
+08006590 l     O .boot_text	00000030 interfaces
+08006480 l     O .boot_text	0000001e data_endp
+080064a0 l     O .boot_text	00000015 data_iface
+080064b8 l     O .boot_text	00000012 dev
+08006558 l     O .boot_text	0000001e hf2_endp
+08006578 l     O .boot_text	00000015 hf2_iface
 00000000 l    df *ABS*	00000000 webusb.c
 08004e1c l     F .boot_text	00000028 webusb_set_config
 08004e44 l     F .boot_text	000000a4 webusb_control_vendor_request
@@ -215,50 +215,51 @@ SYMBOL TABLE:
 08004ffc l     F .boot_text	00000048 winusb_descriptor_request
 200004a0 l     O .boot_data	000000b2 msos20_descriptor_set
 20000554 l     O .boot_data	00000028 winusb_wcid
-080066dc l     O .boot_text	00000092 guid
-080067e4 l     O .boot_text	00000012 winusb_string_descriptor
+08006738 l     O .boot_text	00000092 guid
+08006840 l     O .boot_text	00000012 winusb_string_descriptor
 00000000 l    df *ABS*	00000000 target_stm32f103.c
 080050a0 l     F .boot_text	0000011c boot_target_get_startup_mode.part.0
-20000b8f l     O .boot_bss	00000001 forced_startup_mode
-20000b90 l     O .boot_bss	00000001 startup_mode
+20000b93 l     O .boot_bss	00000001 forced_startup_mode
+20000b94 l     O .boot_bss	00000001 startup_mode
 00000000 l    df *ABS*	00000000 cdc.c
 0800530c l     F .boot_text	0000000c cdcacm_comm_cb
 08005318 l     F .boot_text	00000068 cdcacm_set_config
 08005438 l     F .boot_text	0000004c cdcacm_data_rx_cb
 08005380 l     F .boot_text	00000064 cdcacm_control_request
-20000b91 l     O .boot_bss	00000001 connected
+20000b95 l     O .boot_bss	00000001 connected
 20000990 l     O .boot_bss	00000004 connected_func
 20000994 l     O .boot_bss	00000041 rx_buf
-08006948 l     O .boot_text	00000007 line_coding
+080069a4 l     O .boot_text	00000007 line_coding
 00000000 l    df *ABS*	00000000 hf2.c
 080054b0 l     F .boot_text	00000040 hf2_set_config
-08005c24 l     F .boot_text	00000050 hf2_data_tx_cb
-080055e8 l     F .boot_text	0000063c hf2_data_rx_cb
+08005c74 l     F .boot_text	0000005c hf2_data_tx_cb
+080055e8 l     F .boot_text	0000068c hf2_data_rx_cb
 080054f0 l     F .boot_text	000000dc pokeSend
 080055cc l     F .boot_text	0000001c assert.part.0
 200009d8 l     O .boot_bss	00000004 _usbd_dev
-200009dc l     O .boot_bss	00000004 cmdId.6013
-20000b92 l     O .boot_bss	00000001 connected
-200009e0 l     O .boot_bss	00000004 connected_func
-20000b93 l     O .boot_bss	00000001 flush_count.6015
-200009e4 l     O .boot_bss	00000004 new_app_start.6017
-200009e8 l     O .boot_bss	00000004 new_base_vector.6016
-200009ec l     O .boot_bss	00000004 new_baseloader_size.6019
-200009f0 l     O .boot_bss	00000004 new_bootloader_size.6018
-200009f4 l     O .boot_bss	00000004 pkt.6048
-200009f8 l     O .boot_bss	00000004 prevCmdId.6014
-200009fc l     O .boot_bss	00000004 remDataToSend
-20000b94 l     O .boot_bss	00000001 remDataToSendFlag
-20000a00 l     O .boot_bss	00000004 remDataToSendLength
-20000b95 l     O .boot_bss	00000001 restart_request
-20000a04 l     O .boot_bss	00000040 rx_buf
-20000a44 l     O .boot_bss	00000004 rx_time
-20000a48 l     O .boot_bss	00000040 tx_buf
-0800695c l     O .boot_text	0000000b bad_packet_message
+200009dc l     O .boot_bss	00000004 bootloader_changed
+200009e0 l     O .boot_bss	00000004 cmdId.6040
+20000b96 l     O .boot_bss	00000001 connected
+200009e4 l     O .boot_bss	00000004 connected_func
+20000b97 l     O .boot_bss	00000001 flush_count.6042
+200009e8 l     O .boot_bss	00000004 new_app_start.6044
+200009ec l     O .boot_bss	00000004 new_base_vector.6043
+200009f0 l     O .boot_bss	00000004 new_baseloader_size.6046
+200009f4 l     O .boot_bss	00000004 new_bootloader_size.6045
+200009f8 l     O .boot_bss	00000004 pkt.6064
+200009fc l     O .boot_bss	00000004 prevCmdId.6041
+20000a00 l     O .boot_bss	00000004 remDataToSend
+20000b98 l     O .boot_bss	00000001 remDataToSendFlag
+20000a04 l     O .boot_bss	00000004 remDataToSendLength
+20000b99 l     O .boot_bss	00000001 restart_request
+20000a08 l     O .boot_bss	00000040 rx_buf
+20000a48 l     O .boot_bss	00000004 rx_time
+20000a4c l     O .boot_bss	00000040 tx_buf
+080069b8 l     O .boot_text	0000000b bad_packet_message
 00000000 l    df *ABS*	00000000 usb21_standard.c
-08005cf8 l     F .boot_text	00000028 usb21_set_config
-08005d20 l     F .boot_text	000000e0 usb21_standard_get_descriptor
-20000a88 l     O .boot_bss	00000004 usb21_bos
+08005d54 l     F .boot_text	00000028 usb21_set_config
+08005d7c l     F .boot_text	000000e0 usb21_standard_get_descriptor
+20000a8c l     O .boot_bss	00000004 usb21_bos
 00000000 l    df *ABS*	00000000 backup.c
 00000000 l    df *ABS*	00000000 ctype_.c
 00000000 l    df *ABS*	00000000 application.cpp
@@ -402,7 +403,7 @@ SYMBOL TABLE:
 08002bc2 g     F .boot_text	00000000 qfp_fdiv_fast
 0800324c g     F .boot_text	0000001c log
 08007cb4 g     F .text	00000006 _ZN7control2gcEv
-08006bd4 g     O .boot_preinit_array	00000004 __boot_preinit_array_start
+08006c30 g     O .boot_preinit_array	00000004 __boot_preinit_array_start
 08007a20 g     F .text	00000106 _ZN3pxt13setNumberCoreEPhiNS_12NumberFormatEPNS_12TValueStructE
 08003230 g     F .boot_text	0000001c sqrt
 08001408 g     F .boot_text	0000009e _usbd_control_out
@@ -442,7 +443,7 @@ SYMBOL TABLE:
 080040f0 g     F .boot_text	00000018 _Z13debug_printlni
 08000808  w    F .boot_text	00000002 tim7_isr
 0800209c g     F .boot_text	0000000c exti_reset_request
-20000ca0 g     O .boot_bss	00000001 running_tid
+20000ca4 g     O .boot_bss	00000001 running_tid
 2000105c g     O .bss	00000004 _ZN3pxt6deviceE
 08000808  w    F .boot_text	00000002 adc1_2_isr
 0800c2a4 g     F .text	00000024 _ZN5codal14EventQueueItemC2ENS_5EventE
@@ -497,21 +498,21 @@ SYMBOL TABLE:
 08007b28 g     F .text	0000001a _ZN13BufferMethods9setNumberEPN3pxt11BoxedBufferENS0_12NumberFormatEiPNS0_12TValueStructE
 08009f30 g     F .text	0000000c _ZN3pxt12templateHashEv
 08000808  w    F .boot_text	00000002 tim6_isr
-08006bd4 g       *ABS*	00000000 _boot_data_loadaddr
+08006c30 g       *ABS*	00000000 _boot_data_loadaddr
 08003a0c g     F .boot_text	00000088 floor
 0800cfe0 g     O .text	00000024 _ZN3pxt9number_vtE
 0800dae4 g       .init_array	00000000 _etext
 08009e78 g     F .text	00000010 _ZN3pxt13RefCollectionC1Ev
 08000e84 g     F .boot_text	0000007c gpio_set_mode
 080084b4 g     F .text	00000014 _ZN5pxtrt6mapGetEPN3pxt6RefMapEj
-08006bd4 g     O .boot_fini_array	00000004 __boot_fini_array_start
+08006c30 g     O .boot_fini_array	00000004 __boot_fini_array_start
 0800af24 g     F .text	00000036 _ZN5codal11queue_fiberEPNS_5FiberEPS1_
 0800c504 g     F .text	00000020 _ZN5codal3_cm3PinC2Ei7PinNameNS_13PinCapabilityE
 08000808  w    F .boot_text	00000002 usb_wakeup_isr
 08008cdc g     F .text	00000010 _ZN6numops2eqEPN3pxt12TValueStructES2_
 08000808 g     F .boot_text	00000002 blocking_handler
 0800ac3c g     F .text	00000006 _ZN5codal11CodalDevice5sleepEm
-20000ca1 g     O .boot_bss	00000001 running
+20000ca5 g     O .boot_bss	00000001 running
 080041e8 g     F .boot_text	00000020 led_setup
 08000808  w    F .boot_text	00000002 tim5_isr
 080086c4 g     F .text	0000002a _ZN6numops4asrsEPN3pxt12TValueStructES2_
@@ -556,7 +557,7 @@ SYMBOL TABLE:
 0800438c g     F .boot_text	00000020 poll_restart_callback
 08000bcc g     F .boot_text	00000008 tcb_configure_args
 2000165c g     O .bss	00000004 app_bss_test
-08005c74 g     F .boot_text	00000084 hf2_setup
+08005cd0 g     F .boot_text	00000084 hf2_setup
 0800d040 g     O .text	00000024 _ZN3pxt16RefAction_vtableE
 0800a1d4 g     F .text	00000004 _ZN3pxt8sleep_msEj
 08000808  w    F .boot_text	00000002 can_rx1_isr
@@ -574,7 +575,7 @@ SYMBOL TABLE:
 08000808  w    F .boot_text	00000002 dma2_channel5_isr
 0800b9a8 g     F .text	00000014 _ZN5codal8ListenerD1Ev
 08009a38 g     F .text	00000004 _ZN5loops7foreverEPN3pxt12TValueStructE
-08005f80 g     O .boot_text	00000034 st_usbfs_v1_usb_driver
+08005fdc g     O .boot_text	00000034 st_usbfs_v1_usb_driver
 080047a8 g     F .boot_text	0000000a bootloader_set_restart_callback
 08002268 g     F .boot_text	00000034 rtc_clear_flag
 0800ba6c g     F .text	000000b8 _ZN5codal5Timer8setEventEmttb
@@ -668,7 +669,7 @@ SYMBOL TABLE:
 08008ad4 g     F .text	00000012 _ZN5Math_5truncEPN3pxt12TValueStructE
 08007e30 g     F .text	0000001e _ZN7String_12fromCharCodeEi
 080014a8 g     F .boot_text	0000006e _usbd_control_in
-08005e38 g     F .boot_text	00000038 backup_write
+08005e94 g     F .boot_text	00000038 backup_write
 08000808  w    F .boot_text	00000002 eth_isr
 08009ddc g     F .text	00000044 _ZN3pxt7Segment6insertEjPNS_12TValueStructE
 08007c98 g     F .text	00000004 _ZN7control12waitForEventEii
@@ -676,7 +677,7 @@ SYMBOL TABLE:
 0800ca8c g     F .text	00000006 _ZN5codal3I2C5writeEh
 2000004c g     O .boot_data	00000004 rcc_apb1_frequency
 08002cdc g     F .boot_text	00000000 qfp_ufix2float
-08005e70 g     F .boot_text	00000018 backup_read
+08005ecc g     F .boot_text	00000018 backup_read
 0800a774 g     F .text	00000038 _ZN22DigitalInOutPinMethods7onEventEPN5codal16STM32BluePillPinE8PinEventPN3pxt12TValueStructE
 2000166f g     O .bss	00000001 _ZN5codal14CodalComponent13configurationE
 080051bc g     F .boot_text	00000010 boot_target_get_startup_mode
@@ -742,7 +743,7 @@ SYMBOL TABLE:
 00001000 g       *ABS*	00000000 _bootram_size
 08000168 g     F .boot_text	000005d0 baseloader_start
 0800230c g     F .boot_text	0000000c os_running
-20000ca2 g     O .boot_bss	00000001 last_running_task
+20000ca6 g     O .boot_bss	00000001 last_running_task
 0800aa14  w    F .text	00000002 _ZN3pxt16dumpPerfCountersEv
 0800bef4 g     F .text	00000084 _ZN5codal10MessageBusD2Ev
 0800080c  w    F .boot_text	00000002 sv_call_handler
@@ -776,7 +777,7 @@ SYMBOL TABLE:
 08000850 g     F .boot_text	00000030 rtc_alarm_isr
 08007c9c g     F .text	00000004 _ZN7control18deviceSerialNumberEv
 08000808  w    F .boot_text	00000002 exti15_10_isr
-08006bd4 g     O .boot_init_array	00000004 __boot_init_array_end
+08006c30 g     O .boot_init_array	00000004 __boot_init_array_end
 0800b24c g     F .text	00000010 _ZN5codal23fiber_scheduler_runningEv
 0800ac58  w    F .text	00000006 _ZN5codal11CodalDevice4waitEm
 0800bb4c g     F .text	000000c2 _ZN5codal5Timer7triggerEv
@@ -845,7 +846,7 @@ SYMBOL TABLE:
 2000166c g     O .bss	00000001 _ZN3pxt4inGCE
 0800303c g     F .boot_text	00000030 __wrap___aeabi_dadd
 08000acc g     F .boot_text	00000030 target_init
-20000d00 g       .boot_bss	00000000 boot_end
+20000d04 g       .boot_bss	00000000 boot_end
 0800b10c g     F .text	00000140 _ZN5codal14scheduler_initERNS_10EventModelE
 08002538 g     F .boot_text	00000034 os_task_run
 080091f4 g     F .text	00000060 _ZN3pxt16popThreadContextEPNS_13ThreadContextE
@@ -875,11 +876,11 @@ SYMBOL TABLE:
 08000808  w    F .boot_text	00000002 dma2_channel2_isr
 08009f10 g     F .text	00000002 _ZN3pxt13debugMemLeaksEv
 08001ae8 g     F .boot_text	00000014 flash_set_ws
-08006bd4 g     O .boot_fini_array	00000004 __boot_fini_array_end
+08006c30 g     O .boot_fini_array	00000004 __boot_fini_array_end
 08000f30 g     F .boot_text	00000098 rcc_set_rtc_clock_source
 08001b0c g     F .boot_text	00000044 st_usbfs_set_ep_rx_bufsize
 08004be4 g     F .boot_text	00000178 dump_usb_request
-08006bd4 g       .boot_init_array	00000000 _boot_etext
+08006c30 g       .boot_init_array	00000000 _boot_etext
 0800d660  w    O .text	0000001c _ZTVN5codal14CodalComponentE
 08003d98 g     F .boot_text	0000001e memcmp
 08002cd0 g     F .boot_text	00000000 qfp_fix2float
@@ -937,7 +938,7 @@ SYMBOL TABLE:
 08004354 g     F .boot_text	00000034 platform_set_alarm
 20001640 g     O .bss	00000008 heap
 20001060 g     O .bss	00000024 _ZN3pxt8devTimerE
-20000ca4 g     O .boot_bss	0000005b hf2_buffer_mini
+20000ca8 g     O .boot_bss	0000005b hf2_buffer_mini
 0800c578 g     F .text	00000018 _ZN5codal3_cm3SPI7setModeEii
 08008398 g     F .text	00000014 _ZN5pxtrt8mklocRefEv
 0800080c  w    F .boot_text	00000002 sys_tick_handler
@@ -964,7 +965,7 @@ SYMBOL TABLE:
 0800ba3c g     F .text	00000030 _ZN5codal5TimerC2Ev
 08000afc g     F .boot_text	00000010 target_wait_for_event
 0800b5dc g     F .text	0000002c _ZN5codal20fiber_wait_for_eventEtt
-08005e00 g     F .boot_text	00000038 usb21_setup
+08005e5c g     F .boot_text	00000038 usb21_setup
 0800b978 g     F .text	0000002e _ZN5codal8ListenerC2EttPFvNS_5EventEEt
 08003fd8 g     F .boot_text	00000038 debug_force_flush
 0800a1d0 g     F .text	00000004 _ZN3pxt12releaseFiberEv
@@ -1081,7 +1082,7 @@ SYMBOL TABLE:
 08007e24 g     F .text	0000000c _ZN7String_7mkEmptyEv
 0800a5b4 g     F .text	0000004c _ZN4pins13i2cReadBufferEiib
 08004a14 g     F .boot_text	000000ac usb_setup
-20000d00 g       .boot_bss	00000000 _boot_ebss
+20000d04 g       .boot_bss	00000000 _boot_ebss
 2000100c g       .data	00000000 _edata
 0800b76c g     F .text	00000028 _ZN5codal22launch_new_fiber_paramEPFvPvES2_S0_
 0800bd90 g     F .text	000000e8 _ZN5codal10MessageBus3addEPNS_8ListenerE
@@ -1103,9 +1104,9 @@ SYMBOL TABLE:
 0800220c g     F .boot_text	0000005c rtc_interrupt_disable
 080043dc g     F .boot_text	0000025c prepare_baseloader
 08002b54 g     F .boot_text	00000000 qfp_fcmp
-08006bd4 g     O .boot_preinit_array	00000004 __boot_preinit_array_end
+08006c30 g     O .boot_preinit_array	00000004 __boot_preinit_array_end
 080041e0 g     F .boot_text	00000004 _Znwj
-20000b9c g     O .boot_bss	00000008 st_usbfs_force_nak
+20000ba0 g     O .boot_bss	00000008 st_usbfs_force_nak
 08008a48 g     F .text	00000012 _ZN5Math_3cosEPN3pxt12TValueStructE
 0800d690 g     O .text	0000003c _ZTVN5codal10MessageBusE
 08007de4 g     F .text	00000040 _ZN3pxt9getRandomEj
@@ -1127,19 +1128,19 @@ SYMBOL TABLE:
 0800a734  w    F .text	00000006 _ZN19AnalogOutPinMethods11analogWriteEPN5codal16STM32BluePillPinEi
 0800ac34  w    F .text	00000008 _ZN5codal11CodalDevice10getVersionEv
 08001f30 g     F .boot_text	000000e4 st_usbfs_poll
-0800668c g     O .boot_text	00000018 webusb_platform_capability_descriptor
+080066e8 g     O .boot_text	00000018 webusb_platform_capability_descriptor
 0800bf78 g     F .text	00000008 _ZThn8_N5codal10MessageBusD1Ev
 080083e0 g     F .text	00000004 _ZN5pxtrt5panicEi
 08009a0c g     F .text	0000000a _ZN3pxt9RefAction6gcsizeEPS0_
 0800b57c g     F .text	00000014 _ZN5codal8scheduleEv
-08006bd4 g     O .boot_init_array	00000004 __boot_init_array_start
+08006c30 g     O .boot_init_array	00000004 __boot_init_array_start
 08009d78 g     F .text	0000001c _ZN3pxt7Segment3popEv
 080051e4 g     F .boot_text	00000070 boot_target_gpio_setup
 0800c34c g     F .text	0000002c _ZN5codal3_cm3Pin13setServoValueEiii
-20000b98 g     O .boot_bss	00000004 hal_bss_test
+20000b9c g     O .boot_bss	00000004 hal_bss_test
 08000808  w    F .boot_text	00000002 tamper_isr
 08008f18 g     F .text	00000100 _ZN6numops8toStringEPN3pxt12TValueStructE
-08005fce g     O .boot_text	00000101 _ctype_
+0800602a g     O .boot_text	00000101 _ctype_
 0800ac44  w    F .text	00000006 _ZN5codal11CodalDevice10seedRandomEm
 0800dad8 g       .init_array	00000000 __init_array_start
 08000dac g     F .boot_text	00000006 gpio_clear
@@ -1197,7 +1198,7 @@ SYMBOL TABLE:
 0800a398 g     F .text	000000d4 _ZN3pxt15gcProcessStacksEi
 08002f10 g     F .boot_text	000000cc acos
 08002170 g     F .boot_text	00000040 rtc_set_counter_val
-20000ba4 g     O .boot_bss	000000fc st_usbfs_dev
+20000ba8 g     O .boot_bss	000000fc st_usbfs_dev
 0800bc10 g     F .text	00000002 _ZN5codal5TimerD1Ev
 08008338 g     F .text	00000006 _ZN6Array_8removeAtEPN3pxt13RefCollectionEi
 08007708 g     F .text	00000012 _ZN5Math_3expEPN3pxt12TValueStructE
@@ -1219,7 +1220,7 @@ SYMBOL TABLE:
 08008694 g     F .text	00000004 _ZN3pxt5toIntEPNS_12TValueStructE
 08000c48 g     F .boot_text	00000004 __aeabi_atexit
 08004108 g     F .boot_text	00000004 debug_print_int
-08006310 g     O .boot_text	00000055 infoUf2File
+0800636c g     O .boot_text	00000055 infoUf2File
 08000150 g     O .boot_text	00000018 base_vector_table
 08008894 g     F .text	00000060 _ZN6numops3modEPN3pxt12TValueStructES2_
 08004388 g     F .boot_text	00000004 millis
@@ -1228,7 +1229,7 @@ SYMBOL TABLE:
 08000808  w    F .boot_text	00000002 tim2_isr
 08008a84 g     F .text	00000012 _ZN5Math_4acosEPN3pxt12TValueStructE
 0800410c g     F .boot_text	00000004 debug_print_unsigned
-08006770 g     O .boot_text	0000001c microsoft_platform_capability_descriptor
+080067cc g     O .boot_text	0000001c microsoft_platform_capability_descriptor
 08009690 g     F .text	00000048 free
 0800a200 g     F .text	00000024 _ZN3pxt13runInParallelEPNS_12TValueStructE
 080020a8 g     F .boot_text	00000018 rtc_enter_config_mode
@@ -2400,20 +2401,20 @@ void reset_handler(void) {
  8000972:	bf00      	nop
  8000974:	20000000 	.word	0x20000000
  8000978:	20000580 	.word	0x20000580
- 800097c:	08006bd4 	.word	0x08006bd4
- 8000980:	20000d00 	.word	0x20000d00
+ 800097c:	08006c30 	.word	0x08006c30
+ 8000980:	20000d04 	.word	0x20000d04
  8000984:	e000ed14 	.word	0xe000ed14
- 8000988:	20000b98 	.word	0x20000b98
+ 8000988:	20000b9c 	.word	0x20000b9c
  800098c:	20000040 	.word	0x20000040
  8000990:	87654321 	.word	0x87654321
- 8000994:	08005e88 	.word	0x08005e88
- 8000998:	08005eb0 	.word	0x08005eb0
- 800099c:	08006bd4 	.word	0x08006bd4
- 80009a0:	08006bd4 	.word	0x08006bd4
- 80009a4:	08006bd4 	.word	0x08006bd4
- 80009a8:	08006bd4 	.word	0x08006bd4
- 80009ac:	08006bd4 	.word	0x08006bd4
- 80009b0:	08006bd4 	.word	0x08006bd4
+ 8000994:	08005ee4 	.word	0x08005ee4
+ 8000998:	08005f0c 	.word	0x08005f0c
+ 800099c:	08006c30 	.word	0x08006c30
+ 80009a0:	08006c30 	.word	0x08006c30
+ 80009a4:	08006c30 	.word	0x08006c30
+ 80009a8:	08006c30 	.word	0x08006c30
+ 80009ac:	08006c30 	.word	0x08006c30
+ 80009b0:	08006c30 	.word	0x08006c30
 
 080009b4 <_ZL10timer_tickv>:
 static void timer_tick() {
@@ -2480,8 +2481,8 @@ static void timer_tick() {
  8000a18:	f001 bc74 	b.w	8002304 <os_tick>
  8000a1c:	20000590 	.word	0x20000590
  8000a20:	20000580 	.word	0x20000580
- 8000a24:	08005ec0 	.word	0x08005ec0
- 8000a28:	08005ec4 	.word	0x08005ec4
+ 8000a24:	08005f1c 	.word	0x08005f1c
+ 8000a28:	08005f20 	.word	0x08005f20
  8000a2c:	20000584 	.word	0x20000584
  8000a30:	2000058c 	.word	0x2000058c
 
@@ -2507,7 +2508,7 @@ static void timer_alarm() {
  8000a4e:	f003 bb3b 	b.w	80040c8 <debug_print>
  8000a52:	bf00      	nop
  8000a54:	20000588 	.word	0x20000588
- 8000a58:	08005ec8 	.word	0x08005ec8
+ 8000a58:	08005f24 	.word	0x08005f24
 
 08000a5c <target_wait.part.1>:
 void target_wait(uint32_t milliseconds) {
@@ -2580,10 +2581,10 @@ static void os_schedule( void ) {
  8000ab4:	f001 fc0a 	bl	80022cc <os_cbkSleep>
  8000ab8:	e7e1      	b.n	8000a7e <target_wait.part.1+0x22>
  8000aba:	bf00      	nop
- 8000abc:	08005f24 	.word	0x08005f24
+ 8000abc:	08005f80 	.word	0x08005f80
  8000ac0:	10624dd3 	.word	0x10624dd3
- 8000ac4:	20000ca0 	.word	0x20000ca0
- 8000ac8:	08005f2c 	.word	0x08005f2c
+ 8000ac4:	20000ca4 	.word	0x20000ca4
+ 8000ac8:	08005f88 	.word	0x08005f88
 
 08000acc <target_init>:
 void target_init(void) {
@@ -2665,7 +2666,7 @@ void target_reset() {
  8000b48:	f003 fa34 	bl	8003fb4 <debug_flush>
     scb_reset_system();
  8000b4c:	f000 f924 	bl	8000d98 <scb_reset_system>
- 8000b50:	08005ef8 	.word	0x08005ef8
+ 8000b50:	08005f54 	.word	0x08005f54
 
 08000b54 <target_enable_irq>:
  *
@@ -2698,7 +2699,7 @@ int target_seed_random(uint32_t rand) {
 }
  8000b64:	2000      	movs	r0, #0
  8000b66:	bd08      	pop	{r3, pc}
- 8000b68:	08005f0c 	.word	0x08005f0c
+ 8000b68:	08005f68 	.word	0x08005f68
 
 08000b6c <target_get_serial>:
 uint32_t target_get_serial() {
@@ -2712,7 +2713,7 @@ uint32_t target_get_serial() {
  8000b76:	6818      	ldr	r0, [r3, #0]
  8000b78:	bd08      	pop	{r3, pc}
  8000b7a:	bf00      	nop
- 8000b7c:	08005ecc 	.word	0x08005ecc
+ 8000b7c:	08005f28 	.word	0x08005f28
  8000b80:	1fff7a14 	.word	0x1fff7a14
 
 08000b84 <target_panic>:
@@ -2732,7 +2733,7 @@ void target_panic(int statusCode) {
  8000b9a:	bf20      	wfe
  8000b9c:	e7fd      	b.n	8000b9a <target_panic+0x16>
  8000b9e:	bf00      	nop
- 8000ba0:	08005ee4 	.word	0x08005ee4
+ 8000ba0:	08005f40 	.word	0x08005f40
 
 08000ba4 <fiber_initial_stack_base>:
 }
@@ -2834,12 +2835,12 @@ void test_codal() {
  8000c22:	f003 b9c7 	b.w	8003fb4 <debug_flush>
  8000c26:	bf00      	nop
  8000c28:	20000044 	.word	0x20000044
- 8000c2c:	08005f30 	.word	0x08005f30
+ 8000c2c:	08005f8c 	.word	0x08005f8c
  8000c30:	20004800 	.word	0x20004800
- 8000c34:	08005f40 	.word	0x08005f40
- 8000c38:	08005f48 	.word	0x08005f48
- 8000c3c:	08005f54 	.word	0x08005f54
- 8000c40:	08005f68 	.word	0x08005f68
+ 8000c34:	08005f9c 	.word	0x08005f9c
+ 8000c38:	08005fa4 	.word	0x08005fa4
+ 8000c3c:	08005fb0 	.word	0x08005fb0
+ 8000c40:	08005fc4 	.word	0x08005fc4
 
 08000c44 <_fini>:
     void _fini(void) { }
@@ -3478,7 +3479,7 @@ void rcc_periph_reset_pulse(enum rcc_periph_rst rst)
  8000e76:	b008      	add	sp, #32
  8000e78:	bcf0      	pop	{r4, r5, r6, r7}
  8000e7a:	4770      	bx	lr
- 8000e7c:	08005f6c 	.word	0x08005f6c
+ 8000e7c:	08005fc8 	.word	0x08005fc8
  8000e80:	1ffff7f0 	.word	0x1ffff7f0
 
 08000e84 <gpio_set_mode>:
@@ -3892,7 +3893,7 @@ static usbd_device *st_usbfs_v1_usbd_init(void)
  80010b8:	40005c40 	.word	0x40005c40
  80010bc:	40005c50 	.word	0x40005c50
  80010c0:	40005c44 	.word	0x40005c44
- 80010c4:	20000ba4 	.word	0x20000ba4
+ 80010c4:	20000ba8 	.word	0x20000ba8
 
 080010c8 <st_usbfs_copy_to_pm>:
 
@@ -6386,7 +6387,7 @@ void st_usbfs_ep_nak_set(usbd_device *dev, uint8_t addr, uint8_t nak)
  8001de8:	f043 0380 	orr.w	r3, r3, #128	; 0x80
  8001dec:	6003      	str	r3, [r0, #0]
  8001dee:	4770      	bx	lr
- 8001df0:	20000b9c 	.word	0x20000b9c
+ 8001df0:	20000ba0 	.word	0x20000ba0
 
 08001df4 <st_usbfs_ep_write_packet>:
 
@@ -6550,7 +6551,7 @@ uint16_t st_usbfs_ep_read_packet(usbd_device *dev, uint8_t addr,
  8001f22:	bf00      	nop
  8001f24:	40005c50 	.word	0x40005c50
  8001f28:	4000600c 	.word	0x4000600c
- 8001f2c:	20000b9c 	.word	0x20000b9c
+ 8001f2c:	20000ba0 	.word	0x20000ba0
 
 08001f30 <st_usbfs_poll>:
 
@@ -7329,9 +7330,9 @@ void os_init( void ) {
     os_task_init();
  80022f2:	f000 b859 	b.w	80023a8 <os_task_init>
  80022f6:	bf00      	nop
- 80022f8:	20000ca2 	.word	0x20000ca2
- 80022fc:	20000ca1 	.word	0x20000ca1
- 8002300:	20000ca0 	.word	0x20000ca0
+ 80022f8:	20000ca6 	.word	0x20000ca6
+ 80022fc:	20000ca5 	.word	0x20000ca5
+ 8002300:	20000ca4 	.word	0x20000ca4
 
 08002304 <os_tick>:
 *       
@@ -7356,7 +7357,7 @@ uint8_t os_running( void ) {
  800230e:	7818      	ldrb	r0, [r3, #0]
  8002310:	4770      	bx	lr
  8002312:	bf00      	nop
- 8002314:	20000ca1 	.word	0x20000ca1
+ 8002314:	20000ca5 	.word	0x20000ca5
 
 08002318 <os_msgQ_init>:
 
@@ -7816,7 +7817,7 @@ void os_task_run( void ) {
     task_list[ running_tid ].taskproc();
  800255e:	4718      	bx	r3
  8002560:	2000065a 	.word	0x2000065a
- 8002564:	20000ca0 	.word	0x20000ca0
+ 8002564:	20000ca4 	.word	0x20000ca4
  8002568:	200005bc 	.word	0x200005bc
 
 0800256c <os_on_assert>:
@@ -7844,7 +7845,7 @@ void os_on_assert( uint16_t line ) {
  8002586:	b292      	uxth	r2, r2
  8002588:	801a      	strh	r2, [r3, #0]
  800258a:	e7fe      	b.n	800258a <os_on_assert+0x1e>
- 800258c:	08005fb4 	.word	0x08005fb4
+ 800258c:	08006010 	.word	0x08006010
  8002590:	20000656 	.word	0x20000656
 
 08002594 <os_event_init>:
@@ -11713,7 +11714,7 @@ _strtol_l (struct _reent *rptr, const char *__restrict nptr,
 		base = c == '0' ? 8 : 10;
  8003d3c:	230a      	movs	r3, #10
  8003d3e:	e7ab      	b.n	8003c98 <_strtol_l.isra.0+0x40>
- 8003d40:	08005fcf 	.word	0x08005fcf
+ 8003d40:	0800602b 	.word	0x0800602b
 
 08003d44 <strtol>:
 long
@@ -12081,7 +12082,7 @@ static void debug_append(const char *buffer, unsigned int length) {
  8003e9a:	4770      	bx	lr
  8003e9c:	200008a0 	.word	0x200008a0
  8003ea0:	2000068c 	.word	0x2000068c
- 8003ea4:	080060e4 	.word	0x080060e4
+ 8003ea4:	08006140 	.word	0x08006140
 
 08003ea8 <debug_print.part.3>:
 
@@ -12376,7 +12377,7 @@ void debug_print(size_t l) {
  800408a:	bf00      	nop
  800408c:	3b9aca00 	.word	0x3b9aca00
  8004090:	cccccccd 	.word	0xcccccccd
- 8004094:	080060d8 	.word	0x080060d8
+ 8004094:	08006134 	.word	0x08006134
 
 08004098 <_Z11debug_printi>:
     if (i == 0) { debug_append("0", 1); } 
@@ -12403,8 +12404,8 @@ void debug_print(int i) {
  80040b8:	2101      	movs	r1, #1
  80040ba:	4802      	ldr	r0, [pc, #8]	; (80040c4 <_Z11debug_printi+0x2c>)
  80040bc:	f7ff bec8 	b.w	8003e50 <_ZL12debug_appendPKcj>
- 80040c0:	080060d4 	.word	0x080060d4
- 80040c4:	080060d0 	.word	0x080060d0
+ 80040c0:	08006130 	.word	0x08006130
+ 80040c4:	0800612c 	.word	0x0800612c
 
 080040c8 <debug_print>:
     if (s[0] == 0) return;
@@ -12431,7 +12432,7 @@ void debug_println(const char *s) {
  80040e4:	4801      	ldr	r0, [pc, #4]	; (80040ec <debug_println+0x18>)
  80040e6:	f7ff beb3 	b.w	8003e50 <_ZL12debug_appendPKcj>
  80040ea:	bf00      	nop
- 80040ec:	080060f0 	.word	0x080060f0
+ 80040ec:	0800614c 	.word	0x0800614c
 
 080040f0 <_Z13debug_printlni>:
 
@@ -12451,7 +12452,7 @@ void debug_println(int i) {
  80040fc:	4801      	ldr	r0, [pc, #4]	; (8004104 <_Z13debug_printlni+0x14>)
  80040fe:	f7ff bea7 	b.w	8003e50 <_ZL12debug_appendPKcj>
  8004102:	bf00      	nop
- 8004104:	080060f0 	.word	0x080060f0
+ 8004104:	0800614c 	.word	0x0800614c
 
 08004108 <debug_print_int>:
 void debug_println(float f) {
@@ -12593,7 +12594,7 @@ void platform_setup(void) {
  80041ba:	f7fc bd0b 	b.w	8000bd4 <test_codal>
  80041be:	bf00      	nop
  80041c0:	200008b4 	.word	0x200008b4
- 80041c4:	080060f4 	.word	0x080060f4
+ 80041c4:	08006150 	.word	0x08006150
 
 080041c8 <enable_debug>:
 
@@ -12868,14 +12869,14 @@ static void custom_rtc_awake_from_off(enum rcc_osc clock_source)
  8004328:	200008b5 	.word	0x200008b5
  800432c:	200008a8 	.word	0x200008a8
  8004330:	200008ac 	.word	0x200008ac
- 8004334:	08006110 	.word	0x08006110
- 8004338:	08006128 	.word	0x08006128
+ 8004334:	0800616c 	.word	0x0800616c
+ 8004338:	08006184 	.word	0x08006184
  800433c:	40002804 	.word	0x40002804
  8004340:	40002800 	.word	0x40002800
  8004344:	40002818 	.word	0x40002818
  8004348:	40002808 	.word	0x40002808
  800434c:	4000280c 	.word	0x4000280c
- 8004350:	08006138 	.word	0x08006138
+ 8004350:	08006194 	.word	0x08006194
 
 08004354 <platform_set_alarm>:
 void platform_set_alarm(uint32_t millisec) {
@@ -12908,7 +12909,7 @@ void platform_set_alarm(uint32_t millisec) {
  800437a:	f7ff fea5 	bl	80040c8 <debug_print>
  800437e:	e7ef      	b.n	8004360 <platform_set_alarm+0xc>
  8004380:	200008ac 	.word	0x200008ac
- 8004384:	08006108 	.word	0x08006108
+ 8004384:	08006164 	.word	0x08006164
 
 08004388 <millis>:
 	return rtc_get_counter_val();  //  More accurate, uses hardware counters.
@@ -12938,8 +12939,8 @@ int poll_restart_callback(void) {
 }
  80043a0:	bd08      	pop	{r3, pc}
  80043a2:	bf00      	nop
- 80043a4:	080061c4 	.word	0x080061c4
- 80043a8:	20000b8c 	.word	0x20000b8c
+ 80043a4:	08006220 	.word	0x08006220
+ 80043a8:	20000b90 	.word	0x20000b90
 
 080043ac <bootloader_poll>:
 int bootloader_poll(void) {
@@ -13215,28 +13216,28 @@ void prepare_baseloader(void) {
  80045c4:	200008b8 	.word	0x200008b8
  80045c8:	08000000 	.word	0x08000000
  80045cc:	200008bc 	.word	0x200008bc
- 80045d0:	080061e8 	.word	0x080061e8
- 80045d4:	08006220 	.word	0x08006220
- 80045d8:	080061f8 	.word	0x080061f8
- 80045dc:	08006200 	.word	0x08006200
- 80045e0:	08006208 	.word	0x08006208
- 80045e4:	08006210 	.word	0x08006210
- 80045e8:	08005f50 	.word	0x08005f50
+ 80045d0:	08006244 	.word	0x08006244
+ 80045d4:	0800627c 	.word	0x0800627c
+ 80045d8:	08006254 	.word	0x08006254
+ 80045dc:	0800625c 	.word	0x0800625c
+ 80045e0:	08006264 	.word	0x08006264
+ 80045e4:	0800626c 	.word	0x0800626c
+ 80045e8:	08005fac 	.word	0x08005fac
  80045ec:	20000000 	.word	0x20000000
- 80045f0:	08006240 	.word	0x08006240
- 80045f4:	08006258 	.word	0x08006258
- 80045f8:	08006274 	.word	0x08006274
+ 80045f0:	0800629c 	.word	0x0800629c
+ 80045f4:	080062b4 	.word	0x080062b4
+ 80045f8:	080062d0 	.word	0x080062d0
  80045fc:	e000ed08 	.word	0xe000ed08
- 8004600:	08006290 	.word	0x08006290
- 8004604:	080062a4 	.word	0x080062a4
- 8004608:	0800621c 	.word	0x0800621c
- 800460c:	080064ec 	.word	0x080064ec
- 8004610:	080061e4 	.word	0x080061e4
- 8004614:	08006228 	.word	0x08006228
+ 8004600:	080062ec 	.word	0x080062ec
+ 8004604:	08006300 	.word	0x08006300
+ 8004608:	08006278 	.word	0x08006278
+ 800460c:	08006548 	.word	0x08006548
+ 8004610:	08006240 	.word	0x08006240
+ 8004614:	08006284 	.word	0x08006284
  8004618:	08007401 	.word	0x08007401
- 800461c:	08006234 	.word	0x08006234
- 8004620:	080062ac 	.word	0x080062ac
- 8004624:	080061d8 	.word	0x080061d8
+ 800461c:	08006290 	.word	0x08006290
+ 8004620:	08006308 	.word	0x08006308
+ 8004624:	08006234 	.word	0x08006234
  8004628:	200008dc 	.word	0x200008dc
  800462c:	200008c0 	.word	0x200008c0
  8004630:	200008d4 	.word	0x200008d4
@@ -13397,22 +13398,22 @@ static void get_serial_number(void) {
                     scb_reset_system();
  8004760:	f7fc fb1a 	bl	8000d98 <scb_reset_system>
  8004764:	200008e0 	.word	0x200008e0
- 8004768:	08006148 	.word	0x08006148
- 800476c:	08006158 	.word	0x08006158
- 8004770:	08006178 	.word	0x08006178
+ 8004768:	080061a4 	.word	0x080061a4
+ 800476c:	080061b4 	.word	0x080061b4
+ 8004770:	080061d4 	.word	0x080061d4
  8004774:	200047bc 	.word	0x200047bc
- 8004778:	08006190 	.word	0x08006190
+ 8004778:	080061ec 	.word	0x080061ec
  800477c:	080043ad 	.word	0x080043ad
- 8004780:	0800619c 	.word	0x0800619c
+ 8004780:	080061f8 	.word	0x080061f8
  8004784:	0800438d 	.word	0x0800438d
  8004788:	200008d0 	.word	0x200008d0
  800478c:	2000046c 	.word	0x2000046c
  8004790:	10624dd3 	.word	0x10624dd3
- 8004794:	080061ac 	.word	0x080061ac
+ 8004794:	08006208 	.word	0x08006208
  8004798:	00989680 	.word	0x00989680
- 800479c:	080061bc 	.word	0x080061bc
+ 800479c:	08006218 	.word	0x08006218
  80047a0:	200008c4 	.word	0x200008c4
- 80047a4:	20000b8c 	.word	0x20000b8c
+ 80047a4:	20000b90 	.word	0x20000b90
 
 080047a8 <bootloader_set_restart_callback>:
 int bootloader_set_restart_callback(restart_callback_type *func) {
@@ -13531,11 +13532,11 @@ void flash_flush(void) {
  8004854:	200008e4 	.word	0x200008e4
  8004858:	2000057c 	.word	0x2000057c
  800485c:	200047bc 	.word	0x200047bc
- 8004860:	080062c8 	.word	0x080062c8
- 8004864:	080064ec 	.word	0x080064ec
+ 8004860:	08006324 	.word	0x08006324
+ 8004864:	08006548 	.word	0x08006548
  8004868:	20000000 	.word	0x20000000
- 800486c:	080062cc 	.word	0x080062cc
- 8004870:	08005f50 	.word	0x08005f50
+ 800486c:	08006328 	.word	0x08006328
+ 8004870:	08005fac 	.word	0x08005fac
 
 08004874 <flash_write>:
 
@@ -13657,10 +13658,10 @@ void flash_write(uint32_t dst, const uint8_t *src, int byte_count) {
  8004936:	bf00      	nop
  8004938:	0800ffff 	.word	0x0800ffff
  800493c:	200047bc 	.word	0x200047bc
- 8004940:	080062e8 	.word	0x080062e8
- 8004944:	08006200 	.word	0x08006200
- 8004948:	08006208 	.word	0x08006208
- 800494c:	08005f50 	.word	0x08005f50
+ 8004940:	08006344 	.word	0x08006344
+ 8004944:	0800625c 	.word	0x0800625c
+ 8004948:	08006264 	.word	0x08006264
+ 800494c:	08005fac 	.word	0x08005fac
  8004950:	20000470 	.word	0x20000470
  8004954:	fffffc00 	.word	0xfffffc00
 
@@ -13680,7 +13681,7 @@ static void hf2_connected(void) {
     ////logger_add_output(usb_hf2_transmit);
 }
  8004962:	4770      	bx	lr
- 8004964:	20000b8e 	.word	0x20000b8e
+ 8004964:	20000b92 	.word	0x20000b92
 
 08004968 <usb_cdc_transmit>:
     if (!usbd_dev || !cdc_is_connected) { return -1; }
@@ -13708,7 +13709,7 @@ static void hf2_connected(void) {
  800498a:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
  800498e:	4770      	bx	lr
  8004990:	20000988 	.word	0x20000988
- 8004994:	20000b8d 	.word	0x20000b8d
+ 8004994:	20000b91 	.word	0x20000b91
 
 08004998 <sof_callback>:
 static void sof_callback(void) {
@@ -13737,7 +13738,7 @@ static void sof_callback(void) {
     logger_add_output(usb_cdc_transmit);
  80049b6:	f7ff bad7 	b.w	8003f68 <logger_add_output>
  80049ba:	bf00      	nop
- 80049bc:	20000b8d 	.word	0x20000b8d
+ 80049bc:	20000b91 	.word	0x20000b91
  80049c0:	08004969 	.word	0x08004969
 
 080049c4 <set_aggregate_callback>:
@@ -13801,7 +13802,7 @@ static void set_aggregate_callback(
  8004a04:	f7ff bad6 	b.w	8003fb4 <debug_flush>
  8004a08:	200008ec 	.word	0x200008ec
  8004a0c:	08004d5d 	.word	0x08004d5d
- 8004a10:	08006564 	.word	0x08006564
+ 8004a10:	080065c0 	.word	0x080065c0
 
 08004a14 <usb_setup>:
 usbd_device* usb_setup(void) {
@@ -13833,11 +13834,11 @@ usbd_device* usb_setup(void) {
     hf2_setup(usbd_dev, hf2_connected);
  8004a46:	6820      	ldr	r0, [r4, #0]
  8004a48:	4918      	ldr	r1, [pc, #96]	; (8004aac <usb_setup+0x98>)
- 8004a4a:	f001 f913 	bl	8005c74 <hf2_setup>
+ 8004a4a:	f001 f941 	bl	8005cd0 <hf2_setup>
 	usb21_setup(usbd_dev, &bos_descriptor);
  8004a4e:	6820      	ldr	r0, [r4, #0]
  8004a50:	4917      	ldr	r1, [pc, #92]	; (8004ab0 <usb_setup+0x9c>)
- 8004a52:	f001 f9d5 	bl	8005e00 <usb21_setup>
+ 8004a52:	f001 fa03 	bl	8005e5c <usb21_setup>
 	webusb_setup(usbd_dev, origin_url);
  8004a56:	6820      	ldr	r0, [r4, #0]
  8004a58:	4916      	ldr	r1, [pc, #88]	; (8004ab4 <usb_setup+0xa0>)
@@ -13867,18 +13868,18 @@ usbd_device* usb_setup(void) {
  8004a88:	f7ff fa94 	bl	8003fb4 <debug_flush>
  8004a8c:	e7f1      	b.n	8004a72 <usb_setup+0x5e>
  8004a8e:	bf00      	nop
- 8004a90:	20000a8c 	.word	0x20000a8c
- 8004a94:	0800645c 	.word	0x0800645c
+ 8004a90:	20000a90 	.word	0x20000a90
+ 8004a94:	080064b8 	.word	0x080064b8
  8004a98:	2000047c 	.word	0x2000047c
- 8004a9c:	08006414 	.word	0x08006414
+ 8004a9c:	08006470 	.word	0x08006470
  8004aa0:	20000988 	.word	0x20000988
  8004aa4:	08004999 	.word	0x08004999
  8004aa8:	080049a9 	.word	0x080049a9
  8004aac:	08004959 	.word	0x08004959
- 8004ab0:	080063c4 	.word	0x080063c4
- 8004ab4:	08006618 	.word	0x08006618
+ 8004ab0:	08006420 	.word	0x08006420
+ 8004ab4:	08006674 	.word	0x08006674
  8004ab8:	080049c5 	.word	0x080049c5
- 8004abc:	08006634 	.word	0x08006634
+ 8004abc:	08006690 	.word	0x08006690
 
 08004ac0 <get_usb_status>:
 volatile int get_usb_status(void) { 
@@ -13947,7 +13948,7 @@ volatile int get_usb_status(void) {
 }
  8004b1e:	bd10      	pop	{r4, pc}
  8004b20:	200008ec 	.word	0x200008ec
- 8004b24:	0800639c 	.word	0x0800639c
+ 8004b24:	080063f8 	.word	0x080063f8
 
 08004b28 <aggregate_register_callback>:
     usbd_control_callback callback) {
@@ -13999,7 +14000,7 @@ volatile int get_usb_status(void) {
 }
  8004b6e:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
  8004b70:	20000914 	.word	0x20000914
- 8004b74:	08006374 	.word	0x08006374
+ 8004b74:	080063d0 	.word	0x080063d0
 
 08004b78 <usb_set_serial_number>:
 
@@ -14061,9 +14062,9 @@ void dump_buffer(const char *msg, const uint8_t *buf, int len) {
  8004bd0:	4803      	ldr	r0, [pc, #12]	; (8004be0 <dump_buffer+0x4c>)
  8004bd2:	f7ff ba7f 	b.w	80040d4 <debug_println>
  8004bd6:	bf00      	nop
- 8004bd8:	080064ec 	.word	0x080064ec
- 8004bdc:	08006470 	.word	0x08006470
- 8004be0:	08005f50 	.word	0x08005f50
+ 8004bd8:	08006548 	.word	0x08006548
+ 8004bdc:	080064cc 	.word	0x080064cc
+ 8004be0:	08005fac 	.word	0x08005fac
 
 08004be4 <dump_usb_request>:
 
@@ -14225,24 +14226,24 @@ void dump_usb_request(const char *msg, struct usb_setup_data *req) {
  8004d0c:	4812      	ldr	r0, [pc, #72]	; (8004d58 <dump_usb_request+0x174>)
  8004d0e:	f7ff f9db 	bl	80040c8 <debug_print>
  8004d12:	e7a5      	b.n	8004c60 <dump_usb_request+0x7c>
- 8004d14:	08006474 	.word	0x08006474
- 8004d18:	0800647c 	.word	0x0800647c
- 8004d1c:	08006484 	.word	0x08006484
- 8004d20:	0800648c 	.word	0x0800648c
- 8004d24:	08006208 	.word	0x08006208
- 8004d28:	080064e0 	.word	0x080064e0
- 8004d2c:	080064f0 	.word	0x080064f0
- 8004d30:	080064f4 	.word	0x080064f4
- 8004d34:	080064f8 	.word	0x080064f8
- 8004d38:	08005f50 	.word	0x08005f50
- 8004d3c:	08006494 	.word	0x08006494
- 8004d40:	080064d0 	.word	0x080064d0
- 8004d44:	080064c8 	.word	0x080064c8
- 8004d48:	080064c0 	.word	0x080064c0
- 8004d4c:	080064b8 	.word	0x080064b8
- 8004d50:	080064b0 	.word	0x080064b0
- 8004d54:	080064a8 	.word	0x080064a8
- 8004d58:	080064a0 	.word	0x080064a0
+ 8004d14:	080064d0 	.word	0x080064d0
+ 8004d18:	080064d8 	.word	0x080064d8
+ 8004d1c:	080064e0 	.word	0x080064e0
+ 8004d20:	080064e8 	.word	0x080064e8
+ 8004d24:	08006264 	.word	0x08006264
+ 8004d28:	0800653c 	.word	0x0800653c
+ 8004d2c:	0800654c 	.word	0x0800654c
+ 8004d30:	08006550 	.word	0x08006550
+ 8004d34:	08006554 	.word	0x08006554
+ 8004d38:	08005fac 	.word	0x08005fac
+ 8004d3c:	080064f0 	.word	0x080064f0
+ 8004d40:	0800652c 	.word	0x0800652c
+ 8004d44:	08006524 	.word	0x08006524
+ 8004d48:	0800651c 	.word	0x0800651c
+ 8004d4c:	08006514 	.word	0x08006514
+ 8004d50:	0800650c 	.word	0x0800650c
+ 8004d54:	08006504 	.word	0x08006504
+ 8004d58:	080064fc 	.word	0x080064fc
 
 08004d5c <aggregate_callback>:
 	usbd_control_complete_callback *complete) {
@@ -14345,9 +14346,9 @@ void dump_usb_request(const char *msg, struct usb_setup_data *req) {
  8004e04:	f7fc bdf2 	b.w	80019ec <_usbd_standard_request_device>
  8004e08:	20000914 	.word	0x20000914
  8004e0c:	20000964 	.word	0x20000964
- 8004e10:	080061b8 	.word	0x080061b8
- 8004e14:	08006370 	.word	0x08006370
- 8004e18:	08006368 	.word	0x08006368
+ 8004e10:	08006214 	.word	0x08006214
+ 8004e14:	080063cc 	.word	0x080063cc
+ 8004e18:	080063c4 	.word	0x080063c4
 
 08004e1c <webusb_set_config>:
 	}
@@ -14381,7 +14382,7 @@ static void webusb_set_config(usbd_device* usbd_dev, uint16_t wValue) {
 	if (status < 0) { debug_println("*** webusb_set_config failed"); debug_flush(); }
  8004e38:	f7ff b8bc 	b.w	8003fb4 <debug_flush>
  8004e3c:	08004e45 	.word	0x08004e45
- 8004e40:	080066a4 	.word	0x080066a4
+ 8004e40:	08006700 	.word	0x08006700
 
 08004e44 <webusb_control_vendor_request>:
 	if (req->bmRequestType != 0xc0 && req->bmRequestType != 0xc1) { return USBD_REQ_NEXT_CALLBACK; }
@@ -14475,10 +14476,10 @@ static void webusb_set_config(usbd_device* usbd_dev, uint16_t wValue) {
  8004ece:	802e      	strh	r6, [r5, #0]
  8004ed0:	e7da      	b.n	8004e88 <webusb_control_vendor_request+0x44>
  8004ed2:	bf00      	nop
- 8004ed4:	0800664c 	.word	0x0800664c
- 8004ed8:	08005f50 	.word	0x08005f50
- 8004edc:	08006670 	.word	0x08006670
- 8004ee0:	08006668 	.word	0x08006668
+ 8004ed4:	080066a8 	.word	0x080066a8
+ 8004ed8:	08005fac 	.word	0x08005fac
+ 8004edc:	080066cc 	.word	0x080066cc
+ 8004ee0:	080066c4 	.word	0x080066c4
  8004ee4:	2000098c 	.word	0x2000098c
 
 08004ee8 <webusb_setup>:
@@ -14536,7 +14537,7 @@ void webusb_setup(usbd_device* usbd_dev, const char* https_url) {
  8004f28:	2000098c 	.word	0x2000098c
  8004f2c:	08004e45 	.word	0x08004e45
  8004f30:	08004e1d 	.word	0x08004e1d
- 8004f34:	080066c4 	.word	0x080066c4
+ 8004f34:	08006720 	.word	0x08006720
 
 08004f38 <winusb_control_vendor_request>:
 }
@@ -14659,10 +14660,10 @@ static int usb_descriptor_index(uint16_t wValue) { return wValue & 0xFF; }
 }
  8004fba:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
  8004fbc:	20000554 	.word	0x20000554
- 8004fc0:	0800679c 	.word	0x0800679c
- 8004fc4:	080066dc 	.word	0x080066dc
- 8004fc8:	08006794 	.word	0x08006794
- 8004fcc:	0800678c 	.word	0x0800678c
+ 8004fc0:	080067f8 	.word	0x080067f8
+ 8004fc4:	08006738 	.word	0x08006738
+ 8004fc8:	080067f0 	.word	0x080067f0
+ 8004fcc:	080067e8 	.word	0x080067e8
  8004fd0:	200004a0 	.word	0x200004a0
 
 08004fd4 <winusb_set_config>:
@@ -14695,7 +14696,7 @@ static void winusb_set_config(usbd_device* usbd_dev, uint16_t wValue) {
     	debug_println("*** winusb_set_config failed"); debug_flush(); ////
  8004ff0:	f7fe bfe0 	b.w	8003fb4 <debug_flush>
  8004ff4:	08004f39 	.word	0x08004f39
- 8004ff8:	080067ac 	.word	0x080067ac
+ 8004ff8:	08006808 	.word	0x08006808
 
 08004ffc <winusb_descriptor_request>:
 	usbd_control_complete_callback* complete) { (void)complete; (void)usbd_dev;
@@ -14741,8 +14742,8 @@ static void winusb_set_config(usbd_device* usbd_dev, uint16_t wValue) {
 }
  8005038:	bd38      	pop	{r3, r4, r5, pc}
  800503a:	bf00      	nop
- 800503c:	080067a4 	.word	0x080067a4
- 8005040:	080067e4 	.word	0x080067e4
+ 800503c:	08006800 	.word	0x08006800
+ 8005040:	08006840 	.word	0x08006840
 
 08005044 <winusb_setup>:
 
@@ -14810,7 +14811,7 @@ void winusb_setup(usbd_device* usbd_dev, uint8_t interface) {
  8005090:	08004fd5 	.word	0x08004fd5
  8005094:	08004f39 	.word	0x08004f39
  8005098:	08004ffd 	.word	0x08004ffd
- 800509c:	080067cc 	.word	0x080067cc
+ 800509c:	08006828 	.word	0x08006828
 
 080050a0 <boot_target_get_startup_mode.part.0>:
     debug_print("app missing "); debug_printhex_unsigned((size_t) APP_BASE_ADDRESS);
@@ -14857,14 +14858,14 @@ enum StartupMode boot_target_get_startup_mode(void) {
     //  Check the RTC backup register for any boot request.
     uint32_t cmd = backup_read(BKP0);  //  Returns 0, CMD_BOOT, CMD_APP.
  80050e4:	2000      	movs	r0, #0
- 80050e6:	f000 fec3 	bl	8005e70 <backup_read>
+ 80050e6:	f000 fef1 	bl	8005ecc <backup_read>
     backup_write(BKP0, 0);  //  Clear the backup register so it will boot back into Application Mode next time.
  80050ea:	2100      	movs	r1, #0
     uint32_t cmd = backup_read(BKP0);  //  Returns 0, CMD_BOOT, CMD_APP.
  80050ec:	4604      	mov	r4, r0
     backup_write(BKP0, 0);  //  Clear the backup register so it will boot back into Application Mode next time.
  80050ee:	4608      	mov	r0, r1
- 80050f0:	f000 fea2 	bl	8005e38 <backup_write>
+ 80050f0:	f000 fed0 	bl	8005e94 <backup_write>
 
     //  Remember the forced startup mode if we were forced before restarting.
     switch(cmd) {
@@ -14954,7 +14955,7 @@ enum StartupMode boot_target_get_startup_mode(void) {
  8005168:	4912      	ldr	r1, [pc, #72]	; (80051b4 <boot_target_get_startup_mode.part.0+0x114>)
  800516a:	2000      	movs	r0, #0
  800516c:	701c      	strb	r4, [r3, #0]
- 800516e:	f000 fe63 	bl	8005e38 <backup_write>
+ 800516e:	f000 fe91 	bl	8005e94 <backup_write>
         debug_println("----baseloader mode (forced)");
  8005172:	4811      	ldr	r0, [pc, #68]	; (80051b8 <boot_target_get_startup_mode.part.0+0x118>)
  8005174:	f7fe ffae 	bl	80040d4 <debug_println>
@@ -14965,20 +14966,20 @@ enum StartupMode boot_target_get_startup_mode(void) {
 }
  800517e:	bd38      	pop	{r3, r4, r5, pc}
  8005180:	08007400 	.word	0x08007400
- 8005184:	08006810 	.word	0x08006810
- 8005188:	08006820 	.word	0x08006820
- 800518c:	08005f50 	.word	0x08005f50
- 8005190:	08006804 	.word	0x08006804
+ 8005184:	0800686c 	.word	0x0800686c
+ 8005188:	0800687c 	.word	0x0800687c
+ 800518c:	08005fac 	.word	0x08005fac
+ 8005190:	08006860 	.word	0x08006860
  8005194:	45534142 	.word	0x45534142
  8005198:	3f82722a 	.word	0x3f82722a
- 800519c:	20000b8f 	.word	0x20000b8f
- 80051a0:	08006864 	.word	0x08006864
- 80051a4:	20000b90 	.word	0x20000b90
- 80051a8:	08006884 	.word	0x08006884
- 80051ac:	080067f8 	.word	0x080067f8
- 80051b0:	08006844 	.word	0x08006844
+ 800519c:	20000b93 	.word	0x20000b93
+ 80051a0:	080068c0 	.word	0x080068c0
+ 80051a4:	20000b94 	.word	0x20000b94
+ 80051a8:	080068e0 	.word	0x080068e0
+ 80051ac:	08006854 	.word	0x08006854
+ 80051b0:	080068a0 	.word	0x080068a0
  80051b4:	544f4f42 	.word	0x544f4f42
- 80051b8:	08006824 	.word	0x08006824
+ 80051b8:	08006880 	.word	0x08006880
 
 080051bc <boot_target_get_startup_mode>:
     if (startup_mode != UNKNOWN_MODE) { return startup_mode; }
@@ -14988,7 +14989,7 @@ enum StartupMode boot_target_get_startup_mode(void) {
 }
  80051c2:	4770      	bx	lr
  80051c4:	f7ff bf6c 	b.w	80050a0 <boot_target_get_startup_mode.part.0>
- 80051c8:	20000b90 	.word	0x20000b90
+ 80051c8:	20000b94 	.word	0x20000b94
 
 080051cc <boot_target_set_led>:
 }
@@ -15124,7 +15125,7 @@ const usbd_driver* boot_target_usb_init(void) {
  8005272:	bd08      	pop	{r3, pc}
  8005274:	40010800 	.word	0x40010800
  8005278:	000c3500 	.word	0x000c3500
- 800527c:	08005f80 	.word	0x08005f80
+ 800527c:	08005fdc 	.word	0x08005fdc
 
 08005280 <boot_target_set_restart_callback>:
 
@@ -15146,8 +15147,8 @@ void boot_target_set_restart_callback(restart_callback_type *func) {
  8005294:	4802      	ldr	r0, [pc, #8]	; (80052a0 <boot_target_set_restart_callback+0x20>)
  8005296:	f7fe bf1d 	b.w	80040d4 <debug_println>
  800529a:	bf00      	nop
- 800529c:	080068c8 	.word	0x080068c8
- 80052a0:	08005f50 	.word	0x08005f50
+ 800529c:	08006924 	.word	0x08006924
+ 80052a0:	08005fac 	.word	0x08005fac
 
 080052a4 <boot_target_manifest_app>:
 
@@ -15162,10 +15163,10 @@ void boot_target_manifest_app(void) {
     backup_write(BKP0, CMD_APP);
  80052b0:	4903      	ldr	r1, [pc, #12]	; (80052c0 <boot_target_manifest_app+0x1c>)
  80052b2:	2000      	movs	r0, #0
- 80052b4:	f000 fdc0 	bl	8005e38 <backup_write>
+ 80052b4:	f000 fdee 	bl	8005e94 <backup_write>
     scb_reset_system();  //  Restart now.
  80052b8:	f7fb fd6e 	bl	8000d98 <scb_reset_system>
- 80052bc:	0800689c 	.word	0x0800689c
+ 80052bc:	080068f8 	.word	0x080068f8
  80052c0:	3f82722a 	.word	0x3f82722a
 
 080052c4 <boot_target_manifest_baseloader>:
@@ -15182,10 +15183,10 @@ void boot_target_manifest_baseloader(void) {
     backup_write(BKP0, CMD_BASE);
  80052d0:	4903      	ldr	r1, [pc, #12]	; (80052e0 <boot_target_manifest_baseloader+0x1c>)
  80052d2:	2000      	movs	r0, #0
- 80052d4:	f000 fdb0 	bl	8005e38 <backup_write>
+ 80052d4:	f000 fdde 	bl	8005e94 <backup_write>
     scb_reset_system();  //  Restart now.
  80052d8:	f7fb fd5e 	bl	8000d98 <scb_reset_system>
- 80052dc:	080068a8 	.word	0x080068a8
+ 80052dc:	08006904 	.word	0x08006904
  80052e0:	45534142 	.word	0x45534142
 
 080052e4 <boot_target_manifest_bootloader>:
@@ -15202,10 +15203,10 @@ void boot_target_manifest_bootloader(void) {
     backup_write(BKP0, CMD_BOOT);
  80052f0:	4903      	ldr	r1, [pc, #12]	; (8005300 <boot_target_manifest_bootloader+0x1c>)
  80052f2:	2000      	movs	r0, #0
- 80052f4:	f000 fda0 	bl	8005e38 <backup_write>
+ 80052f4:	f000 fdce 	bl	8005e94 <backup_write>
     scb_reset_system();  //  Restart now.
  80052f8:	f7fb fd4e 	bl	8000d98 <scb_reset_system>
- 80052fc:	080068b8 	.word	0x080068b8
+ 80052fc:	08006914 	.word	0x08006914
  8005300:	544f4f42 	.word	0x544f4f42
 
 08005304 <boot_target_get_serial_number>:
@@ -15227,7 +15228,7 @@ static void cdcacm_comm_cb(
  800530c:	4801      	ldr	r0, [pc, #4]	; (8005314 <cdcacm_comm_cb+0x8>)
  800530e:	f7fe bee1 	b.w	80040d4 <debug_println>
  8005312:	bf00      	nop
- 8005314:	080068f8 	.word	0x080068f8
+ 8005314:	08006954 	.word	0x08006954
 
 08005318 <cdcacm_set_config>:
 }
@@ -15296,7 +15297,7 @@ static void cdcacm_set_config(
  8005370:	08005439 	.word	0x08005439
  8005374:	0800530d 	.word	0x0800530d
  8005378:	08005381 	.word	0x08005381
- 800537c:	08006928 	.word	0x08006928
+ 800537c:	08006984 	.word	0x08006984
 
 08005380 <cdcacm_control_request>:
 ) {
@@ -15355,10 +15356,10 @@ static void cdcacm_set_config(
  80053d0:	2000      	movs	r0, #0
 }
  80053d2:	bd10      	pop	{r4, pc}
- 80053d4:	08006948 	.word	0x08006948
- 80053d8:	08006900 	.word	0x08006900
- 80053dc:	08006208 	.word	0x08006208
- 80053e0:	08005f50 	.word	0x08005f50
+ 80053d4:	080069a4 	.word	0x080069a4
+ 80053d8:	0800695c 	.word	0x0800695c
+ 80053dc:	08006264 	.word	0x08006264
+ 80053e0:	08005fac 	.word	0x08005fac
 
 080053e4 <cdcadm_transmit>:
 ) {
@@ -15416,7 +15417,7 @@ static void cdcacm_set_config(
  800542e:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
 }
  8005432:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
- 8005434:	20000b91 	.word	0x20000b91
+ 8005434:	20000b95 	.word	0x20000b95
 
 08005438 <cdcacm_data_rx_cb>:
 ) {
@@ -15469,7 +15470,7 @@ static void cdcacm_set_config(
 }
  8005476:	bd70      	pop	{r4, r5, r6, pc}
  8005478:	20000994 	.word	0x20000994
- 800547c:	20000b91 	.word	0x20000b91
+ 800547c:	20000b95 	.word	0x20000b95
  8005480:	20000990 	.word	0x20000990
 
 08005484 <cdc_setup>:
@@ -15498,7 +15499,7 @@ void cdc_setup(usbd_device* usbd_dev, connected_callback *connected_func0) {
  80054a0:	f7fe bd88 	b.w	8003fb4 <debug_flush>
  80054a4:	20000990 	.word	0x20000990
  80054a8:	08005319 	.word	0x08005319
- 80054ac:	080068e0 	.word	0x080068e0
+ 80054ac:	0800693c 	.word	0x0800693c
 
 080054b0 <hf2_set_config>:
         if (s < 3) { dump_buffer("hf2 <<", tx_buf, s + 1); }
@@ -15536,8 +15537,8 @@ static void hf2_set_config(usbd_device *usbd_dev, uint16_t wValue) {  (void)wVal
 }
  80054e0:	b002      	add	sp, #8
  80054e2:	bd10      	pop	{r4, pc}
- 80054e4:	08006b2c 	.word	0x08006b2c
- 80054e8:	08005c25 	.word	0x08005c25
+ 80054e4:	08006b88 	.word	0x08006b88
+ 80054e8:	08005c75 	.word	0x08005c75
  80054ec:	080055e9 	.word	0x080055e9
 
 080054f0 <pokeSend>:
@@ -15658,14 +15659,14 @@ static void hf2_set_config(usbd_device *usbd_dev, uint16_t wValue) {  (void)wVal
  80055a6:	dce0      	bgt.n	800556a <pokeSend+0x7a>
  80055a8:	e7f2      	b.n	8005590 <pokeSend+0xa0>
  80055aa:	bf00      	nop
- 80055ac:	20000a48 	.word	0x20000a48
+ 80055ac:	20000a4c 	.word	0x20000a4c
  80055b0:	200009d8 	.word	0x200009d8
- 80055b4:	200009fc 	.word	0x200009fc
- 80055b8:	20000a00 	.word	0x20000a00
- 80055bc:	20000b94 	.word	0x20000b94
- 80055c0:	08006b74 	.word	0x08006b74
- 80055c4:	08005f50 	.word	0x08005f50
- 80055c8:	08006b6c 	.word	0x08006b6c
+ 80055b4:	20000a00 	.word	0x20000a00
+ 80055b8:	20000a04 	.word	0x20000a04
+ 80055bc:	20000b98 	.word	0x20000b98
+ 80055c0:	08006bd0 	.word	0x08006bd0
+ 80055c4:	08005fac 	.word	0x08005fac
+ 80055c8:	08006bc8 	.word	0x08006bc8
 
 080055cc <assert.part.0>:
     }
@@ -15686,13 +15687,13 @@ static void assert(bool assertion, const char *msg) {
  80055dc:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
     debug_print("*** ERROR: "); debug_println(msg); debug_force_flush();
  80055e0:	f7fe bcfa 	b.w	8003fd8 <debug_force_flush>
- 80055e4:	08006950 	.word	0x08006950
+ 80055e4:	080069ac 	.word	0x080069ac
 
 080055e8 <hf2_data_rx_cb>:
 static void hf2_data_rx_cb(usbd_device *usbd_dev, uint8_t ep) {
  80055e8:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
     int len = usbd_ep_read_packet(usbd_dev, ep, rx_buf, sizeof(rx_buf));    
- 80055ec:	4ca4      	ldr	r4, [pc, #656]	; (8005880 <hf2_data_rx_cb+0x298>)
+ 80055ec:	4cac      	ldr	r4, [pc, #688]	; (80058a0 <hf2_data_rx_cb+0x2b8>)
  80055ee:	2340      	movs	r3, #64	; 0x40
 static void hf2_data_rx_cb(usbd_device *usbd_dev, uint8_t ep) {
  80055f0:	b08d      	sub	sp, #52	; 0x34
@@ -15702,1434 +15703,1478 @@ static void hf2_data_rx_cb(usbd_device *usbd_dev, uint8_t ep) {
  80055f8:	4605      	mov	r5, r0
     rx_time = millis();
  80055fa:	f7fe fec5 	bl	8004388 <millis>
- 80055fe:	4ba1      	ldr	r3, [pc, #644]	; (8005884 <hf2_data_rx_cb+0x29c>)
+ 80055fe:	4ba9      	ldr	r3, [pc, #676]	; (80058a4 <hf2_data_rx_cb+0x2bc>)
  8005600:	6018      	str	r0, [r3, #0]
     if (len <= 0) return;
- 8005602:	b1d5      	cbz	r5, 800563a <hf2_data_rx_cb+0x52>
+ 8005602:	b1dd      	cbz	r5, 800563c <hf2_data_rx_cb+0x54>
     if (!pkt) {
- 8005604:	4fa0      	ldr	r7, [pc, #640]	; (8005888 <hf2_data_rx_cb+0x2a0>)
+ 8005604:	4da8      	ldr	r5, [pc, #672]	; (80058a8 <hf2_data_rx_cb+0x2c0>)
     uint8_t tag = rx_buf[0];
- 8005606:	7826      	ldrb	r6, [r4, #0]
+ 8005606:	f894 8000 	ldrb.w	r8, [r4]
     if (!pkt) {
- 8005608:	683c      	ldr	r4, [r7, #0]
- 800560a:	b3ac      	cbz	r4, 8005678 <hf2_data_rx_cb+0x90>
+ 800560a:	682c      	ldr	r4, [r5, #0]
+ 800560c:	b3b4      	cbz	r4, 800567c <hf2_data_rx_cb+0x94>
     usb_assert(pkt->size == 0 || !(tag & HF2_FLAG_SERIAL_OUT), bad_packet_message);
- 800560c:	8820      	ldrh	r0, [r4, #0]
- 800560e:	b9b8      	cbnz	r0, 8005640 <hf2_data_rx_cb+0x58>
- 8005610:	f006 093f 	and.w	r9, r6, #63	; 0x3f
+ 800560e:	8820      	ldrh	r0, [r4, #0]
+ 8005610:	b9b8      	cbnz	r0, 8005642 <hf2_data_rx_cb+0x5a>
+ 8005612:	f008 093f 	and.w	r9, r8, #63	; 0x3f
     memcpy(pkt->buf + pkt->size, rx_buf + 1, size);
- 8005614:	f104 0802 	add.w	r8, r4, #2
- 8005618:	4440      	add	r0, r8
+ 8005616:	1ca7      	adds	r7, r4, #2
+ 8005618:	4438      	add	r0, r7
  800561a:	464a      	mov	r2, r9
- 800561c:	499b      	ldr	r1, [pc, #620]	; (800588c <hf2_data_rx_cb+0x2a4>)
+ 800561c:	49a3      	ldr	r1, [pc, #652]	; (80058ac <hf2_data_rx_cb+0x2c4>)
  800561e:	f7fe fb9b 	bl	8003d58 <memcpy>
     pkt->size += size;
- 8005622:	8825      	ldrh	r5, [r4, #0]
+ 8005622:	8826      	ldrh	r6, [r4, #0]
     if (tag != HF2_FLAG_CMDPKT_BODY) {
- 8005624:	f016 06c0 	ands.w	r6, r6, #192	; 0xc0
+ 8005624:	f018 08c0 	ands.w	r8, r8, #192	; 0xc0
     pkt->size += size;
- 8005628:	444d      	add	r5, r9
- 800562a:	b2ad      	uxth	r5, r5
- 800562c:	8025      	strh	r5, [r4, #0]
+ 8005628:	444e      	add	r6, r9
+ 800562a:	b2b6      	uxth	r6, r6
+ 800562c:	8026      	strh	r6, [r4, #0]
     if (tag != HF2_FLAG_CMDPKT_BODY) {
- 800562e:	d004      	beq.n	800563a <hf2_data_rx_cb+0x52>
+ 800562e:	d005      	beq.n	800563c <hf2_data_rx_cb+0x54>
         if (tag == HF2_FLAG_CMDPKT_LAST) {
- 8005630:	2e40      	cmp	r6, #64	; 0x40
- 8005632:	d02a      	beq.n	800568a <hf2_data_rx_cb+0xa2>
+ 8005630:	f1b8 0f40 	cmp.w	r8, #64	; 0x40
+ 8005634:	d02b      	beq.n	800568e <hf2_data_rx_cb+0xa6>
         pkt->size = 0;
- 8005634:	2300      	movs	r3, #0
- 8005636:	7023      	strb	r3, [r4, #0]
- 8005638:	7063      	strb	r3, [r4, #1]
+ 8005636:	2300      	movs	r3, #0
+ 8005638:	7023      	strb	r3, [r4, #0]
+ 800563a:	7063      	strb	r3, [r4, #1]
 }
- 800563a:	b00d      	add	sp, #52	; 0x34
- 800563c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 800563c:	b00d      	add	sp, #52	; 0x34
+ 800563e:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
     usb_assert(pkt->size == 0 || !(tag & HF2_FLAG_SERIAL_OUT), bad_packet_message);
- 8005640:	0632      	lsls	r2, r6, #24
- 8005642:	d40c      	bmi.n	800565e <hf2_data_rx_cb+0x76>
- 8005644:	f006 093f 	and.w	r9, r6, #63	; 0x3f
+ 8005642:	f018 0f80 	tst.w	r8, #128	; 0x80
+ 8005646:	d10c      	bne.n	8005662 <hf2_data_rx_cb+0x7a>
+ 8005648:	f008 093f 	and.w	r9, r8, #63	; 0x3f
     usb_assert(pkt->size + size <= (int) HF2_BUF_SIZE /* Was sizeof(pkt->buf) */, bad_packet_message);
- 8005648:	eb09 0300 	add.w	r3, r9, r0
+ 800564c:	eb09 0300 	add.w	r3, r9, r0
     if (assertion) { return; }
- 800564c:	f5b3 6f88 	cmp.w	r3, #1088	; 0x440
- 8005650:	dde0      	ble.n	8005614 <hf2_data_rx_cb+0x2c>
- 8005652:	488f      	ldr	r0, [pc, #572]	; (8005890 <hf2_data_rx_cb+0x2a8>)
- 8005654:	f7ff ffba 	bl	80055cc <assert.part.0>
- 8005658:	683c      	ldr	r4, [r7, #0]
- 800565a:	8820      	ldrh	r0, [r4, #0]
- 800565c:	e7da      	b.n	8005614 <hf2_data_rx_cb+0x2c>
- 800565e:	488c      	ldr	r0, [pc, #560]	; (8005890 <hf2_data_rx_cb+0x2a8>)
- 8005660:	f7ff ffb4 	bl	80055cc <assert.part.0>
- 8005664:	683c      	ldr	r4, [r7, #0]
- 8005666:	f006 093f 	and.w	r9, r6, #63	; 0x3f
- 800566a:	8820      	ldrh	r0, [r4, #0]
+ 8005650:	f5b3 6f88 	cmp.w	r3, #1088	; 0x440
+ 8005654:	dddf      	ble.n	8005616 <hf2_data_rx_cb+0x2e>
+ 8005656:	4896      	ldr	r0, [pc, #600]	; (80058b0 <hf2_data_rx_cb+0x2c8>)
+ 8005658:	f7ff ffb8 	bl	80055cc <assert.part.0>
+ 800565c:	682c      	ldr	r4, [r5, #0]
+ 800565e:	8820      	ldrh	r0, [r4, #0]
+ 8005660:	e7d9      	b.n	8005616 <hf2_data_rx_cb+0x2e>
+ 8005662:	4893      	ldr	r0, [pc, #588]	; (80058b0 <hf2_data_rx_cb+0x2c8>)
+ 8005664:	f7ff ffb2 	bl	80055cc <assert.part.0>
+ 8005668:	682c      	ldr	r4, [r5, #0]
+ 800566a:	f008 093f 	and.w	r9, r8, #63	; 0x3f
+ 800566e:	8820      	ldrh	r0, [r4, #0]
     usb_assert(pkt->size + size <= (int) HF2_BUF_SIZE /* Was sizeof(pkt->buf) */, bad_packet_message);
- 800566c:	eb09 0300 	add.w	r3, r9, r0
+ 8005670:	eb09 0300 	add.w	r3, r9, r0
     if (assertion) { return; }
- 8005670:	f5b3 6f88 	cmp.w	r3, #1088	; 0x440
- 8005674:	dced      	bgt.n	8005652 <hf2_data_rx_cb+0x6a>
- 8005676:	e7cd      	b.n	8005614 <hf2_data_rx_cb+0x2c>
+ 8005674:	f5b3 6f88 	cmp.w	r3, #1088	; 0x440
+ 8005678:	dced      	bgt.n	8005656 <hf2_data_rx_cb+0x6e>
+ 800567a:	e7cc      	b.n	8005616 <hf2_data_rx_cb+0x2e>
         pkt = (boot_target_get_startup_mode() == BOOTLOADER_MODE) ?
- 8005678:	f7ff fda0 	bl	80051bc <boot_target_get_startup_mode>
+ 800567c:	f7ff fd9e 	bl	80051bc <boot_target_get_startup_mode>
             &hf2_buffer :
- 800567c:	4c85      	ldr	r4, [pc, #532]	; (8005894 <hf2_data_rx_cb+0x2ac>)
- 800567e:	4b86      	ldr	r3, [pc, #536]	; (8005898 <hf2_data_rx_cb+0x2b0>)
- 8005680:	2802      	cmp	r0, #2
- 8005682:	bf08      	it	eq
- 8005684:	461c      	moveq	r4, r3
+ 8005680:	4c8c      	ldr	r4, [pc, #560]	; (80058b4 <hf2_data_rx_cb+0x2cc>)
+ 8005682:	4b8d      	ldr	r3, [pc, #564]	; (80058b8 <hf2_data_rx_cb+0x2d0>)
+ 8005684:	2802      	cmp	r0, #2
+ 8005686:	bf08      	it	eq
+ 8005688:	461c      	moveq	r4, r3
         pkt = (boot_target_get_startup_mode() == BOOTLOADER_MODE) ?
- 8005686:	603c      	str	r4, [r7, #0]
- 8005688:	e7c0      	b.n	800560c <hf2_data_rx_cb+0x24>
+ 800568a:	602c      	str	r4, [r5, #0]
+ 800568c:	e7bf      	b.n	800560e <hf2_data_rx_cb+0x26>
 	if (!connected) {
- 800568a:	4b84      	ldr	r3, [pc, #528]	; (800589c <hf2_data_rx_cb+0x2b4>)
- 800568c:	781a      	ldrb	r2, [r3, #0]
- 800568e:	b932      	cbnz	r2, 800569e <hf2_data_rx_cb+0xb6>
+ 800568e:	4b8b      	ldr	r3, [pc, #556]	; (80058bc <hf2_data_rx_cb+0x2d4>)
+ 8005690:	781a      	ldrb	r2, [r3, #0]
+ 8005692:	b932      	cbnz	r2, 80056a2 <hf2_data_rx_cb+0xba>
 		connected = 1;
- 8005690:	2101      	movs	r1, #1
+ 8005694:	2101      	movs	r1, #1
 		if (connected_func) { connected_func(); }
- 8005692:	4a83      	ldr	r2, [pc, #524]	; (80058a0 <hf2_data_rx_cb+0x2b8>)
+ 8005696:	4a8a      	ldr	r2, [pc, #552]	; (80058c0 <hf2_data_rx_cb+0x2d8>)
 		connected = 1;
- 8005694:	7019      	strb	r1, [r3, #0]
+ 8005698:	7019      	strb	r1, [r3, #0]
 		if (connected_func) { connected_func(); }
- 8005696:	6813      	ldr	r3, [r2, #0]
- 8005698:	b10b      	cbz	r3, 800569e <hf2_data_rx_cb+0xb6>
- 800569a:	4798      	blx	r3
- 800569c:	8825      	ldrh	r5, [r4, #0]
+ 800569a:	6813      	ldr	r3, [r2, #0]
+ 800569c:	b10b      	cbz	r3, 80056a2 <hf2_data_rx_cb+0xba>
+ 800569e:	4798      	blx	r3
+ 80056a0:	8826      	ldrh	r6, [r4, #0]
     resp->status16 = HF2_STATUS_OK;  //  Default status is OK.
- 800569e:	2200      	movs	r2, #0
+ 80056a2:	2200      	movs	r2, #0
     uint32_t cmdId = cmd->command_id;
- 80056a0:	f8d4 6002 	ldr.w	r6, [r4, #2]
+ 80056a4:	f8d4 8002 	ldr.w	r8, [r4, #2]
     resp->tag = cmd->tag;
- 80056a4:	88e1      	ldrh	r1, [r4, #6]
+ 80056a8:	88e1      	ldrh	r1, [r4, #6]
     switch (cmdId) {
- 80056a6:	1e73      	subs	r3, r6, #1
+ 80056aa:	f108 33ff 	add.w	r3, r8, #4294967295	; 0xffffffff
     resp->status16 = HF2_STATUS_OK;  //  Default status is OK.
- 80056a8:	7122      	strb	r2, [r4, #4]
- 80056aa:	7162      	strb	r2, [r4, #5]
+ 80056ae:	7122      	strb	r2, [r4, #4]
+ 80056b0:	7162      	strb	r2, [r4, #5]
     resp->tag = cmd->tag;
- 80056ac:	8061      	strh	r1, [r4, #2]
+ 80056b2:	8061      	strh	r1, [r4, #2]
     switch (cmdId) {
- 80056ae:	2b07      	cmp	r3, #7
- 80056b0:	f200 8158 	bhi.w	8005964 <hf2_data_rx_cb+0x37c>
- 80056b4:	e8df f013 	tbh	[pc, r3, lsl #1]
- 80056b8:	00c4011e 	.word	0x00c4011e
- 80056bc:	00a900ba 	.word	0x00a900ba
- 80056c0:	00290095 	.word	0x00290095
- 80056c4:	00080156 	.word	0x00080156
+ 80056b4:	2b07      	cmp	r3, #7
+ 80056b6:	f200 8168 	bhi.w	800598a <hf2_data_rx_cb+0x3a2>
+ 80056ba:	e8df f013 	tbh	[pc, r3, lsl #1]
+ 80056be:	012d      	.short	0x012d
+ 80056c0:	00c200d1 	.word	0x00c200d1
+ 80056c4:	009800ac 	.word	0x009800ac
+ 80056c8:	01660029 	.word	0x01660029
+ 80056cc:	0008      	.short	0x0008
         case HF2_CMD_READ_WORDS: { debug_println("hf2 >> read"); debug_force_flush(); ////
- 80056c8:	4876      	ldr	r0, [pc, #472]	; (80058a4 <hf2_data_rx_cb+0x2bc>)
- 80056ca:	f7fe fd03 	bl	80040d4 <debug_println>
- 80056ce:	f7fe fc83 	bl	8003fd8 <debug_force_flush>
+ 80056ce:	487d      	ldr	r0, [pc, #500]	; (80058c4 <hf2_data_rx_cb+0x2dc>)
+ 80056d0:	f7fe fd00 	bl	80040d4 <debug_println>
+ 80056d4:	f7fe fc80 	bl	8003fd8 <debug_force_flush>
             if (boot_target_get_startup_mode() == APPLICATION_MODE) { 
- 80056d2:	f7ff fd73 	bl	80051bc <boot_target_get_startup_mode>
- 80056d6:	2803      	cmp	r0, #3
- 80056d8:	f000 81be 	beq.w	8005a58 <hf2_data_rx_cb+0x470>
+ 80056d8:	f7ff fd70 	bl	80051bc <boot_target_get_startup_mode>
+ 80056dc:	2803      	cmp	r0, #3
+ 80056de:	f000 81d6 	beq.w	8005a8e <hf2_data_rx_cb+0x4a6>
     if (assertion) { return; }
- 80056dc:	2d10      	cmp	r5, #16
- 80056de:	d002      	beq.n	80056e6 <hf2_data_rx_cb+0xfe>
- 80056e0:	4871      	ldr	r0, [pc, #452]	; (80058a8 <hf2_data_rx_cb+0x2c0>)
- 80056e2:	f7ff ff73 	bl	80055cc <assert.part.0>
+ 80056e2:	2e10      	cmp	r6, #16
+ 80056e4:	d002      	beq.n	80056ec <hf2_data_rx_cb+0x104>
+ 80056e6:	4878      	ldr	r0, [pc, #480]	; (80058c8 <hf2_data_rx_cb+0x2e0>)
+ 80056e8:	f7ff ff70 	bl	80055cc <assert.part.0>
             int num_words = cmd->read_words.num_words;
- 80056e6:	f8d4 500e 	ldr.w	r5, [r4, #14]
+ 80056ec:	f8d4 600e 	ldr.w	r6, [r4, #14]
             memcpy(resp->data32, (void *)cmd->read_words.target_addr, num_words << 2);
- 80056ea:	f8d4 100a 	ldr.w	r1, [r4, #10]
- 80056ee:	00ad      	lsls	r5, r5, #2
- 80056f0:	462a      	mov	r2, r5
- 80056f2:	1da0      	adds	r0, r4, #6
+ 80056f0:	f8d4 100a 	ldr.w	r1, [r4, #10]
+ 80056f4:	00b6      	lsls	r6, r6, #2
+ 80056f6:	4632      	mov	r2, r6
+ 80056f8:	1da0      	adds	r0, r4, #6
     volatile uint32_t dataToSendLength = 4 + size;
- 80056f4:	3504      	adds	r5, #4
+ 80056fa:	3604      	adds	r6, #4
             memcpy(resp->data32, (void *)cmd->read_words.target_addr, num_words << 2);
- 80056f6:	f7fe fb2f 	bl	8003d58 <memcpy>
+ 80056fc:	f7fe fb2c 	bl	8003d58 <memcpy>
     volatile uint32_t dataToSendLength = 4 + size;
- 80056fa:	9509      	str	r5, [sp, #36]	; 0x24
+ 8005700:	9609      	str	r6, [sp, #36]	; 0x24
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 80056fc:	9909      	ldr	r1, [sp, #36]	; 0x24
- 80056fe:	4640      	mov	r0, r8
- 8005700:	2240      	movs	r2, #64	; 0x40
- 8005702:	f7ff fef5 	bl	80054f0 <pokeSend>
- 8005706:	683c      	ldr	r4, [r7, #0]
- 8005708:	e794      	b.n	8005634 <hf2_data_rx_cb+0x4c>
+ 8005702:	9909      	ldr	r1, [sp, #36]	; 0x24
+ 8005704:	4638      	mov	r0, r7
+ 8005706:	2240      	movs	r2, #64	; 0x40
+ 8005708:	f7ff fef2 	bl	80054f0 <pokeSend>
+ 800570c:	682c      	ldr	r4, [r5, #0]
+ 800570e:	e792      	b.n	8005636 <hf2_data_rx_cb+0x4e>
             if (boot_target_get_startup_mode() == APPLICATION_MODE) { debug_println("hf2 >> flash");  debug_force_flush(); ////
- 800570a:	f7ff fd57 	bl	80051bc <boot_target_get_startup_mode>
- 800570e:	2803      	cmp	r0, #3
- 8005710:	f000 817e 	beq.w	8005a10 <hf2_data_rx_cb+0x428>
+ 8005710:	f7ff fd54 	bl	80051bc <boot_target_get_startup_mode>
+ 8005714:	2803      	cmp	r0, #3
+ 8005716:	f000 8196 	beq.w	8005a46 <hf2_data_rx_cb+0x45e>
     uint32_t target_addr = cmd->write_flash_page.target_addr;
- 8005714:	f8d4 500a 	ldr.w	r5, [r4, #10]
+ 800571a:	f8d4 600a 	ldr.w	r6, [r4, #10]
     int sz = pkt->size;
- 8005718:	f8b4 a000 	ldrh.w	sl, [r4]
+ 800571e:	f8b4 9000 	ldrh.w	r9, [r4]
     const char *valid = VALID_FLASH_ADDR(target_addr, HF2_PAGE_SIZE) ? " " : " !!! ";
- 800571c:	f1b5 6f00 	cmp.w	r5, #134217728	; 0x8000000
- 8005720:	f0c0 8173 	bcc.w	8005a0a <hf2_data_rx_cb+0x422>
- 8005724:	4961      	ldr	r1, [pc, #388]	; (80058ac <hf2_data_rx_cb+0x2c4>)
- 8005726:	4b62      	ldr	r3, [pc, #392]	; (80058b0 <hf2_data_rx_cb+0x2c8>)
- 8005728:	4a62      	ldr	r2, [pc, #392]	; (80058b4 <hf2_data_rx_cb+0x2cc>)
- 800572a:	f505 7b80 	add.w	fp, r5, #256	; 0x100
- 800572e:	458b      	cmp	fp, r1
- 8005730:	bf94      	ite	ls
- 8005732:	469b      	movls	fp, r3
- 8005734:	4693      	movhi	fp, r2
+ 8005722:	f1b6 6f00 	cmp.w	r6, #134217728	; 0x8000000
+ 8005726:	f0c0 818b 	bcc.w	8005a40 <hf2_data_rx_cb+0x458>
+ 800572a:	4968      	ldr	r1, [pc, #416]	; (80058cc <hf2_data_rx_cb+0x2e4>)
+ 800572c:	4b68      	ldr	r3, [pc, #416]	; (80058d0 <hf2_data_rx_cb+0x2e8>)
+ 800572e:	4a69      	ldr	r2, [pc, #420]	; (80058d4 <hf2_data_rx_cb+0x2ec>)
+ 8005730:	f506 7b80 	add.w	fp, r6, #256	; 0x100
+ 8005734:	458b      	cmp	fp, r1
+ 8005736:	bf94      	ite	ls
+ 8005738:	469b      	movls	fp, r3
+ 800573a:	4693      	movhi	fp, r2
     if (cmdId != prevCmdId) { debug_print("hf2 >> flash "); debug_printhex_unsigned((size_t) target_addr); debug_print(valid); }  ////
- 8005736:	4e60      	ldr	r6, [pc, #384]	; (80058b8 <hf2_data_rx_cb+0x2d0>)
+ 800573c:	f8df 81c8 	ldr.w	r8, [pc, #456]	; 8005908 <hf2_data_rx_cb+0x320>
     cmdId = cmd->command_id;
- 8005738:	f8d4 2002 	ldr.w	r2, [r4, #2]
+ 8005740:	f8d4 2002 	ldr.w	r2, [r4, #2]
     if (cmdId != prevCmdId) { debug_print("hf2 >> flash "); debug_printhex_unsigned((size_t) target_addr); debug_print(valid); }  ////
- 800573c:	6833      	ldr	r3, [r6, #0]
+ 8005744:	f8d8 3000 	ldr.w	r3, [r8]
     cmdId = cmd->command_id;
- 800573e:	f8df 91a8 	ldr.w	r9, [pc, #424]	; 80058e8 <hf2_data_rx_cb+0x300>
+ 8005748:	f8df a1c0 	ldr.w	sl, [pc, #448]	; 800590c <hf2_data_rx_cb+0x324>
     if (cmdId != prevCmdId) { debug_print("hf2 >> flash "); debug_printhex_unsigned((size_t) target_addr); debug_print(valid); }  ////
- 8005742:	429a      	cmp	r2, r3
- 8005744:	bf14      	ite	ne
- 8005746:	485d      	ldrne	r0, [pc, #372]	; (80058bc <hf2_data_rx_cb+0x2d4>)
+ 800574c:	429a      	cmp	r2, r3
+ 800574e:	bf14      	ite	ne
+ 8005750:	4861      	ldrne	r0, [pc, #388]	; (80058d8 <hf2_data_rx_cb+0x2f0>)
     else { debug_print(">> "); debug_printhex_unsigned((size_t) target_addr); debug_print(valid); }
- 8005748:	485d      	ldreq	r0, [pc, #372]	; (80058c0 <hf2_data_rx_cb+0x2d8>)
+ 8005752:	4862      	ldreq	r0, [pc, #392]	; (80058dc <hf2_data_rx_cb+0x2f4>)
     cmdId = cmd->command_id;
- 800574a:	f8c9 2000 	str.w	r2, [r9]
+ 8005754:	f8ca 2000 	str.w	r2, [sl]
     else { debug_print(">> "); debug_printhex_unsigned((size_t) target_addr); debug_print(valid); }
- 800574e:	f7fe fcbb 	bl	80040c8 <debug_print>
- 8005752:	4628      	mov	r0, r5
- 8005754:	f7fe fd00 	bl	8004158 <debug_printhex_unsigned>
- 8005758:	4658      	mov	r0, fp
- 800575a:	f7fe fcb5 	bl	80040c8 <debug_print>
+ 8005758:	f7fe fcb6 	bl	80040c8 <debug_print>
+ 800575c:	4630      	mov	r0, r6
+ 800575e:	f7fe fcfb 	bl	8004158 <debug_printhex_unsigned>
+ 8005762:	4658      	mov	r0, fp
+ 8005764:	f7fe fcb0 	bl	80040c8 <debug_print>
     if (flush_count++ % 4 == 0) { debug_flush(); }
- 800575e:	4a59      	ldr	r2, [pc, #356]	; (80058c4 <hf2_data_rx_cb+0x2dc>)
- 8005760:	7813      	ldrb	r3, [r2, #0]
- 8005762:	1c59      	adds	r1, r3, #1
- 8005764:	079b      	lsls	r3, r3, #30
- 8005766:	7011      	strb	r1, [r2, #0]
- 8005768:	f000 8173 	beq.w	8005a52 <hf2_data_rx_cb+0x46a>
+ 8005768:	4a5d      	ldr	r2, [pc, #372]	; (80058e0 <hf2_data_rx_cb+0x2f8>)
+ 800576a:	7813      	ldrb	r3, [r2, #0]
+ 800576c:	1c59      	adds	r1, r3, #1
+ 800576e:	079b      	lsls	r3, r3, #30
+ 8005770:	7011      	strb	r1, [r2, #0]
+ 8005772:	f000 8189 	beq.w	8005a88 <hf2_data_rx_cb+0x4a0>
     volatile uint32_t dataToSendLength = 4 + size;
- 800576c:	2304      	movs	r3, #4
- 800576e:	930b      	str	r3, [sp, #44]	; 0x2c
+ 8005776:	2304      	movs	r3, #4
+ 8005778:	930b      	str	r3, [sp, #44]	; 0x2c
     prevCmdId = cmdId; 
- 8005770:	f8d9 3000 	ldr.w	r3, [r9]
+ 800577a:	f8da 3000 	ldr.w	r3, [sl]
     const uint32_t old_app_start = (uint32_t) FLASH_ADDRESS(base_vector_table.application);  //  Bootloader will be staged here for Baseloader.
- 8005774:	f8df 9174 	ldr.w	r9, [pc, #372]	; 80058ec <hf2_data_rx_cb+0x304>
+ 800577e:	f8df a190 	ldr.w	sl, [pc, #400]	; 8005910 <hf2_data_rx_cb+0x328>
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005778:	4640      	mov	r0, r8
- 800577a:	990b      	ldr	r1, [sp, #44]	; 0x2c
- 800577c:	2240      	movs	r2, #64	; 0x40
+ 8005782:	4638      	mov	r0, r7
+ 8005784:	990b      	ldr	r1, [sp, #44]	; 0x2c
+ 8005786:	2240      	movs	r2, #64	; 0x40
     prevCmdId = cmdId; 
- 800577e:	6033      	str	r3, [r6, #0]
+ 8005788:	f8c8 3000 	str.w	r3, [r8]
     if (new_app_start == 0 || target_addr == FLASH_BASE) {
- 8005780:	f8df 816c 	ldr.w	r8, [pc, #364]	; 80058f0 <hf2_data_rx_cb+0x308>
+ 800578c:	f8df b184 	ldr.w	fp, [pc, #388]	; 8005914 <hf2_data_rx_cb+0x32c>
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005784:	f7ff feb4 	bl	80054f0 <pokeSend>
+ 8005790:	f7ff feae 	bl	80054f0 <pokeSend>
     const uint32_t old_app_start = (uint32_t) FLASH_ADDRESS(base_vector_table.application);  //  Bootloader will be staged here for Baseloader.
- 8005788:	f8d9 6010 	ldr.w	r6, [r9, #16]
+ 8005794:	f8da 7010 	ldr.w	r7, [sl, #16]
     if (new_app_start == 0 || target_addr == FLASH_BASE) {
- 800578c:	f8d8 3000 	ldr.w	r3, [r8]
+ 8005798:	f8db 3000 	ldr.w	r3, [fp]
     const uint32_t old_app_start = (uint32_t) FLASH_ADDRESS(base_vector_table.application);  //  Bootloader will be staged here for Baseloader.
- 8005790:	f426 767f 	bic.w	r6, r6, #1020	; 0x3fc
- 8005794:	f026 0603 	bic.w	r6, r6, #3
+ 800579c:	f427 777f 	bic.w	r7, r7, #1020	; 0x3fc
+ 80057a0:	f027 0703 	bic.w	r7, r7, #3
     const uint32_t old_app_start_offset = old_app_start - FLASH_BASE;  //  When writing Bootloader, shift by this offset so we don't overwrite the existing Bootloader.
- 8005798:	f106 4b78 	add.w	fp, r6, #4160749568	; 0xf8000000
+ 80057a4:	f107 4878 	add.w	r8, r7, #4160749568	; 0xf8000000
     if (new_app_start == 0 || target_addr == FLASH_BASE) {
- 800579c:	2b00      	cmp	r3, #0
- 800579e:	f000 80f8 	beq.w	8005992 <hf2_data_rx_cb+0x3aa>
- 80057a2:	f1b5 6f00 	cmp.w	r5, #134217728	; 0x8000000
- 80057a6:	f000 80f4 	beq.w	8005992 <hf2_data_rx_cb+0x3aa>
+ 80057a8:	2b00      	cmp	r3, #0
+ 80057aa:	f000 8105 	beq.w	80059b8 <hf2_data_rx_cb+0x3d0>
+ 80057ae:	f1b6 6f00 	cmp.w	r6, #134217728	; 0x8000000
+ 80057b2:	f000 8101 	beq.w	80059b8 <hf2_data_rx_cb+0x3d0>
     if (!new_base_vector && IS_VALID_BASE_VECTOR_TABLE(old_app_start)) {
- 80057aa:	4a47      	ldr	r2, [pc, #284]	; (80058c8 <hf2_data_rx_cb+0x2e0>)
- 80057ac:	6811      	ldr	r1, [r2, #0]
- 80057ae:	2900      	cmp	r1, #0
- 80057b0:	f000 8109 	beq.w	80059c6 <hf2_data_rx_cb+0x3de>
+ 80057b6:	4a4b      	ldr	r2, [pc, #300]	; (80058e4 <hf2_data_rx_cb+0x2fc>)
+ 80057b8:	6811      	ldr	r1, [r2, #0]
+ 80057ba:	2900      	cmp	r1, #0
+ 80057bc:	f000 8118 	beq.w	80059f0 <hf2_data_rx_cb+0x408>
     if (target_addr < new_app_start) {  //  If writing Bootloader Page...
- 80057b4:	429d      	cmp	r5, r3
- 80057b6:	f0c0 8112 	bcc.w	80059de <hf2_data_rx_cb+0x3f6>
-    }  else if (new_base_vector && (target_addr == new_app_start)) {  //  When we are finished writing the Bootloader and now writing first Application Page...
- 80057ba:	42ab      	cmp	r3, r5
- 80057bc:	f000 818e 	beq.w	8005adc <hf2_data_rx_cb+0x4f4>
+ 80057c0:	429e      	cmp	r6, r3
+ 80057c2:	f0c0 8122 	bcc.w	8005a0a <hf2_data_rx_cb+0x422>
+    } else if (new_base_vector && (target_addr == new_app_start) && !bootloader_changed) {  //  When we are finished writing the Bootloader and now writing first Application Page...
+ 80057c6:	42b3      	cmp	r3, r6
+ 80057c8:	f000 8166 	beq.w	8005a98 <hf2_data_rx_cb+0x4b0>
     if (assertion) { return; }
- 80057c0:	f5ba 7f86 	cmp.w	sl, #268	; 0x10c
- 80057c4:	d002      	beq.n	80057cc <hf2_data_rx_cb+0x1e4>
- 80057c6:	4838      	ldr	r0, [pc, #224]	; (80058a8 <hf2_data_rx_cb+0x2c0>)
- 80057c8:	f7ff ff00 	bl	80055cc <assert.part.0>
-    if (VALID_FLASH_ADDR(target_addr, HF2_PAGE_SIZE)) {
- 80057cc:	f1b5 6f00 	cmp.w	r5, #134217728	; 0x8000000
- 80057d0:	d305      	bcc.n	80057de <hf2_data_rx_cb+0x1f6>
- 80057d2:	4b36      	ldr	r3, [pc, #216]	; (80058ac <hf2_data_rx_cb+0x2c4>)
- 80057d4:	f505 7280 	add.w	r2, r5, #256	; 0x100
- 80057d8:	429a      	cmp	r2, r3
- 80057da:	f240 810d 	bls.w	80059f8 <hf2_data_rx_cb+0x410>
- 80057de:	683c      	ldr	r4, [r7, #0]
- 80057e0:	e728      	b.n	8005634 <hf2_data_rx_cb+0x4c>
+ 80057cc:	f5b9 7f86 	cmp.w	r9, #268	; 0x10c
+ 80057d0:	d002      	beq.n	80057d8 <hf2_data_rx_cb+0x1f0>
+ 80057d2:	483d      	ldr	r0, [pc, #244]	; (80058c8 <hf2_data_rx_cb+0x2e0>)
+ 80057d4:	f7ff fefa 	bl	80055cc <assert.part.0>
+    if (VALID_FLASH_ADDR(target_addr, HF2_PAGE_SIZE) && !bootloader_changed) {
+ 80057d8:	f1b6 6f00 	cmp.w	r6, #134217728	; 0x8000000
+ 80057dc:	d305      	bcc.n	80057ea <hf2_data_rx_cb+0x202>
+ 80057de:	4b3b      	ldr	r3, [pc, #236]	; (80058cc <hf2_data_rx_cb+0x2e4>)
+ 80057e0:	f506 7280 	add.w	r2, r6, #256	; 0x100
+ 80057e4:	429a      	cmp	r2, r3
+ 80057e6:	f240 811d 	bls.w	8005a24 <hf2_data_rx_cb+0x43c>
+ 80057ea:	682c      	ldr	r4, [r5, #0]
+ 80057ec:	e723      	b.n	8005636 <hf2_data_rx_cb+0x4e>
         case HF2_CMD_START_FLASH: { debug_println("hf2 >> start");
- 80057e2:	483a      	ldr	r0, [pc, #232]	; (80058cc <hf2_data_rx_cb+0x2e4>)
- 80057e4:	f7fe fc76 	bl	80040d4 <debug_println>
+ 80057ee:	483e      	ldr	r0, [pc, #248]	; (80058e8 <hf2_data_rx_cb+0x300>)
+ 80057f0:	f7fe fc70 	bl	80040d4 <debug_println>
     volatile uint32_t dataToSendLength = 4 + size;
- 80057e8:	2304      	movs	r3, #4
- 80057ea:	9306      	str	r3, [sp, #24]
+ 80057f4:	2304      	movs	r3, #4
+ 80057f6:	9306      	str	r3, [sp, #24]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 80057ec:	9906      	ldr	r1, [sp, #24]
- 80057ee:	4640      	mov	r0, r8
- 80057f0:	2240      	movs	r2, #64	; 0x40
- 80057f2:	f7ff fe7d 	bl	80054f0 <pokeSend>
+ 80057f8:	9906      	ldr	r1, [sp, #24]
+ 80057fa:	4638      	mov	r0, r7
+ 80057fc:	2240      	movs	r2, #64	; 0x40
+ 80057fe:	f7ff fe77 	bl	80054f0 <pokeSend>
             send_hf2_response(pkt, 0); debug_force_flush(); ////            
- 80057f6:	f7fe fbef 	bl	8003fd8 <debug_force_flush>
+ 8005802:	f7fe fbe9 	bl	8003fd8 <debug_force_flush>
             if (boot_target_get_startup_mode() == APPLICATION_MODE) { 
- 80057fa:	f7ff fcdf 	bl	80051bc <boot_target_get_startup_mode>
- 80057fe:	2803      	cmp	r0, #3
- 8005800:	d1ed      	bne.n	80057de <hf2_data_rx_cb+0x1f6>
+ 8005806:	f7ff fcd9 	bl	80051bc <boot_target_get_startup_mode>
+ 800580a:	2803      	cmp	r0, #3
+ 800580c:	d1ed      	bne.n	80057ea <hf2_data_rx_cb+0x202>
                 boot_target_manifest_bootloader();  //  Never returns.
- 8005802:	f7ff fd6f 	bl	80052e4 <boot_target_manifest_bootloader>
- 8005806:	683c      	ldr	r4, [r7, #0]
- 8005808:	e714      	b.n	8005634 <hf2_data_rx_cb+0x4c>
+ 800580e:	f7ff fd69 	bl	80052e4 <boot_target_manifest_bootloader>
+ 8005812:	682c      	ldr	r4, [r5, #0]
+ 8005814:	e70f      	b.n	8005636 <hf2_data_rx_cb+0x4e>
             debug_println("hf2 >> boot");
- 800580a:	4831      	ldr	r0, [pc, #196]	; (80058d0 <hf2_data_rx_cb+0x2e8>)
- 800580c:	f7fe fc62 	bl	80040d4 <debug_println>
+ 8005816:	4835      	ldr	r0, [pc, #212]	; (80058ec <hf2_data_rx_cb+0x304>)
+ 8005818:	f7fe fc5c 	bl	80040d4 <debug_println>
+            restart_request = bootloader_changed ? BASELOADER_MODE : BOOTLOADER_MODE;
+ 800581c:	4b34      	ldr	r3, [pc, #208]	; (80058f0 <hf2_data_rx_cb+0x308>)
     volatile uint32_t dataToSendLength = 4 + size;
- 8005810:	2304      	movs	r3, #4
-            restart_request = BOOTLOADER_MODE;
- 8005812:	2402      	movs	r4, #2
+ 800581e:	2204      	movs	r2, #4
+            restart_request = bootloader_changed ? BASELOADER_MODE : BOOTLOADER_MODE;
+ 8005820:	681b      	ldr	r3, [r3, #0]
     volatile uint32_t dataToSendLength = 4 + size;
- 8005814:	9303      	str	r3, [sp, #12]
+ 8005822:	9203      	str	r2, [sp, #12]
+            restart_request = bootloader_changed ? BASELOADER_MODE : BOOTLOADER_MODE;
+ 8005824:	2b00      	cmp	r3, #0
+ 8005826:	bf0c      	ite	eq
+ 8005828:	2402      	moveq	r4, #2
+ 800582a:	2401      	movne	r4, #1
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005816:	9903      	ldr	r1, [sp, #12]
-            restart_request = BOOTLOADER_MODE;
- 8005818:	4b2e      	ldr	r3, [pc, #184]	; (80058d4 <hf2_data_rx_cb+0x2ec>)
+ 800582c:	9903      	ldr	r1, [sp, #12]
+            restart_request = bootloader_changed ? BASELOADER_MODE : BOOTLOADER_MODE;
+ 800582e:	4b31      	ldr	r3, [pc, #196]	; (80058f4 <hf2_data_rx_cb+0x30c>)
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 800581a:	4640      	mov	r0, r8
- 800581c:	2240      	movs	r2, #64	; 0x40
-            restart_request = BOOTLOADER_MODE;
- 800581e:	701c      	strb	r4, [r3, #0]
+ 8005830:	4638      	mov	r0, r7
+ 8005832:	2240      	movs	r2, #64	; 0x40
+            restart_request = bootloader_changed ? BASELOADER_MODE : BOOTLOADER_MODE;
+ 8005834:	701c      	strb	r4, [r3, #0]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005820:	f7ff fe66 	bl	80054f0 <pokeSend>
+ 8005836:	f7ff fe5b 	bl	80054f0 <pokeSend>
             debug_force_flush(); ////
- 8005824:	f7fe fbd8 	bl	8003fd8 <debug_force_flush>
- 8005828:	683c      	ldr	r4, [r7, #0]
- 800582a:	e703      	b.n	8005634 <hf2_data_rx_cb+0x4c>
+ 800583a:	f7fe fbcd 	bl	8003fd8 <debug_force_flush>
+ 800583e:	682c      	ldr	r4, [r5, #0]
+ 8005840:	e6f9      	b.n	8005636 <hf2_data_rx_cb+0x4e>
         case HF2_CMD_RESET_INTO_APP: { debug_println("hf2 >> app");
- 800582c:	482a      	ldr	r0, [pc, #168]	; (80058d8 <hf2_data_rx_cb+0x2f0>)
- 800582e:	f7fe fc51 	bl	80040d4 <debug_println>
+ 8005842:	482d      	ldr	r0, [pc, #180]	; (80058f8 <hf2_data_rx_cb+0x310>)
+ 8005844:	f7fe fc46 	bl	80040d4 <debug_println>
             flash_flush();  //  Flush any pending flash writes.
- 8005832:	f7fe ffbf 	bl	80047b4 <flash_flush>
+ 8005848:	f7fe ffb4 	bl	80047b4 <flash_flush>
     volatile uint32_t dataToSendLength = 4 + size;
- 8005836:	2304      	movs	r3, #4
- 8005838:	9304      	str	r3, [sp, #16]
-            restart_request = APPLICATION_MODE;
- 800583a:	2403      	movs	r4, #3
+ 800584c:	2204      	movs	r2, #4
+            restart_request = bootloader_changed ? BASELOADER_MODE : APPLICATION_MODE;
+ 800584e:	4b28      	ldr	r3, [pc, #160]	; (80058f0 <hf2_data_rx_cb+0x308>)
+    volatile uint32_t dataToSendLength = 4 + size;
+ 8005850:	9204      	str	r2, [sp, #16]
+            restart_request = bootloader_changed ? BASELOADER_MODE : APPLICATION_MODE;
+ 8005852:	681b      	ldr	r3, [r3, #0]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 800583c:	9904      	ldr	r1, [sp, #16]
- 800583e:	e7eb      	b.n	8005818 <hf2_data_rx_cb+0x230>
+ 8005854:	9904      	ldr	r1, [sp, #16]
+            restart_request = bootloader_changed ? BASELOADER_MODE : APPLICATION_MODE;
+ 8005856:	2b00      	cmp	r3, #0
+ 8005858:	bf0c      	ite	eq
+ 800585a:	2403      	moveq	r4, #3
+ 800585c:	2401      	movne	r4, #1
+ 800585e:	e7e6      	b.n	800582e <hf2_data_rx_cb+0x246>
         case HF2_CMD_INFO: { debug_println("hf2 >> info");
- 8005840:	4826      	ldr	r0, [pc, #152]	; (80058dc <hf2_data_rx_cb+0x2f4>)
- 8005842:	f7fe fc47 	bl	80040d4 <debug_println>
+ 8005860:	4826      	ldr	r0, [pc, #152]	; (80058fc <hf2_data_rx_cb+0x314>)
+ 8005862:	f7fe fc37 	bl	80040d4 <debug_println>
             int info_size = strlen(infoUf2File);
- 8005846:	4826      	ldr	r0, [pc, #152]	; (80058e0 <hf2_data_rx_cb+0x2f8>)
- 8005848:	f7fe fa9e 	bl	8003d88 <strlen>
+ 8005866:	4826      	ldr	r0, [pc, #152]	; (8005900 <hf2_data_rx_cb+0x318>)
+ 8005868:	f7fe fa8e 	bl	8003d88 <strlen>
     if (assertion) { return; }
- 800584c:	4605      	mov	r5, r0
- 800584e:	2800      	cmp	r0, #0
- 8005850:	f000 80fb 	beq.w	8005a4a <hf2_data_rx_cb+0x462>
- 8005854:	2854      	cmp	r0, #84	; 0x54
- 8005856:	d902      	bls.n	800585e <hf2_data_rx_cb+0x276>
- 8005858:	4822      	ldr	r0, [pc, #136]	; (80058e4 <hf2_data_rx_cb+0x2fc>)
- 800585a:	f7ff feb7 	bl	80055cc <assert.part.0>
+ 800586c:	4606      	mov	r6, r0
+ 800586e:	2800      	cmp	r0, #0
+ 8005870:	f000 8106 	beq.w	8005a80 <hf2_data_rx_cb+0x498>
+ 8005874:	2854      	cmp	r0, #84	; 0x54
+ 8005876:	d902      	bls.n	800587e <hf2_data_rx_cb+0x296>
+ 8005878:	4822      	ldr	r0, [pc, #136]	; (8005904 <hf2_data_rx_cb+0x31c>)
+ 800587a:	f7ff fea7 	bl	80055cc <assert.part.0>
             memcpy(pkt->resp.data8, infoUf2File, info_size);
- 800585e:	462a      	mov	r2, r5
- 8005860:	1da0      	adds	r0, r4, #6
- 8005862:	491f      	ldr	r1, [pc, #124]	; (80058e0 <hf2_data_rx_cb+0x2f8>)
+ 800587e:	4632      	mov	r2, r6
+ 8005880:	1da0      	adds	r0, r4, #6
+ 8005882:	491f      	ldr	r1, [pc, #124]	; (8005900 <hf2_data_rx_cb+0x318>)
     volatile uint32_t dataToSendLength = 4 + size;
- 8005864:	3504      	adds	r5, #4
+ 8005884:	3604      	adds	r6, #4
             memcpy(pkt->resp.data8, infoUf2File, info_size);
- 8005866:	f7fe fa77 	bl	8003d58 <memcpy>
+ 8005886:	f7fe fa67 	bl	8003d58 <memcpy>
     volatile uint32_t dataToSendLength = 4 + size;
- 800586a:	9508      	str	r5, [sp, #32]
+ 800588a:	9608      	str	r6, [sp, #32]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 800586c:	9908      	ldr	r1, [sp, #32]
- 800586e:	4640      	mov	r0, r8
- 8005870:	2240      	movs	r2, #64	; 0x40
- 8005872:	f7ff fe3d 	bl	80054f0 <pokeSend>
+ 800588c:	9908      	ldr	r1, [sp, #32]
+ 800588e:	4638      	mov	r0, r7
+ 8005890:	2240      	movs	r2, #64	; 0x40
+ 8005892:	f7ff fe2d 	bl	80054f0 <pokeSend>
             send_hf2_response(pkt, info_size); debug_force_flush(); ////
- 8005876:	f7fe fbaf 	bl	8003fd8 <debug_force_flush>
- 800587a:	683c      	ldr	r4, [r7, #0]
- 800587c:	e6da      	b.n	8005634 <hf2_data_rx_cb+0x4c>
- 800587e:	bf00      	nop
- 8005880:	20000a04 	.word	0x20000a04
- 8005884:	20000a44 	.word	0x20000a44
- 8005888:	200009f4 	.word	0x200009f4
- 800588c:	20000a05 	.word	0x20000a05
- 8005890:	0800695c 	.word	0x0800695c
- 8005894:	20000ca4 	.word	0x20000ca4
- 8005898:	20004bbc 	.word	0x20004bbc
- 800589c:	20000b92 	.word	0x20000b92
- 80058a0:	200009e0 	.word	0x200009e0
- 80058a4:	08006b10 	.word	0x08006b10
- 80058a8:	08006ad8 	.word	0x08006ad8
- 80058ac:	08010000 	.word	0x08010000
- 80058b0:	080064ec 	.word	0x080064ec
- 80058b4:	08006968 	.word	0x08006968
- 80058b8:	200009f8 	.word	0x200009f8
- 80058bc:	080069d0 	.word	0x080069d0
- 80058c0:	08006370 	.word	0x08006370
- 80058c4:	20000b93 	.word	0x20000b93
- 80058c8:	200009e8 	.word	0x200009e8
- 80058cc:	080069b0 	.word	0x080069b0
- 80058d0:	08006b04 	.word	0x08006b04
- 80058d4:	20000b95 	.word	0x20000b95
- 80058d8:	08006af8 	.word	0x08006af8
- 80058dc:	08006980 	.word	0x08006980
- 80058e0:	08006310 	.word	0x08006310
- 80058e4:	0800699c 	.word	0x0800699c
- 80058e8:	200009dc 	.word	0x200009dc
- 80058ec:	08000150 	.word	0x08000150
- 80058f0:	200009e4 	.word	0x200009e4
+ 8005896:	f7fe fb9f 	bl	8003fd8 <debug_force_flush>
+ 800589a:	682c      	ldr	r4, [r5, #0]
+ 800589c:	e6cb      	b.n	8005636 <hf2_data_rx_cb+0x4e>
+ 800589e:	bf00      	nop
+ 80058a0:	20000a08 	.word	0x20000a08
+ 80058a4:	20000a48 	.word	0x20000a48
+ 80058a8:	200009f8 	.word	0x200009f8
+ 80058ac:	20000a09 	.word	0x20000a09
+ 80058b0:	080069b8 	.word	0x080069b8
+ 80058b4:	20000ca8 	.word	0x20000ca8
+ 80058b8:	20004bbc 	.word	0x20004bbc
+ 80058bc:	20000b96 	.word	0x20000b96
+ 80058c0:	200009e4 	.word	0x200009e4
+ 80058c4:	08006b6c 	.word	0x08006b6c
+ 80058c8:	08006b34 	.word	0x08006b34
+ 80058cc:	08010000 	.word	0x08010000
+ 80058d0:	08006548 	.word	0x08006548
+ 80058d4:	080069c4 	.word	0x080069c4
+ 80058d8:	08006a2c 	.word	0x08006a2c
+ 80058dc:	080063cc 	.word	0x080063cc
+ 80058e0:	20000b97 	.word	0x20000b97
+ 80058e4:	200009ec 	.word	0x200009ec
+ 80058e8:	08006a0c 	.word	0x08006a0c
+ 80058ec:	08006b60 	.word	0x08006b60
+ 80058f0:	200009dc 	.word	0x200009dc
+ 80058f4:	20000b99 	.word	0x20000b99
+ 80058f8:	08006b54 	.word	0x08006b54
+ 80058fc:	080069dc 	.word	0x080069dc
+ 8005900:	0800636c 	.word	0x0800636c
+ 8005904:	080069f8 	.word	0x080069f8
+ 8005908:	200009fc 	.word	0x200009fc
+ 800590c:	200009e0 	.word	0x200009e0
+ 8005910:	08000150 	.word	0x08000150
+ 8005914:	200009e8 	.word	0x200009e8
         case HF2_CMD_BININFO: {  debug_println("hf2 >> bininfo");
- 80058f4:	48af      	ldr	r0, [pc, #700]	; (8005bb4 <hf2_data_rx_cb+0x5cc>)
- 80058f6:	f7fe fbed 	bl	80040d4 <debug_println>
+ 8005918:	48b9      	ldr	r0, [pc, #740]	; (8005c00 <hf2_data_rx_cb+0x618>)
+ 800591a:	f7fe fbdb 	bl	80040d4 <debug_println>
             resp->bininfo.mode = (boot_target_get_startup_mode() == BOOTLOADER_MODE) ?                        
- 80058fa:	f7ff fc5f 	bl	80051bc <boot_target_get_startup_mode>
+ 800591e:	f7ff fc4d 	bl	80051bc <boot_target_get_startup_mode>
     volatile uint32_t dataToSendLength = 4 + size;
- 80058fe:	2118      	movs	r1, #24
+ 8005922:	2118      	movs	r1, #24
                 HF2_MODE_BOOTLOADER :
- 8005900:	2802      	cmp	r0, #2
+ 8005924:	2802      	cmp	r0, #2
             resp->bininfo.flash_page_size = HF2_PAGE_SIZE;  //  Previously 128 * 1024
- 8005902:	f04f 0300 	mov.w	r3, #0
+ 8005926:	f04f 0300 	mov.w	r3, #0
                 HF2_MODE_BOOTLOADER :
- 8005906:	bf18      	it	ne
- 8005908:	2602      	movne	r6, #2
+ 800592a:	bf18      	it	ne
+ 800592c:	f04f 0802 	movne.w	r8, #2
             resp->bininfo.max_message_size = HF2_BUF_SIZE;  //  Previously sizeof(pkt->buf);
- 800590a:	2240      	movs	r2, #64	; 0x40
+ 8005930:	2240      	movs	r2, #64	; 0x40
             resp->bininfo.uf2_family = UF2_FAMILY;
- 800590c:	f04f 0e10 	mov.w	lr, #16
- 8005910:	f06f 0c1d 	mvn.w	ip, #29
+ 8005932:	f04f 0e10 	mov.w	lr, #16
+ 8005936:	f06f 0c1d 	mvn.w	ip, #29
             resp->bininfo.flash_page_size = HF2_PAGE_SIZE;  //  Previously 128 * 1024
- 8005914:	f04f 0b01 	mov.w	fp, #1
+ 800593a:	f04f 0b01 	mov.w	fp, #1
             resp->bininfo.max_message_size = HF2_BUF_SIZE;  //  Previously sizeof(pkt->buf);
- 8005918:	f04f 0a04 	mov.w	sl, #4
+ 800593e:	f04f 0a04 	mov.w	sl, #4
             resp->bininfo.uf2_family = UF2_FAMILY;
- 800591c:	f04f 0972 	mov.w	r9, #114	; 0x72
- 8005920:	255e      	movs	r5, #94	; 0x5e
+ 8005942:	f04f 0972 	mov.w	r9, #114	; 0x72
+ 8005946:	265e      	movs	r6, #94	; 0x5e
     volatile uint32_t dataToSendLength = 4 + size;
- 8005922:	9107      	str	r1, [sp, #28]
+ 8005948:	9107      	str	r1, [sp, #28]
             resp->bininfo.flash_page_size = HF2_PAGE_SIZE;  //  Previously 128 * 1024
- 8005924:	72a3      	strb	r3, [r4, #10]
- 8005926:	7323      	strb	r3, [r4, #12]
- 8005928:	7363      	strb	r3, [r4, #13]
+ 800594a:	72a3      	strb	r3, [r4, #10]
+ 800594c:	7323      	strb	r3, [r4, #12]
+ 800594e:	7363      	strb	r3, [r4, #13]
             resp->bininfo.flash_num_pages = FLASH_SIZE_OVERRIDE / HF2_PAGE_SIZE;
- 800592a:	73a3      	strb	r3, [r4, #14]
- 800592c:	7423      	strb	r3, [r4, #16]
- 800592e:	7463      	strb	r3, [r4, #17]
+ 8005950:	73a3      	strb	r3, [r4, #14]
+ 8005952:	7423      	strb	r3, [r4, #16]
+ 8005954:	7463      	strb	r3, [r4, #17]
             resp->bininfo.max_message_size = HF2_BUF_SIZE;  //  Previously sizeof(pkt->buf);
- 8005930:	7523      	strb	r3, [r4, #20]
- 8005932:	7563      	strb	r3, [r4, #21]
- 8005934:	74a2      	strb	r2, [r4, #18]
+ 8005956:	7523      	strb	r3, [r4, #20]
+ 8005958:	7563      	strb	r3, [r4, #21]
+ 800595a:	74a2      	strb	r2, [r4, #18]
             resp->bininfo.uf2_family = UF2_FAMILY;
- 8005936:	f884 e017 	strb.w	lr, [r4, #23]
- 800593a:	f884 c018 	strb.w	ip, [r4, #24]
+ 800595c:	f884 e017 	strb.w	lr, [r4, #23]
+ 8005960:	f884 c018 	strb.w	ip, [r4, #24]
             resp->bininfo.mode = (boot_target_get_startup_mode() == BOOTLOADER_MODE) ?                        
- 800593e:	f8c4 6006 	str.w	r6, [r4, #6]
+ 8005964:	f8c4 8006 	str.w	r8, [r4, #6]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005942:	9907      	ldr	r1, [sp, #28]
- 8005944:	4640      	mov	r0, r8
+ 8005968:	9907      	ldr	r1, [sp, #28]
+ 800596a:	4638      	mov	r0, r7
             resp->bininfo.flash_page_size = HF2_PAGE_SIZE;  //  Previously 128 * 1024
- 8005946:	f884 b00b 	strb.w	fp, [r4, #11]
+ 800596c:	f884 b00b 	strb.w	fp, [r4, #11]
             resp->bininfo.flash_num_pages = FLASH_SIZE_OVERRIDE / HF2_PAGE_SIZE;
- 800594a:	f884 b00f 	strb.w	fp, [r4, #15]
+ 8005970:	f884 b00f 	strb.w	fp, [r4, #15]
             resp->bininfo.max_message_size = HF2_BUF_SIZE;  //  Previously sizeof(pkt->buf);
- 800594e:	f884 a013 	strb.w	sl, [r4, #19]
+ 8005974:	f884 a013 	strb.w	sl, [r4, #19]
             resp->bininfo.uf2_family = UF2_FAMILY;
- 8005952:	f884 9016 	strb.w	r9, [r4, #22]
- 8005956:	7665      	strb	r5, [r4, #25]
+ 8005978:	f884 9016 	strb.w	r9, [r4, #22]
+ 800597c:	7666      	strb	r6, [r4, #25]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005958:	f7ff fdca 	bl	80054f0 <pokeSend>
+ 800597e:	f7ff fdb7 	bl	80054f0 <pokeSend>
             send_hf2_response(pkt, sizeof(resp->bininfo)); debug_force_flush(); ////
- 800595c:	f7fe fb3c 	bl	8003fd8 <debug_force_flush>
- 8005960:	683c      	ldr	r4, [r7, #0]
- 8005962:	e667      	b.n	8005634 <hf2_data_rx_cb+0x4c>
+ 8005982:	f7fe fb29 	bl	8003fd8 <debug_force_flush>
+ 8005986:	682c      	ldr	r4, [r5, #0]
+ 8005988:	e655      	b.n	8005636 <hf2_data_rx_cb+0x4e>
         default: { debug_print("hf2 >> unknown "); debug_print_unsigned(cmdId); debug_println(""); debug_force_flush(); ////
- 8005964:	4894      	ldr	r0, [pc, #592]	; (8005bb8 <hf2_data_rx_cb+0x5d0>)
- 8005966:	f7fe fbaf 	bl	80040c8 <debug_print>
- 800596a:	4630      	mov	r0, r6
- 800596c:	f7fe fbce 	bl	800410c <debug_print_unsigned>
- 8005970:	4892      	ldr	r0, [pc, #584]	; (8005bbc <hf2_data_rx_cb+0x5d4>)
- 8005972:	f7fe fbaf 	bl	80040d4 <debug_println>
- 8005976:	f7fe fb2f 	bl	8003fd8 <debug_force_flush>
+ 800598a:	489e      	ldr	r0, [pc, #632]	; (8005c04 <hf2_data_rx_cb+0x61c>)
+ 800598c:	f7fe fb9c 	bl	80040c8 <debug_print>
+ 8005990:	4640      	mov	r0, r8
+ 8005992:	f7fe fbbb 	bl	800410c <debug_print_unsigned>
+ 8005996:	489c      	ldr	r0, [pc, #624]	; (8005c08 <hf2_data_rx_cb+0x620>)
+ 8005998:	f7fe fb9c 	bl	80040d4 <debug_println>
+ 800599c:	f7fe fb1c 	bl	8003fd8 <debug_force_flush>
     volatile uint32_t dataToSendLength = 4 + size;
- 800597a:	2104      	movs	r1, #4
+ 80059a0:	2104      	movs	r1, #4
             resp->status16 = HF2_STATUS_INVALID_CMD;
- 800597c:	2200      	movs	r2, #0
- 800597e:	2301      	movs	r3, #1
+ 80059a2:	2200      	movs	r2, #0
+ 80059a4:	2301      	movs	r3, #1
     volatile uint32_t dataToSendLength = 4 + size;
- 8005980:	9102      	str	r1, [sp, #8]
+ 80059a6:	9102      	str	r1, [sp, #8]
             resp->status16 = HF2_STATUS_INVALID_CMD;
- 8005982:	7162      	strb	r2, [r4, #5]
+ 80059a8:	7162      	strb	r2, [r4, #5]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005984:	9902      	ldr	r1, [sp, #8]
- 8005986:	4640      	mov	r0, r8
+ 80059aa:	9902      	ldr	r1, [sp, #8]
+ 80059ac:	4638      	mov	r0, r7
             resp->status16 = HF2_STATUS_INVALID_CMD;
- 8005988:	7123      	strb	r3, [r4, #4]
+ 80059ae:	7123      	strb	r3, [r4, #4]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 800598a:	2240      	movs	r2, #64	; 0x40
- 800598c:	f7ff fdb0 	bl	80054f0 <pokeSend>
- 8005990:	e725      	b.n	80057de <hf2_data_rx_cb+0x1f6>
+ 80059b0:	2240      	movs	r2, #64	; 0x40
+ 80059b2:	f7ff fd9d 	bl	80054f0 <pokeSend>
+ 80059b6:	e718      	b.n	80057ea <hf2_data_rx_cb+0x202>
         debug_println("find vector..."); debug_force_flush();
- 8005992:	488b      	ldr	r0, [pc, #556]	; (8005bc0 <hf2_data_rx_cb+0x5d8>)
- 8005994:	f7fe fb9e 	bl	80040d4 <debug_println>
- 8005998:	f7fe fb1e 	bl	8003fd8 <debug_force_flush>
+ 80059b8:	4894      	ldr	r0, [pc, #592]	; (8005c0c <hf2_data_rx_cb+0x624>)
+ 80059ba:	f7fe fb8b 	bl	80040d4 <debug_println>
+ 80059be:	f7fe fb0b 	bl	8003fd8 <debug_force_flush>
         new_base_vector = NULL;
- 800599c:	2000      	movs	r0, #0
+ 80059c2:	2000      	movs	r0, #0
         new_app_start = (uint32_t) FLASH_ADDRESS(base_vector_table.application);
- 800599e:	f8d9 3010 	ldr.w	r3, [r9, #16]
+ 80059c4:	f8da 3010 	ldr.w	r3, [sl, #16]
         new_baseloader_size = (uint32_t) base_vector_table.baseloader_end - FLASH_BASE;
- 80059a2:	f8d9 100c 	ldr.w	r1, [r9, #12]
+ 80059c8:	f8da 200c 	ldr.w	r2, [sl, #12]
         new_app_start = (uint32_t) FLASH_ADDRESS(base_vector_table.application);
- 80059a6:	f423 727f 	bic.w	r2, r3, #1020	; 0x3fc
- 80059aa:	f022 0203 	bic.w	r2, r2, #3
- 80059ae:	f8c8 2000 	str.w	r2, [r8]
+ 80059cc:	f423 717f 	bic.w	r1, r3, #1020	; 0x3fc
+ 80059d0:	f021 0103 	bic.w	r1, r1, #3
+ 80059d4:	f8cb 1000 	str.w	r1, [fp]
         new_bootloader_size = (uint32_t) base_vector_table.application - FLASH_BASE;
- 80059b2:	4a84      	ldr	r2, [pc, #528]	; (8005bc4 <hf2_data_rx_cb+0x5dc>)
- 80059b4:	f103 4378 	add.w	r3, r3, #4160749568	; 0xf8000000
- 80059b8:	6013      	str	r3, [r2, #0]
+ 80059d8:	498d      	ldr	r1, [pc, #564]	; (8005c10 <hf2_data_rx_cb+0x628>)
+ 80059da:	f103 4378 	add.w	r3, r3, #4160749568	; 0xf8000000
+ 80059de:	600b      	str	r3, [r1, #0]
         new_baseloader_size = (uint32_t) base_vector_table.baseloader_end - FLASH_BASE;
- 80059ba:	4b83      	ldr	r3, [pc, #524]	; (8005bc8 <hf2_data_rx_cb+0x5e0>)
-        new_base_vector = NULL;
- 80059bc:	4a83      	ldr	r2, [pc, #524]	; (8005bcc <hf2_data_rx_cb+0x5e4>)
+ 80059e0:	498c      	ldr	r1, [pc, #560]	; (8005c14 <hf2_data_rx_cb+0x62c>)
+ 80059e2:	f102 4278 	add.w	r2, r2, #4160749568	; 0xf8000000
+        bootloader_changed = 0;
+ 80059e6:	4b8c      	ldr	r3, [pc, #560]	; (8005c18 <hf2_data_rx_cb+0x630>)
         new_baseloader_size = (uint32_t) base_vector_table.baseloader_end - FLASH_BASE;
- 80059be:	f101 4178 	add.w	r1, r1, #4160749568	; 0xf8000000
- 80059c2:	6019      	str	r1, [r3, #0]
+ 80059e8:	600a      	str	r2, [r1, #0]
         new_base_vector = NULL;
- 80059c4:	6010      	str	r0, [r2, #0]
+ 80059ea:	4a8c      	ldr	r2, [pc, #560]	; (8005c1c <hf2_data_rx_cb+0x634>)
+        bootloader_changed = 0;
+ 80059ec:	6018      	str	r0, [r3, #0]
+        new_base_vector = NULL;
+ 80059ee:	6010      	str	r0, [r2, #0]
     if (!new_base_vector && IS_VALID_BASE_VECTOR_TABLE(old_app_start)) {
- 80059c6:	f3c9 0309 	ubfx	r3, r9, #0, #10
- 80059ca:	4333      	orrs	r3, r6
- 80059cc:	6818      	ldr	r0, [r3, #0]
- 80059ce:	4980      	ldr	r1, [pc, #512]	; (8005bd0 <hf2_data_rx_cb+0x5e8>)
- 80059d0:	4288      	cmp	r0, r1
- 80059d2:	d046      	beq.n	8005a62 <hf2_data_rx_cb+0x47a>
+ 80059f0:	f3ca 0309 	ubfx	r3, sl, #0, #10
+ 80059f4:	433b      	orrs	r3, r7
+ 80059f6:	6818      	ldr	r0, [r3, #0]
+ 80059f8:	4989      	ldr	r1, [pc, #548]	; (8005c20 <hf2_data_rx_cb+0x638>)
+ 80059fa:	4288      	cmp	r0, r1
+ 80059fc:	f000 80ad 	beq.w	8005b5a <hf2_data_rx_cb+0x572>
     if (target_addr < new_app_start) {  //  If writing Bootloader Page...
- 80059d4:	f8d8 3000 	ldr.w	r3, [r8]
- 80059d8:	429d      	cmp	r5, r3
- 80059da:	f4bf aef1 	bcs.w	80057c0 <hf2_data_rx_cb+0x1d8>
+ 8005a00:	f8db 3000 	ldr.w	r3, [fp]
+ 8005a04:	429e      	cmp	r6, r3
+ 8005a06:	f4bf aee1 	bcs.w	80057cc <hf2_data_rx_cb+0x1e4>
         target_addr += old_app_start_offset;
- 80059de:	445d      	add	r5, fp
+ 8005a0a:	4446      	add	r6, r8
         if (!VALID_FLASH_ADDR(target_addr, HF2_PAGE_SIZE)) { debug_print("*** ERROR: Invalid addr "); debug_printhex_unsigned(target_addr); debug_println(""); debug_force_flush(); }
- 80059e0:	f1b5 6f00 	cmp.w	r5, #134217728	; 0x8000000
- 80059e4:	d325      	bcc.n	8005a32 <hf2_data_rx_cb+0x44a>
- 80059e6:	4b7b      	ldr	r3, [pc, #492]	; (8005bd4 <hf2_data_rx_cb+0x5ec>)
- 80059e8:	f505 7280 	add.w	r2, r5, #256	; 0x100
- 80059ec:	429a      	cmp	r2, r3
- 80059ee:	d820      	bhi.n	8005a32 <hf2_data_rx_cb+0x44a>
+ 8005a0c:	f1b6 6f00 	cmp.w	r6, #134217728	; 0x8000000
+ 8005a10:	d32a      	bcc.n	8005a68 <hf2_data_rx_cb+0x480>
+ 8005a12:	4b84      	ldr	r3, [pc, #528]	; (8005c24 <hf2_data_rx_cb+0x63c>)
+ 8005a14:	f506 7280 	add.w	r2, r6, #256	; 0x100
+ 8005a18:	429a      	cmp	r2, r3
+ 8005a1a:	d825      	bhi.n	8005a68 <hf2_data_rx_cb+0x480>
     if (assertion) { return; }
- 80059f0:	f5ba 7f86 	cmp.w	sl, #268	; 0x10c
- 80059f4:	f47f aee7 	bne.w	80057c6 <hf2_data_rx_cb+0x1de>
+ 8005a1c:	f5b9 7f86 	cmp.w	r9, #268	; 0x10c
+ 8005a20:	f47f aed7 	bne.w	80057d2 <hf2_data_rx_cb+0x1ea>
+    if (VALID_FLASH_ADDR(target_addr, HF2_PAGE_SIZE) && !bootloader_changed) {
+ 8005a24:	4b7c      	ldr	r3, [pc, #496]	; (8005c18 <hf2_data_rx_cb+0x630>)
+ 8005a26:	681b      	ldr	r3, [r3, #0]
+ 8005a28:	2b00      	cmp	r3, #0
+ 8005a2a:	f47f aede 	bne.w	80057ea <hf2_data_rx_cb+0x202>
         flash_write(target_addr, data, HF2_PAGE_SIZE);
- 80059f8:	f104 010e 	add.w	r1, r4, #14
- 80059fc:	4628      	mov	r0, r5
- 80059fe:	f44f 7280 	mov.w	r2, #256	; 0x100
- 8005a02:	f7fe ff37 	bl	8004874 <flash_write>
- 8005a06:	683c      	ldr	r4, [r7, #0]
- 8005a08:	e614      	b.n	8005634 <hf2_data_rx_cb+0x4c>
+ 8005a2e:	f104 010e 	add.w	r1, r4, #14
+ 8005a32:	4630      	mov	r0, r6
+ 8005a34:	f44f 7280 	mov.w	r2, #256	; 0x100
+ 8005a38:	f7fe ff1c 	bl	8004874 <flash_write>
+ 8005a3c:	682c      	ldr	r4, [r5, #0]
+ 8005a3e:	e5fa      	b.n	8005636 <hf2_data_rx_cb+0x4e>
     const char *valid = VALID_FLASH_ADDR(target_addr, HF2_PAGE_SIZE) ? " " : " !!! ";
- 8005a0a:	f8df b214 	ldr.w	fp, [pc, #532]	; 8005c20 <hf2_data_rx_cb+0x638>
- 8005a0e:	e692      	b.n	8005736 <hf2_data_rx_cb+0x14e>
+ 8005a40:	f8df b22c 	ldr.w	fp, [pc, #556]	; 8005c70 <hf2_data_rx_cb+0x688>
+ 8005a44:	e67a      	b.n	800573c <hf2_data_rx_cb+0x154>
             if (boot_target_get_startup_mode() == APPLICATION_MODE) { debug_println("hf2 >> flash");  debug_force_flush(); ////
- 8005a10:	4871      	ldr	r0, [pc, #452]	; (8005bd8 <hf2_data_rx_cb+0x5f0>)
- 8005a12:	f7fe fb5f 	bl	80040d4 <debug_println>
- 8005a16:	f7fe fadf 	bl	8003fd8 <debug_force_flush>
+ 8005a46:	4878      	ldr	r0, [pc, #480]	; (8005c28 <hf2_data_rx_cb+0x640>)
+ 8005a48:	f7fe fb44 	bl	80040d4 <debug_println>
+ 8005a4c:	f7fe fac4 	bl	8003fd8 <debug_force_flush>
     volatile uint32_t dataToSendLength = 4 + size;
- 8005a1a:	2304      	movs	r3, #4
+ 8005a50:	2304      	movs	r3, #4
                 restart_request = BOOTLOADER_MODE; 
- 8005a1c:	2402      	movs	r4, #2
+ 8005a52:	2402      	movs	r4, #2
     volatile uint32_t dataToSendLength = 4 + size;
- 8005a1e:	9305      	str	r3, [sp, #20]
+ 8005a54:	9305      	str	r3, [sp, #20]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005a20:	9905      	ldr	r1, [sp, #20]
+ 8005a56:	9905      	ldr	r1, [sp, #20]
                 restart_request = BOOTLOADER_MODE; 
- 8005a22:	4b6e      	ldr	r3, [pc, #440]	; (8005bdc <hf2_data_rx_cb+0x5f4>)
+ 8005a58:	4b74      	ldr	r3, [pc, #464]	; (8005c2c <hf2_data_rx_cb+0x644>)
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005a24:	4640      	mov	r0, r8
- 8005a26:	2240      	movs	r2, #64	; 0x40
+ 8005a5a:	4638      	mov	r0, r7
+ 8005a5c:	2240      	movs	r2, #64	; 0x40
                 restart_request = BOOTLOADER_MODE; 
- 8005a28:	701c      	strb	r4, [r3, #0]
+ 8005a5e:	701c      	strb	r4, [r3, #0]
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005a2a:	f7ff fd61 	bl	80054f0 <pokeSend>
- 8005a2e:	683c      	ldr	r4, [r7, #0]
- 8005a30:	e600      	b.n	8005634 <hf2_data_rx_cb+0x4c>
+ 8005a60:	f7ff fd46 	bl	80054f0 <pokeSend>
+ 8005a64:	682c      	ldr	r4, [r5, #0]
+ 8005a66:	e5e6      	b.n	8005636 <hf2_data_rx_cb+0x4e>
         if (!VALID_FLASH_ADDR(target_addr, HF2_PAGE_SIZE)) { debug_print("*** ERROR: Invalid addr "); debug_printhex_unsigned(target_addr); debug_println(""); debug_force_flush(); }
- 8005a32:	486b      	ldr	r0, [pc, #428]	; (8005be0 <hf2_data_rx_cb+0x5f8>)
- 8005a34:	f7fe fb48 	bl	80040c8 <debug_print>
- 8005a38:	4628      	mov	r0, r5
- 8005a3a:	f7fe fb8d 	bl	8004158 <debug_printhex_unsigned>
- 8005a3e:	485f      	ldr	r0, [pc, #380]	; (8005bbc <hf2_data_rx_cb+0x5d4>)
- 8005a40:	f7fe fb48 	bl	80040d4 <debug_println>
- 8005a44:	f7fe fac8 	bl	8003fd8 <debug_force_flush>
- 8005a48:	e6ba      	b.n	80057c0 <hf2_data_rx_cb+0x1d8>
- 8005a4a:	4866      	ldr	r0, [pc, #408]	; (8005be4 <hf2_data_rx_cb+0x5fc>)
- 8005a4c:	f7ff fdbe 	bl	80055cc <assert.part.0>
- 8005a50:	e705      	b.n	800585e <hf2_data_rx_cb+0x276>
+ 8005a68:	4871      	ldr	r0, [pc, #452]	; (8005c30 <hf2_data_rx_cb+0x648>)
+ 8005a6a:	f7fe fb2d 	bl	80040c8 <debug_print>
+ 8005a6e:	4630      	mov	r0, r6
+ 8005a70:	f7fe fb72 	bl	8004158 <debug_printhex_unsigned>
+ 8005a74:	4864      	ldr	r0, [pc, #400]	; (8005c08 <hf2_data_rx_cb+0x620>)
+ 8005a76:	f7fe fb2d 	bl	80040d4 <debug_println>
+ 8005a7a:	f7fe faad 	bl	8003fd8 <debug_force_flush>
+ 8005a7e:	e6a5      	b.n	80057cc <hf2_data_rx_cb+0x1e4>
+ 8005a80:	486c      	ldr	r0, [pc, #432]	; (8005c34 <hf2_data_rx_cb+0x64c>)
+ 8005a82:	f7ff fda3 	bl	80055cc <assert.part.0>
+ 8005a86:	e6fa      	b.n	800587e <hf2_data_rx_cb+0x296>
     if (flush_count++ % 4 == 0) { debug_flush(); }
- 8005a52:	f7fe faaf 	bl	8003fb4 <debug_flush>
- 8005a56:	e689      	b.n	800576c <hf2_data_rx_cb+0x184>
+ 8005a88:	f7fe fa94 	bl	8003fb4 <debug_flush>
+ 8005a8c:	e673      	b.n	8005776 <hf2_data_rx_cb+0x18e>
     volatile uint32_t dataToSendLength = 4 + size;
- 8005a58:	2304      	movs	r3, #4
- 8005a5a:	930a      	str	r3, [sp, #40]	; 0x28
+ 8005a8e:	2304      	movs	r3, #4
+ 8005a90:	930a      	str	r3, [sp, #40]	; 0x28
                 restart_request = BOOTLOADER_MODE; 
- 8005a5c:	2402      	movs	r4, #2
+ 8005a92:	2402      	movs	r4, #2
     pokeSend(dataToSend, dataToSendLength, dataToSendFlag);
- 8005a5e:	990a      	ldr	r1, [sp, #40]	; 0x28
- 8005a60:	e7df      	b.n	8005a22 <hf2_data_rx_cb+0x43a>
-    if (!new_base_vector && IS_VALID_BASE_VECTOR_TABLE(old_app_start)) {
- 8005a62:	6958      	ldr	r0, [r3, #20]
- 8005a64:	4960      	ldr	r1, [pc, #384]	; (8005be8 <hf2_data_rx_cb+0x600>)
- 8005a66:	4288      	cmp	r0, r1
- 8005a68:	d1b4      	bne.n	80059d4 <hf2_data_rx_cb+0x3ec>
-        new_base_vector = BASE_VECTOR_TABLE(old_app_start);
- 8005a6a:	6013      	str	r3, [r2, #0]
- 8005a6c:	9201      	str	r2, [sp, #4]
-        new_app_start = (uint32_t) FLASH_ADDRESS(new_base_vector->application);
- 8005a6e:	6919      	ldr	r1, [r3, #16]
-        new_bootloader_size = new_app_start - FLASH_BASE;
- 8005a70:	f8df 9150 	ldr.w	r9, [pc, #336]	; 8005bc4 <hf2_data_rx_cb+0x5dc>
-        new_app_start = (uint32_t) FLASH_ADDRESS(new_base_vector->application);
- 8005a74:	f421 717f 	bic.w	r1, r1, #1020	; 0x3fc
- 8005a78:	f021 0103 	bic.w	r1, r1, #3
-        new_bootloader_size = new_app_start - FLASH_BASE;
- 8005a7c:	f101 4078 	add.w	r0, r1, #4160749568	; 0xf8000000
-        new_app_start = (uint32_t) FLASH_ADDRESS(new_base_vector->application);
- 8005a80:	f8c8 1000 	str.w	r1, [r8]
-        new_bootloader_size = new_app_start - FLASH_BASE;
- 8005a84:	f8c9 0000 	str.w	r0, [r9]
-        new_baseloader_size = (uint32_t) (new_base_vector->baseloader_end) - FLASH_BASE;
- 8005a88:	68db      	ldr	r3, [r3, #12]
- 8005a8a:	494f      	ldr	r1, [pc, #316]	; (8005bc8 <hf2_data_rx_cb+0x5e0>)
- 8005a8c:	f103 4378 	add.w	r3, r3, #4160749568	; 0xf8000000
-        debug_print("found vector, app "); debug_printhex_unsigned(new_app_start);
- 8005a90:	4856      	ldr	r0, [pc, #344]	; (8005bec <hf2_data_rx_cb+0x604>)
-        new_baseloader_size = (uint32_t) (new_base_vector->baseloader_end) - FLASH_BASE;
- 8005a92:	600b      	str	r3, [r1, #0]
- 8005a94:	9100      	str	r1, [sp, #0]
-        debug_print("found vector, app "); debug_printhex_unsigned(new_app_start);
- 8005a96:	f7fe fb17 	bl	80040c8 <debug_print>
- 8005a9a:	f8d8 0000 	ldr.w	r0, [r8]
- 8005a9e:	f7fe fb5b 	bl	8004158 <debug_printhex_unsigned>
-        debug_print(", boot size "); debug_printhex_unsigned(new_bootloader_size);
- 8005aa2:	4853      	ldr	r0, [pc, #332]	; (8005bf0 <hf2_data_rx_cb+0x608>)
- 8005aa4:	f7fe fb10 	bl	80040c8 <debug_print>
- 8005aa8:	f8d9 0000 	ldr.w	r0, [r9]
- 8005aac:	f7fe fb54 	bl	8004158 <debug_printhex_unsigned>
-        debug_print(", base size "); debug_printhex_unsigned(new_baseloader_size);
- 8005ab0:	4850      	ldr	r0, [pc, #320]	; (8005bf4 <hf2_data_rx_cb+0x60c>)
- 8005ab2:	f7fe fb09 	bl	80040c8 <debug_print>
- 8005ab6:	9900      	ldr	r1, [sp, #0]
- 8005ab8:	6808      	ldr	r0, [r1, #0]
- 8005aba:	f7fe fb4d 	bl	8004158 <debug_printhex_unsigned>
-        debug_println(""); debug_force_flush();
- 8005abe:	483f      	ldr	r0, [pc, #252]	; (8005bbc <hf2_data_rx_cb+0x5d4>)
- 8005ac0:	f7fe fb08 	bl	80040d4 <debug_println>
- 8005ac4:	f7fe fa88 	bl	8003fd8 <debug_force_flush>
-    if (target_addr < new_app_start) {  //  If writing Bootloader Page...
- 8005ac8:	f8d8 3000 	ldr.w	r3, [r8]
- 8005acc:	9a01      	ldr	r2, [sp, #4]
- 8005ace:	429d      	cmp	r5, r3
- 8005ad0:	d385      	bcc.n	80059de <hf2_data_rx_cb+0x3f6>
-    }  else if (new_base_vector && (target_addr == new_app_start)) {  //  When we are finished writing the Bootloader and now writing first Application Page...
- 8005ad2:	6812      	ldr	r2, [r2, #0]
- 8005ad4:	2a00      	cmp	r2, #0
- 8005ad6:	f47f ae70 	bne.w	80057ba <hf2_data_rx_cb+0x1d2>
- 8005ada:	e671      	b.n	80057c0 <hf2_data_rx_cb+0x1d8>
+ 8005a94:	990a      	ldr	r1, [sp, #40]	; 0x28
+ 8005a96:	e7df      	b.n	8005a58 <hf2_data_rx_cb+0x470>
+    } else if (new_base_vector && (target_addr == new_app_start) && !bootloader_changed) {  //  When we are finished writing the Bootloader and now writing first Application Page...
+ 8005a98:	4b5f      	ldr	r3, [pc, #380]	; (8005c18 <hf2_data_rx_cb+0x630>)
+ 8005a9a:	681b      	ldr	r3, [r3, #0]
+ 8005a9c:	2b00      	cmp	r3, #0
+ 8005a9e:	f47f ae95 	bne.w	80057cc <hf2_data_rx_cb+0x1e4>
         debug_println("wrote bootloader"); debug_force_flush();
- 8005adc:	4846      	ldr	r0, [pc, #280]	; (8005bf8 <hf2_data_rx_cb+0x610>)
-        int bootloader_changed = memcmp((void *) old_app_start, (void *) FLASH_BASE, new_bootloader_size);
- 8005ade:	f8df 80e4 	ldr.w	r8, [pc, #228]	; 8005bc4 <hf2_data_rx_cb+0x5dc>
- 8005ae2:	9300      	str	r3, [sp, #0]
-        debug_println("wrote bootloader"); debug_force_flush();
- 8005ae4:	f7fe faf6 	bl	80040d4 <debug_println>
- 8005ae8:	f7fe fa76 	bl	8003fd8 <debug_force_flush>
+ 8005aa2:	4865      	ldr	r0, [pc, #404]	; (8005c38 <hf2_data_rx_cb+0x650>)
+ 8005aa4:	f7fe fb16 	bl	80040d4 <debug_println>
+ 8005aa8:	f7fe fa96 	bl	8003fd8 <debug_force_flush>
         flash_flush();  //  Flush the last Bootloader page.
- 8005aec:	f7fe fe62 	bl	80047b4 <flash_flush>
-        debug_println("compare bootloader..."); debug_force_flush();
- 8005af0:	4842      	ldr	r0, [pc, #264]	; (8005bfc <hf2_data_rx_cb+0x614>)
- 8005af2:	f7fe faef 	bl	80040d4 <debug_println>
- 8005af6:	f7fe fa6f 	bl	8003fd8 <debug_force_flush>
-        int bootloader_changed = memcmp((void *) old_app_start, (void *) FLASH_BASE, new_bootloader_size);
- 8005afa:	f8d8 2000 	ldr.w	r2, [r8]
- 8005afe:	f04f 6100 	mov.w	r1, #134217728	; 0x8000000
- 8005b02:	4630      	mov	r0, r6
- 8005b04:	f7fe f948 	bl	8003d98 <memcmp>
-        if (bootloader_changed) {
- 8005b08:	b990      	cbnz	r0, 8005b30 <hf2_data_rx_cb+0x548>
-        debug_print("bootloader identical "); debug_printhex_unsigned(old_app_start);
- 8005b0a:	483d      	ldr	r0, [pc, #244]	; (8005c00 <hf2_data_rx_cb+0x618>)
- 8005b0c:	f7fe fadc 	bl	80040c8 <debug_print>
- 8005b10:	4630      	mov	r0, r6
- 8005b12:	f7fe fb21 	bl	8004158 <debug_printhex_unsigned>
-        debug_print(", size "); debug_printhex_unsigned(new_bootloader_size);
- 8005b16:	483b      	ldr	r0, [pc, #236]	; (8005c04 <hf2_data_rx_cb+0x61c>)
- 8005b18:	f7fe fad6 	bl	80040c8 <debug_print>
- 8005b1c:	f8d8 0000 	ldr.w	r0, [r8]
- 8005b20:	f7fe fb1a 	bl	8004158 <debug_printhex_unsigned>
+ 8005aac:	f7fe fe82 	bl	80047b4 <flash_flush>
+        bootloader_changed = handle_bootloader_update(old_app_start, old_app_start_offset, 
+ 8005ab0:	4a57      	ldr	r2, [pc, #348]	; (8005c10 <hf2_data_rx_cb+0x628>)
+ 8005ab2:	4b58      	ldr	r3, [pc, #352]	; (8005c14 <hf2_data_rx_cb+0x62c>)
+ 8005ab4:	f8d2 a000 	ldr.w	sl, [r2]
+    debug_println("compare bootloader..."); debug_force_flush();
+ 8005ab8:	4860      	ldr	r0, [pc, #384]	; (8005c3c <hf2_data_rx_cb+0x654>)
+        bootloader_changed = handle_bootloader_update(old_app_start, old_app_start_offset, 
+ 8005aba:	f8d3 b000 	ldr.w	fp, [r3]
+    debug_println("compare bootloader..."); debug_force_flush();
+ 8005abe:	f7fe fb09 	bl	80040d4 <debug_println>
+ 8005ac2:	f7fe fa89 	bl	8003fd8 <debug_force_flush>
+    int bootloader_changed = memcmp((void *) old_app_start, (void *) FLASH_BASE, new_bootloader_size);
+ 8005ac6:	4652      	mov	r2, sl
+ 8005ac8:	f04f 6100 	mov.w	r1, #134217728	; 0x8000000
+ 8005acc:	4638      	mov	r0, r7
+ 8005ace:	f7fe f963 	bl	8003d98 <memcmp>
+    if (!bootloader_changed) {
+ 8005ad2:	9000      	str	r0, [sp, #0]
+ 8005ad4:	2800      	cmp	r0, #0
+ 8005ad6:	d07f      	beq.n	8005bd8 <hf2_data_rx_cb+0x5f0>
+    debug_println("bootloader changed"); debug_force_flush();
+ 8005ad8:	4859      	ldr	r0, [pc, #356]	; (8005c40 <hf2_data_rx_cb+0x658>)
+ 8005ada:	f7fe fafb 	bl	80040d4 <debug_println>
+    uint32_t new_baseloader_addr = target_addr + old_app_start_offset;
+ 8005ade:	44b0      	add	r8, r6
+    debug_println("bootloader changed"); debug_force_flush();
+ 8005ae0:	f7fe fa7a 	bl	8003fd8 <debug_force_flush>
+    debug_print("copy baseloader to "); debug_printhex_unsigned(new_baseloader_addr); 
+ 8005ae4:	4857      	ldr	r0, [pc, #348]	; (8005c44 <hf2_data_rx_cb+0x65c>)
+ 8005ae6:	f7fe faef 	bl	80040c8 <debug_print>
+ 8005aea:	4640      	mov	r0, r8
+ 8005aec:	f7fe fb34 	bl	8004158 <debug_printhex_unsigned>
+    debug_print(", size "); debug_printhex_unsigned(new_baseloader_size);
+ 8005af0:	4855      	ldr	r0, [pc, #340]	; (8005c48 <hf2_data_rx_cb+0x660>)
+ 8005af2:	f7fe fae9 	bl	80040c8 <debug_print>
+ 8005af6:	4658      	mov	r0, fp
+ 8005af8:	f7fe fb2e 	bl	8004158 <debug_printhex_unsigned>
+    debug_println(""); debug_force_flush();
+ 8005afc:	4842      	ldr	r0, [pc, #264]	; (8005c08 <hf2_data_rx_cb+0x620>)
+ 8005afe:	f7fe fae9 	bl	80040d4 <debug_println>
+ 8005b02:	f7fe fa69 	bl	8003fd8 <debug_force_flush>
+    flash_write(new_baseloader_addr, (const uint8_t *) old_app_start, new_baseloader_size);
+ 8005b06:	465a      	mov	r2, fp
+ 8005b08:	4639      	mov	r1, r7
+ 8005b0a:	4640      	mov	r0, r8
+ 8005b0c:	f7fe feb2 	bl	8004874 <flash_write>
+    flash_flush();
+ 8005b10:	f7fe fe50 	bl	80047b4 <flash_flush>
+    debug_print("restart to baseloader "); debug_printhex_unsigned(new_baseloader_addr);
+ 8005b14:	484d      	ldr	r0, [pc, #308]	; (8005c4c <hf2_data_rx_cb+0x664>)
+ 8005b16:	f7fe fad7 	bl	80040c8 <debug_print>
+ 8005b1a:	4640      	mov	r0, r8
+ 8005b1c:	f7fe fb1c 	bl	8004158 <debug_printhex_unsigned>
+    debug_print(", baselen "); debug_printhex_unsigned(new_baseloader_size);
+ 8005b20:	484b      	ldr	r0, [pc, #300]	; (8005c50 <hf2_data_rx_cb+0x668>)
+ 8005b22:	f7fe fad1 	bl	80040c8 <debug_print>
+ 8005b26:	4658      	mov	r0, fp
+ 8005b28:	f7fe fb16 	bl	8004158 <debug_printhex_unsigned>
+    debug_print(", oldapp "); debug_printhex_unsigned(old_app_start);
+ 8005b2c:	4849      	ldr	r0, [pc, #292]	; (8005c54 <hf2_data_rx_cb+0x66c>)
+ 8005b2e:	f7fe facb 	bl	80040c8 <debug_print>
+ 8005b32:	4638      	mov	r0, r7
+ 8005b34:	f7fe fb10 	bl	8004158 <debug_printhex_unsigned>
+    debug_print(", bootlen "); debug_printhex_unsigned(new_bootloader_size);
+ 8005b38:	4847      	ldr	r0, [pc, #284]	; (8005c58 <hf2_data_rx_cb+0x670>)
+ 8005b3a:	f7fe fac5 	bl	80040c8 <debug_print>
+ 8005b3e:	4650      	mov	r0, sl
+ 8005b40:	f7fe fb0a 	bl	8004158 <debug_printhex_unsigned>
+    debug_println(""); debug_force_flush();
+ 8005b44:	4830      	ldr	r0, [pc, #192]	; (8005c08 <hf2_data_rx_cb+0x620>)
+ 8005b46:	f7fe fac5 	bl	80040d4 <debug_println>
+    return 1;
+ 8005b4a:	2301      	movs	r3, #1
+ 8005b4c:	9300      	str	r3, [sp, #0]
+    debug_println(""); debug_force_flush();
+ 8005b4e:	f7fe fa43 	bl	8003fd8 <debug_force_flush>
+ 8005b52:	9b00      	ldr	r3, [sp, #0]
+        bootloader_changed = handle_bootloader_update(old_app_start, old_app_start_offset, 
+ 8005b54:	4a30      	ldr	r2, [pc, #192]	; (8005c18 <hf2_data_rx_cb+0x630>)
+ 8005b56:	6013      	str	r3, [r2, #0]
+ 8005b58:	e638      	b.n	80057cc <hf2_data_rx_cb+0x1e4>
+    if (!new_base_vector && IS_VALID_BASE_VECTOR_TABLE(old_app_start)) {
+ 8005b5a:	6958      	ldr	r0, [r3, #20]
+ 8005b5c:	493f      	ldr	r1, [pc, #252]	; (8005c5c <hf2_data_rx_cb+0x674>)
+ 8005b5e:	4288      	cmp	r0, r1
+ 8005b60:	f47f af4e 	bne.w	8005a00 <hf2_data_rx_cb+0x418>
+        new_base_vector = BASE_VECTOR_TABLE(old_app_start);
+ 8005b64:	6013      	str	r3, [r2, #0]
+ 8005b66:	9201      	str	r2, [sp, #4]
+        new_app_start = (uint32_t) FLASH_ADDRESS(new_base_vector->application);
+ 8005b68:	6919      	ldr	r1, [r3, #16]
+        new_bootloader_size = new_app_start - FLASH_BASE;
+ 8005b6a:	f8df a0a4 	ldr.w	sl, [pc, #164]	; 8005c10 <hf2_data_rx_cb+0x628>
+        new_app_start = (uint32_t) FLASH_ADDRESS(new_base_vector->application);
+ 8005b6e:	f421 717f 	bic.w	r1, r1, #1020	; 0x3fc
+ 8005b72:	f021 0103 	bic.w	r1, r1, #3
+        new_bootloader_size = new_app_start - FLASH_BASE;
+ 8005b76:	f101 4078 	add.w	r0, r1, #4160749568	; 0xf8000000
+        new_app_start = (uint32_t) FLASH_ADDRESS(new_base_vector->application);
+ 8005b7a:	f8cb 1000 	str.w	r1, [fp]
+        new_bootloader_size = new_app_start - FLASH_BASE;
+ 8005b7e:	f8ca 0000 	str.w	r0, [sl]
+        new_baseloader_size = (uint32_t) (new_base_vector->baseloader_end) - FLASH_BASE;
+ 8005b82:	68db      	ldr	r3, [r3, #12]
+ 8005b84:	4923      	ldr	r1, [pc, #140]	; (8005c14 <hf2_data_rx_cb+0x62c>)
+ 8005b86:	f103 4378 	add.w	r3, r3, #4160749568	; 0xf8000000
+        debug_print("found vector, app "); debug_printhex_unsigned(new_app_start);
+ 8005b8a:	4835      	ldr	r0, [pc, #212]	; (8005c60 <hf2_data_rx_cb+0x678>)
+        new_baseloader_size = (uint32_t) (new_base_vector->baseloader_end) - FLASH_BASE;
+ 8005b8c:	600b      	str	r3, [r1, #0]
+ 8005b8e:	9100      	str	r1, [sp, #0]
+        debug_print("found vector, app "); debug_printhex_unsigned(new_app_start);
+ 8005b90:	f7fe fa9a 	bl	80040c8 <debug_print>
+ 8005b94:	f8db 0000 	ldr.w	r0, [fp]
+ 8005b98:	f7fe fade 	bl	8004158 <debug_printhex_unsigned>
+        debug_print(", boot size "); debug_printhex_unsigned(new_bootloader_size);
+ 8005b9c:	4831      	ldr	r0, [pc, #196]	; (8005c64 <hf2_data_rx_cb+0x67c>)
+ 8005b9e:	f7fe fa93 	bl	80040c8 <debug_print>
+ 8005ba2:	f8da 0000 	ldr.w	r0, [sl]
+ 8005ba6:	f7fe fad7 	bl	8004158 <debug_printhex_unsigned>
+        debug_print(", base size "); debug_printhex_unsigned(new_baseloader_size);
+ 8005baa:	482f      	ldr	r0, [pc, #188]	; (8005c68 <hf2_data_rx_cb+0x680>)
+ 8005bac:	f7fe fa8c 	bl	80040c8 <debug_print>
+ 8005bb0:	9900      	ldr	r1, [sp, #0]
+ 8005bb2:	6808      	ldr	r0, [r1, #0]
+ 8005bb4:	f7fe fad0 	bl	8004158 <debug_printhex_unsigned>
         debug_println(""); debug_force_flush();
- 8005b24:	4825      	ldr	r0, [pc, #148]	; (8005bbc <hf2_data_rx_cb+0x5d4>)
- 8005b26:	f7fe fad5 	bl	80040d4 <debug_println>
- 8005b2a:	f7fe fa55 	bl	8003fd8 <debug_force_flush>
- 8005b2e:	e647      	b.n	80057c0 <hf2_data_rx_cb+0x1d8>
-            uint32_t new_baseloader_addr = target_addr + old_app_start_offset;
- 8005b30:	9b00      	ldr	r3, [sp, #0]
-            debug_println("bootloader changed"); debug_force_flush();
- 8005b32:	4835      	ldr	r0, [pc, #212]	; (8005c08 <hf2_data_rx_cb+0x620>)
-            uint32_t new_baseloader_addr = target_addr + old_app_start_offset;
- 8005b34:	449b      	add	fp, r3
-            debug_println("bootloader changed"); debug_force_flush();
- 8005b36:	f7fe facd 	bl	80040d4 <debug_println>
- 8005b3a:	f7fe fa4d 	bl	8003fd8 <debug_force_flush>
-            debug_print("copy baseloader to "); debug_printhex_unsigned(new_baseloader_addr); 
- 8005b3e:	4833      	ldr	r0, [pc, #204]	; (8005c0c <hf2_data_rx_cb+0x624>)
- 8005b40:	f7fe fac2 	bl	80040c8 <debug_print>
-            debug_print(", size "); debug_printhex_unsigned(new_baseloader_size);
- 8005b44:	4c20      	ldr	r4, [pc, #128]	; (8005bc8 <hf2_data_rx_cb+0x5e0>)
-            debug_print("copy baseloader to "); debug_printhex_unsigned(new_baseloader_addr); 
- 8005b46:	4658      	mov	r0, fp
- 8005b48:	f7fe fb06 	bl	8004158 <debug_printhex_unsigned>
-            debug_print(", size "); debug_printhex_unsigned(new_baseloader_size);
- 8005b4c:	482d      	ldr	r0, [pc, #180]	; (8005c04 <hf2_data_rx_cb+0x61c>)
- 8005b4e:	f7fe fabb 	bl	80040c8 <debug_print>
- 8005b52:	6820      	ldr	r0, [r4, #0]
- 8005b54:	f7fe fb00 	bl	8004158 <debug_printhex_unsigned>
-            debug_println(""); debug_force_flush();
- 8005b58:	4818      	ldr	r0, [pc, #96]	; (8005bbc <hf2_data_rx_cb+0x5d4>)
- 8005b5a:	f7fe fabb 	bl	80040d4 <debug_println>
- 8005b5e:	f7fe fa3b 	bl	8003fd8 <debug_force_flush>
-            flash_write(new_baseloader_addr, (const uint8_t *) old_app_start, new_baseloader_size);
- 8005b62:	6822      	ldr	r2, [r4, #0]
- 8005b64:	4631      	mov	r1, r6
- 8005b66:	4658      	mov	r0, fp
- 8005b68:	f7fe fe84 	bl	8004874 <flash_write>
-            flash_flush();
- 8005b6c:	f7fe fe22 	bl	80047b4 <flash_flush>
-            debug_print("restart to baseloader "); debug_printhex_unsigned(new_baseloader_addr);
- 8005b70:	4827      	ldr	r0, [pc, #156]	; (8005c10 <hf2_data_rx_cb+0x628>)
- 8005b72:	f7fe faa9 	bl	80040c8 <debug_print>
- 8005b76:	4658      	mov	r0, fp
- 8005b78:	f7fe faee 	bl	8004158 <debug_printhex_unsigned>
-            debug_print(", baselen "); debug_printhex_unsigned(new_baseloader_size);
- 8005b7c:	4825      	ldr	r0, [pc, #148]	; (8005c14 <hf2_data_rx_cb+0x62c>)
- 8005b7e:	f7fe faa3 	bl	80040c8 <debug_print>
- 8005b82:	6820      	ldr	r0, [r4, #0]
- 8005b84:	f7fe fae8 	bl	8004158 <debug_printhex_unsigned>
-            debug_print(", oldapp "); debug_printhex_unsigned(old_app_start);
- 8005b88:	4823      	ldr	r0, [pc, #140]	; (8005c18 <hf2_data_rx_cb+0x630>)
- 8005b8a:	f7fe fa9d 	bl	80040c8 <debug_print>
- 8005b8e:	4630      	mov	r0, r6
- 8005b90:	f7fe fae2 	bl	8004158 <debug_printhex_unsigned>
-            debug_print(", bootlen "); debug_printhex_unsigned(new_bootloader_size);
- 8005b94:	4821      	ldr	r0, [pc, #132]	; (8005c1c <hf2_data_rx_cb+0x634>)
- 8005b96:	f7fe fa97 	bl	80040c8 <debug_print>
- 8005b9a:	f8d8 0000 	ldr.w	r0, [r8]
- 8005b9e:	f7fe fadb 	bl	8004158 <debug_printhex_unsigned>
-            debug_println(""); debug_force_flush();
- 8005ba2:	4806      	ldr	r0, [pc, #24]	; (8005bbc <hf2_data_rx_cb+0x5d4>)
- 8005ba4:	f7fe fa96 	bl	80040d4 <debug_println>
- 8005ba8:	f7fe fa16 	bl	8003fd8 <debug_force_flush>
-            boot_target_manifest_baseloader();  //  Never returns.
- 8005bac:	f7ff fb8a 	bl	80052c4 <boot_target_manifest_baseloader>
- 8005bb0:	683c      	ldr	r4, [r7, #0]
- 8005bb2:	e53f      	b.n	8005634 <hf2_data_rx_cb+0x4c>
- 8005bb4:	08006970 	.word	0x08006970
- 8005bb8:	08006b1c 	.word	0x08006b1c
- 8005bbc:	08005f50 	.word	0x08005f50
- 8005bc0:	080069e0 	.word	0x080069e0
- 8005bc4:	200009f0 	.word	0x200009f0
- 8005bc8:	200009ec 	.word	0x200009ec
- 8005bcc:	200009e8 	.word	0x200009e8
- 8005bd0:	22051969 	.word	0x22051969
- 8005bd4:	08010000 	.word	0x08010000
- 8005bd8:	080069c0 	.word	0x080069c0
- 8005bdc:	20000b95 	.word	0x20000b95
- 8005be0:	08006a24 	.word	0x08006a24
- 8005be4:	0800698c 	.word	0x0800698c
- 8005be8:	19690522 	.word	0x19690522
- 8005bec:	080069f0 	.word	0x080069f0
- 8005bf0:	08006a04 	.word	0x08006a04
- 8005bf4:	08006a14 	.word	0x08006a14
- 8005bf8:	08006a40 	.word	0x08006a40
- 8005bfc:	08006a54 	.word	0x08006a54
- 8005c00:	08006ac0 	.word	0x08006ac0
- 8005c04:	08006a94 	.word	0x08006a94
- 8005c08:	08006a6c 	.word	0x08006a6c
- 8005c0c:	08006a80 	.word	0x08006a80
- 8005c10:	08006a9c 	.word	0x08006a9c
- 8005c14:	08006ab4 	.word	0x08006ab4
- 8005c18:	08006228 	.word	0x08006228
- 8005c1c:	08006234 	.word	0x08006234
- 8005c20:	08006968 	.word	0x08006968
+ 8005bb8:	4813      	ldr	r0, [pc, #76]	; (8005c08 <hf2_data_rx_cb+0x620>)
+ 8005bba:	f7fe fa8b 	bl	80040d4 <debug_println>
+ 8005bbe:	f7fe fa0b 	bl	8003fd8 <debug_force_flush>
+    if (target_addr < new_app_start) {  //  If writing Bootloader Page...
+ 8005bc2:	f8db 3000 	ldr.w	r3, [fp]
+ 8005bc6:	9a01      	ldr	r2, [sp, #4]
+ 8005bc8:	429e      	cmp	r6, r3
+ 8005bca:	f4ff af1e 	bcc.w	8005a0a <hf2_data_rx_cb+0x422>
+    } else if (new_base_vector && (target_addr == new_app_start) && !bootloader_changed) {  //  When we are finished writing the Bootloader and now writing first Application Page...
+ 8005bce:	6812      	ldr	r2, [r2, #0]
+ 8005bd0:	2a00      	cmp	r2, #0
+ 8005bd2:	f47f adf8 	bne.w	80057c6 <hf2_data_rx_cb+0x1de>
+ 8005bd6:	e5f9      	b.n	80057cc <hf2_data_rx_cb+0x1e4>
+        debug_print("bootloader identical "); debug_printhex_unsigned(old_app_start);
+ 8005bd8:	4824      	ldr	r0, [pc, #144]	; (8005c6c <hf2_data_rx_cb+0x684>)
+ 8005bda:	f7fe fa75 	bl	80040c8 <debug_print>
+ 8005bde:	4638      	mov	r0, r7
+ 8005be0:	f7fe faba 	bl	8004158 <debug_printhex_unsigned>
+        debug_print(", size "); debug_printhex_unsigned(new_bootloader_size);
+ 8005be4:	4818      	ldr	r0, [pc, #96]	; (8005c48 <hf2_data_rx_cb+0x660>)
+ 8005be6:	f7fe fa6f 	bl	80040c8 <debug_print>
+ 8005bea:	4650      	mov	r0, sl
+ 8005bec:	f7fe fab4 	bl	8004158 <debug_printhex_unsigned>
+        debug_println(""); debug_force_flush();
+ 8005bf0:	4805      	ldr	r0, [pc, #20]	; (8005c08 <hf2_data_rx_cb+0x620>)
+ 8005bf2:	f7fe fa6f 	bl	80040d4 <debug_println>
+ 8005bf6:	f7fe f9ef 	bl	8003fd8 <debug_force_flush>
+ 8005bfa:	9b00      	ldr	r3, [sp, #0]
+ 8005bfc:	e7aa      	b.n	8005b54 <hf2_data_rx_cb+0x56c>
+ 8005bfe:	bf00      	nop
+ 8005c00:	080069cc 	.word	0x080069cc
+ 8005c04:	08006b78 	.word	0x08006b78
+ 8005c08:	08005fac 	.word	0x08005fac
+ 8005c0c:	08006a3c 	.word	0x08006a3c
+ 8005c10:	200009f4 	.word	0x200009f4
+ 8005c14:	200009f0 	.word	0x200009f0
+ 8005c18:	200009dc 	.word	0x200009dc
+ 8005c1c:	200009ec 	.word	0x200009ec
+ 8005c20:	22051969 	.word	0x22051969
+ 8005c24:	08010000 	.word	0x08010000
+ 8005c28:	08006a1c 	.word	0x08006a1c
+ 8005c2c:	20000b99 	.word	0x20000b99
+ 8005c30:	08006a80 	.word	0x08006a80
+ 8005c34:	080069e8 	.word	0x080069e8
+ 8005c38:	08006a9c 	.word	0x08006a9c
+ 8005c3c:	08006ab0 	.word	0x08006ab0
+ 8005c40:	08006ae8 	.word	0x08006ae8
+ 8005c44:	08006afc 	.word	0x08006afc
+ 8005c48:	08006ae0 	.word	0x08006ae0
+ 8005c4c:	08006b10 	.word	0x08006b10
+ 8005c50:	08006b28 	.word	0x08006b28
+ 8005c54:	08006284 	.word	0x08006284
+ 8005c58:	08006290 	.word	0x08006290
+ 8005c5c:	19690522 	.word	0x19690522
+ 8005c60:	08006a4c 	.word	0x08006a4c
+ 8005c64:	08006a60 	.word	0x08006a60
+ 8005c68:	08006a70 	.word	0x08006a70
+ 8005c6c:	08006ac8 	.word	0x08006ac8
+ 8005c70:	080069c4 	.word	0x080069c4
 
-08005c24 <hf2_data_tx_cb>:
+08005c74 <hf2_data_tx_cb>:
 static void hf2_data_tx_cb(usbd_device *usbd_dev, uint8_t ep) { (void)usbd_dev; (void)ep;
- 8005c24:	b510      	push	{r4, lr}
+ 8005c74:	b510      	push	{r4, lr}
     if (remDataToSendLength > 0) {  //  If there is remaining data to be sent...
- 8005c26:	4c0f      	ldr	r4, [pc, #60]	; (8005c64 <hf2_data_tx_cb+0x40>)
- 8005c28:	6823      	ldr	r3, [r4, #0]
- 8005c2a:	b943      	cbnz	r3, 8005c3e <hf2_data_tx_cb+0x1a>
-    if (remDataToSendLength == 0) {  //  If there is no more data to be sent...
- 8005c2c:	6823      	ldr	r3, [r4, #0]
- 8005c2e:	b92b      	cbnz	r3, 8005c3c <hf2_data_tx_cb+0x18>
-        if (restart_request == BOOTLOADER_MODE) {  //  Restart to Bootloader Mode if requested.
- 8005c30:	490d      	ldr	r1, [pc, #52]	; (8005c68 <hf2_data_tx_cb+0x44>)
- 8005c32:	780a      	ldrb	r2, [r1, #0]
- 8005c34:	2a02      	cmp	r2, #2
- 8005c36:	d00f      	beq.n	8005c58 <hf2_data_tx_cb+0x34>
-        } else if (restart_request == APPLICATION_MODE) {  //  Restart to Application Mode if requested.
- 8005c38:	2a03      	cmp	r2, #3
- 8005c3a:	d008      	beq.n	8005c4e <hf2_data_tx_cb+0x2a>
+ 8005c76:	4c12      	ldr	r4, [pc, #72]	; (8005cc0 <hf2_data_tx_cb+0x4c>)
+ 8005c78:	6823      	ldr	r3, [r4, #0]
+ 8005c7a:	b963      	cbnz	r3, 8005c96 <hf2_data_tx_cb+0x22>
+    if (remDataToSendLength == 0 && restart_request != UNKNOWN_MODE) {  //  If there is no more data to be sent...
+ 8005c7c:	6823      	ldr	r3, [r4, #0]
+ 8005c7e:	b94b      	cbnz	r3, 8005c94 <hf2_data_tx_cb+0x20>
+ 8005c80:	4910      	ldr	r1, [pc, #64]	; (8005cc4 <hf2_data_tx_cb+0x50>)
+ 8005c82:	780a      	ldrb	r2, [r1, #0]
+ 8005c84:	b132      	cbz	r2, 8005c94 <hf2_data_tx_cb+0x20>
+        switch(restart_request0) {
+ 8005c86:	2a02      	cmp	r2, #2
+        restart_request = UNKNOWN_MODE;
+ 8005c88:	700b      	strb	r3, [r1, #0]
+        switch(restart_request0) {
+ 8005c8a:	d014      	beq.n	8005cb6 <hf2_data_tx_cb+0x42>
+ 8005c8c:	2a03      	cmp	r2, #3
+ 8005c8e:	d00a      	beq.n	8005ca6 <hf2_data_tx_cb+0x32>
+ 8005c90:	2a01      	cmp	r2, #1
+ 8005c92:	d00c      	beq.n	8005cae <hf2_data_tx_cb+0x3a>
 }
- 8005c3c:	bd10      	pop	{r4, pc}
+ 8005c94:	bd10      	pop	{r4, pc}
         pokeSend(remDataToSend, remDataToSendLength, remDataToSendFlag);  //  Send it.
- 8005c3e:	4b0b      	ldr	r3, [pc, #44]	; (8005c6c <hf2_data_tx_cb+0x48>)
- 8005c40:	4a0b      	ldr	r2, [pc, #44]	; (8005c70 <hf2_data_tx_cb+0x4c>)
- 8005c42:	6821      	ldr	r1, [r4, #0]
- 8005c44:	7812      	ldrb	r2, [r2, #0]
- 8005c46:	6818      	ldr	r0, [r3, #0]
- 8005c48:	f7ff fc52 	bl	80054f0 <pokeSend>
- 8005c4c:	e7ee      	b.n	8005c2c <hf2_data_tx_cb+0x8>
+ 8005c96:	4b0c      	ldr	r3, [pc, #48]	; (8005cc8 <hf2_data_tx_cb+0x54>)
+ 8005c98:	4a0c      	ldr	r2, [pc, #48]	; (8005ccc <hf2_data_tx_cb+0x58>)
+ 8005c9a:	6821      	ldr	r1, [r4, #0]
+ 8005c9c:	7812      	ldrb	r2, [r2, #0]
+ 8005c9e:	6818      	ldr	r0, [r3, #0]
+ 8005ca0:	f7ff fc26 	bl	80054f0 <pokeSend>
+ 8005ca4:	e7ea      	b.n	8005c7c <hf2_data_tx_cb+0x8>
 }
- 8005c4e:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
-            restart_request = UNKNOWN_MODE;
- 8005c52:	700b      	strb	r3, [r1, #0]
-            boot_target_manifest_app();  //  Never returns.
- 8005c54:	f7ff bb26 	b.w	80052a4 <boot_target_manifest_app>
+ 8005ca6:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+                boot_target_manifest_app();  //  Never returns.
+ 8005caa:	f7ff bafb 	b.w	80052a4 <boot_target_manifest_app>
 }
- 8005c58:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
-            restart_request = UNKNOWN_MODE;
- 8005c5c:	700b      	strb	r3, [r1, #0]
-            boot_target_manifest_bootloader();  //  Never returns.
- 8005c5e:	f7ff bb41 	b.w	80052e4 <boot_target_manifest_bootloader>
- 8005c62:	bf00      	nop
- 8005c64:	20000a00 	.word	0x20000a00
- 8005c68:	20000b95 	.word	0x20000b95
- 8005c6c:	200009fc 	.word	0x200009fc
- 8005c70:	20000b94 	.word	0x20000b94
+ 8005cae:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+                boot_target_manifest_baseloader();  //  Never returns.
+ 8005cb2:	f7ff bb07 	b.w	80052c4 <boot_target_manifest_baseloader>
+}
+ 8005cb6:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+                boot_target_manifest_bootloader();  //  Never returns.
+ 8005cba:	f7ff bb13 	b.w	80052e4 <boot_target_manifest_bootloader>
+ 8005cbe:	bf00      	nop
+ 8005cc0:	20000a04 	.word	0x20000a04
+ 8005cc4:	20000b99 	.word	0x20000b99
+ 8005cc8:	20000a00 	.word	0x20000a00
+ 8005ccc:	20000b98 	.word	0x20000b98
 
-08005c74 <hf2_setup>:
+08005cd0 <hf2_setup>:
 void hf2_setup(usbd_device *usbd_dev, connected_callback *connected_func0) {
- 8005c74:	b538      	push	{r3, r4, r5, lr}
- 8005c76:	460d      	mov	r5, r1
- 8005c78:	4604      	mov	r4, r0
+ 8005cd0:	b538      	push	{r3, r4, r5, lr}
+ 8005cd2:	460d      	mov	r5, r1
+ 8005cd4:	4604      	mov	r4, r0
     debug_print("flash allow "); debug_printhex_unsigned(USER_FLASH_START); debug_print(" to "); debug_printhex_unsigned(USER_FLASH_END); debug_println("");  //  Show the addresses that flashing is allowed.
- 8005c7a:	4815      	ldr	r0, [pc, #84]	; (8005cd0 <hf2_setup+0x5c>)
- 8005c7c:	f7fe fa24 	bl	80040c8 <debug_print>
- 8005c80:	4814      	ldr	r0, [pc, #80]	; (8005cd4 <hf2_setup+0x60>)
- 8005c82:	f7fe fa69 	bl	8004158 <debug_printhex_unsigned>
- 8005c86:	4814      	ldr	r0, [pc, #80]	; (8005cd8 <hf2_setup+0x64>)
- 8005c88:	f7fe fa1e 	bl	80040c8 <debug_print>
- 8005c8c:	4813      	ldr	r0, [pc, #76]	; (8005cdc <hf2_setup+0x68>)
- 8005c8e:	f7fe fa63 	bl	8004158 <debug_printhex_unsigned>
- 8005c92:	4813      	ldr	r0, [pc, #76]	; (8005ce0 <hf2_setup+0x6c>)
- 8005c94:	f7fe fa1e 	bl	80040d4 <debug_println>
+ 8005cd6:	4815      	ldr	r0, [pc, #84]	; (8005d2c <hf2_setup+0x5c>)
+ 8005cd8:	f7fe f9f6 	bl	80040c8 <debug_print>
+ 8005cdc:	4814      	ldr	r0, [pc, #80]	; (8005d30 <hf2_setup+0x60>)
+ 8005cde:	f7fe fa3b 	bl	8004158 <debug_printhex_unsigned>
+ 8005ce2:	4814      	ldr	r0, [pc, #80]	; (8005d34 <hf2_setup+0x64>)
+ 8005ce4:	f7fe f9f0 	bl	80040c8 <debug_print>
+ 8005ce8:	4813      	ldr	r0, [pc, #76]	; (8005d38 <hf2_setup+0x68>)
+ 8005cea:	f7fe fa35 	bl	8004158 <debug_printhex_unsigned>
+ 8005cee:	4813      	ldr	r0, [pc, #76]	; (8005d3c <hf2_setup+0x6c>)
+ 8005cf0:	f7fe f9f0 	bl	80040d4 <debug_println>
     _usbd_dev = usbd_dev;
- 8005c98:	4a12      	ldr	r2, [pc, #72]	; (8005ce4 <hf2_setup+0x70>)
+ 8005cf4:	4a12      	ldr	r2, [pc, #72]	; (8005d40 <hf2_setup+0x70>)
     connected_func = connected_func0;  //  test_hf2(); ////
- 8005c9a:	4b13      	ldr	r3, [pc, #76]	; (8005ce8 <hf2_setup+0x74>)
+ 8005cf6:	4b13      	ldr	r3, [pc, #76]	; (8005d44 <hf2_setup+0x74>)
     _usbd_dev = usbd_dev;
- 8005c9c:	6014      	str	r4, [r2, #0]
+ 8005cf8:	6014      	str	r4, [r2, #0]
     connected_func = connected_func0;  //  test_hf2(); ////
- 8005c9e:	601d      	str	r5, [r3, #0]
+ 8005cfa:	601d      	str	r5, [r3, #0]
     if (boot_target_get_startup_mode() == BOOTLOADER_MODE) {
- 8005ca0:	f7ff fa8c 	bl	80051bc <boot_target_get_startup_mode>
- 8005ca4:	2802      	cmp	r0, #2
- 8005ca6:	d00b      	beq.n	8005cc0 <hf2_setup+0x4c>
+ 8005cfc:	f7ff fa5e 	bl	80051bc <boot_target_get_startup_mode>
+ 8005d00:	2802      	cmp	r0, #2
+ 8005d02:	d00b      	beq.n	8005d1c <hf2_setup+0x4c>
     int status = aggregate_register_config_callback(usbd_dev, hf2_set_config);
- 8005ca8:	4620      	mov	r0, r4
- 8005caa:	4910      	ldr	r1, [pc, #64]	; (8005cec <hf2_setup+0x78>)
- 8005cac:	f7fe ff1e 	bl	8004aec <aggregate_register_config_callback>
+ 8005d04:	4620      	mov	r0, r4
+ 8005d06:	4910      	ldr	r1, [pc, #64]	; (8005d48 <hf2_setup+0x78>)
+ 8005d08:	f7fe fef0 	bl	8004aec <aggregate_register_config_callback>
     if (status < 0) { debug_println("*** hf2_setup failed"); }
- 8005cb0:	2800      	cmp	r0, #0
- 8005cb2:	db00      	blt.n	8005cb6 <hf2_setup+0x42>
+ 8005d0c:	2800      	cmp	r0, #0
+ 8005d0e:	db00      	blt.n	8005d12 <hf2_setup+0x42>
 }
- 8005cb4:	bd38      	pop	{r3, r4, r5, pc}
+ 8005d10:	bd38      	pop	{r3, r4, r5, pc}
     if (status < 0) { debug_println("*** hf2_setup failed"); }
- 8005cb6:	480e      	ldr	r0, [pc, #56]	; (8005cf0 <hf2_setup+0x7c>)
+ 8005d12:	480e      	ldr	r0, [pc, #56]	; (8005d4c <hf2_setup+0x7c>)
 }
- 8005cb8:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+ 8005d14:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
     if (status < 0) { debug_println("*** hf2_setup failed"); }
- 8005cbc:	f7fe ba0a 	b.w	80040d4 <debug_println>
+ 8005d18:	f7fe b9dc 	b.w	80040d4 <debug_println>
         memset(&hf2_buffer, 0, sizeof(hf2_buffer));
- 8005cc0:	f240 4242 	movw	r2, #1090	; 0x442
- 8005cc4:	2100      	movs	r1, #0
- 8005cc6:	480b      	ldr	r0, [pc, #44]	; (8005cf4 <hf2_setup+0x80>)
- 8005cc8:	f7fe f88e 	bl	8003de8 <memset>
- 8005ccc:	e7ec      	b.n	8005ca8 <hf2_setup+0x34>
- 8005cce:	bf00      	nop
- 8005cd0:	08006b3c 	.word	0x08006b3c
- 8005cd4:	08007400 	.word	0x08007400
- 8005cd8:	08006b4c 	.word	0x08006b4c
- 8005cdc:	08010000 	.word	0x08010000
- 8005ce0:	08005f50 	.word	0x08005f50
- 8005ce4:	200009d8 	.word	0x200009d8
- 8005ce8:	200009e0 	.word	0x200009e0
- 8005cec:	080054b1 	.word	0x080054b1
- 8005cf0:	08006b54 	.word	0x08006b54
- 8005cf4:	20004bbc 	.word	0x20004bbc
+ 8005d1c:	f240 4242 	movw	r2, #1090	; 0x442
+ 8005d20:	2100      	movs	r1, #0
+ 8005d22:	480b      	ldr	r0, [pc, #44]	; (8005d50 <hf2_setup+0x80>)
+ 8005d24:	f7fe f860 	bl	8003de8 <memset>
+ 8005d28:	e7ec      	b.n	8005d04 <hf2_setup+0x34>
+ 8005d2a:	bf00      	nop
+ 8005d2c:	08006b98 	.word	0x08006b98
+ 8005d30:	08007400 	.word	0x08007400
+ 8005d34:	08006ba8 	.word	0x08006ba8
+ 8005d38:	08010000 	.word	0x08010000
+ 8005d3c:	08005fac 	.word	0x08005fac
+ 8005d40:	200009d8 	.word	0x200009d8
+ 8005d44:	200009e4 	.word	0x200009e4
+ 8005d48:	080054b1 	.word	0x080054b1
+ 8005d4c:	08006bb0 	.word	0x08006bb0
+ 8005d50:	20004bbc 	.word	0x20004bbc
 
-08005cf8 <usb21_set_config>:
+08005d54 <usb21_set_config>:
 		return USBD_REQ_HANDLED;
 	}
 	return USBD_REQ_NEXT_CALLBACK;
 }
 
 static void usb21_set_config(usbd_device* usbd_dev, uint16_t wValue) {
- 8005cf8:	b508      	push	{r3, lr}
+ 8005d54:	b508      	push	{r3, lr}
     //  debug_println("usb21_set_config"); // debug_flush(); ////
 	(void)wValue;
 	int status = aggregate_register_callback(
- 8005cfa:	22ff      	movs	r2, #255	; 0xff
- 8005cfc:	4b06      	ldr	r3, [pc, #24]	; (8005d18 <usb21_set_config+0x20>)
- 8005cfe:	2180      	movs	r1, #128	; 0x80
- 8005d00:	f7fe ff12 	bl	8004b28 <aggregate_register_callback>
+ 8005d56:	22ff      	movs	r2, #255	; 0xff
+ 8005d58:	4b06      	ldr	r3, [pc, #24]	; (8005d74 <usb21_set_config+0x20>)
+ 8005d5a:	2180      	movs	r1, #128	; 0x80
+ 8005d5c:	f7fe fee4 	bl	8004b28 <aggregate_register_callback>
 		usbd_dev,
 		DESCRIPTOR_CALLBACK_TYPE,
 		DESCRIPTOR_CALLBACK_MASK,
 		&usb21_standard_get_descriptor);
 	if (status < 0) { debug_println("*** usb21_set_config failed"); debug_flush(); }
- 8005d04:	2800      	cmp	r0, #0
- 8005d06:	db00      	blt.n	8005d0a <usb21_set_config+0x12>
+ 8005d60:	2800      	cmp	r0, #0
+ 8005d62:	db00      	blt.n	8005d66 <usb21_set_config+0x12>
 }
- 8005d08:	bd08      	pop	{r3, pc}
+ 8005d64:	bd08      	pop	{r3, pc}
 	if (status < 0) { debug_println("*** usb21_set_config failed"); debug_flush(); }
- 8005d0a:	4804      	ldr	r0, [pc, #16]	; (8005d1c <usb21_set_config+0x24>)
- 8005d0c:	f7fe f9e2 	bl	80040d4 <debug_println>
+ 8005d66:	4804      	ldr	r0, [pc, #16]	; (8005d78 <usb21_set_config+0x24>)
+ 8005d68:	f7fe f9b4 	bl	80040d4 <debug_println>
 }
- 8005d10:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+ 8005d6c:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
 	if (status < 0) { debug_println("*** usb21_set_config failed"); debug_flush(); }
- 8005d14:	f7fe b94e 	b.w	8003fb4 <debug_flush>
- 8005d18:	08005d21 	.word	0x08005d21
- 8005d1c:	08006b7c 	.word	0x08006b7c
+ 8005d70:	f7fe b920 	b.w	8003fb4 <debug_flush>
+ 8005d74:	08005d7d 	.word	0x08005d7d
+ 8005d78:	08006bd8 	.word	0x08006bd8
 
-08005d20 <usb21_standard_get_descriptor>:
+08005d7c <usb21_standard_get_descriptor>:
 	int descr_type = req->wValue >> 8;
- 8005d20:	8848      	ldrh	r0, [r1, #2]
+ 8005d7c:	8848      	ldrh	r0, [r1, #2]
     if (descr_type != USB_DT_BOS) { return USBD_REQ_NEXT_CALLBACK; }
- 8005d22:	0a00      	lsrs	r0, r0, #8
- 8005d24:	280f      	cmp	r0, #15
- 8005d26:	d10e      	bne.n	8005d46 <usb21_standard_get_descriptor+0x26>
+ 8005d7e:	0a00      	lsrs	r0, r0, #8
+ 8005d80:	280f      	cmp	r0, #15
+ 8005d82:	d10e      	bne.n	8005da2 <usb21_standard_get_descriptor+0x26>
 											usbd_control_complete_callback* complete) {
- 8005d28:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+ 8005d84:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
 	if (!usb21_bos) {
- 8005d2c:	4f31      	ldr	r7, [pc, #196]	; (8005df4 <usb21_standard_get_descriptor+0xd4>)
+ 8005d88:	4f31      	ldr	r7, [pc, #196]	; (8005e50 <usb21_standard_get_descriptor+0xd4>)
 											usbd_control_complete_callback* complete) {
- 8005d2e:	b085      	sub	sp, #20
+ 8005d8a:	b085      	sub	sp, #20
 	if (!usb21_bos) {
- 8005d30:	683d      	ldr	r5, [r7, #0]
- 8005d32:	9301      	str	r3, [sp, #4]
- 8005d34:	4616      	mov	r6, r2
- 8005d36:	b145      	cbz	r5, 8005d4a <usb21_standard_get_descriptor+0x2a>
+ 8005d8c:	683d      	ldr	r5, [r7, #0]
+ 8005d8e:	9301      	str	r3, [sp, #4]
+ 8005d90:	4616      	mov	r6, r2
+ 8005d92:	b145      	cbz	r5, 8005da6 <usb21_standard_get_descriptor+0x2a>
 	if (req->bRequest == USB_REQ_GET_DESCRIPTOR) {
- 8005d38:	784b      	ldrb	r3, [r1, #1]
- 8005d3a:	2b06      	cmp	r3, #6
- 8005d3c:	d00c      	beq.n	8005d58 <usb21_standard_get_descriptor+0x38>
+ 8005d94:	784b      	ldrb	r3, [r1, #1]
+ 8005d96:	2b06      	cmp	r3, #6
+ 8005d98:	d00c      	beq.n	8005db4 <usb21_standard_get_descriptor+0x38>
     if (descr_type != USB_DT_BOS) { return USBD_REQ_NEXT_CALLBACK; }
- 8005d3e:	2002      	movs	r0, #2
+ 8005d9a:	2002      	movs	r0, #2
 }
- 8005d40:	b005      	add	sp, #20
- 8005d42:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 8005d9c:	b005      	add	sp, #20
+ 8005d9e:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
     if (descr_type != USB_DT_BOS) { return USBD_REQ_NEXT_CALLBACK; }
- 8005d46:	2002      	movs	r0, #2
+ 8005da2:	2002      	movs	r0, #2
 }
- 8005d48:	4770      	bx	lr
+ 8005da4:	4770      	bx	lr
 		debug_println("*** usb21_descriptor no bos "); debug_flush(); ////
- 8005d4a:	482b      	ldr	r0, [pc, #172]	; (8005df8 <usb21_standard_get_descriptor+0xd8>)
- 8005d4c:	f7fe f9c2 	bl	80040d4 <debug_println>
- 8005d50:	f7fe f930 	bl	8003fb4 <debug_flush>
- 8005d54:	4628      	mov	r0, r5
- 8005d56:	e7f3      	b.n	8005d40 <usb21_standard_get_descriptor+0x20>
+ 8005da6:	482b      	ldr	r0, [pc, #172]	; (8005e54 <usb21_standard_get_descriptor+0xd8>)
+ 8005da8:	f7fe f994 	bl	80040d4 <debug_println>
+ 8005dac:	f7fe f902 	bl	8003fb4 <debug_flush>
+ 8005db0:	4628      	mov	r0, r5
+ 8005db2:	e7f3      	b.n	8005d9c <usb21_standard_get_descriptor+0x20>
 		dump_usb_request("bos", req); // debug_flush(); ////
- 8005d58:	4828      	ldr	r0, [pc, #160]	; (8005dfc <usb21_standard_get_descriptor+0xdc>)
- 8005d5a:	f7fe ff43 	bl	8004be4 <dump_usb_request>
+ 8005db4:	4828      	ldr	r0, [pc, #160]	; (8005e58 <usb21_standard_get_descriptor+0xdc>)
+ 8005db6:	f7fe ff15 	bl	8004be4 <dump_usb_request>
 		*len = MIN(*len, build_bos_descriptor(usb21_bos, *buf, *len));
- 8005d5e:	f8d7 b000 	ldr.w	fp, [r7]
- 8005d62:	9b01      	ldr	r3, [sp, #4]
+ 8005dba:	f8d7 b000 	ldr.w	fp, [r7]
+ 8005dbe:	9b01      	ldr	r3, [sp, #4]
 	bytes_to_copy = MIN(len, bos->bLength);
- 8005d64:	f89b 8000 	ldrb.w	r8, [fp]
+ 8005dc0:	f89b 8000 	ldrb.w	r8, [fp]
 		*len = MIN(*len, build_bos_descriptor(usb21_bos, *buf, *len));
- 8005d68:	881c      	ldrh	r4, [r3, #0]
- 8005d6a:	6830      	ldr	r0, [r6, #0]
+ 8005dc4:	881c      	ldrh	r4, [r3, #0]
+ 8005dc6:	6830      	ldr	r0, [r6, #0]
 	bytes_to_copy = MIN(len, bos->bLength);
- 8005d6c:	45a0      	cmp	r8, r4
- 8005d6e:	bf28      	it	cs
- 8005d70:	46a0      	movcs	r8, r4
+ 8005dc8:	45a0      	cmp	r8, r4
+ 8005dca:	bf28      	it	cs
+ 8005dcc:	46a0      	movcs	r8, r4
 		*len = MIN(*len, build_bos_descriptor(usb21_bos, *buf, *len));
- 8005d72:	4605      	mov	r5, r0
+ 8005dce:	4605      	mov	r5, r0
 	memcpy(buf, bos, bytes_to_copy);
- 8005d74:	4642      	mov	r2, r8
- 8005d76:	4659      	mov	r1, fp
+ 8005dd0:	4642      	mov	r2, r8
+ 8005dd2:	4659      	mov	r1, fp
 		*len = MIN(*len, build_bos_descriptor(usb21_bos, *buf, *len));
- 8005d78:	9403      	str	r4, [sp, #12]
- 8005d7a:	9002      	str	r0, [sp, #8]
+ 8005dd4:	9403      	str	r4, [sp, #12]
+ 8005dd6:	9002      	str	r0, [sp, #8]
 	memcpy(buf, bos, bytes_to_copy);
- 8005d7c:	f7fd ffec 	bl	8003d58 <memcpy>
+ 8005dd8:	f7fd ffbe 	bl	8003d58 <memcpy>
 	for (i = 0; i < bos->bNumDeviceCaps; i++) {
- 8005d80:	f89b 2004 	ldrb.w	r2, [fp, #4]
+ 8005ddc:	f89b 2004 	ldrb.w	r2, [fp, #4]
 	len -= bytes_to_copy;
- 8005d84:	eba4 0708 	sub.w	r7, r4, r8
+ 8005de0:	eba4 0708 	sub.w	r7, r4, r8
 	buf += bytes_to_copy;
- 8005d88:	eb05 0a08 	add.w	sl, r5, r8
+ 8005de4:	eb05 0a08 	add.w	sl, r5, r8
 	len -= bytes_to_copy;
- 8005d8c:	b2bf      	uxth	r7, r7
+ 8005de8:	b2bf      	uxth	r7, r7
 	totallen += bos->bLength;
- 8005d8e:	f89b 5000 	ldrb.w	r5, [fp]
+ 8005dea:	f89b 5000 	ldrb.w	r5, [fp]
 	for (i = 0; i < bos->bNumDeviceCaps; i++) {
- 8005d92:	b302      	cbz	r2, 8005dd6 <usb21_standard_get_descriptor+0xb6>
- 8005d94:	2600      	movs	r6, #0
- 8005d96:	46a9      	mov	r9, r5
+ 8005dee:	b302      	cbz	r2, 8005e32 <usb21_standard_get_descriptor+0xb6>
+ 8005df0:	2600      	movs	r6, #0
+ 8005df2:	46a9      	mov	r9, r5
 			bos->capabilities[i];
- 8005d98:	f8db 3005 	ldr.w	r3, [fp, #5]
+ 8005df4:	f8db 3005 	ldr.w	r3, [fp, #5]
 		memcpy(buf, cap, bytes_to_copy);
- 8005d9c:	4650      	mov	r0, sl
+ 8005df8:	4650      	mov	r0, sl
 		const struct usb_device_capability_descriptor *cap =
- 8005d9e:	f853 5026 	ldr.w	r5, [r3, r6, lsl #2]
- 8005da2:	3601      	adds	r6, #1
+ 8005dfa:	f853 5026 	ldr.w	r5, [r3, r6, lsl #2]
+ 8005dfe:	3601      	adds	r6, #1
 		bytes_to_copy = MIN(len, cap->bLength);
- 8005da4:	782c      	ldrb	r4, [r5, #0]
+ 8005e00:	782c      	ldrb	r4, [r5, #0]
 		memcpy(buf, cap, bytes_to_copy);
- 8005da6:	4629      	mov	r1, r5
+ 8005e02:	4629      	mov	r1, r5
 		bytes_to_copy = MIN(len, cap->bLength);
- 8005da8:	42bc      	cmp	r4, r7
- 8005daa:	bf28      	it	cs
- 8005dac:	463c      	movcs	r4, r7
+ 8005e04:	42bc      	cmp	r4, r7
+ 8005e06:	bf28      	it	cs
+ 8005e08:	463c      	movcs	r4, r7
 		memcpy(buf, cap, bytes_to_copy);
- 8005dae:	4622      	mov	r2, r4
- 8005db0:	f7fd ffd2 	bl	8003d58 <memcpy>
+ 8005e0a:	4622      	mov	r2, r4
+ 8005e0c:	f7fd ffa4 	bl	8003d58 <memcpy>
 		totallen += cap->bLength;
- 8005db4:	782b      	ldrb	r3, [r5, #0]
+ 8005e10:	782b      	ldrb	r3, [r5, #0]
 	for (i = 0; i < bos->bNumDeviceCaps; i++) {
- 8005db6:	f89b 2004 	ldrb.w	r2, [fp, #4]
+ 8005e12:	f89b 2004 	ldrb.w	r2, [fp, #4]
 		totallen += cap->bLength;
- 8005dba:	eb09 0503 	add.w	r5, r9, r3
- 8005dbe:	b2b3      	uxth	r3, r6
+ 8005e16:	eb09 0503 	add.w	r5, r9, r3
+ 8005e1a:	b2b3      	uxth	r3, r6
 		len -= bytes_to_copy;
- 8005dc0:	1b3f      	subs	r7, r7, r4
+ 8005e1c:	1b3f      	subs	r7, r7, r4
 		total += bytes_to_copy;
- 8005dc2:	44a0      	add	r8, r4
+ 8005e1e:	44a0      	add	r8, r4
 	for (i = 0; i < bos->bNumDeviceCaps; i++) {
- 8005dc4:	429a      	cmp	r2, r3
+ 8005e20:	429a      	cmp	r2, r3
 		len -= bytes_to_copy;
- 8005dc6:	b2bf      	uxth	r7, r7
+ 8005e22:	b2bf      	uxth	r7, r7
 		total += bytes_to_copy;
- 8005dc8:	fa1f f888 	uxth.w	r8, r8
+ 8005e24:	fa1f f888 	uxth.w	r8, r8
 		buf += bytes_to_copy;
- 8005dcc:	44a2      	add	sl, r4
+ 8005e28:	44a2      	add	sl, r4
 		totallen += cap->bLength;
- 8005dce:	fa1f f985 	uxth.w	r9, r5
+ 8005e2a:	fa1f f985 	uxth.w	r9, r5
 	for (i = 0; i < bos->bNumDeviceCaps; i++) {
- 8005dd2:	d8e1      	bhi.n	8005d98 <usb21_standard_get_descriptor+0x78>
- 8005dd4:	464d      	mov	r5, r9
+ 8005e2e:	d8e1      	bhi.n	8005df4 <usb21_standard_get_descriptor+0x78>
+ 8005e30:	464d      	mov	r5, r9
 		*len = MIN(*len, build_bos_descriptor(usb21_bos, *buf, *len));
- 8005dd6:	9b03      	ldr	r3, [sp, #12]
+ 8005e32:	9b03      	ldr	r3, [sp, #12]
 		return USBD_REQ_HANDLED;
- 8005dd8:	2001      	movs	r0, #1
+ 8005e34:	2001      	movs	r0, #1
 		*len = MIN(*len, build_bos_descriptor(usb21_bos, *buf, *len));
- 8005dda:	4543      	cmp	r3, r8
- 8005ddc:	bf28      	it	cs
- 8005dde:	4643      	movcs	r3, r8
- 8005de0:	4698      	mov	r8, r3
+ 8005e36:	4543      	cmp	r3, r8
+ 8005e38:	bf28      	it	cs
+ 8005e3a:	4643      	movcs	r3, r8
+ 8005e3c:	4698      	mov	r8, r3
 	*(uint16_t *)(tmpbuf + 2) = totallen;
- 8005de2:	9b02      	ldr	r3, [sp, #8]
- 8005de4:	805d      	strh	r5, [r3, #2]
+ 8005e3e:	9b02      	ldr	r3, [sp, #8]
+ 8005e40:	805d      	strh	r5, [r3, #2]
 		*len = MIN(*len, build_bos_descriptor(usb21_bos, *buf, *len));
- 8005de6:	9b01      	ldr	r3, [sp, #4]
- 8005de8:	f8a3 8000 	strh.w	r8, [r3]
+ 8005e42:	9b01      	ldr	r3, [sp, #4]
+ 8005e44:	f8a3 8000 	strh.w	r8, [r3]
 }
- 8005dec:	b005      	add	sp, #20
- 8005dee:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
- 8005df2:	bf00      	nop
- 8005df4:	20000a88 	.word	0x20000a88
- 8005df8:	08006bb0 	.word	0x08006bb0
- 8005dfc:	08006bd0 	.word	0x08006bd0
+ 8005e48:	b005      	add	sp, #20
+ 8005e4a:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 8005e4e:	bf00      	nop
+ 8005e50:	20000a8c 	.word	0x20000a8c
+ 8005e54:	08006c0c 	.word	0x08006c0c
+ 8005e58:	08006c2c 	.word	0x08006c2c
 
-08005e00 <usb21_setup>:
+08005e5c <usb21_setup>:
 
 void usb21_setup(usbd_device* usbd_dev, const struct usb_bos_descriptor* binary_object_store) {
- 8005e00:	b510      	push	{r4, lr}
- 8005e02:	4604      	mov	r4, r0
+ 8005e5c:	b510      	push	{r4, lr}
+ 8005e5e:	4604      	mov	r4, r0
     // debug_println("usb21_setup"); // debug_flush(); ////
 	usb21_bos = binary_object_store;
- 8005e04:	4b09      	ldr	r3, [pc, #36]	; (8005e2c <usb21_setup+0x2c>)
- 8005e06:	6019      	str	r1, [r3, #0]
+ 8005e60:	4b09      	ldr	r3, [pc, #36]	; (8005e88 <usb21_setup+0x2c>)
+ 8005e62:	6019      	str	r1, [r3, #0]
 
 	/* Register the control request handler _before_ the config is set */
 	usb21_set_config(usbd_dev, 0x0000);
- 8005e08:	2100      	movs	r1, #0
- 8005e0a:	f7ff ff75 	bl	8005cf8 <usb21_set_config>
+ 8005e64:	2100      	movs	r1, #0
+ 8005e66:	f7ff ff75 	bl	8005d54 <usb21_set_config>
 	int status = aggregate_register_config_callback(usbd_dev, usb21_set_config);
- 8005e0e:	4620      	mov	r0, r4
- 8005e10:	4907      	ldr	r1, [pc, #28]	; (8005e30 <usb21_setup+0x30>)
- 8005e12:	f7fe fe6b 	bl	8004aec <aggregate_register_config_callback>
+ 8005e6a:	4620      	mov	r0, r4
+ 8005e6c:	4907      	ldr	r1, [pc, #28]	; (8005e8c <usb21_setup+0x30>)
+ 8005e6e:	f7fe fe3d 	bl	8004aec <aggregate_register_config_callback>
 	if (status < 0) { debug_println("*** usb21_setup failed"); debug_flush(); }
- 8005e16:	2800      	cmp	r0, #0
- 8005e18:	db00      	blt.n	8005e1c <usb21_setup+0x1c>
+ 8005e72:	2800      	cmp	r0, #0
+ 8005e74:	db00      	blt.n	8005e78 <usb21_setup+0x1c>
 }
- 8005e1a:	bd10      	pop	{r4, pc}
+ 8005e76:	bd10      	pop	{r4, pc}
 	if (status < 0) { debug_println("*** usb21_setup failed"); debug_flush(); }
- 8005e1c:	4805      	ldr	r0, [pc, #20]	; (8005e34 <usb21_setup+0x34>)
- 8005e1e:	f7fe f959 	bl	80040d4 <debug_println>
+ 8005e78:	4805      	ldr	r0, [pc, #20]	; (8005e90 <usb21_setup+0x34>)
+ 8005e7a:	f7fe f92b 	bl	80040d4 <debug_println>
 }
- 8005e22:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+ 8005e7e:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
 	if (status < 0) { debug_println("*** usb21_setup failed"); debug_flush(); }
- 8005e26:	f7fe b8c5 	b.w	8003fb4 <debug_flush>
- 8005e2a:	bf00      	nop
- 8005e2c:	20000a88 	.word	0x20000a88
- 8005e30:	08005cf9 	.word	0x08005cf9
- 8005e34:	08006b98 	.word	0x08006b98
+ 8005e82:	f7fe b897 	b.w	8003fb4 <debug_flush>
+ 8005e86:	bf00      	nop
+ 8005e88:	20000a8c 	.word	0x20000a8c
+ 8005e8c:	08005d55 	.word	0x08005d55
+ 8005e90:	08006bf4 	.word	0x08006bf4
 
-08005e38 <backup_write>:
+08005e94 <backup_write>:
 
 #include "backup.h"
 
 #define RTC_BKP_DR(reg)  MMIO16(BACKUP_REGS_BASE + 4 + (4 * (reg)))
 
 void backup_write(enum BackupRegister reg, uint32_t value) {
- 8005e38:	b538      	push	{r3, r4, r5, lr}
- 8005e3a:	4605      	mov	r5, r0
- 8005e3c:	460c      	mov	r4, r1
+ 8005e94:	b538      	push	{r3, r4, r5, lr}
+ 8005e96:	4605      	mov	r5, r0
+ 8005e98:	460c      	mov	r4, r1
     rcc_periph_clock_enable(RCC_PWR);
- 8005e3e:	f44f 7067 	mov.w	r0, #924	; 0x39c
- 8005e42:	f7fa ffc7 	bl	8000dd4 <rcc_periph_clock_enable>
+ 8005e9a:	f44f 7067 	mov.w	r0, #924	; 0x39c
+ 8005e9e:	f7fa ff99 	bl	8000dd4 <rcc_periph_clock_enable>
     rcc_periph_clock_enable(RCC_BKP);
- 8005e46:	f240 309b 	movw	r0, #923	; 0x39b
- 8005e4a:	f7fa ffc3 	bl	8000dd4 <rcc_periph_clock_enable>
+ 8005ea2:	f240 309b 	movw	r0, #923	; 0x39b
+ 8005ea6:	f7fa ff95 	bl	8000dd4 <rcc_periph_clock_enable>
 
     pwr_disable_backup_domain_write_protect();
- 8005e4e:	f7fa ffb1 	bl	8000db4 <pwr_disable_backup_domain_write_protect>
+ 8005eaa:	f7fa ff83 	bl	8000db4 <pwr_disable_backup_domain_write_protect>
     RTC_BKP_DR((int)reg*2) = value & 0xFFFFUL;
- 8005e52:	4a06      	ldr	r2, [pc, #24]	; (8005e6c <backup_write+0x34>)
+ 8005eae:	4a06      	ldr	r2, [pc, #24]	; (8005ec8 <backup_write+0x34>)
     RTC_BKP_DR((int)reg*2+1) = (value & 0xFFFF0000UL) >> 16;
- 8005e54:	006b      	lsls	r3, r5, #1
+ 8005eb0:	006b      	lsls	r3, r5, #1
     RTC_BKP_DR((int)reg*2) = value & 0xFFFFUL;
- 8005e56:	b2a1      	uxth	r1, r4
+ 8005eb2:	b2a1      	uxth	r1, r4
     RTC_BKP_DR((int)reg*2+1) = (value & 0xFFFF0000UL) >> 16;
- 8005e58:	3301      	adds	r3, #1
- 8005e5a:	0c24      	lsrs	r4, r4, #16
+ 8005eb4:	3301      	adds	r3, #1
+ 8005eb6:	0c24      	lsrs	r4, r4, #16
     RTC_BKP_DR((int)reg*2) = value & 0xFFFFUL;
- 8005e5c:	f822 1035 	strh.w	r1, [r2, r5, lsl #3]
+ 8005eb8:	f822 1035 	strh.w	r1, [r2, r5, lsl #3]
     RTC_BKP_DR((int)reg*2+1) = (value & 0xFFFF0000UL) >> 16;
- 8005e60:	f822 4023 	strh.w	r4, [r2, r3, lsl #2]
+ 8005ebc:	f822 4023 	strh.w	r4, [r2, r3, lsl #2]
     pwr_enable_backup_domain_write_protect();
     //  Previously: (void)reg; *(volatile uint32_t*)0x2000f000 = value;
 }
- 8005e64:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+ 8005ec0:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
     pwr_enable_backup_domain_write_protect();
- 8005e68:	f7fa bfac 	b.w	8000dc4 <pwr_enable_backup_domain_write_protect>
- 8005e6c:	40006c04 	.word	0x40006c04
+ 8005ec4:	f7fa bf7e 	b.w	8000dc4 <pwr_enable_backup_domain_write_protect>
+ 8005ec8:	40006c04 	.word	0x40006c04
 
-08005e70 <backup_read>:
+08005ecc <backup_read>:
 
 uint32_t backup_read(enum BackupRegister reg) {
     //  Previously: (void)reg; return *(volatile uint32_t*)0x2000f000;
     uint32_t value = ((uint32_t)RTC_BKP_DR((int)reg*2+1) << 16)
- 8005e70:	4a04      	ldr	r2, [pc, #16]	; (8005e84 <backup_read+0x14>)
- 8005e72:	0043      	lsls	r3, r0, #1
- 8005e74:	3301      	adds	r3, #1
- 8005e76:	f832 1023 	ldrh.w	r1, [r2, r3, lsl #2]
+ 8005ecc:	4a04      	ldr	r2, [pc, #16]	; (8005ee0 <backup_read+0x14>)
+ 8005ece:	0043      	lsls	r3, r0, #1
+ 8005ed0:	3301      	adds	r3, #1
+ 8005ed2:	f832 1023 	ldrh.w	r1, [r2, r3, lsl #2]
                    | ((uint32_t)RTC_BKP_DR((int)reg*2) << 0);
- 8005e7a:	f832 0030 	ldrh.w	r0, [r2, r0, lsl #3]
+ 8005ed6:	f832 0030 	ldrh.w	r0, [r2, r0, lsl #3]
     return value;
 }
- 8005e7e:	ea40 4001 	orr.w	r0, r0, r1, lsl #16
- 8005e82:	4770      	bx	lr
- 8005e84:	40006c04 	.word	0x40006c04
- 8005e88:	202a2a2a 	.word	0x202a2a2a
- 8005e8c:	206c6168 	.word	0x206c6168
- 8005e90:	2f737362 	.word	0x2f737362
- 8005e94:	61746164 	.word	0x61746164
- 8005e98:	69616620 	.word	0x69616620
- 8005e9c:	2c64656c 	.word	0x2c64656c
- 8005ea0:	73736220 	.word	0x73736220
- 8005ea4:	7365745f 	.word	0x7365745f
- 8005ea8:	203d2074 	.word	0x203d2074
- 8005eac:	00000000 	.word	0x00000000
- 8005eb0:	6164202c 	.word	0x6164202c
- 8005eb4:	745f6174 	.word	0x745f6174
- 8005eb8:	20747365 	.word	0x20747365
- 8005ebc:	0000203d 	.word	0x0000203d
- 8005ec0:	00207b75 	.word	0x00207b75
- 8005ec4:	0000207d 	.word	0x0000207d
- 8005ec8:	00203f61 	.word	0x00203f61
- 8005ecc:	2d2d2d2d 	.word	0x2d2d2d2d
- 8005ed0:	67726174 	.word	0x67726174
- 8005ed4:	675f7465 	.word	0x675f7465
- 8005ed8:	735f7465 	.word	0x735f7465
- 8005edc:	61697265 	.word	0x61697265
- 8005ee0:	0000006c 	.word	0x0000006c
- 8005ee4:	2a2a2a2a 	.word	0x2a2a2a2a
- 8005ee8:	7261742a 	.word	0x7261742a
- 8005eec:	5f746567 	.word	0x5f746567
- 8005ef0:	696e6170 	.word	0x696e6170
- 8005ef4:	00002063 	.word	0x00002063
- 8005ef8:	2d2d2d2d 	.word	0x2d2d2d2d
- 8005efc:	67726174 	.word	0x67726174
- 8005f00:	725f7465 	.word	0x725f7465
- 8005f04:	74657365 	.word	0x74657365
+ 8005eda:	ea40 4001 	orr.w	r0, r0, r1, lsl #16
+ 8005ede:	4770      	bx	lr
+ 8005ee0:	40006c04 	.word	0x40006c04
+ 8005ee4:	202a2a2a 	.word	0x202a2a2a
+ 8005ee8:	206c6168 	.word	0x206c6168
+ 8005eec:	2f737362 	.word	0x2f737362
+ 8005ef0:	61746164 	.word	0x61746164
+ 8005ef4:	69616620 	.word	0x69616620
+ 8005ef8:	2c64656c 	.word	0x2c64656c
+ 8005efc:	73736220 	.word	0x73736220
+ 8005f00:	7365745f 	.word	0x7365745f
+ 8005f04:	203d2074 	.word	0x203d2074
  8005f08:	00000000 	.word	0x00000000
- 8005f0c:	2d2d2d2d 	.word	0x2d2d2d2d
- 8005f10:	67726174 	.word	0x67726174
- 8005f14:	735f7465 	.word	0x735f7465
- 8005f18:	5f646565 	.word	0x5f646565
- 8005f1c:	646e6172 	.word	0x646e6172
- 8005f20:	00006d6f 	.word	0x00006d6f
- 8005f24:	3c207477 	.word	0x3c207477
- 8005f28:	00000000 	.word	0x00000000
- 8005f2c:	0000203e 	.word	0x0000203e
- 8005f30:	70616568 	.word	0x70616568
- 8005f34:	61747320 	.word	0x61747320
- 8005f38:	203a7472 	.word	0x203a7472
- 8005f3c:	00000000 	.word	0x00000000
- 8005f40:	6e65202c 	.word	0x6e65202c
- 8005f44:	00203a64 	.word	0x00203a64
- 8005f48:	6973202c 	.word	0x6973202c
- 8005f4c:	203a657a 	.word	0x203a657a
- 8005f50:	00000000 	.word	0x00000000
- 8005f54:	2c424b20 	.word	0x2c424b20
- 8005f58:	61747320 	.word	0x61747320
- 8005f5c:	75206b63 	.word	0x75206b63
- 8005f60:	3a646573 	.word	0x3a646573
- 8005f64:	00000020 	.word	0x00000020
- 8005f68:	00424b20 	.word	0x00424b20
- 8005f6c:	33323130 	.word	0x33323130
- 8005f70:	37363534 	.word	0x37363534
- 8005f74:	42413938 	.word	0x42413938
- 8005f78:	46454443 	.word	0x46454443
- 8005f7c:	00000000 	.word	0x00000000
+ 8005f0c:	6164202c 	.word	0x6164202c
+ 8005f10:	745f6174 	.word	0x745f6174
+ 8005f14:	20747365 	.word	0x20747365
+ 8005f18:	0000203d 	.word	0x0000203d
+ 8005f1c:	00207b75 	.word	0x00207b75
+ 8005f20:	0000207d 	.word	0x0000207d
+ 8005f24:	00203f61 	.word	0x00203f61
+ 8005f28:	2d2d2d2d 	.word	0x2d2d2d2d
+ 8005f2c:	67726174 	.word	0x67726174
+ 8005f30:	675f7465 	.word	0x675f7465
+ 8005f34:	735f7465 	.word	0x735f7465
+ 8005f38:	61697265 	.word	0x61697265
+ 8005f3c:	0000006c 	.word	0x0000006c
+ 8005f40:	2a2a2a2a 	.word	0x2a2a2a2a
+ 8005f44:	7261742a 	.word	0x7261742a
+ 8005f48:	5f746567 	.word	0x5f746567
+ 8005f4c:	696e6170 	.word	0x696e6170
+ 8005f50:	00002063 	.word	0x00002063
+ 8005f54:	2d2d2d2d 	.word	0x2d2d2d2d
+ 8005f58:	67726174 	.word	0x67726174
+ 8005f5c:	725f7465 	.word	0x725f7465
+ 8005f60:	74657365 	.word	0x74657365
+ 8005f64:	00000000 	.word	0x00000000
+ 8005f68:	2d2d2d2d 	.word	0x2d2d2d2d
+ 8005f6c:	67726174 	.word	0x67726174
+ 8005f70:	735f7465 	.word	0x735f7465
+ 8005f74:	5f646565 	.word	0x5f646565
+ 8005f78:	646e6172 	.word	0x646e6172
+ 8005f7c:	00006d6f 	.word	0x00006d6f
+ 8005f80:	3c207477 	.word	0x3c207477
+ 8005f84:	00000000 	.word	0x00000000
+ 8005f88:	0000203e 	.word	0x0000203e
+ 8005f8c:	70616568 	.word	0x70616568
+ 8005f90:	61747320 	.word	0x61747320
+ 8005f94:	203a7472 	.word	0x203a7472
+ 8005f98:	00000000 	.word	0x00000000
+ 8005f9c:	6e65202c 	.word	0x6e65202c
+ 8005fa0:	00203a64 	.word	0x00203a64
+ 8005fa4:	6973202c 	.word	0x6973202c
+ 8005fa8:	203a657a 	.word	0x203a657a
+ 8005fac:	00000000 	.word	0x00000000
+ 8005fb0:	2c424b20 	.word	0x2c424b20
+ 8005fb4:	61747320 	.word	0x61747320
+ 8005fb8:	75206b63 	.word	0x75206b63
+ 8005fbc:	3a646573 	.word	0x3a646573
+ 8005fc0:	00000020 	.word	0x00000020
+ 8005fc4:	00424b20 	.word	0x00424b20
+ 8005fc8:	33323130 	.word	0x33323130
+ 8005fcc:	37363534 	.word	0x37363534
+ 8005fd0:	42413938 	.word	0x42413938
+ 8005fd4:	46454443 	.word	0x46454443
+ 8005fd8:	00000000 	.word	0x00000000
 
-08005f80 <st_usbfs_v1_usb_driver>:
- 8005f80:	08001095 08001afd 08001b51 08001c69     ........Q...i...
- 8005f90:	08001cb1 08001db1 08001d71 08001df5     ........q.......
- 8005fa0:	08001e7d 08001f31 00000000 00000000     }...1...........
- 8005fb0:	00000000 202a2a2a 6f636f63 6120736f     ....*** cocoos a
- 8005fc0:	72657373 61662074 64656c69               ssert failed .
+08005fdc <st_usbfs_v1_usb_driver>:
+ 8005fdc:	08001095 08001afd 08001b51 08001c69     ........Q...i...
+ 8005fec:	08001cb1 08001db1 08001d71 08001df5     ........q.......
+ 8005ffc:	08001e7d 08001f31 00000000 00000000     }...1...........
+ 800600c:	00000000 202a2a2a 6f636f63 6120736f     ....*** cocoos a
+ 800601c:	72657373 61662074 64656c69               ssert failed .
 
-08005fce <_ctype_>:
- 8005fce:	20202000 20202020 28282020 20282828     .         ((((( 
- 8005fde:	20202020 20202020 20202020 20202020                     
- 8005fee:	10108820 10101010 10101010 10101010      ...............
- 8005ffe:	04040410 04040404 10040404 10101010     ................
- 800600e:	41411010 41414141 01010101 01010101     ..AAAAAA........
- 800601e:	01010101 01010101 01010101 10101010     ................
- 800602e:	42421010 42424242 02020202 02020202     ..BBBBBB........
- 800603e:	02020202 02020202 02020202 10101010     ................
- 800604e:	00000020 00000000 00000000 00000000      ...............
+0800602a <_ctype_>:
+ 800602a:	20202000 20202020 28282020 20282828     .         ((((( 
+ 800603a:	20202020 20202020 20202020 20202020                     
+ 800604a:	10108820 10101010 10101010 10101010      ...............
+ 800605a:	04040410 04040404 10040404 10101010     ................
+ 800606a:	41411010 41414141 01010101 01010101     ..AAAAAA........
+ 800607a:	01010101 01010101 01010101 10101010     ................
+ 800608a:	42421010 42424242 02020202 02020202     ..BBBBBB........
+ 800609a:	02020202 02020202 02020202 10101010     ................
+ 80060aa:	00000020 00000000 00000000 00000000      ...............
 	...
- 80060ce:	00300000 002d0000 4f280000 66726576     ..0...-...(Overf
- 80060de:	29776f6c 445b0000 50504f52 005d4445     low)..[DROPPED].
- 80060ee:	0a0d0000 2d2d0000 6c702d2d 6f667461     ......----platfo
- 80060fe:	735f6d72 70757465 6c610000 00203f6d     rm_setup..alm? .
- 800610e:	6c700000 6f667461 735f6d72 74726174     ..platform_start
- 800611e:	6d69745f 00007265 74720000 77612063     _timer....rtc aw
- 800612e:	2e656b61 00002e2e 74720000 77612063     ake.......rtc aw
- 800613e:	20656b61 00006b6f 2d2d0000 6f622d2d     ake ok....----bo
- 800614e:	6f6c746f 72656461 6f620000 745f746f     otloader..boot_t
- 800615e:	65677261 65675f74 65735f74 6c616972     arget_get_serial
- 800616e:	6d756e5f 00726562 73750000 65735f62     _number...usb_se
- 800617e:	65735f74 6c616972 6d756e5f 00726562     t_serial_number.
- 800618e:	73750000 65735f62 00707574 73750000     ..usb_setup...us
- 800619e:	70206462 696c6c6f 2e2e676e 6572002e     bd polling....re
- 80061ae:	72617473 676e6974 002e2e2e 6f640000     starting......do
- 80061be:	0000656e 65720000 72617473 61632074     ne....restart ca
- 80061ce:	61626c6c 00006b63 6f740000 6962206f     llback....too bi
- 80061de:	00002067 74610000 2d2d0020 61622d2d     g ....at .----ba
- 80061ee:	6f6c6573 72656461 202c0020 74736564     seloader ., dest
- 80061fe:	202c0020 20637273 202c0000 206e656c      ., src .., len 
- 800620e:	202c0000 6e75662a 00002063 6f6e0000     .., *func ....no
- 800621e:	6f662074 20646e75 202c0000 61646c6f     t found .., olda
- 800622e:	00207070 202c0000 746f6f62 206e656c     pp ..., bootlen 
- 800623e:	61620000 6f6c6573 72656461 65727020     ..baseloader pre
- 800624e:	77656976 206b6f20 202c0000 6c6c6163     view ok .., call
- 800625e:	74636120 206c6175 65736162 64616f6c      actual baseload
- 800626e:	2e2e7265 7773002e 68637469 73797320     er....switch sys
- 800627e:	206d6574 74636576 7420726f 656c6261     tem vector table
- 800628e:	61620020 6f6c6573 72656461 69616620      .baseloader fai
- 800629e:	2064656c 202c0000 6c696166 61620020     led .., fail .ba
- 80062ae:	6f6c6573 72656461 65727020 77656976     seloader preview
- 80062be:	69616620 2064656c 3e2d0000 2a2a0020      failed ..-> .**
- 80062ce:	5245202a 3a524f52 616c4620 66206873     * ERROR: Flash f
- 80062de:	656c6961 00002064 2a2a0000 45202a2a     ailed ....**** E
- 80062ee:	524f5252 6e49203a 696c6176 6c662064     RROR: Invalid fl
- 80062fe:	20687361 74697277 64202c65 00207473     ash write, dst .
-	...
-
-08006310 <infoUf2File>:
- 8006310:	20324655 746f6f42 64616f6c 76207265     UF2 Bootloader v
- 8006320:	2e312e31 46532033 4d0a0d41 6c65646f     1.1.3 SFA..Model
- 8006330:	5453203a 4232334d 5045554c 0d4c4c49     : STM32BLUEPILL.
- 8006340:	616f420a 492d6472 53203a44 32334d54     .Board-ID: STM32
- 8006350:	33303146 422d3843 5065756c 2d6c6c69     F103C8-BluePill-
- 8006360:	0a0d3076 00000000 5f544553 00524441     v0......SET_ADR.
- 8006370:	00203e3e 202a2a2a 4f525245 54203a52     >> .*** ERROR: T
- 8006380:	6d206f6f 20796e61 746e6f63 206c6f72     oo many control 
- 8006390:	6c6c6163 6b636162 00000073 202a2a2a     callbacks...*** 
- 80063a0:	4f525245 54203a52 6d206f6f 20796e61     ERROR: Too many 
- 80063b0:	666e6f63 63206769 626c6c61 736b6361     config callbacks
- 80063c0:	00000000                                ....
-
-080063c4 <bos_descriptor>:
- 80063c4:	00000f05 00047402 00000020              .....t.. ...
-
-080063d0 <cdc_iface_assoc>:
- 80063d0:	02010b08 06010202                       ........
-
-080063d8 <cdcacm_functional_descriptors>:
- 80063d8:	10002405 01240501 24040200 24050002     .$....$....$...$
- 80063e8:	00020106                                ....
-
-080063ec <comm_endp>:
- 80063ec:	03840507 00ff0010 00000000 00000000     ................
-
-080063fc <comm_iface>:
- 80063fc:	00010409 01020201 0063ec07 0063d808     ..........c...c.
- 800640c:	00001308 00000000                       ........
-
-08006414 <config>:
- 8006414:	00000209 80000103 006534fa 00000008     .........4e.....
-
-08006424 <data_endp>:
- 8006424:	02030507 00010040 00000000 07000000     ....@...........
- 8006434:	40028305 00000100 00000000 00000000     ...@............
-
-08006444 <data_iface>:
- 8006444:	00020409 00000a02 00642408 00000008     .........$d.....
+ 800612a:	00300000 002d0000 4f280000 66726576     ..0...-...(Overf
+ 800613a:	29776f6c 445b0000 50504f52 005d4445     low)..[DROPPED].
+ 800614a:	0a0d0000 2d2d0000 6c702d2d 6f667461     ......----platfo
+ 800615a:	735f6d72 70757465 6c610000 00203f6d     rm_setup..alm? .
+ 800616a:	6c700000 6f667461 735f6d72 74726174     ..platform_start
+ 800617a:	6d69745f 00007265 74720000 77612063     _timer....rtc aw
+ 800618a:	2e656b61 00002e2e 74720000 77612063     ake.......rtc aw
+ 800619a:	20656b61 00006b6f 2d2d0000 6f622d2d     ake ok....----bo
+ 80061aa:	6f6c746f 72656461 6f620000 745f746f     otloader..boot_t
+ 80061ba:	65677261 65675f74 65735f74 6c616972     arget_get_serial
+ 80061ca:	6d756e5f 00726562 73750000 65735f62     _number...usb_se
+ 80061da:	65735f74 6c616972 6d756e5f 00726562     t_serial_number.
+ 80061ea:	73750000 65735f62 00707574 73750000     ..usb_setup...us
+ 80061fa:	70206462 696c6c6f 2e2e676e 6572002e     bd polling....re
+ 800620a:	72617473 676e6974 002e2e2e 6f640000     starting......do
+ 800621a:	0000656e 65720000 72617473 61632074     ne....restart ca
+ 800622a:	61626c6c 00006b63 6f740000 6962206f     llback....too bi
+ 800623a:	00002067 74610000 2d2d0020 61622d2d     g ....at .----ba
+ 800624a:	6f6c6573 72656461 202c0020 74736564     seloader ., dest
+ 800625a:	202c0020 20637273 202c0000 206e656c      ., src .., len 
+ 800626a:	202c0000 6e75662a 00002063 6f6e0000     .., *func ....no
+ 800627a:	6f662074 20646e75 202c0000 61646c6f     t found .., olda
+ 800628a:	00207070 202c0000 746f6f62 206e656c     pp ..., bootlen 
+ 800629a:	61620000 6f6c6573 72656461 65727020     ..baseloader pre
+ 80062aa:	77656976 206b6f20 202c0000 6c6c6163     view ok .., call
+ 80062ba:	74636120 206c6175 65736162 64616f6c      actual baseload
+ 80062ca:	2e2e7265 7773002e 68637469 73797320     er....switch sys
+ 80062da:	206d6574 74636576 7420726f 656c6261     tem vector table
+ 80062ea:	61620020 6f6c6573 72656461 69616620      .baseloader fai
+ 80062fa:	2064656c 202c0000 6c696166 61620020     led .., fail .ba
+ 800630a:	6f6c6573 72656461 65727020 77656976     seloader preview
+ 800631a:	69616620 2064656c 3e2d0000 2a2a0020      failed ..-> .**
+ 800632a:	5245202a 3a524f52 616c4620 66206873     * ERROR: Flash f
+ 800633a:	656c6961 00002064 2a2a0000 45202a2a     ailed ....**** E
+ 800634a:	524f5252 6e49203a 696c6176 6c662064     RROR: Invalid fl
+ 800635a:	20687361 74697277 64202c65 00207473     ash write, dst .
 	...
 
-0800645c <dev>:
- 800645c:	02100112 400102ef db421209 02010221     .......@..B.!...
- 800646c:	00000103 00202f20 70797420 00000020     .... / . typ ...
- 800647c:	6572202c 00002071 6176202c 0000206c     , req .., val ..
- 800648c:	6469202c 00002078 4547202c 45445f54     , idx .., GET_DE
- 800649c:	00000053 5645445f 00000000 4746435f     S..._DEV...._CFG
- 80064ac:	00000000 5254535f 00000000 464e495f     ...._STR...._INF
- 80064bc:	00000000 504e455f 00000000 534f425f     ...._ENP...._BOS
- 80064cc:	00000000 4553202c 44415f54 20202052     ...., SET_ADR   
- 80064dc:	00000020 4553202c 46435f54 20202047      ..., SET_CFG   
- 80064ec:	00000020 0000002c 00207420 00206920      ...,... t . i .
+0800636c <infoUf2File>:
+ 800636c:	20324655 746f6f42 64616f6c 76207265     UF2 Bootloader v
+ 800637c:	2e312e31 46532033 4d0a0d41 6c65646f     1.1.3 SFA..Model
+ 800638c:	5453203a 4232334d 5045554c 0d4c4c49     : STM32BLUEPILL.
+ 800639c:	616f420a 492d6472 53203a44 32334d54     .Board-ID: STM32
+ 80063ac:	33303146 422d3843 5065756c 2d6c6c69     F103C8-BluePill-
+ 80063bc:	0a0d3076 00000000 5f544553 00524441     v0......SET_ADR.
+ 80063cc:	00203e3e 202a2a2a 4f525245 54203a52     >> .*** ERROR: T
+ 80063dc:	6d206f6f 20796e61 746e6f63 206c6f72     oo many control 
+ 80063ec:	6c6c6163 6b636162 00000073 202a2a2a     callbacks...*** 
+ 80063fc:	4f525245 54203a52 6d206f6f 20796e61     ERROR: Too many 
+ 800640c:	666e6f63 63206769 626c6c61 736b6361     config callbacks
+ 800641c:	00000000                                ....
 
-080064fc <hf2_endp>:
- 80064fc:	02020507 00000040 00000000 07000000     ....@...........
- 800650c:	40028205 00000000 00000000 00000000     ...@............
+08006420 <bos_descriptor>:
+ 8006420:	00000f05 00047402 00000020              .....t.. ...
 
-0800651c <hf2_iface>:
- 800651c:	00000409 012aff02 0064fc09 00000008     ......*...d.....
+0800642c <cdc_iface_assoc>:
+ 800642c:	02010b08 06010202                       ........
+
+08006434 <cdcacm_functional_descriptors>:
+ 8006434:	10002405 01240501 24040200 24050002     .$....$....$...$
+ 8006444:	00020106                                ....
+
+08006448 <comm_endp>:
+ 8006448:	03840507 00ff0010 00000000 00000000     ................
+
+08006458 <comm_iface>:
+ 8006458:	00010409 01020201 00644807 00643408     .........Hd..4d.
+ 8006468:	00001308 00000000                       ........
+
+08006470 <config>:
+ 8006470:	00000209 80000103 006590fa 00000008     ..........e.....
+
+08006480 <data_endp>:
+ 8006480:	02030507 00010040 00000000 07000000     ....@...........
+ 8006490:	40028305 00000100 00000000 00000000     ...@............
+
+080064a0 <data_iface>:
+ 80064a0:	00020409 00000a02 00648008 00000008     ..........d.....
 	...
 
-08006534 <interfaces>:
- 8006534:	00000000 00000001 00000000 0800651c     .............e..
- 8006544:	00000000 00000001 080063d0 080063fc     .........c...c..
- 8006554:	00000000 00000001 00000000 08006444     ............Dd..
- 8006564:	202a2a2a 4f525245 73203a52 615f7465     *** ERROR: set_a
- 8006574:	65726767 65746167 6c61635f 6361626c     ggregate_callbac
- 8006584:	6166206b 64656c69 00000000 61766544     k failed....Deva
- 8006594:	6372616e 00007968 42504144 20746f6f     narchy..DAPBoot 
- 80065a4:	20554644 746f6f42 64616f6c 00007265     DFU Bootloader..
- 80065b4:	42504144 20746f6f 00554644 65756c42     DAPBoot DFU.Blue
- 80065c4:	6c695020 534d206c 00000043 65756c42      Pill MSC...Blue
- 80065d4:	6c695020 6553206c 6c616972 726f5020      Pill Serial Por
- 80065e4:	00000074 65756c42 6c695020 4f43206c     t...Blue Pill CO
- 80065f4:	00004d4d 65756c42 6c695020 4144206c     MM..Blue Pill DA
- 8006604:	00004154 65756c42 6c695020 4648206c     TA..Blue Pill HF
- 8006614:	00000032 75736976 6c626c61 69706575     2...visualbluepi
- 8006624:	672e6c6c 75687469 6f692e62 00000000     ll.github.io....
- 8006634:	202a2a2a 5f627375 75746573 61662070     *** usb_setup fa
- 8006644:	64656c69 00000000 202a2a2a 75626577     iled....*** webu
- 8006654:	6e206273 7573746f 69207070 7865646e     sb notsupp index
- 8006664:	00000020 75626577 00006c72 202a2a2a      ...weburl..*** 
- 8006674:	75626577 6e206273 7573746f 77207070     webusb notsupp w
- 8006684:	65646e49 00002078                       Index ..
+080064b8 <dev>:
+ 80064b8:	02100112 400102ef db421209 02010221     .......@..B.!...
+ 80064c8:	00000103 00202f20 70797420 00000020     .... / . typ ...
+ 80064d8:	6572202c 00002071 6176202c 0000206c     , req .., val ..
+ 80064e8:	6469202c 00002078 4547202c 45445f54     , idx .., GET_DE
+ 80064f8:	00000053 5645445f 00000000 4746435f     S..._DEV...._CFG
+ 8006508:	00000000 5254535f 00000000 464e495f     ...._STR...._INF
+ 8006518:	00000000 504e455f 00000000 534f425f     ...._ENP...._BOS
+ 8006528:	00000000 4553202c 44415f54 20202052     ...., SET_ADR   
+ 8006538:	00000020 4553202c 46435f54 20202047      ..., SET_CFG   
+ 8006548:	00000020 0000002c 00207420 00206920      ...,... t . i .
 
-0800668c <webusb_platform_capability_descriptor>:
- 800668c:	00051018 3408b638 47a009a9 76a0fd8b     ....8..4...G...v
- 800669c:	65b61588 01220100 202a2a2a 75626577     ...e..".*** webu
- 80066ac:	735f6273 635f7465 69666e6f 61662067     sb_set_config fa
- 80066bc:	64656c69 00000000 202a2a2a 75626577     iled....*** webu
- 80066cc:	735f6273 70757465 69616620 0064656c     sb_setup failed.
+08006558 <hf2_endp>:
+ 8006558:	02020507 00000040 00000000 07000000     ....@...........
+ 8006568:	40028205 00000000 00000000 00000000     ...@............
 
-080066dc <guid>:
- 80066dc:	00000092 00050100 00880001 00070000     ................
- 80066ec:	002a0000 00650044 00690076 00650063     ..*.D.e.v.i.c.e.
- 80066fc:	006e0049 00650074 00660072 00630061     I.n.t.e.r.f.a.c.
- 800670c:	00470065 00490055 00730044 00500000     e.G.U.I.D.s...P.
- 800671c:	007b0000 00320030 00330036 00350062     ..{.0.2.6.3.b.5.
- 800672c:	00320031 0038002d 00630038 002d0062     1.2.-.8.8.c.b.-.
- 800673c:	00310034 00360033 0039002d 00310036     4.1.3.6.-.9.6.1.
- 800674c:	002d0033 00630035 00650038 00300031     3.-.5.c.8.e.1.0.
- 800675c:	00640039 00650038 00350066 0000007d     9.d.8.e.f.5.}...
- 800676c:	00000000                                ....
+08006578 <hf2_iface>:
+ 8006578:	00000409 012aff02 00655809 00000008     ......*..Xe.....
+	...
 
-08006770 <microsoft_platform_capability_descriptor>:
- 8006770:	0005101c d8dd60df 4cc74589 9d65d29c     .....`...E.L..e.
- 8006780:	9f8a649e 06030000 002100b2 646e6977     .d........!.wind
- 8006790:	00007365 696e6977 00000064 706e6977     es..winid...winp
- 80067a0:	00007072 656e6977 00000065 202a2a2a     rp..winee...*** 
- 80067b0:	756e6977 735f6273 635f7465 69666e6f     winusb_set_confi
- 80067c0:	61662067 64656c69 00000000 202a2a2a     g failed....*** 
- 80067d0:	756e6977 735f6273 70757465 69616620     winusb_setup fai
- 80067e0:	0064656c                                led.
+08006590 <interfaces>:
+ 8006590:	00000000 00000001 00000000 08006578     ............xe..
+ 80065a0:	00000000 00000001 0800642c 08006458     ........,d..Xd..
+ 80065b0:	00000000 00000001 00000000 080064a0     .............d..
+ 80065c0:	202a2a2a 4f525245 73203a52 615f7465     *** ERROR: set_a
+ 80065d0:	65726767 65746167 6c61635f 6361626c     ggregate_callbac
+ 80065e0:	6166206b 64656c69 00000000 61766544     k failed....Deva
+ 80065f0:	6372616e 00007968 42504144 20746f6f     narchy..DAPBoot 
+ 8006600:	20554644 746f6f42 64616f6c 00007265     DFU Bootloader..
+ 8006610:	42504144 20746f6f 00554644 65756c42     DAPBoot DFU.Blue
+ 8006620:	6c695020 534d206c 00000043 65756c42      Pill MSC...Blue
+ 8006630:	6c695020 6553206c 6c616972 726f5020      Pill Serial Por
+ 8006640:	00000074 65756c42 6c695020 4f43206c     t...Blue Pill CO
+ 8006650:	00004d4d 65756c42 6c695020 4144206c     MM..Blue Pill DA
+ 8006660:	00004154 65756c42 6c695020 4648206c     TA..Blue Pill HF
+ 8006670:	00000032 75736976 6c626c61 69706575     2...visualbluepi
+ 8006680:	672e6c6c 75687469 6f692e62 00000000     ll.github.io....
+ 8006690:	202a2a2a 5f627375 75746573 61662070     *** usb_setup fa
+ 80066a0:	64656c69 00000000 202a2a2a 75626577     iled....*** webu
+ 80066b0:	6e206273 7573746f 69207070 7865646e     sb notsupp index
+ 80066c0:	00000020 75626577 00006c72 202a2a2a      ...weburl..*** 
+ 80066d0:	75626577 6e206273 7573746f 77207070     webusb notsupp w
+ 80066e0:	65646e49 00002078                       Index ..
 
-080067e4 <winusb_string_descriptor>:
- 80067e4:	004d0312 00460053 00310054 00300030     ..M.S.F.T.1.0.0.
- 80067f4:	00000021 6f662820 64656372 00000029     !... (forced)...
- 8006804:	20707061 73697865 00007374 20707061     app exists..app 
- 8006814:	7373696d 20676e69 00000000 00203d20     missing .... = .
- 8006824:	2d2d2d2d 65736162 64616f6c 6d207265     ----baseloader m
- 8006834:	2065646f 726f6628 29646563 00000000     ode (forced)....
- 8006844:	2d2d2d2d 746f6f62 64616f6c 6d207265     ----bootloader m
- 8006854:	2065646f 726f6628 29646563 00000000     ode (forced)....
- 8006864:	2d2d2d2d 746f6f62 64616f6c 6d207265     ----bootloader m
- 8006874:	2065646f 206f6e28 29707061 00000000     ode (no app)....
- 8006884:	2d2d2d2d 6c707061 74616369 206e6f69     ----application 
- 8006894:	65646f6d 00000000 746f6f62 70706120     mode....boot app
- 80068a4:	00000000 746f6f62 73616220 616f6c65     ....boot baseloa
- 80068b4:	00726564 746f6f62 6f6f6220 616f6c74     der.boot bootloa
- 80068c4:	00726564 20746573 74736572 20747261     der.set restart 
- 80068d4:	6c6c6163 6b636162 00000020 202a2a2a     callback ...*** 
- 80068e4:	5f636463 75746573 61662070 64656c69     cdc_setup failed
- 80068f4:	00000000 6d6d6f63 00000000 202a2a2a     ....comm....*** 
- 8006904:	61636463 635f6d63 72746e6f 6e206c6f     cdcacm_control n
- 8006914:	7573746f 6c207070 5f656e69 69646f63     otsupp line_codi
- 8006924:	0020676e 202a2a2a 61636463 735f6d63     ng .*** cdcacm_s
- 8006934:	635f7465 69666e6f 61662067 64656c69     et_config failed
- 8006944:	00000000                                ....
+080066e8 <webusb_platform_capability_descriptor>:
+ 80066e8:	00051018 3408b638 47a009a9 76a0fd8b     ....8..4...G...v
+ 80066f8:	65b61588 01220100 202a2a2a 75626577     ...e..".*** webu
+ 8006708:	735f6273 635f7465 69666e6f 61662067     sb_set_config fa
+ 8006718:	64656c69 00000000 202a2a2a 75626577     iled....*** webu
+ 8006728:	735f6273 70757465 69616620 0064656c     sb_setup failed.
 
-08006948 <line_coding>:
- 8006948:	0001c200 00080000 202a2a2a 4f525245     ........*** ERRO
- 8006958:	00203a52                                R: .
+08006738 <guid>:
+ 8006738:	00000092 00050100 00880001 00070000     ................
+ 8006748:	002a0000 00650044 00690076 00650063     ..*.D.e.v.i.c.e.
+ 8006758:	006e0049 00650074 00660072 00630061     I.n.t.e.r.f.a.c.
+ 8006768:	00470065 00490055 00730044 00500000     e.G.U.I.D.s...P.
+ 8006778:	007b0000 00320030 00330036 00350062     ..{.0.2.6.3.b.5.
+ 8006788:	00320031 0038002d 00630038 002d0062     1.2.-.8.8.c.b.-.
+ 8006798:	00310034 00360033 0039002d 00310036     4.1.3.6.-.9.6.1.
+ 80067a8:	002d0033 00630035 00650038 00300031     3.-.5.c.8.e.1.0.
+ 80067b8:	00640039 00650038 00350066 0000007d     9.d.8.e.f.5.}...
+ 80067c8:	00000000                                ....
 
-0800695c <bad_packet_message>:
- 800695c:	20646162 6b636170 00007465 21212120     bad packet.. !!!
- 800696c:	00000020 20326668 62203e3e 6e696e69      ...hf2 >> binin
- 800697c:	00006f66 20326668 69203e3e 006f666e     fo..hf2 >> info.
- 800698c:	74706d65 66682079 6e692032 00006f66     empty hf2 info..
- 800699c:	20326668 20667562 206f6f74 6c616d73     hf2 buf too smal
- 80069ac:	0000006c 20326668 73203e3e 74726174     l...hf2 >> start
- 80069bc:	00000000 20326668 66203e3e 6873616c     ....hf2 >> flash
- 80069cc:	00000000 20326668 66203e3e 6873616c     ....hf2 >> flash
- 80069dc:	00000020 646e6966 63657620 2e726f74      ...find vector.
- 80069ec:	00002e2e 6e756f66 65762064 726f7463     ....found vector
- 80069fc:	7061202c 00002070 6f62202c 7320746f     , app .., boot s
- 8006a0c:	20657a69 00000000 6162202c 73206573     ize ...., base s
- 8006a1c:	20657a69 00000000 202a2a2a 4f525245     ize ....*** ERRO
- 8006a2c:	49203a52 6c61766e 61206469 20726464     R: Invalid addr 
- 8006a3c:	00000000 746f7277 6f622065 6f6c746f     ....wrote bootlo
- 8006a4c:	72656461 00000000 706d6f63 20657261     ader....compare 
- 8006a5c:	746f6f62 64616f6c 2e2e7265 0000002e     bootloader......
- 8006a6c:	746f6f62 64616f6c 63207265 676e6168     bootloader chang
- 8006a7c:	00006465 79706f63 73616220 616f6c65     ed..copy baseloa
- 8006a8c:	20726564 00206f74 6973202c 0020657a     der to ., size .
- 8006a9c:	74736572 20747261 62206f74 6c657361     restart to basel
- 8006aac:	6564616f 00002072 6162202c 656c6573     oader .., basele
- 8006abc:	0000206e 746f6f62 64616f6c 69207265     n ..bootloader i
- 8006acc:	746e6564 6c616369 00000020 202a2a2a     dentical ...*** 
- 8006adc:	4f525245 63203a52 6b636568 61746144     ERROR: checkData
- 8006aec:	657a6953 69616620 0064656c 20326668     Size failed.hf2 
- 8006afc:	61203e3e 00007070 20326668 62203e3e     >> app..hf2 >> b
- 8006b0c:	00746f6f 20326668 72203e3e 00646165     oot.hf2 >> read.
- 8006b1c:	20326668 75203e3e 6f6e6b6e 00206e77     hf2 >> unknown .
- 8006b2c:	20326668 20746573 666e6f63 00006769     hf2 set config..
- 8006b3c:	73616c66 6c612068 20776f6c 00000000     flash allow ....
- 8006b4c:	206f7420 00000000 202a2a2a 5f326668      to ....*** hf2_
- 8006b5c:	75746573 61662070 64656c69 00000000     setup failed....
- 8006b6c:	20326668 00003c3c 20326668 00203c3c     hf2 <<..hf2 << .
- 8006b7c:	202a2a2a 32627375 65735f31 6f635f74     *** usb21_set_co
- 8006b8c:	6769666e 69616620 0064656c 202a2a2a     nfig failed.*** 
- 8006b9c:	32627375 65735f31 20707574 6c696166     usb21_setup fail
- 8006bac:	00006465 202a2a2a 32627375 65645f31     ed..*** usb21_de
- 8006bbc:	69726373 726f7470 206f6e20 20736f62     scriptor no bos 
- 8006bcc:	00000000 00736f62                       ....bos.
+080067cc <microsoft_platform_capability_descriptor>:
+ 80067cc:	0005101c d8dd60df 4cc74589 9d65d29c     .....`...E.L..e.
+ 80067dc:	9f8a649e 06030000 002100b2 646e6977     .d........!.wind
+ 80067ec:	00007365 696e6977 00000064 706e6977     es..winid...winp
+ 80067fc:	00007072 656e6977 00000065 202a2a2a     rp..winee...*** 
+ 800680c:	756e6977 735f6273 635f7465 69666e6f     winusb_set_confi
+ 800681c:	61662067 64656c69 00000000 202a2a2a     g failed....*** 
+ 800682c:	756e6977 735f6273 70757465 69616620     winusb_setup fai
+ 800683c:	0064656c                                led.
+
+08006840 <winusb_string_descriptor>:
+ 8006840:	004d0312 00460053 00310054 00300030     ..M.S.F.T.1.0.0.
+ 8006850:	00000021 6f662820 64656372 00000029     !... (forced)...
+ 8006860:	20707061 73697865 00007374 20707061     app exists..app 
+ 8006870:	7373696d 20676e69 00000000 00203d20     missing .... = .
+ 8006880:	2d2d2d2d 65736162 64616f6c 6d207265     ----baseloader m
+ 8006890:	2065646f 726f6628 29646563 00000000     ode (forced)....
+ 80068a0:	2d2d2d2d 746f6f62 64616f6c 6d207265     ----bootloader m
+ 80068b0:	2065646f 726f6628 29646563 00000000     ode (forced)....
+ 80068c0:	2d2d2d2d 746f6f62 64616f6c 6d207265     ----bootloader m
+ 80068d0:	2065646f 206f6e28 29707061 00000000     ode (no app)....
+ 80068e0:	2d2d2d2d 6c707061 74616369 206e6f69     ----application 
+ 80068f0:	65646f6d 00000000 746f6f62 70706120     mode....boot app
+ 8006900:	00000000 746f6f62 73616220 616f6c65     ....boot baseloa
+ 8006910:	00726564 746f6f62 6f6f6220 616f6c74     der.boot bootloa
+ 8006920:	00726564 20746573 74736572 20747261     der.set restart 
+ 8006930:	6c6c6163 6b636162 00000020 202a2a2a     callback ...*** 
+ 8006940:	5f636463 75746573 61662070 64656c69     cdc_setup failed
+ 8006950:	00000000 6d6d6f63 00000000 202a2a2a     ....comm....*** 
+ 8006960:	61636463 635f6d63 72746e6f 6e206c6f     cdcacm_control n
+ 8006970:	7573746f 6c207070 5f656e69 69646f63     otsupp line_codi
+ 8006980:	0020676e 202a2a2a 61636463 735f6d63     ng .*** cdcacm_s
+ 8006990:	635f7465 69666e6f 61662067 64656c69     et_config failed
+ 80069a0:	00000000                                ....
+
+080069a4 <line_coding>:
+ 80069a4:	0001c200 00080000 202a2a2a 4f525245     ........*** ERRO
+ 80069b4:	00203a52                                R: .
+
+080069b8 <bad_packet_message>:
+ 80069b8:	20646162 6b636170 00007465 21212120     bad packet.. !!!
+ 80069c8:	00000020 20326668 62203e3e 6e696e69      ...hf2 >> binin
+ 80069d8:	00006f66 20326668 69203e3e 006f666e     fo..hf2 >> info.
+ 80069e8:	74706d65 66682079 6e692032 00006f66     empty hf2 info..
+ 80069f8:	20326668 20667562 206f6f74 6c616d73     hf2 buf too smal
+ 8006a08:	0000006c 20326668 73203e3e 74726174     l...hf2 >> start
+ 8006a18:	00000000 20326668 66203e3e 6873616c     ....hf2 >> flash
+ 8006a28:	00000000 20326668 66203e3e 6873616c     ....hf2 >> flash
+ 8006a38:	00000020 646e6966 63657620 2e726f74      ...find vector.
+ 8006a48:	00002e2e 6e756f66 65762064 726f7463     ....found vector
+ 8006a58:	7061202c 00002070 6f62202c 7320746f     , app .., boot s
+ 8006a68:	20657a69 00000000 6162202c 73206573     ize ...., base s
+ 8006a78:	20657a69 00000000 202a2a2a 4f525245     ize ....*** ERRO
+ 8006a88:	49203a52 6c61766e 61206469 20726464     R: Invalid addr 
+ 8006a98:	00000000 746f7277 6f622065 6f6c746f     ....wrote bootlo
+ 8006aa8:	72656461 00000000 706d6f63 20657261     ader....compare 
+ 8006ab8:	746f6f62 64616f6c 2e2e7265 0000002e     bootloader......
+ 8006ac8:	746f6f62 64616f6c 69207265 746e6564     bootloader ident
+ 8006ad8:	6c616369 00000020 6973202c 0020657a     ical ..., size .
+ 8006ae8:	746f6f62 64616f6c 63207265 676e6168     bootloader chang
+ 8006af8:	00006465 79706f63 73616220 616f6c65     ed..copy baseloa
+ 8006b08:	20726564 00206f74 74736572 20747261     der to .restart 
+ 8006b18:	62206f74 6c657361 6564616f 00002072     to baseloader ..
+ 8006b28:	6162202c 656c6573 0000206e 202a2a2a     , baselen ..*** 
+ 8006b38:	4f525245 63203a52 6b636568 61746144     ERROR: checkData
+ 8006b48:	657a6953 69616620 0064656c 20326668     Size failed.hf2 
+ 8006b58:	61203e3e 00007070 20326668 62203e3e     >> app..hf2 >> b
+ 8006b68:	00746f6f 20326668 72203e3e 00646165     oot.hf2 >> read.
+ 8006b78:	20326668 75203e3e 6f6e6b6e 00206e77     hf2 >> unknown .
+ 8006b88:	20326668 20746573 666e6f63 00006769     hf2 set config..
+ 8006b98:	73616c66 6c612068 20776f6c 00000000     flash allow ....
+ 8006ba8:	206f7420 00000000 202a2a2a 5f326668      to ....*** hf2_
+ 8006bb8:	75746573 61662070 64656c69 00000000     setup failed....
+ 8006bc8:	20326668 00003c3c 20326668 00203c3c     hf2 <<..hf2 << .
+ 8006bd8:	202a2a2a 32627375 65735f31 6f635f74     *** usb21_set_co
+ 8006be8:	6769666e 69616620 0064656c 202a2a2a     nfig failed.*** 
+ 8006bf8:	32627375 65735f31 20707574 6c696166     usb21_setup fail
+ 8006c08:	00006465 202a2a2a 32627375 65645f31     ed..*** usb21_de
+ 8006c18:	69726373 726f7470 206f6e20 20736f62     scriptor no bos 
+ 8006c28:	00000000 00736f62                       ....bos.
 
 Disassembly of section .text:
 

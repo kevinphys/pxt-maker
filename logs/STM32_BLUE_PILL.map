@@ -1156,7 +1156,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
                 0x0000000000001000                _bootram_size = 0x1000
                 0x0000000000000844                _bootbuf_size = 0x844
 
-.boot_text      0x0000000008000000     0x6bd4
+.boot_text      0x0000000008000000     0x6c30
                 0x0000000008000000                _boot_text = .
  *(SORT_BY_ALIGNMENT(.vectors))
  .vectors       0x0000000008000000      0x150 liblibopencm3.a(vector.c.o)
@@ -1970,270 +1970,270 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  .text.assert.part.0
                 0x00000000080055cc       0x1c libbootloader.a(hf2.c.o)
  .text.hf2_data_rx_cb
-                0x00000000080055e8      0x63c libbootloader.a(hf2.c.o)
+                0x00000000080055e8      0x68c libbootloader.a(hf2.c.o)
  .text.hf2_data_tx_cb
-                0x0000000008005c24       0x50 libbootloader.a(hf2.c.o)
+                0x0000000008005c74       0x5c libbootloader.a(hf2.c.o)
  .text.hf2_setup
-                0x0000000008005c74       0x84 libbootloader.a(hf2.c.o)
-                0x0000000008005c74                hf2_setup
+                0x0000000008005cd0       0x84 libbootloader.a(hf2.c.o)
+                0x0000000008005cd0                hf2_setup
  .text.usb21_set_config
-                0x0000000008005cf8       0x28 libbootloader.a(usb21_standard.c.o)
+                0x0000000008005d54       0x28 libbootloader.a(usb21_standard.c.o)
  .text.usb21_standard_get_descriptor
-                0x0000000008005d20       0xe0 libbootloader.a(usb21_standard.c.o)
+                0x0000000008005d7c       0xe0 libbootloader.a(usb21_standard.c.o)
  .text.usb21_setup
-                0x0000000008005e00       0x38 libbootloader.a(usb21_standard.c.o)
-                0x0000000008005e00                usb21_setup
+                0x0000000008005e5c       0x38 libbootloader.a(usb21_standard.c.o)
+                0x0000000008005e5c                usb21_setup
  .text.backup_write
-                0x0000000008005e38       0x38 libbootloader.a(backup.c.o)
-                0x0000000008005e38                backup_write
+                0x0000000008005e94       0x38 libbootloader.a(backup.c.o)
+                0x0000000008005e94                backup_write
  .text.backup_read
-                0x0000000008005e70       0x18 libbootloader.a(backup.c.o)
-                0x0000000008005e70                backup_read
-                0x0000000008005e88                . = ALIGN (0x4)
+                0x0000000008005ecc       0x18 libbootloader.a(backup.c.o)
+                0x0000000008005ecc                backup_read
+                0x0000000008005ee4                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(.rodata.blocking_handler*))
  *(SORT_BY_ALIGNMENT(.rodata.null_handler*))
  *(SORT_BY_ALIGNMENT(.rodata.*_isr))
  :*reset_handler*(SORT_BY_ALIGNMENT(.rodata*))
  .rodata.reset_handler.str1.4
-                0x0000000008005e88       0x37 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
+                0x0000000008005ee4       0x37 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
  :*codal_target_hal*(SORT_BY_ALIGNMENT(.rodata*))
  *libhal.a:*codal_target_hal*(SORT_BY_ALIGNMENT(.rodata*))
- *fill*         0x0000000008005ebf        0x1 
+ *fill*         0x0000000008005f1b        0x1 
  .rodata._ZL10timer_tickv.str1.4
-                0x0000000008005ec0        0x7 libhal.a(codal_target_hal.cpp.o)
- *fill*         0x0000000008005ec7        0x1 
- .rodata._ZL11timer_alarmv.str1.4
-                0x0000000008005ec8        0x4 libhal.a(codal_target_hal.cpp.o)
- .rodata.target_get_serial.str1.4
-                0x0000000008005ecc       0x16 libhal.a(codal_target_hal.cpp.o)
- *fill*         0x0000000008005ee2        0x2 
- .rodata.target_panic.str1.4
-                0x0000000008005ee4       0x13 libhal.a(codal_target_hal.cpp.o)
- *fill*         0x0000000008005ef7        0x1 
- .rodata.target_reset.str1.4
-                0x0000000008005ef8       0x11 libhal.a(codal_target_hal.cpp.o)
- *fill*         0x0000000008005f09        0x3 
- .rodata.target_seed_random.str1.4
-                0x0000000008005f0c       0x17 libhal.a(codal_target_hal.cpp.o)
+                0x0000000008005f1c        0x7 libhal.a(codal_target_hal.cpp.o)
  *fill*         0x0000000008005f23        0x1 
+ .rodata._ZL11timer_alarmv.str1.4
+                0x0000000008005f24        0x4 libhal.a(codal_target_hal.cpp.o)
+ .rodata.target_get_serial.str1.4
+                0x0000000008005f28       0x16 libhal.a(codal_target_hal.cpp.o)
+ *fill*         0x0000000008005f3e        0x2 
+ .rodata.target_panic.str1.4
+                0x0000000008005f40       0x13 libhal.a(codal_target_hal.cpp.o)
+ *fill*         0x0000000008005f53        0x1 
+ .rodata.target_reset.str1.4
+                0x0000000008005f54       0x11 libhal.a(codal_target_hal.cpp.o)
+ *fill*         0x0000000008005f65        0x3 
+ .rodata.target_seed_random.str1.4
+                0x0000000008005f68       0x17 libhal.a(codal_target_hal.cpp.o)
+ *fill*         0x0000000008005f7f        0x1 
  .rodata.target_wait.part.1.str1.4
-                0x0000000008005f24        0xb libhal.a(codal_target_hal.cpp.o)
- *fill*         0x0000000008005f2f        0x1 
+                0x0000000008005f80        0xb libhal.a(codal_target_hal.cpp.o)
+ *fill*         0x0000000008005f8b        0x1 
  .rodata.test_codal.str1.4
-                0x0000000008005f30       0x3c libhal.a(codal_target_hal.cpp.o)
+                0x0000000008005f8c       0x3c libhal.a(codal_target_hal.cpp.o)
  :*CortexContextSwitch*(SORT_BY_ALIGNMENT(.rodata*))
  *libhal.a:(SORT_BY_ALIGNMENT(.rodata*))
  *liblibopencm3.a:(SORT_BY_ALIGNMENT(.rodata*))
  .rodata.desig_get_unique_id_as_string.str1.4
-                0x0000000008005f6c       0x11 liblibopencm3.a(desig.c.o)
- *fill*         0x0000000008005f7d        0x3 
+                0x0000000008005fc8       0x11 liblibopencm3.a(desig.c.o)
+ *fill*         0x0000000008005fd9        0x3 
  .rodata.st_usbfs_v1_usb_driver
-                0x0000000008005f80       0x34 liblibopencm3.a(st_usbfs_v1.c.o)
-                0x0000000008005f80                st_usbfs_v1_usb_driver
+                0x0000000008005fdc       0x34 liblibopencm3.a(st_usbfs_v1.c.o)
+                0x0000000008005fdc                st_usbfs_v1_usb_driver
  *libFrameworkLibOpenCM3.a:(SORT_BY_ALIGNMENT(.rodata*))
  *libcocoos.a:(SORT_BY_ALIGNMENT(.rodata*))
  .rodata.os_on_assert.str1.4
-                0x0000000008005fb4       0x1a libcocoos.a(os_assert.c.o)
+                0x0000000008006010       0x1a libcocoos.a(os_assert.c.o)
  *libcocoOS_?.?.?.a:(SORT_BY_ALIGNMENT(.rodata*))
  *libgcc.a:(SORT_BY_ALIGNMENT(.rodata*))
  *libqfplib.a:(SORT_BY_ALIGNMENT(.rodata*))
  *libnano-float.a:(SORT_BY_ALIGNMENT(.rodata*))
  *libnewlib.a:(SORT_BY_ALIGNMENT(.rodata*))
  .rodata._ctype_
-                0x0000000008005fce      0x101 libnewlib.a(ctype_.c.o)
-                0x0000000008005fce                _ctype_
+                0x000000000800602a      0x101 libnewlib.a(ctype_.c.o)
+                0x000000000800602a                _ctype_
  *liblogger.a:(SORT_BY_ALIGNMENT(.rodata*))
- *fill*         0x00000000080060cf        0x1 
+ *fill*         0x000000000800612b        0x1 
  .rodata._Z11debug_printi.str1.4
-                0x00000000080060d0        0x6 liblogger.a(logger.cpp.o)
- *fill*         0x00000000080060d6        0x2 
+                0x000000000800612c        0x6 liblogger.a(logger.cpp.o)
+ *fill*         0x0000000008006132        0x2 
  .rodata._Z11debug_printj.str1.4
-                0x00000000080060d8        0xb liblogger.a(logger.cpp.o)
- *fill*         0x00000000080060e3        0x1 
+                0x0000000008006134        0xb liblogger.a(logger.cpp.o)
+ *fill*         0x000000000800613f        0x1 
  .rodata._ZL12debug_appendPKcj.str1.4
-                0x00000000080060e4        0xa liblogger.a(logger.cpp.o)
- *fill*         0x00000000080060ee        0x2 
+                0x0000000008006140        0xa liblogger.a(logger.cpp.o)
+ *fill*         0x000000000800614a        0x2 
  .rodata.debug_println.str1.4
-                0x00000000080060f0        0x3 liblogger.a(logger.cpp.o)
+                0x000000000800614c        0x3 liblogger.a(logger.cpp.o)
  *libbluepill.a:(SORT_BY_ALIGNMENT(.rodata*))
- *fill*         0x00000000080060f3        0x1 
+ *fill*         0x000000000800614f        0x1 
  .rodata.platform_setup.str1.4
-                0x00000000080060f4       0x13 libbluepill.a(bluepill.cpp.o)
- *fill*         0x0000000008006107        0x1 
+                0x0000000008006150       0x13 libbluepill.a(bluepill.cpp.o)
+ *fill*         0x0000000008006163        0x1 
  .rodata.platform_set_alarm.str1.4
-                0x0000000008006108        0x6 libbluepill.a(timer.cpp.o)
- *fill*         0x000000000800610e        0x2 
+                0x0000000008006164        0x6 libbluepill.a(timer.cpp.o)
+ *fill*         0x000000000800616a        0x2 
  .rodata.platform_start_timer.str1.4
-                0x0000000008006110       0x38 libbluepill.a(timer.cpp.o)
+                0x000000000800616c       0x38 libbluepill.a(timer.cpp.o)
                                          0x35 (size before relaxing)
  *libbootloader.a:(SORT_BY_ALIGNMENT(.rodata*))
  .rodata.bootloader_start.str1.4
-                0x0000000008006148       0x79 libbootloader.a(bootloader.c.o)
- *fill*         0x00000000080061c1        0x3 
+                0x00000000080061a4       0x79 libbootloader.a(bootloader.c.o)
+ *fill*         0x000000000800621d        0x3 
  .rodata.poll_restart_callback.str1.4
-                0x00000000080061c4       0x11 libbootloader.a(bootloader.c.o)
- *fill*         0x00000000080061d5        0x3 
+                0x0000000008006220       0x11 libbootloader.a(bootloader.c.o)
+ *fill*         0x0000000008006231        0x3 
  .rodata.prepare_baseloader.str1.4
-                0x00000000080061d8       0xef libbootloader.a(bootloader.c.o)
+                0x0000000008006234       0xef libbootloader.a(bootloader.c.o)
                                          0xff (size before relaxing)
- *fill*         0x00000000080062c7        0x1 
+ *fill*         0x0000000008006323        0x1 
  .rodata.flash_flush.str1.4
-                0x00000000080062c8       0x1d libbootloader.a(ghostfat.c.o)
+                0x0000000008006324       0x1d libbootloader.a(ghostfat.c.o)
                                          0x25 (size before relaxing)
- *fill*         0x00000000080062e5        0x3 
+ *fill*         0x0000000008006341        0x3 
  .rodata.flash_write.str1.4
-                0x00000000080062e8       0x26 libbootloader.a(ghostfat.c.o)
+                0x0000000008006344       0x26 libbootloader.a(ghostfat.c.o)
                                          0x37 (size before relaxing)
- *fill*         0x000000000800630e        0x2 
+ *fill*         0x000000000800636a        0x2 
  .rodata.infoUf2File
-                0x0000000008006310       0x55 libbootloader.a(ghostfat.c.o)
-                0x0000000008006310                infoUf2File
- *fill*         0x0000000008006365        0x3 
- .rodata.aggregate_callback.str1.4
-                0x0000000008006368        0xc libbootloader.a(usb_conf.c.o)
- .rodata.aggregate_register_callback.str1.4
-                0x0000000008006374       0x26 libbootloader.a(usb_conf.c.o)
- *fill*         0x000000000800639a        0x2 
- .rodata.aggregate_register_config_callback.str1.4
-                0x000000000800639c       0x25 libbootloader.a(usb_conf.c.o)
+                0x000000000800636c       0x55 libbootloader.a(ghostfat.c.o)
+                0x000000000800636c                infoUf2File
  *fill*         0x00000000080063c1        0x3 
+ .rodata.aggregate_callback.str1.4
+                0x00000000080063c4        0xc libbootloader.a(usb_conf.c.o)
+ .rodata.aggregate_register_callback.str1.4
+                0x00000000080063d0       0x26 libbootloader.a(usb_conf.c.o)
+ *fill*         0x00000000080063f6        0x2 
+ .rodata.aggregate_register_config_callback.str1.4
+                0x00000000080063f8       0x25 libbootloader.a(usb_conf.c.o)
+ *fill*         0x000000000800641d        0x3 
  .rodata.bos_descriptor
-                0x00000000080063c4        0x9 libbootloader.a(usb_conf.c.o)
- *fill*         0x00000000080063cd        0x3 
+                0x0000000008006420        0x9 libbootloader.a(usb_conf.c.o)
+ *fill*         0x0000000008006429        0x3 
  .rodata.cdc_iface_assoc
-                0x00000000080063d0        0x8 libbootloader.a(usb_conf.c.o)
+                0x000000000800642c        0x8 libbootloader.a(usb_conf.c.o)
  .rodata.cdcacm_functional_descriptors
-                0x00000000080063d8       0x13 libbootloader.a(usb_conf.c.o)
- *fill*         0x00000000080063eb        0x1 
+                0x0000000008006434       0x13 libbootloader.a(usb_conf.c.o)
+ *fill*         0x0000000008006447        0x1 
  .rodata.comm_endp
-                0x00000000080063ec        0xf libbootloader.a(usb_conf.c.o)
- *fill*         0x00000000080063fb        0x1 
+                0x0000000008006448        0xf libbootloader.a(usb_conf.c.o)
+ *fill*         0x0000000008006457        0x1 
  .rodata.comm_iface
-                0x00000000080063fc       0x15 libbootloader.a(usb_conf.c.o)
- *fill*         0x0000000008006411        0x3 
+                0x0000000008006458       0x15 libbootloader.a(usb_conf.c.o)
+ *fill*         0x000000000800646d        0x3 
  .rodata.config
-                0x0000000008006414        0xd libbootloader.a(usb_conf.c.o)
- *fill*         0x0000000008006421        0x3 
+                0x0000000008006470        0xd libbootloader.a(usb_conf.c.o)
+ *fill*         0x000000000800647d        0x3 
  .rodata.data_endp
-                0x0000000008006424       0x1e libbootloader.a(usb_conf.c.o)
- *fill*         0x0000000008006442        0x2 
+                0x0000000008006480       0x1e libbootloader.a(usb_conf.c.o)
+ *fill*         0x000000000800649e        0x2 
  .rodata.data_iface
-                0x0000000008006444       0x15 libbootloader.a(usb_conf.c.o)
- *fill*         0x0000000008006459        0x3 
- .rodata.dev    0x000000000800645c       0x12 libbootloader.a(usb_conf.c.o)
- *fill*         0x000000000800646e        0x2 
+                0x00000000080064a0       0x15 libbootloader.a(usb_conf.c.o)
+ *fill*         0x00000000080064b5        0x3 
+ .rodata.dev    0x00000000080064b8       0x12 libbootloader.a(usb_conf.c.o)
+ *fill*         0x00000000080064ca        0x2 
  .rodata.dump_buffer.str1.4
-                0x0000000008006470        0x4 libbootloader.a(usb_conf.c.o)
+                0x00000000080064cc        0x4 libbootloader.a(usb_conf.c.o)
                                           0x9 (size before relaxing)
  .rodata.dump_usb_request.str1.4
-                0x0000000008006474       0x88 libbootloader.a(usb_conf.c.o)
+                0x00000000080064d0       0x88 libbootloader.a(usb_conf.c.o)
                                          0x90 (size before relaxing)
  .rodata.hf2_endp
-                0x00000000080064fc       0x1e libbootloader.a(usb_conf.c.o)
- *fill*         0x000000000800651a        0x2 
+                0x0000000008006558       0x1e libbootloader.a(usb_conf.c.o)
+ *fill*         0x0000000008006576        0x2 
  .rodata.hf2_iface
-                0x000000000800651c       0x15 libbootloader.a(usb_conf.c.o)
- *fill*         0x0000000008006531        0x3 
- .rodata.interfaces
-                0x0000000008006534       0x30 libbootloader.a(usb_conf.c.o)
- .rodata.set_aggregate_callback.str1.4
-                0x0000000008006564       0x29 libbootloader.a(usb_conf.c.o)
- .rodata.set_usb_busy.str1.4
-                0x000000000800658d       0x29 libbootloader.a(usb_conf.c.o)
-                                          0x2 (size before relaxing)
+                0x0000000008006578       0x15 libbootloader.a(usb_conf.c.o)
  *fill*         0x000000000800658d        0x3 
+ .rodata.interfaces
+                0x0000000008006590       0x30 libbootloader.a(usb_conf.c.o)
+ .rodata.set_aggregate_callback.str1.4
+                0x00000000080065c0       0x29 libbootloader.a(usb_conf.c.o)
+ .rodata.set_usb_busy.str1.4
+                0x00000000080065e9       0x29 libbootloader.a(usb_conf.c.o)
+                                          0x2 (size before relaxing)
+ *fill*         0x00000000080065e9        0x3 
  .rodata.str1.4
-                0x0000000008006590       0x86 libbootloader.a(usb_conf.c.o)
- *fill*         0x0000000008006616        0x2 
+                0x00000000080065ec       0x86 libbootloader.a(usb_conf.c.o)
+ *fill*         0x0000000008006672        0x2 
  .rodata.usb_setup.str1.4
-                0x0000000008006618       0x31 libbootloader.a(usb_conf.c.o)
- *fill*         0x0000000008006649        0x3 
+                0x0000000008006674       0x31 libbootloader.a(usb_conf.c.o)
+ *fill*         0x00000000080066a5        0x3 
  .rodata.webusb_control_vendor_request.str1.4
-                0x000000000800664c       0x3f libbootloader.a(webusb.c.o)
+                0x00000000080066a8       0x3f libbootloader.a(webusb.c.o)
                                          0x43 (size before relaxing)
- *fill*         0x000000000800668b        0x1 
+ *fill*         0x00000000080066e7        0x1 
  .rodata.webusb_platform_capability_descriptor
-                0x000000000800668c       0x18 libbootloader.a(webusb.c.o)
-                0x000000000800668c                webusb_platform_capability_descriptor
+                0x00000000080066e8       0x18 libbootloader.a(webusb.c.o)
+                0x00000000080066e8                webusb_platform_capability_descriptor
  .rodata.webusb_set_config.str1.4
-                0x00000000080066a4       0x1d libbootloader.a(webusb.c.o)
- *fill*         0x00000000080066c1        0x3 
+                0x0000000008006700       0x1d libbootloader.a(webusb.c.o)
+ *fill*         0x000000000800671d        0x3 
  .rodata.webusb_setup.str1.4
-                0x00000000080066c4       0x18 libbootloader.a(webusb.c.o)
- .rodata.guid   0x00000000080066dc       0x92 libbootloader.a(winusb.c.o)
- *fill*         0x000000000800676e        0x2 
+                0x0000000008006720       0x18 libbootloader.a(webusb.c.o)
+ .rodata.guid   0x0000000008006738       0x92 libbootloader.a(winusb.c.o)
+ *fill*         0x00000000080067ca        0x2 
  .rodata.microsoft_platform_capability_descriptor
-                0x0000000008006770       0x1c libbootloader.a(winusb.c.o)
-                0x0000000008006770                microsoft_platform_capability_descriptor
+                0x00000000080067cc       0x1c libbootloader.a(winusb.c.o)
+                0x00000000080067cc                microsoft_platform_capability_descriptor
  .rodata.winusb_control_vendor_request.str1.4
-                0x000000000800678c       0x17 libbootloader.a(winusb.c.o)
- *fill*         0x00000000080067a3        0x1 
+                0x00000000080067e8       0x17 libbootloader.a(winusb.c.o)
+ *fill*         0x00000000080067ff        0x1 
  .rodata.winusb_descriptor_request.str1.4
-                0x00000000080067a4        0x6 libbootloader.a(winusb.c.o)
- *fill*         0x00000000080067aa        0x2 
+                0x0000000008006800        0x6 libbootloader.a(winusb.c.o)
+ *fill*         0x0000000008006806        0x2 
  .rodata.winusb_set_config.str1.4
-                0x00000000080067ac       0x1d libbootloader.a(winusb.c.o)
- *fill*         0x00000000080067c9        0x3 
+                0x0000000008006808       0x1d libbootloader.a(winusb.c.o)
+ *fill*         0x0000000008006825        0x3 
  .rodata.winusb_setup.str1.4
-                0x00000000080067cc       0x18 libbootloader.a(winusb.c.o)
+                0x0000000008006828       0x18 libbootloader.a(winusb.c.o)
  .rodata.winusb_string_descriptor
-                0x00000000080067e4       0x12 libbootloader.a(winusb.c.o)
- *fill*         0x00000000080067f6        0x2 
+                0x0000000008006840       0x12 libbootloader.a(winusb.c.o)
+ *fill*         0x0000000008006852        0x2 
  .rodata.boot_target_get_startup_mode.part.0.str1.4
-                0x00000000080067f8       0xa1 libbootloader.a(target_stm32f103.c.o)
+                0x0000000008006854       0xa1 libbootloader.a(target_stm32f103.c.o)
                                          0xa5 (size before relaxing)
- *fill*         0x0000000008006899        0x3 
- .rodata.boot_target_manifest_app.str1.4
-                0x000000000800689c        0x9 libbootloader.a(target_stm32f103.c.o)
- *fill*         0x00000000080068a5        0x3 
- .rodata.boot_target_manifest_baseloader.str1.4
-                0x00000000080068a8       0x10 libbootloader.a(target_stm32f103.c.o)
- .rodata.boot_target_manifest_bootloader.str1.4
-                0x00000000080068b8       0x10 libbootloader.a(target_stm32f103.c.o)
- .rodata.boot_target_set_restart_callback.str1.4
-                0x00000000080068c8       0x16 libbootloader.a(target_stm32f103.c.o)
- *fill*         0x00000000080068de        0x2 
- .rodata.cdc_setup.str1.4
-                0x00000000080068e0       0x15 libbootloader.a(cdc.c.o)
  *fill*         0x00000000080068f5        0x3 
+ .rodata.boot_target_manifest_app.str1.4
+                0x00000000080068f8        0x9 libbootloader.a(target_stm32f103.c.o)
+ *fill*         0x0000000008006901        0x3 
+ .rodata.boot_target_manifest_baseloader.str1.4
+                0x0000000008006904       0x10 libbootloader.a(target_stm32f103.c.o)
+ .rodata.boot_target_manifest_bootloader.str1.4
+                0x0000000008006914       0x10 libbootloader.a(target_stm32f103.c.o)
+ .rodata.boot_target_set_restart_callback.str1.4
+                0x0000000008006924       0x16 libbootloader.a(target_stm32f103.c.o)
+ *fill*         0x000000000800693a        0x2 
+ .rodata.cdc_setup.str1.4
+                0x000000000800693c       0x15 libbootloader.a(cdc.c.o)
+ *fill*         0x0000000008006951        0x3 
  .rodata.cdcacm_comm_cb.str1.4
-                0x00000000080068f8        0x5 libbootloader.a(cdc.c.o)
- *fill*         0x00000000080068fd        0x3 
+                0x0000000008006954        0x5 libbootloader.a(cdc.c.o)
+ *fill*         0x0000000008006959        0x3 
  .rodata.cdcacm_control_request.str1.4
-                0x0000000008006900       0x28 libbootloader.a(cdc.c.o)
+                0x000000000800695c       0x28 libbootloader.a(cdc.c.o)
                                          0x31 (size before relaxing)
  .rodata.cdcacm_set_config.str1.4
-                0x0000000008006928       0x1d libbootloader.a(cdc.c.o)
- *fill*         0x0000000008006945        0x3 
+                0x0000000008006984       0x1d libbootloader.a(cdc.c.o)
+ *fill*         0x00000000080069a1        0x3 
  .rodata.line_coding
-                0x0000000008006948        0x7 libbootloader.a(cdc.c.o)
- *fill*         0x000000000800694f        0x1 
+                0x00000000080069a4        0x7 libbootloader.a(cdc.c.o)
+ *fill*         0x00000000080069ab        0x1 
  .rodata.assert.part.0.str1.4
-                0x0000000008006950        0xc libbootloader.a(hf2.c.o)
+                0x00000000080069ac        0xc libbootloader.a(hf2.c.o)
  .rodata.bad_packet_message
-                0x000000000800695c        0xb libbootloader.a(hf2.c.o)
- *fill*         0x0000000008006967        0x1 
+                0x00000000080069b8        0xb libbootloader.a(hf2.c.o)
+ *fill*         0x00000000080069c3        0x1 
  .rodata.hf2_data_rx_cb.str1.4
-                0x0000000008006968      0x1c4 libbootloader.a(hf2.c.o)
+                0x00000000080069c4      0x1c4 libbootloader.a(hf2.c.o)
                                         0x1e4 (size before relaxing)
  .rodata.hf2_set_config.str1.4
-                0x0000000008006b2c        0xf libbootloader.a(hf2.c.o)
- *fill*         0x0000000008006b3b        0x1 
+                0x0000000008006b88        0xf libbootloader.a(hf2.c.o)
+ *fill*         0x0000000008006b97        0x1 
  .rodata.hf2_setup.str1.4
-                0x0000000008006b3c       0x2d libbootloader.a(hf2.c.o)
- *fill*         0x0000000008006b69        0x3 
+                0x0000000008006b98       0x2d libbootloader.a(hf2.c.o)
+ *fill*         0x0000000008006bc5        0x3 
  .rodata.pokeSend.str1.4
-                0x0000000008006b6c       0x10 libbootloader.a(hf2.c.o)
+                0x0000000008006bc8       0x10 libbootloader.a(hf2.c.o)
                                          0x11 (size before relaxing)
  .rodata.usb21_set_config.str1.4
-                0x0000000008006b7c       0x1c libbootloader.a(usb21_standard.c.o)
+                0x0000000008006bd8       0x1c libbootloader.a(usb21_standard.c.o)
  .rodata.usb21_setup.str1.4
-                0x0000000008006b98       0x17 libbootloader.a(usb21_standard.c.o)
- *fill*         0x0000000008006baf        0x1 
+                0x0000000008006bf4       0x17 libbootloader.a(usb21_standard.c.o)
+ *fill*         0x0000000008006c0b        0x1 
  .rodata.usb21_standard_get_descriptor.str1.4
-                0x0000000008006bb0       0x24 libbootloader.a(usb21_standard.c.o)
-                0x0000000008006bd4                . = ALIGN (0x4)
-                0x0000000008006bd4                _boot_etext = .
+                0x0000000008006c0c       0x24 libbootloader.a(usb21_standard.c.o)
+                0x0000000008006c30                . = ALIGN (0x4)
+                0x0000000008006c30                _boot_etext = .
 
 .text           0x0000000008007400     0x66d8
                 0x0000000008007400                . = ALIGN (0x4)
@@ -3803,9 +3803,9 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  .rel.iplt      0x000000000800dad8        0x0 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
 
 .boot_preinit_array
-                0x0000000008006bd4        0x0
-                0x0000000008006bd4                . = ALIGN (0x4)
-                0x0000000008006bd4                __boot_preinit_array_start = .
+                0x0000000008006c30        0x0
+                0x0000000008006c30                . = ALIGN (0x4)
+                0x0000000008006c30                __boot_preinit_array_start = .
  :*reset_handler*(SORT_BY_ALIGNMENT(.preinit_array))
  *libhal.a:*reset_handler*(SORT_BY_ALIGNMENT(.preinit_array))
  :*codal_target_hal*(SORT_BY_ALIGNMENT(.preinit_array))
@@ -3823,7 +3823,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  *liblogger.a:(SORT_BY_ALIGNMENT(.preinit_array))
  *libbluepill.a:(SORT_BY_ALIGNMENT(.preinit_array))
  *libbootloader.a:(SORT_BY_ALIGNMENT(.preinit_array))
-                0x0000000008006bd4                __boot_preinit_array_end = .
+                0x0000000008006c30                __boot_preinit_array_end = .
 
 .preinit_array  0x000000000800dad8        0x0
                 0x000000000800dad8                . = ALIGN (0x4)
@@ -3832,9 +3832,9 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
                 0x000000000800dad8                __preinit_array_end = .
 
 .boot_init_array
-                0x0000000008006bd4        0x0
-                0x0000000008006bd4                . = ALIGN (0x4)
-                0x0000000008006bd4                __boot_init_array_start = .
+                0x0000000008006c30        0x0
+                0x0000000008006c30                . = ALIGN (0x4)
+                0x0000000008006c30                __boot_init_array_start = .
  :*reset_handler*(SORT_BY_NAME(SORT_BY_ALIGNMENT(.init_array.*)))
  *libhal.a:*reset_handler*(SORT_BY_NAME(SORT_BY_ALIGNMENT(.init_array.*)))
  :*codal_target_hal*(SORT_BY_NAME(SORT_BY_ALIGNMENT(.init_array.*)))
@@ -3869,9 +3869,9 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  *liblogger.a:(SORT_BY_ALIGNMENT(.init_array))
  *libbluepill.a:(SORT_BY_ALIGNMENT(.init_array))
  *libbootloader.a:(SORT_BY_ALIGNMENT(.init_array))
-                0x0000000008006bd4                __boot_init_array_end = .
-                0x0000000008006bd4                . = ALIGN (0x4)
-                0x0000000008006bd4                _boot_etext = .
+                0x0000000008006c30                __boot_init_array_end = .
+                0x0000000008006c30                . = ALIGN (0x4)
+                0x0000000008006c30                _boot_etext = .
 
 .init_array     0x000000000800dad8        0xc
                 0x000000000800dad8                . = ALIGN (0x4)
@@ -3886,9 +3886,9 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
                 0x000000000800dae4                _etext = .
 
 .boot_fini_array
-                0x0000000008006bd4        0x0
-                0x0000000008006bd4                . = ALIGN (0x4)
-                0x0000000008006bd4                __boot_fini_array_start = .
+                0x0000000008006c30        0x0
+                0x0000000008006c30                . = ALIGN (0x4)
+                0x0000000008006c30                __boot_fini_array_start = .
  :*reset_handler*(SORT_BY_ALIGNMENT(.fini_array))
  *libhal.a:*reset_handler*(SORT_BY_ALIGNMENT(.fini_array))
  :*codal_target_hal*(SORT_BY_ALIGNMENT(.fini_array))
@@ -3923,7 +3923,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  *liblogger.a:(SORT_BY_NAME(SORT_BY_ALIGNMENT(.fini_array.*)))
  *libbluepill.a:(SORT_BY_NAME(SORT_BY_ALIGNMENT(.fini_array.*)))
  *libbootloader.a:(SORT_BY_NAME(SORT_BY_ALIGNMENT(.fini_array.*)))
-                0x0000000008006bd4                __boot_fini_array_end = .
+                0x0000000008006c30                __boot_fini_array_end = .
 
 .fini_array     0x000000000800dae4        0x0
                 0x000000000800dae4                . = ALIGN (0x4)
@@ -3932,7 +3932,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(.fini_array.*)))
                 0x000000000800dae4                __fini_array_end = .
 
-.boot_data      0x0000000020000000      0x580 load address 0x0000000008006bd4
+.boot_data      0x0000000020000000      0x580 load address 0x0000000008006c30
                 0x0000000020000000                _boot_data = .
  *(SORT_BY_ALIGNMENT(.base_para))
  .base_para     0x0000000020000000       0x1c libbaseloader.a(baseloader.c.o)
@@ -3999,7 +3999,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
                 0x0000000020000580                . = ALIGN (0x4)
  *fill*         0x000000002000057d        0x3 
                 0x0000000020000580                _boot_edata = .
-                0x0000000008006bd4                _boot_data_loadaddr = LOADADDR (.boot_data)
+                0x0000000008006c30                _boot_data_loadaddr = LOADADDR (.boot_data)
 
 .data           0x0000000020001000        0xc load address 0x000000000800dae4
                 0x0000000020001000                _data = .
@@ -4019,7 +4019,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
 .igot.plt       0x000000002000100c        0x0 load address 0x000000000800daf0
  .igot.plt      0x000000002000100c        0x0 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
 
-.boot_bss       0x0000000020000580      0x780
+.boot_bss       0x0000000020000580      0x784
  *libbaseloader.a:(SORT_BY_ALIGNMENT(.bss*))
  :*reset_handler*(SORT_BY_ALIGNMENT(.bss*))
  *libhal.a:*reset_handler*(SORT_BY_ALIGNMENT(.bss*))
@@ -4132,71 +4132,73 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  *fill*         0x00000000200009d5        0x3 
  .bss._usbd_dev
                 0x00000000200009d8        0x4 libbootloader.a(hf2.c.o)
- .bss.cmdId.6013
+ .bss.bootloader_changed
                 0x00000000200009dc        0x4 libbootloader.a(hf2.c.o)
- .bss.connected_func
+ .bss.cmdId.6040
                 0x00000000200009e0        0x4 libbootloader.a(hf2.c.o)
- .bss.new_app_start.6017
+ .bss.connected_func
                 0x00000000200009e4        0x4 libbootloader.a(hf2.c.o)
- .bss.new_base_vector.6016
+ .bss.new_app_start.6044
                 0x00000000200009e8        0x4 libbootloader.a(hf2.c.o)
- .bss.new_baseloader_size.6019
+ .bss.new_base_vector.6043
                 0x00000000200009ec        0x4 libbootloader.a(hf2.c.o)
- .bss.new_bootloader_size.6018
+ .bss.new_baseloader_size.6046
                 0x00000000200009f0        0x4 libbootloader.a(hf2.c.o)
- .bss.pkt.6048  0x00000000200009f4        0x4 libbootloader.a(hf2.c.o)
- .bss.prevCmdId.6014
-                0x00000000200009f8        0x4 libbootloader.a(hf2.c.o)
- .bss.remDataToSend
+ .bss.new_bootloader_size.6045
+                0x00000000200009f4        0x4 libbootloader.a(hf2.c.o)
+ .bss.pkt.6064  0x00000000200009f8        0x4 libbootloader.a(hf2.c.o)
+ .bss.prevCmdId.6041
                 0x00000000200009fc        0x4 libbootloader.a(hf2.c.o)
- .bss.remDataToSendLength
+ .bss.remDataToSend
                 0x0000000020000a00        0x4 libbootloader.a(hf2.c.o)
- .bss.rx_buf    0x0000000020000a04       0x40 libbootloader.a(hf2.c.o)
- .bss.rx_time   0x0000000020000a44        0x4 libbootloader.a(hf2.c.o)
- .bss.tx_buf    0x0000000020000a48       0x40 libbootloader.a(hf2.c.o)
+ .bss.remDataToSendLength
+                0x0000000020000a04        0x4 libbootloader.a(hf2.c.o)
+ .bss.rx_buf    0x0000000020000a08       0x40 libbootloader.a(hf2.c.o)
+ .bss.rx_time   0x0000000020000a48        0x4 libbootloader.a(hf2.c.o)
+ .bss.tx_buf    0x0000000020000a4c       0x40 libbootloader.a(hf2.c.o)
  .bss.usb21_bos
-                0x0000000020000a88        0x4 libbootloader.a(usb21_standard.c.o)
+                0x0000000020000a8c        0x4 libbootloader.a(usb21_standard.c.o)
  .bss.usbd_control_buffer
-                0x0000000020000a8c      0x100 libbootloader.a(usb_conf.c.o)
+                0x0000000020000a90      0x100 libbootloader.a(usb_conf.c.o)
  .bss.poll_restart_requested
-                0x0000000020000b8c        0x1 libbootloader.a(bootloader.c.o)
+                0x0000000020000b90        0x1 libbootloader.a(bootloader.c.o)
  .bss.cdc_is_connected
-                0x0000000020000b8d        0x1 libbootloader.a(usb_conf.c.o)
+                0x0000000020000b91        0x1 libbootloader.a(usb_conf.c.o)
  .bss.hf2_is_connected
-                0x0000000020000b8e        0x1 libbootloader.a(usb_conf.c.o)
+                0x0000000020000b92        0x1 libbootloader.a(usb_conf.c.o)
  .bss.forced_startup_mode
-                0x0000000020000b8f        0x1 libbootloader.a(target_stm32f103.c.o)
+                0x0000000020000b93        0x1 libbootloader.a(target_stm32f103.c.o)
  .bss.startup_mode
-                0x0000000020000b90        0x1 libbootloader.a(target_stm32f103.c.o)
+                0x0000000020000b94        0x1 libbootloader.a(target_stm32f103.c.o)
  .bss.connected
-                0x0000000020000b91        0x1 libbootloader.a(cdc.c.o)
+                0x0000000020000b95        0x1 libbootloader.a(cdc.c.o)
  .bss.connected
-                0x0000000020000b92        0x1 libbootloader.a(hf2.c.o)
- .bss.flush_count.6015
-                0x0000000020000b93        0x1 libbootloader.a(hf2.c.o)
+                0x0000000020000b96        0x1 libbootloader.a(hf2.c.o)
+ .bss.flush_count.6042
+                0x0000000020000b97        0x1 libbootloader.a(hf2.c.o)
  .bss.remDataToSendFlag
-                0x0000000020000b94        0x1 libbootloader.a(hf2.c.o)
+                0x0000000020000b98        0x1 libbootloader.a(hf2.c.o)
  .bss.restart_request
-                0x0000000020000b95        0x1 libbootloader.a(hf2.c.o)
+                0x0000000020000b99        0x1 libbootloader.a(hf2.c.o)
  :*reset_handler*(SORT_BY_ALIGNMENT(COMMON))
- *fill*         0x0000000020000b96        0x2 
- COMMON         0x0000000020000b98        0x4 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
-                0x0000000020000b98                hal_bss_test
+ *fill*         0x0000000020000b9a        0x2 
+ COMMON         0x0000000020000b9c        0x4 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
+                0x0000000020000b9c                hal_bss_test
  *libhal.a:*reset_handler*(SORT_BY_ALIGNMENT(COMMON))
  :*codal_target_hal*(SORT_BY_ALIGNMENT(COMMON))
  *libhal.a:*codal_target_hal*(SORT_BY_ALIGNMENT(COMMON))
  :*CortexContextSwitch*(SORT_BY_ALIGNMENT(COMMON))
  *libhal.a:(SORT_BY_ALIGNMENT(COMMON))
  *liblibopencm3.a:(SORT_BY_ALIGNMENT(COMMON))
- COMMON         0x0000000020000b9c      0x104 liblibopencm3.a(st_usbfs_core.c.o)
-                0x0000000020000b9c                st_usbfs_force_nak
-                0x0000000020000ba4                st_usbfs_dev
+ COMMON         0x0000000020000ba0      0x104 liblibopencm3.a(st_usbfs_core.c.o)
+                0x0000000020000ba0                st_usbfs_force_nak
+                0x0000000020000ba8                st_usbfs_dev
  *libFrameworkLibOpenCM3.a:(SORT_BY_ALIGNMENT(COMMON))
  *libcocoos.a:(SORT_BY_ALIGNMENT(COMMON))
- COMMON         0x0000000020000ca0        0x3 libcocoos.a(os_kernel.c.o)
-                0x0000000020000ca0                running_tid
-                0x0000000020000ca1                running
-                0x0000000020000ca2                last_running_task
+ COMMON         0x0000000020000ca4        0x3 libcocoos.a(os_kernel.c.o)
+                0x0000000020000ca4                running_tid
+                0x0000000020000ca5                running
+                0x0000000020000ca6                last_running_task
  *libcocoOS_?.?.?.a:(SORT_BY_ALIGNMENT(COMMON))
  *libgcc.a:(SORT_BY_ALIGNMENT(COMMON))
  *libqfplib.a:(SORT_BY_ALIGNMENT(COMMON))
@@ -4205,14 +4207,14 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
  *liblogger.a:(SORT_BY_ALIGNMENT(COMMON))
  *libbluepill.a:(SORT_BY_ALIGNMENT(COMMON))
  *libbootloader.a:(SORT_BY_ALIGNMENT(COMMON))
- *fill*         0x0000000020000ca3        0x1 
- COMMON         0x0000000020000ca4       0x5b libbootloader.a(hf2.c.o)
-                0x0000000020000ca4                hf2_buffer_mini
-                0x0000000020000d00                . = ALIGN (0x4)
- *fill*         0x0000000020000cff        0x1 
-                0x0000000020000d00                _boot_ebss = .
-                0x0000000020000d00                . = ALIGN (0x4)
-                0x0000000020000d00                boot_end = .
+ *fill*         0x0000000020000ca7        0x1 
+ COMMON         0x0000000020000ca8       0x5b libbootloader.a(hf2.c.o)
+                0x0000000020000ca8                hf2_buffer_mini
+                0x0000000020000d04                . = ALIGN (0x4)
+ *fill*         0x0000000020000d03        0x1 
+                0x0000000020000d04                _boot_ebss = .
+                0x0000000020000d04                . = ALIGN (0x4)
+                0x0000000020000d04                boot_end = .
 
 .bss            0x000000002000100c      0x66c
  *(SORT_BY_ALIGNMENT(.bss*))
@@ -4343,7 +4345,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm
                 0x00000000200047bc                PROVIDE (_boot_stack = (ORIGIN (ram) + LENGTH (ram)))
 OUTPUT(STM32_BLUE_PILL elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x899ff
+.debug_info     0x0000000000000000    0x89ad4
  .debug_info    0x0000000000000000      0xb18 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
  .debug_info    0x0000000000000b18     0x1e49 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/advmath.cpp.o
  .debug_info    0x0000000000002961     0x2fc2 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/buffer.cpp.o
@@ -4398,48 +4400,48 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .debug_info    0x000000000005cfc2     0x13d1 libbootloader.a(winusb.c.o)
  .debug_info    0x000000000005e393     0x141d libbootloader.a(target_stm32f103.c.o)
  .debug_info    0x000000000005f7b0     0x103c libbootloader.a(cdc.c.o)
- .debug_info    0x00000000000607ec     0x2439 libbootloader.a(hf2.c.o)
- .debug_info    0x0000000000062c25      0xf28 libbootloader.a(usb21_standard.c.o)
- .debug_info    0x0000000000063b4d      0x35e libbootloader.a(backup.c.o)
- .debug_info    0x0000000000063eab     0x2347 libhal.a(codal_target_hal.cpp.o)
- .debug_info    0x00000000000661f2       0x26 libhal.a(CortexContextSwitch.s.o)
- .debug_info    0x0000000000066218     0x1f2b libcm.a(CmI2C.cpp.o)
- .debug_info    0x0000000000068143     0x3234 libcm.a(CmPin.cpp.o)
- .debug_info    0x000000000006b377     0x26d6 libcm.a(CmSPI.cpp.o)
- .debug_info    0x000000000006da4d     0x1ca2 libcm.a(CmTimer.cpp.o)
- .debug_info    0x000000000006f6ef      0xfca libcm.a(application.cpp.o)
- .debug_info    0x00000000000706b9     0x1fec libcm.a(tasks.cpp.o)
- .debug_info    0x00000000000726a5     0x1cab libcm.a(CmPinMap.cpp.o)
- .debug_info    0x0000000000074350     0x3e2c libmodel.a(STM32BluePillIO.cpp.o)
- .debug_info    0x000000000007817c       0x26 libqfplib.a(qfplib.S.o)
- .debug_info    0x00000000000781a2      0x8db libnewlib.a(strncpy.c.o)
- .debug_info    0x0000000000078a7d     0x22ed libcodal-core.a(I2C.cpp.o)
- .debug_info    0x000000000007ad6a      0x8fd liblibopencm3.a(scb.c.o)
- .debug_info    0x000000000007b667      0x228 liblibopencm3.a(gpio_common_all.c.o)
- .debug_info    0x000000000007b88f      0x1a8 liblibopencm3.a(pwr_common_v1.c.o)
- .debug_info    0x000000000007ba37      0x5f1 liblibopencm3.a(rcc_common_all.c.o)
- .debug_info    0x000000000007c028      0x248 liblibopencm3.a(desig.c.o)
- .debug_info    0x000000000007c270      0x1d5 liblibopencm3.a(gpio.c.o)
- .debug_info    0x000000000007c445     0x18db liblibopencm3.a(rcc.c.o)
- .debug_info    0x000000000007dd20      0xcd9 liblibopencm3.a(st_usbfs_v1.c.o)
- .debug_info    0x000000000007e9f9     0x168c liblibopencm3.a(usb.c.o)
- .debug_info    0x0000000000080085     0x1893 liblibopencm3.a(usb_control.c.o)
- .debug_info    0x0000000000081918     0x1e02 liblibopencm3.a(usb_standard.c.o)
- .debug_info    0x000000000008371a       0xe8 liblibopencm3.a(flash_common_all.c.o)
- .debug_info    0x0000000000083802      0xf10 liblibopencm3.a(st_usbfs_core.c.o)
- .debug_info    0x0000000000084712       0xb4 libcocoos.a(os_cbk.c.o)
- .debug_info    0x00000000000847c6      0x288 libcocoos.a(os_kernel.c.o)
- .debug_info    0x0000000000084a4e      0x678 libcocoos.a(os_msgqueue.c.o)
- .debug_info    0x00000000000850c6      0x285 libcocoos.a(os_sem.c.o)
- .debug_info    0x000000000008534b     0x1786 libcocoos.a(os_task.c.o)
- .debug_info    0x0000000000086ad1      0x97b libcocoos.a(os_assert.c.o)
- .debug_info    0x000000000008744c      0x31d libcocoos.a(os_event.c.o)
- .debug_info    0x0000000000087769     0x1622 libbluepill.a(timer.cpp.o)
- .debug_info    0x0000000000088d8b      0x210 liblibopencm3.a(nvic.c.o)
- .debug_info    0x0000000000088f9b      0x203 liblibopencm3.a(exti_common_all.c.o)
- .debug_info    0x000000000008919e      0x861 liblibopencm3.a(rtc.c.o)
+ .debug_info    0x00000000000607ec     0x250e libbootloader.a(hf2.c.o)
+ .debug_info    0x0000000000062cfa      0xf28 libbootloader.a(usb21_standard.c.o)
+ .debug_info    0x0000000000063c22      0x35e libbootloader.a(backup.c.o)
+ .debug_info    0x0000000000063f80     0x2347 libhal.a(codal_target_hal.cpp.o)
+ .debug_info    0x00000000000662c7       0x26 libhal.a(CortexContextSwitch.s.o)
+ .debug_info    0x00000000000662ed     0x1f2b libcm.a(CmI2C.cpp.o)
+ .debug_info    0x0000000000068218     0x3234 libcm.a(CmPin.cpp.o)
+ .debug_info    0x000000000006b44c     0x26d6 libcm.a(CmSPI.cpp.o)
+ .debug_info    0x000000000006db22     0x1ca2 libcm.a(CmTimer.cpp.o)
+ .debug_info    0x000000000006f7c4      0xfca libcm.a(application.cpp.o)
+ .debug_info    0x000000000007078e     0x1fec libcm.a(tasks.cpp.o)
+ .debug_info    0x000000000007277a     0x1cab libcm.a(CmPinMap.cpp.o)
+ .debug_info    0x0000000000074425     0x3e2c libmodel.a(STM32BluePillIO.cpp.o)
+ .debug_info    0x0000000000078251       0x26 libqfplib.a(qfplib.S.o)
+ .debug_info    0x0000000000078277      0x8db libnewlib.a(strncpy.c.o)
+ .debug_info    0x0000000000078b52     0x22ed libcodal-core.a(I2C.cpp.o)
+ .debug_info    0x000000000007ae3f      0x8fd liblibopencm3.a(scb.c.o)
+ .debug_info    0x000000000007b73c      0x228 liblibopencm3.a(gpio_common_all.c.o)
+ .debug_info    0x000000000007b964      0x1a8 liblibopencm3.a(pwr_common_v1.c.o)
+ .debug_info    0x000000000007bb0c      0x5f1 liblibopencm3.a(rcc_common_all.c.o)
+ .debug_info    0x000000000007c0fd      0x248 liblibopencm3.a(desig.c.o)
+ .debug_info    0x000000000007c345      0x1d5 liblibopencm3.a(gpio.c.o)
+ .debug_info    0x000000000007c51a     0x18db liblibopencm3.a(rcc.c.o)
+ .debug_info    0x000000000007ddf5      0xcd9 liblibopencm3.a(st_usbfs_v1.c.o)
+ .debug_info    0x000000000007eace     0x168c liblibopencm3.a(usb.c.o)
+ .debug_info    0x000000000008015a     0x1893 liblibopencm3.a(usb_control.c.o)
+ .debug_info    0x00000000000819ed     0x1e02 liblibopencm3.a(usb_standard.c.o)
+ .debug_info    0x00000000000837ef       0xe8 liblibopencm3.a(flash_common_all.c.o)
+ .debug_info    0x00000000000838d7      0xf10 liblibopencm3.a(st_usbfs_core.c.o)
+ .debug_info    0x00000000000847e7       0xb4 libcocoos.a(os_cbk.c.o)
+ .debug_info    0x000000000008489b      0x288 libcocoos.a(os_kernel.c.o)
+ .debug_info    0x0000000000084b23      0x678 libcocoos.a(os_msgqueue.c.o)
+ .debug_info    0x000000000008519b      0x285 libcocoos.a(os_sem.c.o)
+ .debug_info    0x0000000000085420     0x1786 libcocoos.a(os_task.c.o)
+ .debug_info    0x0000000000086ba6      0x97b libcocoos.a(os_assert.c.o)
+ .debug_info    0x0000000000087521      0x31d libcocoos.a(os_event.c.o)
+ .debug_info    0x000000000008783e     0x1622 libbluepill.a(timer.cpp.o)
+ .debug_info    0x0000000000088e60      0x210 liblibopencm3.a(nvic.c.o)
+ .debug_info    0x0000000000089070      0x203 liblibopencm3.a(exti_common_all.c.o)
+ .debug_info    0x0000000000089273      0x861 liblibopencm3.a(rtc.c.o)
 
-.debug_abbrev   0x0000000000000000    0x16775
+.debug_abbrev   0x0000000000000000    0x16784
  .debug_abbrev  0x0000000000000000      0x274 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
  .debug_abbrev  0x0000000000000274      0x4c6 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/advmath.cpp.o
  .debug_abbrev  0x000000000000073a      0x709 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/buffer.cpp.o
@@ -4494,48 +4496,48 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .debug_abbrev  0x000000000000eda0      0x38f libbootloader.a(winusb.c.o)
  .debug_abbrev  0x000000000000f12f      0x3b3 libbootloader.a(target_stm32f103.c.o)
  .debug_abbrev  0x000000000000f4e2      0x36b libbootloader.a(cdc.c.o)
- .debug_abbrev  0x000000000000f84d      0x4ca libbootloader.a(hf2.c.o)
- .debug_abbrev  0x000000000000fd17      0x32b libbootloader.a(usb21_standard.c.o)
- .debug_abbrev  0x0000000000010042      0x126 libbootloader.a(backup.c.o)
- .debug_abbrev  0x0000000000010168      0x630 libhal.a(codal_target_hal.cpp.o)
- .debug_abbrev  0x0000000000010798       0x14 libhal.a(CortexContextSwitch.s.o)
- .debug_abbrev  0x00000000000107ac      0x4ef libcm.a(CmI2C.cpp.o)
- .debug_abbrev  0x0000000000010c9b      0x707 libcm.a(CmPin.cpp.o)
- .debug_abbrev  0x00000000000113a2      0x6bd libcm.a(CmSPI.cpp.o)
- .debug_abbrev  0x0000000000011a5f      0x5bd libcm.a(CmTimer.cpp.o)
- .debug_abbrev  0x000000000001201c      0x2f7 libcm.a(application.cpp.o)
- .debug_abbrev  0x0000000000012313      0x5a5 libcm.a(tasks.cpp.o)
- .debug_abbrev  0x00000000000128b8      0x368 libcm.a(CmPinMap.cpp.o)
- .debug_abbrev  0x0000000000012c20      0x3a9 libmodel.a(STM32BluePillIO.cpp.o)
- .debug_abbrev  0x0000000000012fc9       0x14 libqfplib.a(qfplib.S.o)
- .debug_abbrev  0x0000000000012fdd      0x1d9 libnewlib.a(strncpy.c.o)
- .debug_abbrev  0x00000000000131b6      0x5a6 libcodal-core.a(I2C.cpp.o)
- .debug_abbrev  0x000000000001375c      0x1d3 liblibopencm3.a(scb.c.o)
- .debug_abbrev  0x000000000001392f       0xf1 liblibopencm3.a(gpio_common_all.c.o)
- .debug_abbrev  0x0000000000013a20       0x92 liblibopencm3.a(pwr_common_v1.c.o)
- .debug_abbrev  0x0000000000013ab2      0x136 liblibopencm3.a(rcc_common_all.c.o)
- .debug_abbrev  0x0000000000013be8      0x120 liblibopencm3.a(desig.c.o)
- .debug_abbrev  0x0000000000013d08       0xb4 liblibopencm3.a(gpio.c.o)
- .debug_abbrev  0x0000000000013dbc      0x2ab liblibopencm3.a(rcc.c.o)
- .debug_abbrev  0x0000000000014067      0x22d liblibopencm3.a(st_usbfs_v1.c.o)
- .debug_abbrev  0x0000000000014294      0x32b liblibopencm3.a(usb.c.o)
- .debug_abbrev  0x00000000000145bf      0x46e liblibopencm3.a(usb_control.c.o)
- .debug_abbrev  0x0000000000014a2d      0x50c liblibopencm3.a(usb_standard.c.o)
- .debug_abbrev  0x0000000000014f39       0x87 liblibopencm3.a(flash_common_all.c.o)
- .debug_abbrev  0x0000000000014fc0      0x298 liblibopencm3.a(st_usbfs_core.c.o)
- .debug_abbrev  0x0000000000015258       0x60 libcocoos.a(os_cbk.c.o)
- .debug_abbrev  0x00000000000152b8      0x11a libcocoos.a(os_kernel.c.o)
- .debug_abbrev  0x00000000000153d2      0x256 libcocoos.a(os_msgqueue.c.o)
- .debug_abbrev  0x0000000000015628      0x16d libcocoos.a(os_sem.c.o)
- .debug_abbrev  0x0000000000015795      0x45b libcocoos.a(os_task.c.o)
- .debug_abbrev  0x0000000000015bf0      0x203 libcocoos.a(os_assert.c.o)
- .debug_abbrev  0x0000000000015df3      0x1b0 libcocoos.a(os_event.c.o)
- .debug_abbrev  0x0000000000015fa3      0x402 libbluepill.a(timer.cpp.o)
- .debug_abbrev  0x00000000000163a5       0xa3 liblibopencm3.a(nvic.c.o)
- .debug_abbrev  0x0000000000016448       0xe4 liblibopencm3.a(exti_common_all.c.o)
- .debug_abbrev  0x000000000001652c      0x249 liblibopencm3.a(rtc.c.o)
+ .debug_abbrev  0x000000000000f84d      0x4d9 libbootloader.a(hf2.c.o)
+ .debug_abbrev  0x000000000000fd26      0x32b libbootloader.a(usb21_standard.c.o)
+ .debug_abbrev  0x0000000000010051      0x126 libbootloader.a(backup.c.o)
+ .debug_abbrev  0x0000000000010177      0x630 libhal.a(codal_target_hal.cpp.o)
+ .debug_abbrev  0x00000000000107a7       0x14 libhal.a(CortexContextSwitch.s.o)
+ .debug_abbrev  0x00000000000107bb      0x4ef libcm.a(CmI2C.cpp.o)
+ .debug_abbrev  0x0000000000010caa      0x707 libcm.a(CmPin.cpp.o)
+ .debug_abbrev  0x00000000000113b1      0x6bd libcm.a(CmSPI.cpp.o)
+ .debug_abbrev  0x0000000000011a6e      0x5bd libcm.a(CmTimer.cpp.o)
+ .debug_abbrev  0x000000000001202b      0x2f7 libcm.a(application.cpp.o)
+ .debug_abbrev  0x0000000000012322      0x5a5 libcm.a(tasks.cpp.o)
+ .debug_abbrev  0x00000000000128c7      0x368 libcm.a(CmPinMap.cpp.o)
+ .debug_abbrev  0x0000000000012c2f      0x3a9 libmodel.a(STM32BluePillIO.cpp.o)
+ .debug_abbrev  0x0000000000012fd8       0x14 libqfplib.a(qfplib.S.o)
+ .debug_abbrev  0x0000000000012fec      0x1d9 libnewlib.a(strncpy.c.o)
+ .debug_abbrev  0x00000000000131c5      0x5a6 libcodal-core.a(I2C.cpp.o)
+ .debug_abbrev  0x000000000001376b      0x1d3 liblibopencm3.a(scb.c.o)
+ .debug_abbrev  0x000000000001393e       0xf1 liblibopencm3.a(gpio_common_all.c.o)
+ .debug_abbrev  0x0000000000013a2f       0x92 liblibopencm3.a(pwr_common_v1.c.o)
+ .debug_abbrev  0x0000000000013ac1      0x136 liblibopencm3.a(rcc_common_all.c.o)
+ .debug_abbrev  0x0000000000013bf7      0x120 liblibopencm3.a(desig.c.o)
+ .debug_abbrev  0x0000000000013d17       0xb4 liblibopencm3.a(gpio.c.o)
+ .debug_abbrev  0x0000000000013dcb      0x2ab liblibopencm3.a(rcc.c.o)
+ .debug_abbrev  0x0000000000014076      0x22d liblibopencm3.a(st_usbfs_v1.c.o)
+ .debug_abbrev  0x00000000000142a3      0x32b liblibopencm3.a(usb.c.o)
+ .debug_abbrev  0x00000000000145ce      0x46e liblibopencm3.a(usb_control.c.o)
+ .debug_abbrev  0x0000000000014a3c      0x50c liblibopencm3.a(usb_standard.c.o)
+ .debug_abbrev  0x0000000000014f48       0x87 liblibopencm3.a(flash_common_all.c.o)
+ .debug_abbrev  0x0000000000014fcf      0x298 liblibopencm3.a(st_usbfs_core.c.o)
+ .debug_abbrev  0x0000000000015267       0x60 libcocoos.a(os_cbk.c.o)
+ .debug_abbrev  0x00000000000152c7      0x11a libcocoos.a(os_kernel.c.o)
+ .debug_abbrev  0x00000000000153e1      0x256 libcocoos.a(os_msgqueue.c.o)
+ .debug_abbrev  0x0000000000015637      0x16d libcocoos.a(os_sem.c.o)
+ .debug_abbrev  0x00000000000157a4      0x45b libcocoos.a(os_task.c.o)
+ .debug_abbrev  0x0000000000015bff      0x203 libcocoos.a(os_assert.c.o)
+ .debug_abbrev  0x0000000000015e02      0x1b0 libcocoos.a(os_event.c.o)
+ .debug_abbrev  0x0000000000015fb2      0x402 libbluepill.a(timer.cpp.o)
+ .debug_abbrev  0x00000000000163b4       0xa3 liblibopencm3.a(nvic.c.o)
+ .debug_abbrev  0x0000000000016457       0xe4 liblibopencm3.a(exti_common_all.c.o)
+ .debug_abbrev  0x000000000001653b      0x249 liblibopencm3.a(rtc.c.o)
 
-.debug_loc      0x0000000000000000    0x1a46b
+.debug_loc      0x0000000000000000    0x1a588
  .debug_loc     0x0000000000000000      0x100 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
  .debug_loc     0x0000000000000100      0x108 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/advmath.cpp.o
  .debug_loc     0x0000000000000208     0x1d04 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/buffer.cpp.o
@@ -4585,43 +4587,43 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .debug_loc     0x0000000000010cc4      0x444 libbootloader.a(winusb.c.o)
  .debug_loc     0x0000000000011108      0x1e2 libbootloader.a(target_stm32f103.c.o)
  .debug_loc     0x00000000000112ea      0x43c libbootloader.a(cdc.c.o)
- .debug_loc     0x0000000000011726      0xa60 libbootloader.a(hf2.c.o)
- .debug_loc     0x0000000000012186      0x4b3 libbootloader.a(usb21_standard.c.o)
- .debug_loc     0x0000000000012639       0x90 libbootloader.a(backup.c.o)
- .debug_loc     0x00000000000126c9      0x28d libhal.a(codal_target_hal.cpp.o)
- .debug_loc     0x0000000000012956       0xe0 libcm.a(CmI2C.cpp.o)
- .debug_loc     0x0000000000012a36      0x8aa libcm.a(CmPin.cpp.o)
- .debug_loc     0x00000000000132e0      0x6a3 libcm.a(CmSPI.cpp.o)
- .debug_loc     0x0000000000013983      0x184 libcm.a(CmTimer.cpp.o)
- .debug_loc     0x0000000000013b07       0xd0 libcm.a(application.cpp.o)
- .debug_loc     0x0000000000013bd7      0x121 libcm.a(tasks.cpp.o)
- .debug_loc     0x0000000000013cf8      0x222 libcm.a(CmPinMap.cpp.o)
- .debug_loc     0x0000000000013f1a       0x1e libmodel.a(STM32BluePillIO.cpp.o)
- .debug_loc     0x0000000000013f38       0xef libnewlib.a(strncpy.c.o)
- .debug_loc     0x0000000000014027      0x728 libcodal-core.a(I2C.cpp.o)
- .debug_loc     0x000000000001474f       0x21 liblibopencm3.a(scb.c.o)
- .debug_loc     0x0000000000014770       0x97 liblibopencm3.a(gpio_common_all.c.o)
- .debug_loc     0x0000000000014807       0x21 liblibopencm3.a(pwr_common_v1.c.o)
- .debug_loc     0x0000000000014828      0x108 liblibopencm3.a(rcc_common_all.c.o)
- .debug_loc     0x0000000000014930      0x1c8 liblibopencm3.a(desig.c.o)
- .debug_loc     0x0000000000014af8      0x19d liblibopencm3.a(gpio.c.o)
- .debug_loc     0x0000000000014c95      0xb72 liblibopencm3.a(rcc.c.o)
- .debug_loc     0x0000000000015807      0x189 liblibopencm3.a(st_usbfs_v1.c.o)
- .debug_loc     0x0000000000015990      0x4e8 liblibopencm3.a(usb.c.o)
- .debug_loc     0x0000000000015e78      0x71b liblibopencm3.a(usb_control.c.o)
- .debug_loc     0x0000000000016593     0x1a27 liblibopencm3.a(usb_standard.c.o)
- .debug_loc     0x0000000000017fba       0x3f liblibopencm3.a(flash_common_all.c.o)
- .debug_loc     0x0000000000017ff9      0x800 liblibopencm3.a(st_usbfs_core.c.o)
- .debug_loc     0x00000000000187f9       0x63 libcocoos.a(os_kernel.c.o)
- .debug_loc     0x000000000001885c      0x766 libcocoos.a(os_msgqueue.c.o)
- .debug_loc     0x0000000000018fc2      0x111 libcocoos.a(os_sem.c.o)
- .debug_loc     0x00000000000190d3      0xc1b libcocoos.a(os_task.c.o)
- .debug_loc     0x0000000000019cee       0x21 libcocoos.a(os_assert.c.o)
- .debug_loc     0x0000000000019d0f       0xfa libcocoos.a(os_event.c.o)
- .debug_loc     0x0000000000019e09       0xbe libbluepill.a(timer.cpp.o)
- .debug_loc     0x0000000000019ec7      0x142 liblibopencm3.a(nvic.c.o)
- .debug_loc     0x000000000001a009      0x210 liblibopencm3.a(exti_common_all.c.o)
- .debug_loc     0x000000000001a219      0x252 liblibopencm3.a(rtc.c.o)
+ .debug_loc     0x0000000000011726      0xb7d libbootloader.a(hf2.c.o)
+ .debug_loc     0x00000000000122a3      0x4b3 libbootloader.a(usb21_standard.c.o)
+ .debug_loc     0x0000000000012756       0x90 libbootloader.a(backup.c.o)
+ .debug_loc     0x00000000000127e6      0x28d libhal.a(codal_target_hal.cpp.o)
+ .debug_loc     0x0000000000012a73       0xe0 libcm.a(CmI2C.cpp.o)
+ .debug_loc     0x0000000000012b53      0x8aa libcm.a(CmPin.cpp.o)
+ .debug_loc     0x00000000000133fd      0x6a3 libcm.a(CmSPI.cpp.o)
+ .debug_loc     0x0000000000013aa0      0x184 libcm.a(CmTimer.cpp.o)
+ .debug_loc     0x0000000000013c24       0xd0 libcm.a(application.cpp.o)
+ .debug_loc     0x0000000000013cf4      0x121 libcm.a(tasks.cpp.o)
+ .debug_loc     0x0000000000013e15      0x222 libcm.a(CmPinMap.cpp.o)
+ .debug_loc     0x0000000000014037       0x1e libmodel.a(STM32BluePillIO.cpp.o)
+ .debug_loc     0x0000000000014055       0xef libnewlib.a(strncpy.c.o)
+ .debug_loc     0x0000000000014144      0x728 libcodal-core.a(I2C.cpp.o)
+ .debug_loc     0x000000000001486c       0x21 liblibopencm3.a(scb.c.o)
+ .debug_loc     0x000000000001488d       0x97 liblibopencm3.a(gpio_common_all.c.o)
+ .debug_loc     0x0000000000014924       0x21 liblibopencm3.a(pwr_common_v1.c.o)
+ .debug_loc     0x0000000000014945      0x108 liblibopencm3.a(rcc_common_all.c.o)
+ .debug_loc     0x0000000000014a4d      0x1c8 liblibopencm3.a(desig.c.o)
+ .debug_loc     0x0000000000014c15      0x19d liblibopencm3.a(gpio.c.o)
+ .debug_loc     0x0000000000014db2      0xb72 liblibopencm3.a(rcc.c.o)
+ .debug_loc     0x0000000000015924      0x189 liblibopencm3.a(st_usbfs_v1.c.o)
+ .debug_loc     0x0000000000015aad      0x4e8 liblibopencm3.a(usb.c.o)
+ .debug_loc     0x0000000000015f95      0x71b liblibopencm3.a(usb_control.c.o)
+ .debug_loc     0x00000000000166b0     0x1a27 liblibopencm3.a(usb_standard.c.o)
+ .debug_loc     0x00000000000180d7       0x3f liblibopencm3.a(flash_common_all.c.o)
+ .debug_loc     0x0000000000018116      0x800 liblibopencm3.a(st_usbfs_core.c.o)
+ .debug_loc     0x0000000000018916       0x63 libcocoos.a(os_kernel.c.o)
+ .debug_loc     0x0000000000018979      0x766 libcocoos.a(os_msgqueue.c.o)
+ .debug_loc     0x00000000000190df      0x111 libcocoos.a(os_sem.c.o)
+ .debug_loc     0x00000000000191f0      0xc1b libcocoos.a(os_task.c.o)
+ .debug_loc     0x0000000000019e0b       0x21 libcocoos.a(os_assert.c.o)
+ .debug_loc     0x0000000000019e2c       0xfa libcocoos.a(os_event.c.o)
+ .debug_loc     0x0000000000019f26       0xbe libbluepill.a(timer.cpp.o)
+ .debug_loc     0x0000000000019fe4      0x142 liblibopencm3.a(nvic.c.o)
+ .debug_loc     0x000000000001a126      0x210 liblibopencm3.a(exti_common_all.c.o)
+ .debug_loc     0x000000000001a336      0x252 liblibopencm3.a(rtc.c.o)
 
 .debug_aranges  0x0000000000000000     0x26b8
  .debug_aranges
@@ -4813,7 +4815,7 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .debug_aranges
                 0x0000000000002618       0xa0 liblibopencm3.a(rtc.c.o)
 
-.debug_ranges   0x0000000000000000     0x4b30
+.debug_ranges   0x0000000000000000     0x4b90
  .debug_ranges  0x0000000000000000       0x28 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
  .debug_ranges  0x0000000000000028       0x48 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/advmath.cpp.o
  .debug_ranges  0x0000000000000070      0x178 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/buffer.cpp.o
@@ -4864,46 +4866,46 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .debug_ranges  0x0000000000002d40       0x70 libbootloader.a(winusb.c.o)
  .debug_ranges  0x0000000000002db0       0x60 libbootloader.a(target_stm32f103.c.o)
  .debug_ranges  0x0000000000002e10       0x50 libbootloader.a(cdc.c.o)
- .debug_ranges  0x0000000000002e60      0x2b8 libbootloader.a(hf2.c.o)
- .debug_ranges  0x0000000000003118       0xd0 libbootloader.a(usb21_standard.c.o)
- .debug_ranges  0x00000000000031e8       0x18 libbootloader.a(backup.c.o)
- .debug_ranges  0x0000000000003200      0x170 libhal.a(codal_target_hal.cpp.o)
- .debug_ranges  0x0000000000003370       0x30 libcm.a(CmI2C.cpp.o)
- .debug_ranges  0x00000000000033a0      0x1a0 libcm.a(CmPin.cpp.o)
- .debug_ranges  0x0000000000003540       0xf0 libcm.a(CmSPI.cpp.o)
- .debug_ranges  0x0000000000003630       0x80 libcm.a(CmTimer.cpp.o)
- .debug_ranges  0x00000000000036b0       0x10 libcm.a(application.cpp.o)
- .debug_ranges  0x00000000000036c0       0x78 libcm.a(tasks.cpp.o)
- .debug_ranges  0x0000000000003738       0x20 libcm.a(CmPinMap.cpp.o)
- .debug_ranges  0x0000000000003758       0x10 libmodel.a(STM32BluePillIO.cpp.o)
- .debug_ranges  0x0000000000003768       0x10 libnewlib.a(strncpy.c.o)
- .debug_ranges  0x0000000000003778       0x90 libcodal-core.a(I2C.cpp.o)
- .debug_ranges  0x0000000000003808       0x20 liblibopencm3.a(scb.c.o)
- .debug_ranges  0x0000000000003828       0x40 liblibopencm3.a(gpio_common_all.c.o)
- .debug_ranges  0x0000000000003868       0x80 liblibopencm3.a(pwr_common_v1.c.o)
- .debug_ranges  0x00000000000038e8       0x58 liblibopencm3.a(rcc_common_all.c.o)
- .debug_ranges  0x0000000000003940       0x50 liblibopencm3.a(desig.c.o)
- .debug_ranges  0x0000000000003990       0x28 liblibopencm3.a(gpio.c.o)
- .debug_ranges  0x00000000000039b8      0x758 liblibopencm3.a(rcc.c.o)
- .debug_ranges  0x0000000000004110       0x20 liblibopencm3.a(st_usbfs_v1.c.o)
- .debug_ranges  0x0000000000004130       0x90 liblibopencm3.a(usb.c.o)
- .debug_ranges  0x00000000000041c0       0xa0 liblibopencm3.a(usb_control.c.o)
- .debug_ranges  0x0000000000004260      0x108 liblibopencm3.a(usb_standard.c.o)
- .debug_ranges  0x0000000000004368       0x28 liblibopencm3.a(flash_common_all.c.o)
- .debug_ranges  0x0000000000004390      0x150 liblibopencm3.a(st_usbfs_core.c.o)
- .debug_ranges  0x00000000000044e0       0x10 libcocoos.a(os_cbk.c.o)
- .debug_ranges  0x00000000000044f0       0x58 libcocoos.a(os_kernel.c.o)
- .debug_ranges  0x0000000000004548       0x78 libcocoos.a(os_msgqueue.c.o)
- .debug_ranges  0x00000000000045c0       0x78 libcocoos.a(os_sem.c.o)
- .debug_ranges  0x0000000000004638      0x210 libcocoos.a(os_task.c.o)
- .debug_ranges  0x0000000000004848       0x10 libcocoos.a(os_assert.c.o)
- .debug_ranges  0x0000000000004858       0x48 libcocoos.a(os_event.c.o)
- .debug_ranges  0x00000000000048a0       0x48 libbluepill.a(timer.cpp.o)
- .debug_ranges  0x00000000000048e8       0x50 liblibopencm3.a(nvic.c.o)
- .debug_ranges  0x0000000000004938       0x58 liblibopencm3.a(exti_common_all.c.o)
- .debug_ranges  0x0000000000004990      0x1a0 liblibopencm3.a(rtc.c.o)
+ .debug_ranges  0x0000000000002e60      0x318 libbootloader.a(hf2.c.o)
+ .debug_ranges  0x0000000000003178       0xd0 libbootloader.a(usb21_standard.c.o)
+ .debug_ranges  0x0000000000003248       0x18 libbootloader.a(backup.c.o)
+ .debug_ranges  0x0000000000003260      0x170 libhal.a(codal_target_hal.cpp.o)
+ .debug_ranges  0x00000000000033d0       0x30 libcm.a(CmI2C.cpp.o)
+ .debug_ranges  0x0000000000003400      0x1a0 libcm.a(CmPin.cpp.o)
+ .debug_ranges  0x00000000000035a0       0xf0 libcm.a(CmSPI.cpp.o)
+ .debug_ranges  0x0000000000003690       0x80 libcm.a(CmTimer.cpp.o)
+ .debug_ranges  0x0000000000003710       0x10 libcm.a(application.cpp.o)
+ .debug_ranges  0x0000000000003720       0x78 libcm.a(tasks.cpp.o)
+ .debug_ranges  0x0000000000003798       0x20 libcm.a(CmPinMap.cpp.o)
+ .debug_ranges  0x00000000000037b8       0x10 libmodel.a(STM32BluePillIO.cpp.o)
+ .debug_ranges  0x00000000000037c8       0x10 libnewlib.a(strncpy.c.o)
+ .debug_ranges  0x00000000000037d8       0x90 libcodal-core.a(I2C.cpp.o)
+ .debug_ranges  0x0000000000003868       0x20 liblibopencm3.a(scb.c.o)
+ .debug_ranges  0x0000000000003888       0x40 liblibopencm3.a(gpio_common_all.c.o)
+ .debug_ranges  0x00000000000038c8       0x80 liblibopencm3.a(pwr_common_v1.c.o)
+ .debug_ranges  0x0000000000003948       0x58 liblibopencm3.a(rcc_common_all.c.o)
+ .debug_ranges  0x00000000000039a0       0x50 liblibopencm3.a(desig.c.o)
+ .debug_ranges  0x00000000000039f0       0x28 liblibopencm3.a(gpio.c.o)
+ .debug_ranges  0x0000000000003a18      0x758 liblibopencm3.a(rcc.c.o)
+ .debug_ranges  0x0000000000004170       0x20 liblibopencm3.a(st_usbfs_v1.c.o)
+ .debug_ranges  0x0000000000004190       0x90 liblibopencm3.a(usb.c.o)
+ .debug_ranges  0x0000000000004220       0xa0 liblibopencm3.a(usb_control.c.o)
+ .debug_ranges  0x00000000000042c0      0x108 liblibopencm3.a(usb_standard.c.o)
+ .debug_ranges  0x00000000000043c8       0x28 liblibopencm3.a(flash_common_all.c.o)
+ .debug_ranges  0x00000000000043f0      0x150 liblibopencm3.a(st_usbfs_core.c.o)
+ .debug_ranges  0x0000000000004540       0x10 libcocoos.a(os_cbk.c.o)
+ .debug_ranges  0x0000000000004550       0x58 libcocoos.a(os_kernel.c.o)
+ .debug_ranges  0x00000000000045a8       0x78 libcocoos.a(os_msgqueue.c.o)
+ .debug_ranges  0x0000000000004620       0x78 libcocoos.a(os_sem.c.o)
+ .debug_ranges  0x0000000000004698      0x210 libcocoos.a(os_task.c.o)
+ .debug_ranges  0x00000000000048a8       0x10 libcocoos.a(os_assert.c.o)
+ .debug_ranges  0x00000000000048b8       0x48 libcocoos.a(os_event.c.o)
+ .debug_ranges  0x0000000000004900       0x48 libbluepill.a(timer.cpp.o)
+ .debug_ranges  0x0000000000004948       0x50 liblibopencm3.a(nvic.c.o)
+ .debug_ranges  0x0000000000004998       0x58 liblibopencm3.a(exti_common_all.c.o)
+ .debug_ranges  0x00000000000049f0      0x1a0 liblibopencm3.a(rtc.c.o)
 
-.debug_line     0x0000000000000000    0x206f7
+.debug_line     0x0000000000000000    0x20721
  .debug_line    0x0000000000000000      0x459 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
  .debug_line    0x0000000000000459      0x685 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/advmath.cpp.o
  .debug_line    0x0000000000000ade      0x91e CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/buffer.cpp.o
@@ -4958,48 +4960,48 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .debug_line    0x000000000001384f      0x463 libbootloader.a(winusb.c.o)
  .debug_line    0x0000000000013cb2      0x86d libbootloader.a(target_stm32f103.c.o)
  .debug_line    0x000000000001451f      0x470 libbootloader.a(cdc.c.o)
- .debug_line    0x000000000001498f      0x915 libbootloader.a(hf2.c.o)
- .debug_line    0x00000000000152a4      0x458 libbootloader.a(usb21_standard.c.o)
- .debug_line    0x00000000000156fc      0x30a libbootloader.a(backup.c.o)
- .debug_line    0x0000000000015a06      0xbe4 libhal.a(codal_target_hal.cpp.o)
- .debug_line    0x00000000000165ea      0x148 libhal.a(CortexContextSwitch.s.o)
- .debug_line    0x0000000000016732      0x51e libcm.a(CmI2C.cpp.o)
- .debug_line    0x0000000000016c50      0xa6a libcm.a(CmPin.cpp.o)
- .debug_line    0x00000000000176ba      0x87d libcm.a(CmSPI.cpp.o)
- .debug_line    0x0000000000017f37      0x9d8 libcm.a(CmTimer.cpp.o)
- .debug_line    0x000000000001890f      0x41e libcm.a(application.cpp.o)
- .debug_line    0x0000000000018d2d      0x6c2 libcm.a(tasks.cpp.o)
- .debug_line    0x00000000000193ef      0x63a libcm.a(CmPinMap.cpp.o)
- .debug_line    0x0000000000019a29      0x61d libmodel.a(STM32BluePillIO.cpp.o)
- .debug_line    0x000000000001a046      0x2a3 libqfplib.a(qfplib.S.o)
- .debug_line    0x000000000001a2e9      0x103 libnewlib.a(strncpy.c.o)
- .debug_line    0x000000000001a3ec      0x57c libcodal-core.a(I2C.cpp.o)
- .debug_line    0x000000000001a968      0x286 liblibopencm3.a(scb.c.o)
- .debug_line    0x000000000001abee      0x20a liblibopencm3.a(gpio_common_all.c.o)
- .debug_line    0x000000000001adf8      0x28f liblibopencm3.a(pwr_common_v1.c.o)
- .debug_line    0x000000000001b087      0x2dd liblibopencm3.a(rcc_common_all.c.o)
- .debug_line    0x000000000001b364      0x245 liblibopencm3.a(desig.c.o)
- .debug_line    0x000000000001b5a9      0x219 liblibopencm3.a(gpio.c.o)
- .debug_line    0x000000000001b7c2      0x985 liblibopencm3.a(rcc.c.o)
- .debug_line    0x000000000001c147      0x4f9 liblibopencm3.a(st_usbfs_v1.c.o)
- .debug_line    0x000000000001c640      0x3d5 liblibopencm3.a(usb.c.o)
- .debug_line    0x000000000001ca15      0x4b1 liblibopencm3.a(usb_control.c.o)
- .debug_line    0x000000000001cec6      0x63e liblibopencm3.a(usb_standard.c.o)
- .debug_line    0x000000000001d504      0x1d0 liblibopencm3.a(flash_common_all.c.o)
- .debug_line    0x000000000001d6d4      0x538 liblibopencm3.a(st_usbfs_core.c.o)
- .debug_line    0x000000000001dc0c      0x20a libcocoos.a(os_cbk.c.o)
- .debug_line    0x000000000001de16      0x2f9 libcocoos.a(os_kernel.c.o)
- .debug_line    0x000000000001e10f      0x368 libcocoos.a(os_msgqueue.c.o)
- .debug_line    0x000000000001e477      0x2ac libcocoos.a(os_sem.c.o)
- .debug_line    0x000000000001e723      0x7b5 libcocoos.a(os_task.c.o)
- .debug_line    0x000000000001eed8      0x375 libcocoos.a(os_assert.c.o)
- .debug_line    0x000000000001f24d      0x35a libcocoos.a(os_event.c.o)
- .debug_line    0x000000000001f5a7      0x70b libbluepill.a(timer.cpp.o)
- .debug_line    0x000000000001fcb2      0x215 liblibopencm3.a(nvic.c.o)
- .debug_line    0x000000000001fec7      0x2de liblibopencm3.a(exti_common_all.c.o)
- .debug_line    0x00000000000201a5      0x552 liblibopencm3.a(rtc.c.o)
+ .debug_line    0x000000000001498f      0x93f libbootloader.a(hf2.c.o)
+ .debug_line    0x00000000000152ce      0x458 libbootloader.a(usb21_standard.c.o)
+ .debug_line    0x0000000000015726      0x30a libbootloader.a(backup.c.o)
+ .debug_line    0x0000000000015a30      0xbe4 libhal.a(codal_target_hal.cpp.o)
+ .debug_line    0x0000000000016614      0x148 libhal.a(CortexContextSwitch.s.o)
+ .debug_line    0x000000000001675c      0x51e libcm.a(CmI2C.cpp.o)
+ .debug_line    0x0000000000016c7a      0xa6a libcm.a(CmPin.cpp.o)
+ .debug_line    0x00000000000176e4      0x87d libcm.a(CmSPI.cpp.o)
+ .debug_line    0x0000000000017f61      0x9d8 libcm.a(CmTimer.cpp.o)
+ .debug_line    0x0000000000018939      0x41e libcm.a(application.cpp.o)
+ .debug_line    0x0000000000018d57      0x6c2 libcm.a(tasks.cpp.o)
+ .debug_line    0x0000000000019419      0x63a libcm.a(CmPinMap.cpp.o)
+ .debug_line    0x0000000000019a53      0x61d libmodel.a(STM32BluePillIO.cpp.o)
+ .debug_line    0x000000000001a070      0x2a3 libqfplib.a(qfplib.S.o)
+ .debug_line    0x000000000001a313      0x103 libnewlib.a(strncpy.c.o)
+ .debug_line    0x000000000001a416      0x57c libcodal-core.a(I2C.cpp.o)
+ .debug_line    0x000000000001a992      0x286 liblibopencm3.a(scb.c.o)
+ .debug_line    0x000000000001ac18      0x20a liblibopencm3.a(gpio_common_all.c.o)
+ .debug_line    0x000000000001ae22      0x28f liblibopencm3.a(pwr_common_v1.c.o)
+ .debug_line    0x000000000001b0b1      0x2dd liblibopencm3.a(rcc_common_all.c.o)
+ .debug_line    0x000000000001b38e      0x245 liblibopencm3.a(desig.c.o)
+ .debug_line    0x000000000001b5d3      0x219 liblibopencm3.a(gpio.c.o)
+ .debug_line    0x000000000001b7ec      0x985 liblibopencm3.a(rcc.c.o)
+ .debug_line    0x000000000001c171      0x4f9 liblibopencm3.a(st_usbfs_v1.c.o)
+ .debug_line    0x000000000001c66a      0x3d5 liblibopencm3.a(usb.c.o)
+ .debug_line    0x000000000001ca3f      0x4b1 liblibopencm3.a(usb_control.c.o)
+ .debug_line    0x000000000001cef0      0x63e liblibopencm3.a(usb_standard.c.o)
+ .debug_line    0x000000000001d52e      0x1d0 liblibopencm3.a(flash_common_all.c.o)
+ .debug_line    0x000000000001d6fe      0x538 liblibopencm3.a(st_usbfs_core.c.o)
+ .debug_line    0x000000000001dc36      0x20a libcocoos.a(os_cbk.c.o)
+ .debug_line    0x000000000001de40      0x2f9 libcocoos.a(os_kernel.c.o)
+ .debug_line    0x000000000001e139      0x368 libcocoos.a(os_msgqueue.c.o)
+ .debug_line    0x000000000001e4a1      0x2ac libcocoos.a(os_sem.c.o)
+ .debug_line    0x000000000001e74d      0x7b5 libcocoos.a(os_task.c.o)
+ .debug_line    0x000000000001ef02      0x375 libcocoos.a(os_assert.c.o)
+ .debug_line    0x000000000001f277      0x35a libcocoos.a(os_event.c.o)
+ .debug_line    0x000000000001f5d1      0x70b libbluepill.a(timer.cpp.o)
+ .debug_line    0x000000000001fcdc      0x215 liblibopencm3.a(nvic.c.o)
+ .debug_line    0x000000000001fef1      0x2de liblibopencm3.a(exti_common_all.c.o)
+ .debug_line    0x00000000000201cf      0x552 liblibopencm3.a(rtc.c.o)
 
-.debug_str      0x0000000000000000    0x110a6
+.debug_str      0x0000000000000000    0x110d0
  .debug_str     0x0000000000000000      0x773 /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
                                         0x84c (size before relaxing)
  .debug_str     0x0000000000000773      0xc85 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/advmath.cpp.o
@@ -5108,85 +5110,85 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
                                         0xe9b (size before relaxing)
  .debug_str     0x000000000000c5bc      0x248 libbootloader.a(cdc.c.o)
                                         0xa91 (size before relaxing)
- .debug_str     0x000000000000c804      0x442 libbootloader.a(hf2.c.o)
-                                        0xed2 (size before relaxing)
- .debug_str     0x000000000000cc46      0x112 libbootloader.a(usb21_standard.c.o)
+ .debug_str     0x000000000000c804      0x46c libbootloader.a(hf2.c.o)
+                                        0xefc (size before relaxing)
+ .debug_str     0x000000000000cc70      0x112 libbootloader.a(usb21_standard.c.o)
                                         0x98e (size before relaxing)
- .debug_str     0x000000000000cd58       0xdb libbootloader.a(backup.c.o)
+ .debug_str     0x000000000000cd82       0xdb libbootloader.a(backup.c.o)
                                         0x589 (size before relaxing)
- .debug_str     0x000000000000ce33      0x305 libhal.a(codal_target_hal.cpp.o)
+ .debug_str     0x000000000000ce5d      0x305 libhal.a(codal_target_hal.cpp.o)
                                         0xfb5 (size before relaxing)
- .debug_str     0x000000000000d138       0x82 libhal.a(CortexContextSwitch.s.o)
+ .debug_str     0x000000000000d162       0x82 libhal.a(CortexContextSwitch.s.o)
                                          0xfe (size before relaxing)
- .debug_str     0x000000000000d1ba      0x2b9 libcm.a(CmI2C.cpp.o)
+ .debug_str     0x000000000000d1e4      0x2b9 libcm.a(CmI2C.cpp.o)
                                        0x111c (size before relaxing)
- .debug_str     0x000000000000d473      0x54d libcm.a(CmPin.cpp.o)
+ .debug_str     0x000000000000d49d      0x54d libcm.a(CmPin.cpp.o)
                                        0x1f4e (size before relaxing)
- .debug_str     0x000000000000d9c0      0x3eb libcm.a(CmSPI.cpp.o)
+ .debug_str     0x000000000000d9ea      0x3eb libcm.a(CmSPI.cpp.o)
                                        0x10de (size before relaxing)
- .debug_str     0x000000000000ddab      0x1c9 libcm.a(CmTimer.cpp.o)
+ .debug_str     0x000000000000ddd5      0x1c9 libcm.a(CmTimer.cpp.o)
                                         0xe4b (size before relaxing)
- .debug_str     0x000000000000df74       0x9c libcm.a(application.cpp.o)
+ .debug_str     0x000000000000df9e       0x9c libcm.a(application.cpp.o)
                                         0x8a4 (size before relaxing)
- .debug_str     0x000000000000e010      0x123 libcm.a(tasks.cpp.o)
+ .debug_str     0x000000000000e03a      0x123 libcm.a(tasks.cpp.o)
                                         0xff0 (size before relaxing)
- .debug_str     0x000000000000e133       0xb6 libcm.a(CmPinMap.cpp.o)
+ .debug_str     0x000000000000e15d       0xb6 libcm.a(CmPinMap.cpp.o)
                                        0x1419 (size before relaxing)
- .debug_str     0x000000000000e1e9      0x400 libmodel.a(STM32BluePillIO.cpp.o)
+ .debug_str     0x000000000000e213      0x400 libmodel.a(STM32BluePillIO.cpp.o)
                                        0x1725 (size before relaxing)
- .debug_str     0x000000000000e5e9       0xcb libqfplib.a(qfplib.S.o)
+ .debug_str     0x000000000000e613       0xcb libqfplib.a(qfplib.S.o)
                                          0xd9 (size before relaxing)
- .debug_str     0x000000000000e6b4       0x2c libnewlib.a(strncpy.c.o)
+ .debug_str     0x000000000000e6de       0x2c libnewlib.a(strncpy.c.o)
                                         0x585 (size before relaxing)
- .debug_str     0x000000000000e6e0      0x227 libcodal-core.a(I2C.cpp.o)
+ .debug_str     0x000000000000e70a      0x227 libcodal-core.a(I2C.cpp.o)
                                        0x1057 (size before relaxing)
- .debug_str     0x000000000000e907       0xb7 liblibopencm3.a(scb.c.o)
+ .debug_str     0x000000000000e931       0xb7 liblibopencm3.a(scb.c.o)
                                         0x68c (size before relaxing)
- .debug_str     0x000000000000e9be       0xed liblibopencm3.a(gpio_common_all.c.o)
+ .debug_str     0x000000000000e9e8       0xed liblibopencm3.a(gpio_common_all.c.o)
                                         0x2f8 (size before relaxing)
- .debug_str     0x000000000000eaab      0x182 liblibopencm3.a(pwr_common_v1.c.o)
+ .debug_str     0x000000000000ead5      0x182 liblibopencm3.a(pwr_common_v1.c.o)
                                         0x409 (size before relaxing)
- .debug_str     0x000000000000ec2d      0x1cc liblibopencm3.a(rcc_common_all.c.o)
+ .debug_str     0x000000000000ec57      0x1cc liblibopencm3.a(rcc_common_all.c.o)
                                         0x82a (size before relaxing)
- .debug_str     0x000000000000edf9       0xf7 liblibopencm3.a(desig.c.o)
+ .debug_str     0x000000000000ee23       0xf7 liblibopencm3.a(desig.c.o)
                                         0x328 (size before relaxing)
- .debug_str     0x000000000000eef0       0xee liblibopencm3.a(gpio.c.o)
+ .debug_str     0x000000000000ef1a       0xee liblibopencm3.a(gpio.c.o)
                                         0x30a (size before relaxing)
- .debug_str     0x000000000000efde      0x425 liblibopencm3.a(rcc.c.o)
+ .debug_str     0x000000000000f008      0x425 liblibopencm3.a(rcc.c.o)
                                         0x6d3 (size before relaxing)
- .debug_str     0x000000000000f403      0x2e5 liblibopencm3.a(st_usbfs_v1.c.o)
+ .debug_str     0x000000000000f42d      0x2e5 liblibopencm3.a(st_usbfs_v1.c.o)
                                         0xcba (size before relaxing)
- .debug_str     0x000000000000f6e8      0x1a8 liblibopencm3.a(usb.c.o)
+ .debug_str     0x000000000000f712      0x1a8 liblibopencm3.a(usb.c.o)
                                         0xf67 (size before relaxing)
- .debug_str     0x000000000000f890      0x17a liblibopencm3.a(usb_control.c.o)
+ .debug_str     0x000000000000f8ba      0x17a liblibopencm3.a(usb_control.c.o)
                                         0xf34 (size before relaxing)
- .debug_str     0x000000000000fa0a      0x298 liblibopencm3.a(usb_standard.c.o)
+ .debug_str     0x000000000000fa34      0x298 liblibopencm3.a(usb_standard.c.o)
                                        0x10e7 (size before relaxing)
- .debug_str     0x000000000000fca2       0xe2 liblibopencm3.a(flash_common_all.c.o)
+ .debug_str     0x000000000000fccc       0xe2 liblibopencm3.a(flash_common_all.c.o)
                                         0x2c2 (size before relaxing)
- .debug_str     0x000000000000fd84      0x197 liblibopencm3.a(st_usbfs_core.c.o)
+ .debug_str     0x000000000000fdae      0x197 liblibopencm3.a(st_usbfs_core.c.o)
                                         0xbd6 (size before relaxing)
- .debug_str     0x000000000000ff1b       0x86 libcocoos.a(os_cbk.c.o)
+ .debug_str     0x000000000000ff45       0x86 libcocoos.a(os_cbk.c.o)
                                         0x283 (size before relaxing)
- .debug_str     0x000000000000ffa1      0x106 libcocoos.a(os_kernel.c.o)
+ .debug_str     0x000000000000ffcb      0x106 libcocoos.a(os_kernel.c.o)
                                         0x36a (size before relaxing)
- .debug_str     0x00000000000100a7      0x260 libcocoos.a(os_msgqueue.c.o)
+ .debug_str     0x00000000000100d1      0x260 libcocoos.a(os_msgqueue.c.o)
                                         0x4df (size before relaxing)
- .debug_str     0x0000000000010307      0x127 libcocoos.a(os_sem.c.o)
+ .debug_str     0x0000000000010331      0x127 libcocoos.a(os_sem.c.o)
                                         0x337 (size before relaxing)
- .debug_str     0x000000000001042e      0x4e8 libcocoos.a(os_task.c.o)
+ .debug_str     0x0000000000010458      0x4e8 libcocoos.a(os_task.c.o)
                                         0xc3d (size before relaxing)
- .debug_str     0x0000000000010916       0x89 libcocoos.a(os_assert.c.o)
+ .debug_str     0x0000000000010940       0x89 libcocoos.a(os_assert.c.o)
                                         0x6c4 (size before relaxing)
- .debug_str     0x000000000001099f      0x112 libcocoos.a(os_event.c.o)
+ .debug_str     0x00000000000109c9      0x112 libcocoos.a(os_event.c.o)
                                         0x404 (size before relaxing)
- .debug_str     0x0000000000010ab1      0x2e0 libbluepill.a(timer.cpp.o)
+ .debug_str     0x0000000000010adb      0x2e0 libbluepill.a(timer.cpp.o)
                                         0xdc9 (size before relaxing)
- .debug_str     0x0000000000010d91      0x139 liblibopencm3.a(nvic.c.o)
+ .debug_str     0x0000000000010dbb      0x139 liblibopencm3.a(nvic.c.o)
                                         0x345 (size before relaxing)
- .debug_str     0x0000000000010eca       0xe7 liblibopencm3.a(exti_common_all.c.o)
+ .debug_str     0x0000000000010ef4       0xe7 liblibopencm3.a(exti_common_all.c.o)
                                         0x369 (size before relaxing)
- .debug_str     0x0000000000010fb1       0xf5 liblibopencm3.a(rtc.c.o)
+ .debug_str     0x0000000000010fdb       0xf5 liblibopencm3.a(rtc.c.o)
                                         0x73c (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
@@ -5479,7 +5481,7 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .ARM.attributes
                 0x0000000000001266       0x2d /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_powidf2.o)
 
-.debug_frame    0x0000000000000000     0x66c4
+.debug_frame    0x0000000000000000     0x66cc
  .debug_frame   0x0000000000000000       0x2c /Users/Luppy/stm32bluepill-makecode/pxt-maker/libs/stm32bluepill/built/codal/build/libraries/codal-libopencm3/CMakeFiles/hal.dir/stm32/hal/reset_handler.c.o
  .debug_frame   0x000000000000002c       0xf0 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/advmath.cpp.o
  .debug_frame   0x000000000000011c      0x220 CMakeFiles/STM32_BLUE_PILL.dir/pxtapp/base/buffer.cpp.o
@@ -5531,44 +5533,44 @@ OUTPUT(STM32_BLUE_PILL elf32-littlearm)
  .debug_frame   0x0000000000003edc       0x8c libbootloader.a(winusb.c.o)
  .debug_frame   0x0000000000003f68      0x108 libbootloader.a(target_stm32f103.c.o)
  .debug_frame   0x0000000000004070       0xc4 libbootloader.a(cdc.c.o)
- .debug_frame   0x0000000000004134      0x130 libbootloader.a(hf2.c.o)
- .debug_frame   0x0000000000004264       0x98 libbootloader.a(usb21_standard.c.o)
- .debug_frame   0x00000000000042fc       0x44 libbootloader.a(backup.c.o)
- .debug_frame   0x0000000000004340      0x314 libhal.a(codal_target_hal.cpp.o)
- .debug_frame   0x0000000000004654       0x6c libcm.a(CmI2C.cpp.o)
- .debug_frame   0x00000000000046c0      0x288 libcm.a(CmPin.cpp.o)
- .debug_frame   0x0000000000004948      0x1a4 libcm.a(CmSPI.cpp.o)
- .debug_frame   0x0000000000004aec       0xd0 libcm.a(CmTimer.cpp.o)
- .debug_frame   0x0000000000004bbc       0x2c libcm.a(application.cpp.o)
- .debug_frame   0x0000000000004be8       0xcc libcm.a(tasks.cpp.o)
- .debug_frame   0x0000000000004cb4       0x7c libcm.a(CmPinMap.cpp.o)
- .debug_frame   0x0000000000004d30       0x40 libmodel.a(STM32BluePillIO.cpp.o)
- .debug_frame   0x0000000000004d70       0x2c libnewlib.a(strncpy.c.o)
- .debug_frame   0x0000000000004d9c      0x114 libcodal-core.a(I2C.cpp.o)
- .debug_frame   0x0000000000004eb0       0x40 liblibopencm3.a(scb.c.o)
- .debug_frame   0x0000000000004ef0       0x80 liblibopencm3.a(gpio_common_all.c.o)
- .debug_frame   0x0000000000004f70      0x100 liblibopencm3.a(pwr_common_v1.c.o)
- .debug_frame   0x0000000000005070       0xd0 liblibopencm3.a(rcc_common_all.c.o)
- .debug_frame   0x0000000000005140       0x7c liblibopencm3.a(desig.c.o)
- .debug_frame   0x00000000000051bc       0x64 liblibopencm3.a(gpio.c.o)
- .debug_frame   0x0000000000005220      0x308 liblibopencm3.a(rcc.c.o)
- .debug_frame   0x0000000000005528       0x58 liblibopencm3.a(st_usbfs_v1.c.o)
- .debug_frame   0x0000000000005580      0x148 liblibopencm3.a(usb.c.o)
- .debug_frame   0x00000000000056c8      0x14c liblibopencm3.a(usb_control.c.o)
- .debug_frame   0x0000000000005814      0x264 liblibopencm3.a(usb_standard.c.o)
- .debug_frame   0x0000000000005a78       0x50 liblibopencm3.a(flash_common_all.c.o)
- .debug_frame   0x0000000000005ac8      0x134 liblibopencm3.a(st_usbfs_core.c.o)
- .debug_frame   0x0000000000005bfc       0x20 libcocoos.a(os_cbk.c.o)
- .debug_frame   0x0000000000005c1c       0x94 libcocoos.a(os_kernel.c.o)
- .debug_frame   0x0000000000005cb0       0xf0 libcocoos.a(os_msgqueue.c.o)
- .debug_frame   0x0000000000005da0       0x88 libcocoos.a(os_sem.c.o)
- .debug_frame   0x0000000000005e28      0x324 libcocoos.a(os_task.c.o)
- .debug_frame   0x000000000000614c       0x28 libcocoos.a(os_assert.c.o)
- .debug_frame   0x0000000000006174       0xe0 libcocoos.a(os_event.c.o)
- .debug_frame   0x0000000000006254       0xd0 libbluepill.a(timer.cpp.o)
- .debug_frame   0x0000000000006324       0xa0 liblibopencm3.a(nvic.c.o)
- .debug_frame   0x00000000000063c4       0x88 liblibopencm3.a(exti_common_all.c.o)
- .debug_frame   0x000000000000644c      0x174 liblibopencm3.a(rtc.c.o)
- .debug_frame   0x00000000000065c0       0xac /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000000000000666c       0x24 /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000000000006690       0x34 /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_powidf2.o)
+ .debug_frame   0x0000000000004134      0x138 libbootloader.a(hf2.c.o)
+ .debug_frame   0x000000000000426c       0x98 libbootloader.a(usb21_standard.c.o)
+ .debug_frame   0x0000000000004304       0x44 libbootloader.a(backup.c.o)
+ .debug_frame   0x0000000000004348      0x314 libhal.a(codal_target_hal.cpp.o)
+ .debug_frame   0x000000000000465c       0x6c libcm.a(CmI2C.cpp.o)
+ .debug_frame   0x00000000000046c8      0x288 libcm.a(CmPin.cpp.o)
+ .debug_frame   0x0000000000004950      0x1a4 libcm.a(CmSPI.cpp.o)
+ .debug_frame   0x0000000000004af4       0xd0 libcm.a(CmTimer.cpp.o)
+ .debug_frame   0x0000000000004bc4       0x2c libcm.a(application.cpp.o)
+ .debug_frame   0x0000000000004bf0       0xcc libcm.a(tasks.cpp.o)
+ .debug_frame   0x0000000000004cbc       0x7c libcm.a(CmPinMap.cpp.o)
+ .debug_frame   0x0000000000004d38       0x40 libmodel.a(STM32BluePillIO.cpp.o)
+ .debug_frame   0x0000000000004d78       0x2c libnewlib.a(strncpy.c.o)
+ .debug_frame   0x0000000000004da4      0x114 libcodal-core.a(I2C.cpp.o)
+ .debug_frame   0x0000000000004eb8       0x40 liblibopencm3.a(scb.c.o)
+ .debug_frame   0x0000000000004ef8       0x80 liblibopencm3.a(gpio_common_all.c.o)
+ .debug_frame   0x0000000000004f78      0x100 liblibopencm3.a(pwr_common_v1.c.o)
+ .debug_frame   0x0000000000005078       0xd0 liblibopencm3.a(rcc_common_all.c.o)
+ .debug_frame   0x0000000000005148       0x7c liblibopencm3.a(desig.c.o)
+ .debug_frame   0x00000000000051c4       0x64 liblibopencm3.a(gpio.c.o)
+ .debug_frame   0x0000000000005228      0x308 liblibopencm3.a(rcc.c.o)
+ .debug_frame   0x0000000000005530       0x58 liblibopencm3.a(st_usbfs_v1.c.o)
+ .debug_frame   0x0000000000005588      0x148 liblibopencm3.a(usb.c.o)
+ .debug_frame   0x00000000000056d0      0x14c liblibopencm3.a(usb_control.c.o)
+ .debug_frame   0x000000000000581c      0x264 liblibopencm3.a(usb_standard.c.o)
+ .debug_frame   0x0000000000005a80       0x50 liblibopencm3.a(flash_common_all.c.o)
+ .debug_frame   0x0000000000005ad0      0x134 liblibopencm3.a(st_usbfs_core.c.o)
+ .debug_frame   0x0000000000005c04       0x20 libcocoos.a(os_cbk.c.o)
+ .debug_frame   0x0000000000005c24       0x94 libcocoos.a(os_kernel.c.o)
+ .debug_frame   0x0000000000005cb8       0xf0 libcocoos.a(os_msgqueue.c.o)
+ .debug_frame   0x0000000000005da8       0x88 libcocoos.a(os_sem.c.o)
+ .debug_frame   0x0000000000005e30      0x324 libcocoos.a(os_task.c.o)
+ .debug_frame   0x0000000000006154       0x28 libcocoos.a(os_assert.c.o)
+ .debug_frame   0x000000000000617c       0xe0 libcocoos.a(os_event.c.o)
+ .debug_frame   0x000000000000625c       0xd0 libbluepill.a(timer.cpp.o)
+ .debug_frame   0x000000000000632c       0xa0 liblibopencm3.a(nvic.c.o)
+ .debug_frame   0x00000000000063cc       0x88 liblibopencm3.a(exti_common_all.c.o)
+ .debug_frame   0x0000000000006454      0x174 liblibopencm3.a(rtc.c.o)
+ .debug_frame   0x00000000000065c8       0xac /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000006674       0x24 /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000006698       0x34 /usr/local/Cellar/arm-none-eabi-gcc/7-2018-q2-update/gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/libgcc.a(_powidf2.o)
